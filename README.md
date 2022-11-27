@@ -11,7 +11,7 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 <!--toc:end-->
 
 ## Features
-- `vim`: Searches the neovim [online :help](https://neovim.io/doc/). Correctly considers synonyms.
+- `vim`: Searches the neovim [online :help](https://neovim.io/doc/). Groups synonyms together, for example, `:w` and `:write` both get one item.
 	- `↵`: Open the respective help.
 	- `⌥↵`: Copy the GitHub URL to the clipboard.
 - `nv`: Searches neovimcraft for [neovim plugins](https://neovimcraft.com/).
@@ -20,7 +20,7 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 	- `⌥↵`: Copy the GitHub URL to the clipboard.
 	- `⌃↵`: Open the `:help` page of the plugin at GitHub.
 	- `⇧↵`: Search GitHub issues of the plugin.[^1]
-- `old`: Displays and searches your `:oldfiles`. Opens them in your default editor for the respective filetype. (With a neovim GUI, you can open them directly.)
+- `old`: Displays and searches your `:oldfiles`. Opens them in your default editor for the respective filetype. (Use a neovim GUI to open them directly.)
 - `:swap`: Opens the folder that contains your swap files by default in Finder.
 - The workflow autoupdates. You can turn this off in the workflow configuration.
 
