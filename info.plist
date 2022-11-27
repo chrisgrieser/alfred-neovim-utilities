@@ -347,25 +347,6 @@ Search neovim plugins and online :help via Alfred</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -436,6 +417,25 @@ Search neovim plugins and online :help via Alfred</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -451,6 +451,27 @@ Search neovim plugins and online :help via Alfred</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>✅ Index created</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8A1F6028-B56D-4223-8008-F364B73183A5</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -578,27 +599,6 @@ Search neovim plugins and online :help via Alfred</string>
 			<string>alfred.workflow.output.playsound</string>
 			<key>uid</key>
 			<string>8D7A806A-C89F-4527-87FB-F6D2B578A43A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string>✅ Index created</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>8A1F6028-B56D-4223-8008-F364B73183A5</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1007,7 +1007,27 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Auto-update this workflow</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>auto_update</string>
+		</dict>
+	</array>
 	<key>version</key>
 	<string>0.9.2</string>
 	<key>webaddress</key>
