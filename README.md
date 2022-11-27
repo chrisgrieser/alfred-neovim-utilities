@@ -11,7 +11,6 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 <!--toc:end-->
 
 ## Features
-- `old`: Displays and searches your `:oldfiles`. Opens them in your default editor for the respective filetype. (With a neovim GUI, you can open them directly.)
 - `vim`: Searches the neovim [online :help](https://neovim.io/doc/). Correctly considers synonyms.
 	- `↵`: Open the respective help.
 	- `⌥↵`: Copy the GitHub URL to the clipboard.
@@ -21,6 +20,7 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 	- `⌥↵`: Copy the GitHub URL to the clipboard.
 	- `⌃↵`: Open the `:help` page of the plugin at GitHub.
 	- `⇧↵`: Search GitHub issues of the plugin.[^1]
+- `old`: Displays and searches your `:oldfiles`. Opens them in your default editor for the respective filetype. (With a neovim GUI, you can open them directly.)
 - `:swap`: Opens the folder that contains your swap files by default in Finder.
 - The workflow autoupdates. You can turn this off in the workflow configuration.
 
@@ -48,4 +48,4 @@ __Donate__
 
 <a href='https://ko-fi.com/Y8Y86SQ91' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-[^1]: Due to GitHub API limitations, searches only the latest 100 issues.
+[^1]: Due to GitHub API limitations, this searches only the latest 100 issues.
