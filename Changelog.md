@@ -1,3 +1,6 @@
+- 2022-11-27	release 0.9.3
+- 2022-11-27	added autoupdate function
+- 2022-11-27	finish README
 - 2022-11-27	release 0.9.2
 - 2022-11-27	add .github folder with configs
 - 2022-11-27	release 0.9.1
