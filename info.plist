@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>de.chris-grieser.neovim</string>
+	<string>de.chris-grieser.neovim-utilities</string>
 	<key>category</key>
 	<string>Development</string>
 	<key>connections</key>
@@ -215,7 +215,8 @@
 	<key>createdby</key>
 	<string>Chris Grieser</string>
 	<key>description</key>
-	<string></string>
+	<string>Search neovim plugins and online :help via Alfred
+Search neovim plugins and online :help via Alfred</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -346,6 +347,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -416,25 +436,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -450,27 +451,6 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string>✅ Index created</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>8A1F6028-B56D-4223-8008-F364B73183A5</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -598,6 +578,27 @@
 			<string>alfred.workflow.output.playsound</string>
 			<key>uid</key>
 			<string>8D7A806A-C89F-4527-87FB-F6D2B578A43A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>✅ Index created</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8A1F6028-B56D-4223-8008-F364B73183A5</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -775,7 +776,17 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Created by [Chris Grieser](https://chris-grieser.de/).</string>
+	<string>## Get Started
+Run `:vim` once to create the local cache for the online :help search.
+
+## Info
+- [README](https://github.com/chrisgrieser/alfred-neovim-utilities/blob/main/README.md)
+- [Changelog](https://github.com/chrisgrieser/alfred-neovim-utilities/blob/main/Changelog.md)
+
+
+---
+
+Created by [Chris Grieser](https://chris-grieser.de/).</string>
 	<key>uidata</key>
 	<dict>
 		<key>02145BDB-6F80-437E-A4FE-880FDA77AC47</key>
@@ -997,6 +1008,8 @@
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array/>
+	<key>version</key>
+	<string>0.9</string>
 	<key>webaddress</key>
 	<string>https://chris-grieser.de/</string>
 </dict>

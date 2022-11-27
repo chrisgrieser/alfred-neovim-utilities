@@ -1,23 +1,25 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 baseHelpURL="https://neovim.io/doc/user/"
 baseRawURL="https://raw.githubusercontent.com/neovim/neovim/master/runtime/doc/"
 # shellcheck disable=2154
 cacheLocation="$alfred_workflow_data"
 #-------------------------------------------------------------------------------
 
-echo "Downloading doc files..."
-mkdir "./neovim-help"
+[[ -d "$cacheLocation" ]] || mkdir -p "$cacheLocation"
+
+echo "Downloading doc files…"
+mkdir "$cacheLocation/neovim-help"
 curl -s 'https://api.github.com/repos/neovim/neovim/git/trees/master?recursive=1' \
 	| grep -Eo "runtime/doc/.*.txt" \
 	| cut -d/ -f3 \
 	| while read -r file ; do
 		echo -n "#"
-		curl -s "$baseRawURL$file" > "./neovim-help/$file"
+		curl -s "$baseRawURL$file" > "$cacheLocation/neovim-help/$file"
 	done
 
-cd "./neovim-help" || exit 1
+cd "$cacheLocation/neovim-help" || exit 1
 echo
-echo "Parsing doc files..."
+echo "Parsing doc files…"
 
 # OPTIONS
 vimoptions=$(grep -Eo "\*'[.A-Za-z-]{2,}'\*(.*'.*')?" options.txt | tr -d "*'" | while read -r line ; do
@@ -48,11 +50,11 @@ sections=$(grep -Eo "\|[.0-9]*\|.*" usr_toc.txt | tr -d "|" | while read -r line
 	echo "${baseHelpURL}usr_$file.html#$title"
 done)
 
-echo "Writing Index & cleaning up..."
+echo "Writing Index & cleaning up…"
 echo "$vimoptions" > "$cacheLocation/url-list.txt"
 echo "$anchors" >> "$cacheLocation/url-list.txt"
 echo "$sections" >> "$cacheLocation/url-list.txt"
 
 echo "$(wc -l "$cacheLocation/url-list.txt" | tr -d ' ') entries."
 cd ..
-rm -r "./neovim-help"
+rm -r "$cacheLocation/neovim-help"
