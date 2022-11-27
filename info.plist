@@ -75,6 +75,16 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
 				<key>modifiers</key>
 				<integer>524288</integer>
@@ -89,6 +99,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>38E62E4E-8B37-483B-BBE3-257C2DD7EA30</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1D271A17-8790-4218-8E89-D4B95E75339A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -123,11 +146,52 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4EF33707-11D3-417C-81B1-3D79FF6BBD75</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8AE9ED32-BC43-4D0C-8180-E6B65BB6C5A3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F5B1DB5E-4F1B-419B-B8A1-E5161A5EC73C</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>62F7FD14-3DF1-4FBC-9C3B-B99132F28919</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>6DA05A81-0D56-4CD6-A247-5D15F1F24D8F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6DA05A81-0D56-4CD6-A247-5D15F1F24D8F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -153,7 +217,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
+				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -164,6 +228,16 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>22C3A292-BE41-47F8-9B47-543D7C9E4AC1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -203,6 +277,45 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>79F25308-2C64-400B-AC1D-C1FD5FC840DF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F178F3ED-E855-4DC9-A178-D839E9C2C48D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F5BC25CE-C34C-4EF9-B428-71EDB9170948</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F9A20C61-953A-4498-8DBA-0DDCF26A94A3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -347,6 +460,129 @@ Search neovim plugins and online :help via Alfred</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist='https://raw.githubusercontent.com/chrisgrieser/alfred-neovim-utilities/main/info.plist'
+readonly workflow_url='chrisgrieser/alfred-neovim-utilities'
+readonly download_type='github_release'
+readonly frequency_check='1'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local -r notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  local -r terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8AE9ED32-BC43-4D0C-8180-E6B65BB6C5A3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:auto_update}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>1</string>
+						<key>outputlabel</key>
+						<string>true</string>
+						<key>uid</key>
+						<string>F5B1DB5E-4F1B-419B-B8A1-E5161A5EC73C</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>false</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -434,23 +670,10 @@ Search neovim plugins and online :help via Alfred</string>
 			<integer>3</integer>
 		</dict>
 		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>This may take up to a minute.</string>
-				<key>title</key>
-				<string>⏳Re-Creating Index</string>
-			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
-			<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
+			<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -619,6 +842,27 @@ Search neovim plugins and online :help via Alfred</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>D9E07FDE-1870-42B0-B6D4-AA209906679E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>This may take up to a minute.</string>
+				<key>title</key>
+				<string>⏳Re-Creating Index</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -809,7 +1053,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>60</real>
 			<key>ypos</key>
-			<real>355</real>
+			<real>330</real>
 		</dict>
 		<key>15317DBA-B342-4CB9-9F08-0CBA70D39C07</key>
 		<dict>
@@ -818,12 +1062,21 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>235</real>
 			<key>ypos</key>
-			<real>355</real>
+			<real>330</real>
+		</dict>
+		<key>1D271A17-8790-4218-8E89-D4B95E75339A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>700</real>
+			<key>ypos</key>
+			<real>400</real>
 		</dict>
 		<key>22C3A292-BE41-47F8-9B47-543D7C9E4AC1</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>2</integer>
+			<integer>9</integer>
 			<key>xpos</key>
 			<real>855</real>
 			<key>ypos</key>
@@ -847,7 +1100,18 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>385</real>
 			<key>ypos</key>
-			<real>355</real>
+			<real>330</real>
+		</dict>
+		<key>4EF33707-11D3-417C-81B1-3D79FF6BBD75</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>auto_update</string>
+			<key>xpos</key>
+			<real>1053</real>
+			<key>ypos</key>
+			<real>320</real>
 		</dict>
 		<key>62F7FD14-3DF1-4FBC-9C3B-B99132F28919</key>
 		<dict>
@@ -856,7 +1120,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>695</real>
 			<key>ypos</key>
-			<real>205</real>
+			<real>75</real>
 		</dict>
 		<key>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</key>
 		<dict>
@@ -874,7 +1138,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>860</real>
 			<key>ypos</key>
-			<real>205</real>
+			<real>75</real>
 		</dict>
 		<key>6EBCF2CC-4936-48C4-BCD8-42A7B39BDEDC</key>
 		<dict>
@@ -890,7 +1154,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		<key>71D977C5-6C8A-47D2-A625-4E3E79D785D2</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>2</integer>
+			<integer>9</integer>
 			<key>note</key>
 			<string>(re)create index</string>
 			<key>xpos</key>
@@ -912,25 +1176,36 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		<key>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>2</integer>
+			<integer>9</integer>
 			<key>xpos</key>
 			<real>860</real>
 			<key>ypos</key>
-			<real>365</real>
+			<real>600</real>
 		</dict>
 		<key>8A1F6028-B56D-4223-8008-F364B73183A5</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>2</integer>
+			<integer>9</integer>
 			<key>xpos</key>
 			<real>1000</real>
 			<key>ypos</key>
 			<real>480</real>
 		</dict>
+		<key>8AE9ED32-BC43-4D0C-8180-E6B65BB6C5A3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>OneUpdater (automatic update function)</string>
+			<key>xpos</key>
+			<real>1160</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
 		<key>8D7A806A-C89F-4527-87FB-F6D2B578A43A</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>2</integer>
+			<integer>9</integer>
 			<key>xpos</key>
 			<real>1140</real>
 			<key>ypos</key>
@@ -1003,7 +1278,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>235</real>
 			<key>ypos</key>
-			<real>240</real>
+			<real>215</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
