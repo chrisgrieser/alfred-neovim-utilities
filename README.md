@@ -3,8 +3,8 @@
 
 Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neovim.io/doc/) via Alfred.
 
-![demo 1](/assets/demo-help-search.png)
-![demo 2](/assets/demo-plugin-search.png)
+![demo 1](./assets/demo-help-search.png)
+![demo 2](./assets/demo-plugin-search.png)
 
 
 ## Table of contents
