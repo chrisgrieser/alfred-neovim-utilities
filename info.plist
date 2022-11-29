@@ -12,13 +12,13 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D9E07FDE-1870-42B0-B6D4-AA209906679E</string>
+				<string>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</string>
 				<key>modifiers</key>
-				<integer>131072</integer>
+				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string>⇧: Search issues</string>
+				<string></string>
 				<key>vitoclose</key>
-				<true/>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -32,13 +32,13 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</string>
+				<string>D9E07FDE-1870-42B0-B6D4-AA209906679E</string>
 				<key>modifiers</key>
-				<integer>0</integer>
+				<integer>131072</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string>⇧: Search issues</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -66,16 +66,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>FB617FEA-F94F-4A13-8327-5EC723FD66AB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -138,6 +128,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F5BC25CE-C34C-4EF9-B428-71EDB9170948</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>38E62E4E-8B37-483B-BBE3-257C2DD7EA30</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -583,25 +586,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -670,10 +654,71 @@ fi</string>
 			<integer>3</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
 			<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://github.com/{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>✅ Index created</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8A1F6028-B56D-4223-8008-F364B73183A5</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -718,6 +763,86 @@ fi</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>71D977C5-6C8A-47D2-A625-4E3E79D785D2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Blow</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>8D7A806A-C89F-4527-87FB-F6D2B578A43A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>⚠️ {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>F5BC25CE-C34C-4EF9-B428-71EDB9170948</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>scripts/open-help.js</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>26EB4BCF-56A8-43E4-AED6-0C121B00D55E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>This may take up to a minute.</string>
+				<key>title</key>
+				<string>⏳Re-Creating Index</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -792,148 +917,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>soundname</key>
-				<string>Blow</string>
-				<key>systemsound</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.playsound</string>
-			<key>uid</key>
-			<string>8D7A806A-C89F-4527-87FB-F6D2B578A43A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string>✅ Index created</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>8A1F6028-B56D-4223-8008-F364B73183A5</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string> </string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>repoID</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>D9E07FDE-1870-42B0-B6D4-AA209906679E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>This may take up to a minute.</string>
-				<key>title</key>
-				<string>⏳Re-Creating Index</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string>⚠️ {query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>F5BC25CE-C34C-4EF9-B428-71EDB9170948</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>scripts/open-help.js</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>26EB4BCF-56A8-43E4-AED6-0C121B00D55E</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://github.com/{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -979,6 +962,26 @@ fi</string>
 			<string>02145BDB-6F80-437E-A4FE-880FDA77AC47</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string> </string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>repoID</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D9E07FDE-1870-42B0-B6D4-AA209906679E</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1069,18 +1072,18 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>700</real>
+			<real>690</real>
 			<key>ypos</key>
-			<real>400</real>
+			<real>450</real>
 		</dict>
 		<key>22C3A292-BE41-47F8-9B47-543D7C9E4AC1</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>855</real>
+			<real>890</real>
 			<key>ypos</key>
-			<real>480</real>
+			<real>535</real>
 		</dict>
 		<key>26EB4BCF-56A8-43E4-AED6-0C121B00D55E</key>
 		<dict>
@@ -1091,7 +1094,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>355</real>
 			<key>ypos</key>
-			<real>620</real>
+			<real>600</real>
 		</dict>
 		<key>38E62E4E-8B37-483B-BBE3-257C2DD7EA30</key>
 		<dict>
@@ -1129,7 +1132,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>355</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>485</real>
 		</dict>
 		<key>6DA05A81-0D56-4CD6-A247-5D15F1F24D8F</key>
 		<dict>
@@ -1158,9 +1161,9 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>(re)create index</string>
 			<key>xpos</key>
-			<real>695</real>
+			<real>730</real>
 			<key>ypos</key>
-			<real>480</real>
+			<real>535</real>
 		</dict>
 		<key>79F25308-2C64-400B-AC1D-C1FD5FC840DF</key>
 		<dict>
@@ -1171,25 +1174,25 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>355</real>
 			<key>ypos</key>
-			<real>480</real>
+			<real>735</real>
 		</dict>
 		<key>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>860</real>
+			<real>895</real>
 			<key>ypos</key>
-			<real>600</real>
+			<real>655</real>
 		</dict>
 		<key>8A1F6028-B56D-4223-8008-F364B73183A5</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>1000</real>
+			<real>1035</real>
 			<key>ypos</key>
-			<real>480</real>
+			<real>535</real>
 		</dict>
 		<key>8AE9ED32-BC43-4D0C-8180-E6B65BB6C5A3</key>
 		<dict>
@@ -1207,9 +1210,9 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>1140</real>
+			<real>1175</real>
 			<key>ypos</key>
-			<real>480</real>
+			<real>535</real>
 		</dict>
 		<key>D6E5E105-38E3-4BC1-90E3-52BEE556349D</key>
 		<dict>
@@ -1229,7 +1232,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>295</real>
 			<key>ypos</key>
-			<real>510</real>
+			<real>765</real>
 		</dict>
 		<key>E1D760CD-9BD9-45A0-B293-3E0E79347EC4</key>
 		<dict>
@@ -1260,7 +1263,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>505</real>
 			<key>ypos</key>
-			<real>620</real>
+			<real>600</real>
 		</dict>
 		<key>F9A20C61-953A-4498-8DBA-0DDCF26A94A3</key>
 		<dict>
@@ -1269,7 +1272,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>xpos</key>
 			<real>505</real>
 			<key>ypos</key>
-			<real>480</real>
+			<real>735</real>
 		</dict>
 		<key>FB617FEA-F94F-4A13-8327-5EC723FD66AB</key>
 		<dict>
