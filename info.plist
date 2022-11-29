@@ -110,6 +110,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>212DD4B0-65A5-497B-BAE5-C636F3DD9224</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>22C3A292-BE41-47F8-9B47-543D7C9E4AC1</key>
 		<array>
 			<dict>
@@ -140,7 +153,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
+				<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -275,6 +288,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>BB35D6AD-5FC3-4ED0-9D43-9490B62B8882</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>212DD4B0-65A5-497B-BAE5-C636F3DD9224</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C28BC395-0B78-4FE8-B24C-73BFE154ABC9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DCA39715-6626-45D7-8F50-076BC808689D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>D9E07FDE-1870-42B0-B6D4-AA209906679E</key>
 		<array>
 			<dict>
@@ -288,11 +327,24 @@
 				<false/>
 			</dict>
 		</array>
-		<key>F178F3ED-E855-4DC9-A178-D839E9C2C48D</key>
+		<key>DCA39715-6626-45D7-8F50-076BC808689D</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F178F3ED-E855-4DC9-A178-D839E9C2C48D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -409,6 +461,99 @@ Search neovim plugins and online :help via Alfred</string>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
+				<string>:packer</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>📂 Packer Package Directory</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C28BC395-0B78-4FE8-B24C-73BFE154ABC9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/.local/share/nvim/site/pack/packer</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>DCA39715-6626-45D7-8F50-076BC808689D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/.local/share/nvim/mason</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>212DD4B0-65A5-497B-BAE5-C636F3DD9224</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>:mason</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>📂 Mason Package Directory</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BB35D6AD-5FC3-4ED0-9D43-9490B62B8882</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>FB617FEA-F94F-4A13-8327-5EC723FD66AB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
 				<string>:swap</string>
 				<key>subtext</key>
 				<string></string>
@@ -442,23 +587,91 @@ Search neovim plugins and online :help via Alfred</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
+				<key>lastpathcomponent</key>
 				<false/>
-				<key>skipvarencode</key>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
 				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>✅ Copied</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>FB617FEA-F94F-4A13-8327-5EC723FD66AB</string>
+			<string>38E62E4E-8B37-483B-BBE3-257C2DD7EA30</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:help_search}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>loading...</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>scripts/neovim-help-search.js</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search neovim :help</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>14ECFC26-C670-4D39-9A5C-C24B452554F2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -584,95 +797,6 @@ fi</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>✅ Copied</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>38E62E4E-8B37-483B-BBE3-257C2DD7EA30</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>{var:help_search}</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>loading...</string>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>scripts/neovim-help-search.js</string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Search neovim :help</string>
-				<key>type</key>
-				<integer>8</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>14ECFC26-C670-4D39-9A5C-C24B452554F2</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -700,6 +824,50 @@ fi</string>
 			<string>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>⚠️ {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>F5BC25CE-C34C-4EF9-B428-71EDB9170948</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>scripts/open-help.js</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>26EB4BCF-56A8-43E4-AED6-0C121B00D55E</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -778,71 +946,6 @@ fi</string>
 			<string>alfred.workflow.output.playsound</string>
 			<key>uid</key>
 			<string>8D7A806A-C89F-4527-87FB-F6D2B578A43A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string>⚠️ {query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>F5BC25CE-C34C-4EF9-B428-71EDB9170948</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>scripts/open-help.js</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>26EB4BCF-56A8-43E4-AED6-0C121B00D55E</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>This may take up to a minute.</string>
-				<key>title</key>
-				<string>⏳Re-Creating Index</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -986,6 +1089,27 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>This may take up to a minute.</string>
+				<key>title</key>
+				<string>⏳Re-Creating Index</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
@@ -1043,9 +1167,9 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>plugin search</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>30</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>715</real>
 		</dict>
 		<key>14ECFC26-C670-4D39-9A5C-C24B452554F2</key>
 		<dict>
@@ -1054,36 +1178,45 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>neovim docs. Requires running `:vim` first</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>30</real>
 			<key>ypos</key>
-			<real>330</real>
+			<real>290</real>
 		</dict>
 		<key>15317DBA-B342-4CB9-9F08-0CBA70D39C07</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>235</real>
+			<real>205</real>
 			<key>ypos</key>
-			<real>330</real>
+			<real>290</real>
 		</dict>
 		<key>1D271A17-8790-4218-8E89-D4B95E75339A</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>690</real>
+			<real>660</real>
 			<key>ypos</key>
-			<real>450</real>
+			<real>410</real>
+		</dict>
+		<key>212DD4B0-65A5-497B-BAE5-C636F3DD9224</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>740</real>
+			<key>ypos</key>
+			<real>145</real>
 		</dict>
 		<key>22C3A292-BE41-47F8-9B47-543D7C9E4AC1</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>890</real>
+			<real>825</real>
 			<key>ypos</key>
-			<real>535</real>
+			<real>615</real>
 		</dict>
 		<key>26EB4BCF-56A8-43E4-AED6-0C121B00D55E</key>
 		<dict>
@@ -1092,18 +1225,18 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>open help page</string>
 			<key>xpos</key>
-			<real>355</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>600</real>
+			<real>560</real>
 		</dict>
 		<key>38E62E4E-8B37-483B-BBE3-257C2DD7EA30</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>385</real>
+			<real>355</real>
 			<key>ypos</key>
-			<real>330</real>
+			<real>290</real>
 		</dict>
 		<key>4EF33707-11D3-417C-81B1-3D79FF6BBD75</key>
 		<dict>
@@ -1112,36 +1245,36 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>auto_update</string>
 			<key>xpos</key>
-			<real>1053</real>
+			<real>973</real>
 			<key>ypos</key>
-			<real>320</real>
+			<real>405</real>
 		</dict>
 		<key>62F7FD14-3DF1-4FBC-9C3B-B99132F28919</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<real>695</real>
+			<real>575</real>
 			<key>ypos</key>
-			<real>75</real>
+			<real>255</real>
 		</dict>
 		<key>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>355</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>485</real>
+			<real>445</real>
 		</dict>
 		<key>6DA05A81-0D56-4CD6-A247-5D15F1F24D8F</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<real>860</real>
+			<real>740</real>
 			<key>ypos</key>
-			<real>75</real>
+			<real>255</real>
 		</dict>
 		<key>6EBCF2CC-4936-48C4-BCD8-42A7B39BDEDC</key>
 		<dict>
@@ -1150,9 +1283,9 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>recent files</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>30</real>
 			<key>ypos</key>
-			<real>65</real>
+			<real>25</real>
 		</dict>
 		<key>71D977C5-6C8A-47D2-A625-4E3E79D785D2</key>
 		<dict>
@@ -1161,9 +1294,9 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>(re)create index</string>
 			<key>xpos</key>
-			<real>730</real>
+			<real>665</real>
 			<key>ypos</key>
-			<real>535</real>
+			<real>615</real>
 		</dict>
 		<key>79F25308-2C64-400B-AC1D-C1FD5FC840DF</key>
 		<dict>
@@ -1172,27 +1305,27 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>issue search GitHub</string>
 			<key>xpos</key>
-			<real>355</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>735</real>
+			<real>695</real>
 		</dict>
 		<key>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>895</real>
+			<real>830</real>
 			<key>ypos</key>
-			<real>655</real>
+			<real>735</real>
 		</dict>
 		<key>8A1F6028-B56D-4223-8008-F364B73183A5</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>1035</real>
+			<real>970</real>
 			<key>ypos</key>
-			<real>535</real>
+			<real>615</real>
 		</dict>
 		<key>8AE9ED32-BC43-4D0C-8180-E6B65BB6C5A3</key>
 		<dict>
@@ -1201,18 +1334,36 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>OneUpdater (automatic update function)</string>
 			<key>xpos</key>
-			<real>1160</real>
+			<real>1080</real>
 			<key>ypos</key>
-			<real>295</real>
+			<real>380</real>
 		</dict>
 		<key>8D7A806A-C89F-4527-87FB-F6D2B578A43A</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>1175</real>
+			<real>1110</real>
 			<key>ypos</key>
-			<real>535</real>
+			<real>615</real>
+		</dict>
+		<key>BB35D6AD-5FC3-4ED0-9D43-9490B62B8882</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>575</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>C28BC395-0B78-4FE8-B24C-73BFE154ABC9</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>575</real>
+			<key>ypos</key>
+			<real>35</real>
 		</dict>
 		<key>D6E5E105-38E3-4BC1-90E3-52BEE556349D</key>
 		<dict>
@@ -1221,18 +1372,27 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>copy url</string>
 			<key>xpos</key>
-			<real>355</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>1010</real>
+			<real>970</real>
 		</dict>
 		<key>D9E07FDE-1870-42B0-B6D4-AA209906679E</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>295</real>
+			<real>265</real>
 			<key>ypos</key>
-			<real>765</real>
+			<real>725</real>
+		</dict>
+		<key>DCA39715-6626-45D7-8F50-076BC808689D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>740</real>
+			<key>ypos</key>
+			<real>35</real>
 		</dict>
 		<key>E1D760CD-9BD9-45A0-B293-3E0E79347EC4</key>
 		<dict>
@@ -1241,18 +1401,18 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>copy packer line</string>
 			<key>xpos</key>
-			<real>355</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>870</real>
+			<real>830</real>
 		</dict>
 		<key>F178F3ED-E855-4DC9-A178-D839E9C2C48D</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<real>235</real>
+			<real>205</real>
 			<key>ypos</key>
-			<real>65</real>
+			<real>25</real>
 		</dict>
 		<key>F5BC25CE-C34C-4EF9-B428-71EDB9170948</key>
 		<dict>
@@ -1261,27 +1421,27 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>note</key>
 			<string>no default branch</string>
 			<key>xpos</key>
-			<real>505</real>
+			<real>475</real>
 			<key>ypos</key>
-			<real>600</real>
+			<real>560</real>
 		</dict>
 		<key>F9A20C61-953A-4498-8DBA-0DDCF26A94A3</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>505</real>
+			<real>475</real>
 			<key>ypos</key>
-			<real>735</real>
+			<real>695</real>
 		</dict>
 		<key>FB617FEA-F94F-4A13-8327-5EC723FD66AB</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>235</real>
+			<real>205</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>175</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

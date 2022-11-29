@@ -26,6 +26,8 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 	- `⇧↵`: Search GitHub issues of the plugin.[^1]
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's default editor for the respective filetype. (To open them directly in neovim, you need a GUI app with "Open With" capability.)
 - `:swap`: Opens the folder that contains your swap files in Finder.
+- `:packer`: Opens the folder where Packer installs by default its packages.
+- `:mason`: Opens the folder where Mason installs by default its packages.
 - `:vim`: Creates/Updates the local cache for the online :help search. Run it once in a while, when there have been updates to the online docs.
 - The workflow autoupdates. You can turn this off in the workflow configuration.
 
