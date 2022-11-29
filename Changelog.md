@@ -1,3 +1,6 @@
+- 2022-11-29	release 0.10.0
+- 2022-11-29	add configuration to change keywords
+- 2022-11-27	add screenshots
 - 2022-11-27	release 0.9.3
 - 2022-11-27	added autoupdate function
 - 2022-11-27	finish README
