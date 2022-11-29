@@ -1,7 +1,7 @@
 # Neovim Utilities for Alfred
 ![](https://img.shields.io/github/downloads/chrisgrieser/alfred-neovim-utilities/total?label=Total%20Downloads&style=plastic) ![](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic) [![](https://img.shields.io/badge/changelog-click%20here-FFE800?style=plastic)](Changelog.md)
 
-Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neovim.io/doc/) via Alfred.
+Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.com/).
 
 ![demo 1](./assets/demo-help-search.png)
 ![demo 2](./assets/demo-plugin-search.png)
@@ -30,6 +30,10 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 - The workflow autoupdates. You can turn this off in the workflow configuration.
 
 ## Installation and setup
+
+__Requirements:__
+[Alfred](https://www.alfredapp.com/) (macOS only) with powerpack.
+
 1. Download the [latest release](https://github.com/chrisgrieser/alfred-neovim-utilities/releases).
 2. Run `:vim` once to create the local cache for the [online :help](https://neovim.io/doc/) search. This may take up to a minute.
 3. Optional: Change the search keywords to your liking in the workflow configuration.
@@ -49,9 +53,5 @@ __Profiles__
 - [Twitter](https://twitter.com/pseudo_meta)
 - [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
 - [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
-
-__Donate__
-
-<a href='https://ko-fi.com/Y8Y86SQ91' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 [^1]: Due to GitHub API limitations, this searches only the latest 100 issues.
