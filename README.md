@@ -18,13 +18,13 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 - `:h`: Searches the neovim [online :help](https://neovim.io/doc/). Groups synonyms together, for example, `:w` and `:write` both get one item.
 	- `↵`: Open the respective help.
 	- `⌥↵`: Copy the GitHub URL to the clipboard.
-- `vp`: Searches neovimcraft for [neovim plugins](https://neovimcraft.com/). Mnemonic: [V]im [P]lugins.
+	- `vp`: Searches [neovimcraft](https://neovimcraft.com/) for neovim plugins. Mnemonic: [V]im [P]lugins.
 	- `↵`: Open the GitHub repo.
 	- `⌘↵`: Copy the line needed for [packer.nvim](https://github.com/wbthomason/packer.nvim).
 	- `⌥↵`: Copy the GitHub URL to the clipboard.
 	- `⌃↵`: Open the `:help` page of the plugin at GitHub.
 	- `⇧↵`: Search GitHub issues of the plugin.[^1]
-- `:old`: Displays and searches your `:oldfiles`. Opens them in the system's default editor for the respective filetype. (To open them directly in neovim, you need a GUI app with "Open With" capability.)
+- `:old`: Displays and searches your `:oldfiles`. Opens them in the system's default editor for the respective filetype. (To open them directly in neovim, you need a neovim GUI with "Open With" capability.)
 - `:swap`: Opens the folder that contains your swap files in Finder.
 - `:packer`: Opens the folder where Packer installs by default its packages.
 - `:mason`: Opens the folder where Mason installs by default its packages.
