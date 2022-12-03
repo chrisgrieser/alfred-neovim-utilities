@@ -19,16 +19,15 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 - `:h`: Searches the neovim [online :help](https://neovim.io/doc/). Groups synonyms together, for example, `:w` and `:write` both get one item.
 	- `↵`: Open the respective help.
 	- `⌥↵`: Copy the GitHub URL to the clipboard.
-	- `vp`: Searches [neovimcraft](https://neovimcraft.com/) for neovim plugins. Mnemonic: [V]im [P]lugins.
+- `vp`: Searches [neovimcraft](https://neovimcraft.com/) for neovim plugins. Mnemonic: [v]im [p]lugins.
 	- `↵`: Open the GitHub repo.
 	- `⌘↵`: Copy the line needed for [packer.nvim](https://github.com/wbthomason/packer.nvim).
 	- `⌥↵`: Copy the GitHub URL to the clipboard.
 	- `⌃↵`: Open the `:help` page of the plugin at GitHub.
 	- `⇧↵`: Search GitHub issues of the plugin.[^1]
+- `ip`: Search for plugins installed locally on your device. Mnemonic: [i]nstalled [p]lugins. The modifiers (`⌘⌥⌃⇧`) from the neovim-plugin-search also apply for this command. In addition:
+	- `fn↵`: Open the local directory of the plugin in Finder.
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's default editor for the respective filetype. (To open them directly in neovim, you need a neovim GUI with "Open With" capability.)
-- `:swap`: Opens the folder that contains your swap files in Finder.
-- `:packer`: Opens the folder where Packer installs by default its packages.
-- `:mason`: Opens the folder where Mason installs by default its packages.
 - `:vim`: Creates/Updates the local cache for the online :help search. Run it once in a while, when there have been updates to the online docs.
 - The workflow autoupdates. You can turn this off in the workflow configuration.
 
