@@ -21,7 +21,7 @@ const jsonArray = app.doShellScript("zsh ./scripts/nvim-recent-files.sh")
 			"type": "file:skipcheck",
 			"icon": {
 				"type": "fileicon",
-				"path": filepath
+				"path": filepath,
 			},
 			"arg": filepath,
 			"uid": filepath,

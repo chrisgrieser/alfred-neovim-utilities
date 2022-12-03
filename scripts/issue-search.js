@@ -55,7 +55,7 @@ issueJSON.forEach(issue => {
 		"title": state + title,
 		"match": issueMatcher,
 		"subtitle": "#" + issue.number + " by " + issueCreator + comments,
-		"arg": issue.html_url
+		"arg": issue.html_url,
 	});
 });
 

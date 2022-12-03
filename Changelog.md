@@ -1,3 +1,5 @@
+- 2022-12-03	release 0.11.0
+- 2022-12-03	feat: search locally installed plugins
 - 2022-11-29	release 0.10.1
 - 2022-11-29	:mason & :packer
 - 2022-11-29	re-arrangement of workflow items
