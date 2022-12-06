@@ -466,25 +466,6 @@ Search neovim plugins and online :help via Alfred</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -549,6 +530,25 @@ Search neovim plugins and online :help via Alfred</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>14ECFC26-C670-4D39-9A5C-C24B452554F2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>15317DBA-B342-4CB9-9F08-0CBA70D39C07</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -1458,12 +1458,12 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 				<key>filtermode</key>
 				<integer>1</integer>
 				<key>placeholder</key>
-				<string>.../nvim/site/pack/packer</string>
+				<string></string>
 				<key>required</key>
 				<false/>
 			</dict>
 			<key>description</key>
-			<string>Path where the "start" and "opt" folder are located. Default value is the duefault packer installation path. Used for searching installed plugins.</string>
+			<string>Path where the "start" and "opt" folder are located. Default value is the default packer installation path on macOS. Required for searching installed plugins.</string>
 			<key>label</key>
 			<string>Plugin Installation Path</string>
 			<key>type</key>
