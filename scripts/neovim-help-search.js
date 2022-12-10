@@ -45,10 +45,12 @@ if (fileExists(cacheFile)) {
 				url = url.split("\t").shift();
 				name = name.replace("\t", " ");
 			}
+			let matcher = alfredMatcher(name) + " " + site + " " + alfredMatcher(synonyms);
+			if (name.startsWith("vim.")) matcher += " " + name.slice(4); // better matching
 
 			return {
 				"title": name + synonyms,
-				"match": alfredMatcher(name) + " " + site + " " + alfredMatcher(synonyms),
+				"match": matcher,
 				"subtitle": subtitle,
 				"arg": url,
 				"uid": url,
