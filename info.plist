@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>de.chris-grieser.neovim-utilities</string>
-	<key>category</key>
-	<string>Development</string>
 	<key>connections</key>
 	<dict>
 		<key>02145BDB-6F80-437E-A4FE-880FDA77AC47</key>
