@@ -48,7 +48,7 @@ issueJSON.forEach(issue => {
 		issue.state,
 		alfredMatcher(title),
 		alfredMatcher(issueCreator),
-		"#" + issue.number
+		"#" + issue.number,
 	].join(" ");
 
 	jsonArray.push({

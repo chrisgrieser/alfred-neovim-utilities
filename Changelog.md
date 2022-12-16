@@ -1,3 +1,6 @@
+- 2022-12-16	release 0.11.1
+- 2022-12-16	fix opening copying url for installed plugins
+- 2022-12-10	minor matching improvement for :help search
 - 2022-12-03	release 0.11.0
 - 2022-12-03	feat: search locally installed plugins
 - 2022-11-29	release 0.10.1
