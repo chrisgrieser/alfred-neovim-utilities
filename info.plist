@@ -204,7 +204,7 @@
 				<key>destinationuid</key>
 				<string>26EB4BCF-56A8-43E4-AED6-0C121B00D55E</string>
 				<key>modifiers</key>
-				<integer>524288</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>⌃: Open :help at GitHub</string>
 				<key>vitoclose</key>
