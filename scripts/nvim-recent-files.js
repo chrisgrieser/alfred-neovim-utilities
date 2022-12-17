@@ -4,11 +4,11 @@ const app = Application.currentApplication();
 app.includeStandardAdditions = true;
 const alfredMatcher = (str) => str.replace (/[-()_.:]/g, " ");
 
-//------------------------------------------------------------------------------
+//──────────────────────────────────────────────────────────────────────────────
 
-const jsonArray = app.doShellScript("zsh ./scripts/nvim-recent-files.sh")
+const jsonArray = app.doShellScript("zsh scripts/nvim-recent-files.sh")
 	.split("\r")
-	.filter(line => line.startsWith("/")) // remove some buggy output
+	.slice(1) // remove first element (useless output)
 	.map(filepath => {
 
 		const fileName = filepath.split("/").pop();
@@ -24,7 +24,6 @@ const jsonArray = app.doShellScript("zsh ./scripts/nvim-recent-files.sh")
 				"path": filepath,
 			},
 			"arg": filepath,
-			"uid": filepath,
 		};
 	});
 
