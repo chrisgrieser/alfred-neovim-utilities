@@ -17,7 +17,7 @@ const jsonArray = app
 	.doShellScript("zsh scripts/nvim-recent-files.sh")
 	.replace(/.*?(?=\/)/, "") // remove terminal characters
 	.split("\r")
-	.slice(0, numOfOldFiles) // more things to remove due to terminal characters
+	.slice(1, numOfOldFiles) // more things to remove due to terminal characters
 	.map(filepath => {
 		const fileName = filepath.split("/").pop();
 		const twoParents = filepath.replace(/.*\/(.*\/.*)\/.*$/, "$1");
