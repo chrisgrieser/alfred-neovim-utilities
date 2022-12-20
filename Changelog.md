@@ -1,3 +1,7 @@
+- 2022-12-20	release 0.11.2
+- 2022-12-20	fix for lazy.nvim
+- 2022-12-19	better matching and 25 max for oldfiles
+- 2022-12-17	fix :old not showing the most recent file
 - 2022-12-16	release 0.11.1
 - 2022-12-16	fix opening copying url for installed plugins
 - 2022-12-10	minor matching improvement for :help search
