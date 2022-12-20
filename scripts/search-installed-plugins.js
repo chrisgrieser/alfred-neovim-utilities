@@ -19,7 +19,9 @@ const jsonArray = app.doShellScript(`
 	done`)
 	.split("\r")
 	.map(remote => {
-		const repo = remote.slice(26, -12); /* eslint-disable-line no-magic-numbers */
+		const repo = remote
+			.slice(26, -12) /* eslint-disable-line no-magic-numbers */
+			.replaceAll(".git (fetch)", ""); // for lazy.nvim
 		const name = repo.split("/")[1];
 		const owner = repo.split("/")[0];
 		return {
