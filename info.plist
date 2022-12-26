@@ -44,7 +44,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>⌘: Copy Packer Line</string>
+				<string>⌘: Paste lazy.nvim Line</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -219,16 +219,6 @@
 				<string>⇧: Search issues</string>
 				<key>vitoclose</key>
 				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>E1D760CD-9BD9-45A0-B293-3E0E79347EC4</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>⌘: Copy Packer Line</string>
-				<key>vitoclose</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -988,9 +978,9 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>autopaste</key>
-				<false/>
+				<true/>
 				<key>clipboardtext</key>
-				<string>use "{query}"</string>
+				<string>"{query}",</string>
 				<key>ignoredynamicplaceholders</key>
 				<false/>
 				<key>transient</key>
@@ -1317,7 +1307,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>note</key>
-			<string>copy packer line</string>
+			<string>paste lazy.nvim line</string>
 			<key>xpos</key>
 			<real>325</real>
 			<key>ypos</key>
