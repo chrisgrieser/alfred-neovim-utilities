@@ -29,7 +29,10 @@ const oldfiles = app.doShellScript(`
 `);
 
 const jsonArray = JSON.parse(oldfiles)
-	.filter(file => fileExists(file))
+	.filter(file => {
+		if (!file.startsWith("/")) return false // check for non-file views
+		return fileExists(file) // check for deleted files
+	})
 	.map(filepath => {
 		const fileName = filepath.split("/").pop();
 		const twoParents = filepath.replace(/.*\/(.*\/.*)\/.*$/, "$1");
