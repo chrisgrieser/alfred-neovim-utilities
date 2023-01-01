@@ -25,13 +25,15 @@ const oldfiles = app.doShellScript(`
 	temp=/tmp/oldfiles.txt
 	[[ -e "$temp" ]] && rm "$temp"
 	nvim -c "redir > $temp | echo v:oldfiles | redir end | q" &>/dev/null
-	tr "'" '"' < "$temp" # single quores invalid in JSON
-`);
+	cat "$temp" 
+	`)
+	.replaceAll("'", '"') // single quotes invalid in JSON
 
 const jsonArray = JSON.parse(oldfiles)
 	.filter(file => {
-		if (!file.startsWith("/")) return false // check for non-file views
-		return fileExists(file) // check for deleted files
+		if (!file.startsWith("/")) return false; // check for non-file views
+		return true
+		// return fileExists(file); // check for deleted files
 	})
 	.map(filepath => {
 		const fileName = filepath.split("/").pop();
