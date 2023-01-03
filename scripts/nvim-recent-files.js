@@ -21,9 +21,7 @@ const fileExists = filePath => Application("Finder").exists(Path(filePath));
 //──────────────────────────────────────────────────────────────────────────────
 
 // generate recent files list
-const oldfiles = app.doShellScript("zsh ./scripts/get-oldfiles.sh");
-
-const jsonArray = JSON.parse(oldfiles)
+const oldfiles = JSON.parse(app.doShellScript("zsh ./scripts/get-oldfiles.sh"))
 	.filter(file => {
 		return file.startsWith("/") && !file.endsWith("COMMIT_EDITMSG") && fileExists(file);
 	})
@@ -44,4 +42,4 @@ const jsonArray = JSON.parse(oldfiles)
 		};
 	});
 
-JSON.stringify({ items: jsonArray });
+JSON.stringify({ items: oldfiles });
