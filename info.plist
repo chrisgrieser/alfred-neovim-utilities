@@ -1130,7 +1130,7 @@ find "$plugin_installation_path" -path "*/$repo" -type d | xargs open</string>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>keyword</key>
 				<string>:nvim</string>
 				<key>subtext</key>
@@ -1138,7 +1138,7 @@ find "$plugin_installation_path" -path "*/$repo" -type d | xargs open</string>
 				<key>text</key>
 				<string>📂 nvim (share)</string>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
@@ -1166,7 +1166,7 @@ find "$plugin_installation_path" -path "*/$repo" -type d | xargs open</string>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>keyword</key>
 				<string>:nvim</string>
 				<key>subtext</key>
@@ -1174,7 +1174,7 @@ find "$plugin_installation_path" -path "*/$repo" -type d | xargs open</string>
 				<key>text</key>
 				<string>📂 nvim (state)</string>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
