@@ -21,19 +21,11 @@ const fileExists = filePath => Application("Finder").exists(Path(filePath));
 //──────────────────────────────────────────────────────────────────────────────
 
 // generate recent files list
-const oldfiles = app.doShellScript(`
-	temp=/tmp/oldfiles.txt
-	[[ -e "$temp" ]] && rm "$temp"
-	nvim -c "redir > $temp | echo v:oldfiles | redir end | q" &>/dev/null
-	cat "$temp" 
-	`)
-	.replaceAll("'", '"') // single quotes invalid in JSON
+const oldfiles = app.doShellScript("zsh ./scripts/get-oldfiles.sh");
 
 const jsonArray = JSON.parse(oldfiles)
 	.filter(file => {
-		if (!file.startsWith("/")) return false; // check for non-file views
-		return true
-		// return fileExists(file); // check for deleted files
+		return file.startsWith("/") && !file.endsWith("COMMIT_EDITMSG") && fileExists(file);
 	})
 	.map(filepath => {
 		const fileName = filepath.split("/").pop();
