@@ -300,6 +300,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>BBE73F3C-0C42-47E7-932B-EAADB2A3FD0E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>95F8B76E-A041-4B9B-BBC0-4D875DC184A2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>D818D50E-55A9-45FB-AC92-10FCF4BC8B60</key>
 		<array/>
 		<key>D9E07FDE-1870-42B0-B6D4-AA209906679E</key>
@@ -307,6 +320,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>79F25308-2C64-400B-AC1D-C1FD5FC840DF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E57C0934-F1B5-4522-9943-202EEAAF8012</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C10D2A97-AC50-40A7-82FE-56CA574A7EA4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1085,6 +1111,78 @@ find "$plugin_installation_path" -path "*/$repo" -type d | xargs open</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/.local/share/nvim</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>C10D2A97-AC50-40A7-82FE-56CA574A7EA4</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>:nvim</string>
+				<key>subtext</key>
+				<string>~/.local/share/nvim</string>
+				<key>text</key>
+				<string>📂 nvim (share)</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E57C0934-F1B5-4522-9943-202EEAAF8012</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/.local/state/nvim</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>95F8B76E-A041-4B9B-BBC0-4D875DC184A2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>:nvim</string>
+				<key>subtext</key>
+				<string>~/.local/state/nvim</string>
+				<key>text</key>
+				<string>📂 nvim (state)</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BBE73F3C-0C42-47E7-932B-EAADB2A3FD0E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>## Get Started
@@ -1271,6 +1369,27 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>ypos</key>
 			<real>615</real>
 		</dict>
+		<key>95F8B76E-A041-4B9B-BBC0-4D875DC184A2</key>
+		<dict>
+			<key>xpos</key>
+			<real>235</real>
+			<key>ypos</key>
+			<real>1365</real>
+		</dict>
+		<key>BBE73F3C-0C42-47E7-932B-EAADB2A3FD0E</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>1365</real>
+		</dict>
+		<key>C10D2A97-AC50-40A7-82FE-56CA574A7EA4</key>
+		<dict>
+			<key>xpos</key>
+			<real>235</real>
+			<key>ypos</key>
+			<real>1250</real>
+		</dict>
 		<key>D6E5E105-38E3-4BC1-90E3-52BEE556349D</key>
 		<dict>
 			<key>colorindex</key>
@@ -1312,6 +1431,13 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<real>325</real>
 			<key>ypos</key>
 			<real>830</real>
+		</dict>
+		<key>E57C0934-F1B5-4522-9943-202EEAAF8012</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>1250</real>
 		</dict>
 		<key>F178F3ED-E855-4DC9-A178-D839E9C2C48D</key>
 		<dict>
