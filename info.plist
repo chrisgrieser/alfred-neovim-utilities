@@ -658,6 +658,14 @@ fi</string>
 			<integer>2</integer>
 		</dict>
 		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>config</key>
 			<dict>
 				<key>conditions</key>
@@ -680,20 +688,12 @@ fi</string>
 				<key>elselabel</key>
 				<string>false</string>
 				<key>hideelse</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1270,13 +1270,13 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		<key>4EF33707-11D3-417C-81B1-3D79FF6BBD75</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>8</integer>
+			<integer>5</integer>
 			<key>note</key>
 			<string>auto_update</string>
 			<key>xpos</key>
-			<real>973</real>
+			<real>975</real>
 			<key>ypos</key>
-			<real>405</real>
+			<real>410</real>
 		</dict>
 		<key>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</key>
 		<dict>
@@ -1352,11 +1352,11 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		<key>8AE9ED32-BC43-4D0C-8180-E6B65BB6C5A3</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>8</integer>
+			<integer>5</integer>
 			<key>note</key>
 			<string>OneUpdater (automatic update function)</string>
 			<key>xpos</key>
-			<real>1080</real>
+			<real>1075</real>
 			<key>ypos</key>
 			<real>380</real>
 		</dict>
@@ -1371,6 +1371,8 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		</dict>
 		<key>95F8B76E-A041-4B9B-BBC0-4D875DC184A2</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
 			<key>xpos</key>
 			<real>235</real>
 			<key>ypos</key>
@@ -1378,6 +1380,8 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		</dict>
 		<key>BBE73F3C-0C42-47E7-932B-EAADB2A3FD0E</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
@@ -1385,6 +1389,8 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		</dict>
 		<key>C10D2A97-AC50-40A7-82FE-56CA574A7EA4</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
 			<key>xpos</key>
 			<real>235</real>
 			<key>ypos</key>
@@ -1434,6 +1440,8 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		</dict>
 		<key>E57C0934-F1B5-4522-9943-202EEAAF8012</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
