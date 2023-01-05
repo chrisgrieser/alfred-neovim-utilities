@@ -1004,7 +1004,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>autopaste</key>
-				<true/>
+				<false/>
 				<key>clipboardtext</key>
 				<string>"{query}",</string>
 				<key>ignoredynamicplaceholders</key>
@@ -1426,7 +1426,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>note</key>
-			<string>paste lazy.nvim line</string>
+			<string>copy lazy.nvim line</string>
 			<key>xpos</key>
 			<real>325</real>
 			<key>ypos</key>
