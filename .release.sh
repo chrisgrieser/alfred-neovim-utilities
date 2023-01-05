@@ -3,6 +3,11 @@
 # ALFRED WORKFLOW RELEASE
 # -----------------------
 
+# go to submodule repo root
+[[ ! -f "info.plist" ]] && cd ..
+[[ ! -f "info.plist" ]] && cd ..
+[[ ! -f "info.plist" ]] && exit 1
+
 # -----------------------
 # new version number
 # -----------------------
@@ -20,12 +25,6 @@ fi
 
 # insert new version number
 plutil -replace version -string "$nextVersion" info.plist
-
-# Lint
-cd "$(dirname "$0")" || exit 1
-eslint . --fix || eslint_d . --fix
-
-echo ""
 
 # -----------------------
 # clean info.plist
