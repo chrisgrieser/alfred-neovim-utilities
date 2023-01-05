@@ -8,7 +8,7 @@ const alfredMatcher = str => str.replace(/[-/()_.:]/g, " ") + " " + str + " " + 
 //------------------------------------------------------------------------------
 
 // INFO Not searching awesome neovim, since a comparison showed that
-// neovimcraft covers almost 100% of all plugins listed at there already.
+// neovimcraft covers almost 100% of all plugins listed there already
 
 const neovimcraftURL = "https://nvim.sh/s";
 
