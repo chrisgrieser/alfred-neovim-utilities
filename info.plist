@@ -1006,7 +1006,9 @@ fi</string>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
-				<string>"{query}",</string>
+				<string>{
+	"{query}",
+},</string>
 				<key>ignoredynamicplaceholders</key>
 				<false/>
 				<key>transient</key>
