@@ -1,3 +1,18 @@
+- 2023-01-27	release 1.0.0
+- 2023-01-27	chore: prepare for Alfred Gallery
+- 2023-01-08	chore
+- 2023-01-05	chore
+- 2023-01-05	feat: plugin search displays last update
+- 2023-01-05	build: ensure going to git root
+- 2023-01-05	chore
+- 2023-01-05	chore
+- 2023-01-03	chore
+- 2023-01-03	feat: add quick access to folders via :nvim
+- 2023-01-03	refactor
+- 2023-01-03	fix: oldfile search for non-default shada folder
+- 2023-01-02	chore
+- 2022-12-26	use lazy instead of packer for cmd+enter action
+- 2022-12-26	refactor: oldfiles retrival
 - 2022-12-20	release 0.11.2
 - 2022-12-20	fix for lazy.nvim
 - 2022-12-19	better matching and 25 max for oldfiles
