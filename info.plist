@@ -95,19 +95,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>1D271A17-8790-4218-8E89-D4B95E75339A</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>22C3A292-BE41-47F8-9B47-543D7C9E4AC1</key>
 		<array>
 			<dict>
@@ -135,46 +122,9 @@
 			</dict>
 		</array>
 		<key>38E62E4E-8B37-483B-BBE3-257C2DD7EA30</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>4EF33707-11D3-417C-81B1-3D79FF6BBD75</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8AE9ED32-BC43-4D0C-8180-E6B65BB6C5A3</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>F5B1DB5E-4F1B-419B-B8A1-E5161A5EC73C</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>6EBCF2CC-4936-48C4-BCD8-42A7B39BDEDC</key>
 		<array>
 			<dict>
@@ -243,16 +193,6 @@
 		</array>
 		<key>71D977C5-6C8A-47D2-A625-4E3E79D785D2</key>
 		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>22C3A292-BE41-47F8-9B47-543D7C9E4AC1</string>
@@ -342,44 +282,11 @@
 			</dict>
 		</array>
 		<key>F178F3ED-E855-4DC9-A178-D839E9C2C48D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>F5BC25CE-C34C-4EF9-B428-71EDB9170948</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>F9A20C61-953A-4498-8DBA-0DDCF26A94A3</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 	</dict>
 	<key>createdby</key>
 	<string>Chris Grieser</string>
@@ -392,6 +299,86 @@ Search neovim plugins and online :help via Alfred</string>
 	<string>Neovim Utilities</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>✅ Index created</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8A1F6028-B56D-4223-8008-F364B73183A5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>scripts/neovim-docs-index-creation.sh</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>22C3A292-BE41-47F8-9B47-543D7C9E4AC1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>:vim</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Create/Update Neovim :help Index</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>71D977C5-6C8A-47D2-A625-4E3E79D785D2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Blow</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>8D7A806A-C89F-4527-87FB-F6D2B578A43A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -455,6 +442,27 @@ Search neovim plugins and online :help via Alfred</string>
 			<string>F178F3ED-E855-4DC9-A178-D839E9C2C48D</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>This may take up to a minute.</string>
+				<key>title</key>
+				<string>⏳Re-Creating Index</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -569,131 +577,72 @@ Search neovim plugins and online :help via Alfred</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist='https://raw.githubusercontent.com/chrisgrieser/alfred-neovim-utilities/main/info.plist'
-readonly workflow_url='chrisgrieser/alfred-neovim-utilities'
-readonly download_type='github_release'
-readonly frequency_check='1'
-
-# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
-function abort {
-  echo "${1}" &gt;&amp;2
-  exit 1
-}
-
-function url_exists {
-  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
-}
-
-function notification {
-  local -r notificator="$(find . -type d -name 'Notificator.app')"
-  if [[ -n "${notificator}" ]]; then
-    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
-    return
-  fi
-
-  local -r terminal_notifier="$(find . -type f -name 'terminal-notifier')"
-  if [[ -n "${terminal_notifier}" ]]; then
-    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
-    return
-  fi
-
-  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
-}
-
-# Local sanity checks
-readonly local_info_plist='info.plist'
-readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
-
-[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
-[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
-[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
-
-# Check for updates
-if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
-  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
-
-  readonly tmp_file="$(mktemp)"
-  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
-  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
-
-  if [[ "${local_version}" == "${remote_version}" ]]; then
-    touch "${local_info_plist}" # Reset timer by touching local file
-    exit 0
-  fi
-
-  if [[ "${download_type}" == 'page' ]]; then
-    notification 'Opening download page…'
-    open "${workflow_url}"
-    exit 0
-  fi
-
-  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
-
-  if url_exists "${download_url}"; then
-    notification 'Downloading and installing…'
-    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
-    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
-  else
-    abort "'workflow_url' (${download_url}) appears to not be reachable."
-  fi
-fi</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
+				<key>openwith</key>
 				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>sourcefile</key>
+				<string>~/.local/share/nvim</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>8AE9ED32-BC43-4D0C-8180-E6B65BB6C5A3</string>
+			<string>C10D2A97-AC50-40A7-82FE-56CA574A7EA4</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>:nvim</string>
+				<key>subtext</key>
+				<string>~/.local/share/nvim</string>
+				<key>text</key>
+				<string>📂 nvim (share)</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>1D271A17-8790-4218-8E89-D4B95E75339A</string>
+			<string>E57C0934-F1B5-4522-9943-202EEAAF8012</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:auto_update}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>1</string>
-						<key>outputlabel</key>
-						<string>true</string>
-						<key>uid</key>
-						<string>F5B1DB5E-4F1B-419B-B8A1-E5161A5EC73C</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>false</string>
-				<key>hideelse</key>
-				<true/>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/.local/state/nvim</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
+			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>4EF33707-11D3-417C-81B1-3D79FF6BBD75</string>
+			<string>95F8B76E-A041-4B9B-BBC0-4D875DC184A2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>:nvim</string>
+				<key>subtext</key>
+				<string>~/.local/state/nvim</string>
+				<key>text</key>
+				<string>📂 nvim (state)</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BBE73F3C-0C42-47E7-932B-EAADB2A3FD0E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -761,86 +710,6 @@ fi</string>
 			<string>26EB4BCF-56A8-43E4-AED6-0C121B00D55E</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string>✅ Index created</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>8A1F6028-B56D-4223-8008-F364B73183A5</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>scripts/neovim-docs-index-creation.sh</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>22C3A292-BE41-47F8-9B47-543D7C9E4AC1</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>:vim</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Create/Update Neovim :help Index</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>71D977C5-6C8A-47D2-A625-4E3E79D785D2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>soundname</key>
-				<string>Blow</string>
-				<key>systemsound</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.playsound</string>
-			<key>uid</key>
-			<string>8D7A806A-C89F-4527-87FB-F6D2B578A43A</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -982,27 +851,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>This may take up to a minute.</string>
-				<key>title</key>
-				<string>⏳Re-Creating Index</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
@@ -1113,81 +961,15 @@ find "$plugin_installation_path" -path "*/$repo" -type d | xargs open</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/.local/share/nvim</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>C10D2A97-AC50-40A7-82FE-56CA574A7EA4</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>:nvim</string>
-				<key>subtext</key>
-				<string>~/.local/share/nvim</string>
-				<key>text</key>
-				<string>📂 nvim (share)</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>E57C0934-F1B5-4522-9943-202EEAAF8012</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/.local/state/nvim</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>95F8B76E-A041-4B9B-BBC0-4D875DC184A2</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>:nvim</string>
-				<key>subtext</key>
-				<string>~/.local/state/nvim</string>
-				<key>text</key>
-				<string>📂 nvim (state)</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>BBE73F3C-0C42-47E7-932B-EAADB2A3FD0E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string>## Get Started
+	<string>## Migration to Alfred Gallery
+
+[This workflow is now included in the Alfred gallery](http://alfred.app/workflows/chrisgrieser/neovim-utilities/) and auto-updates will there be managed by Alfred and not by this workflow anymore.
+
+---
+
+## Getting Started
 Run `:vim` once to create the local cache for the online :help search.
 
 ## Info
@@ -1231,23 +1013,14 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>ypos</key>
 			<real>290</real>
 		</dict>
-		<key>1D271A17-8790-4218-8E89-D4B95E75339A</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>xpos</key>
-			<real>660</real>
-			<key>ypos</key>
-			<real>410</real>
-		</dict>
 		<key>22C3A292-BE41-47F8-9B47-543D7C9E4AC1</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>9</integer>
+			<integer>11</integer>
 			<key>xpos</key>
-			<real>825</real>
+			<real>805</real>
 			<key>ypos</key>
-			<real>615</real>
+			<real>20</real>
 		</dict>
 		<key>26EB4BCF-56A8-43E4-AED6-0C121B00D55E</key>
 		<dict>
@@ -1268,17 +1041,6 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<real>355</real>
 			<key>ypos</key>
 			<real>290</real>
-		</dict>
-		<key>4EF33707-11D3-417C-81B1-3D79FF6BBD75</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>5</integer>
-			<key>note</key>
-			<string>auto_update</string>
-			<key>xpos</key>
-			<real>975</real>
-			<key>ypos</key>
-			<real>410</real>
 		</dict>
 		<key>6BBC3DF6-1094-4623-B790-2B5EF7C16EEE</key>
 		<dict>
@@ -1314,13 +1076,13 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		<key>71D977C5-6C8A-47D2-A625-4E3E79D785D2</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>9</integer>
+			<integer>11</integer>
 			<key>note</key>
 			<string>(re)create index</string>
 			<key>xpos</key>
-			<real>665</real>
+			<real>645</real>
 			<key>ypos</key>
-			<real>615</real>
+			<real>20</real>
 		</dict>
 		<key>79F25308-2C64-400B-AC1D-C1FD5FC840DF</key>
 		<dict>
@@ -1336,67 +1098,56 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 		<key>7AA41F32-E0D9-4117-8B57-8F7C942E07D7</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>9</integer>
+			<integer>11</integer>
 			<key>xpos</key>
-			<real>830</real>
+			<real>810</real>
 			<key>ypos</key>
-			<real>735</real>
+			<real>140</real>
 		</dict>
 		<key>8A1F6028-B56D-4223-8008-F364B73183A5</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>9</integer>
+			<integer>11</integer>
 			<key>xpos</key>
-			<real>970</real>
+			<real>950</real>
 			<key>ypos</key>
-			<real>615</real>
-		</dict>
-		<key>8AE9ED32-BC43-4D0C-8180-E6B65BB6C5A3</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>5</integer>
-			<key>note</key>
-			<string>OneUpdater (automatic update function)</string>
-			<key>xpos</key>
-			<real>1075</real>
-			<key>ypos</key>
-			<real>380</real>
+			<real>20</real>
 		</dict>
 		<key>8D7A806A-C89F-4527-87FB-F6D2B578A43A</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>9</integer>
+			<integer>11</integer>
 			<key>xpos</key>
-			<real>1110</real>
+			<real>1090</real>
 			<key>ypos</key>
-			<real>615</real>
+			<real>20</real>
 		</dict>
 		<key>95F8B76E-A041-4B9B-BBC0-4D875DC184A2</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<real>235</real>
+			<real>850</real>
 			<key>ypos</key>
-			<real>1365</real>
+			<real>410</real>
 		</dict>
 		<key>BBE73F3C-0C42-47E7-932B-EAADB2A3FD0E</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<real>30</real>
+			<real>645</real>
 			<key>ypos</key>
-			<real>1365</real>
+			<real>410</real>
 		</dict>
 		<key>C10D2A97-AC50-40A7-82FE-56CA574A7EA4</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<real>235</real>
+			<real>850</real>
 			<key>ypos</key>
-			<real>1250</real>
+			<real>295</real>
 		</dict>
 		<key>D6E5E105-38E3-4BC1-90E3-52BEE556349D</key>
 		<dict>
@@ -1445,9 +1196,9 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<real>30</real>
+			<real>645</real>
 			<key>ypos</key>
-			<real>1250</real>
+			<real>295</real>
 		</dict>
 		<key>F178F3ED-E855-4DC9-A178-D839E9C2C48D</key>
 		<dict>
@@ -1594,25 +1345,6 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<string>filepicker</string>
 			<key>variable</key>
 			<string>plugin_installation_path</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<true/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>Auto-update this workflow</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>auto_update</string>
 		</dict>
 	</array>
 	<key>version</key>
