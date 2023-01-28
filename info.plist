@@ -1254,7 +1254,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>opens Neovim Docs</string>
+			<string>opens Neovim Docs in the Browser</string>
 			<key>label</key>
 			<string>Keyword for online :help search</string>
 			<key>type</key>
