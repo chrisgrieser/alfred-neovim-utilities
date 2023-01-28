@@ -55,6 +55,6 @@ echo "$vimoptions" > "$cacheLocation/url-list.txt"
 echo "$anchors" >> "$cacheLocation/url-list.txt"
 echo "$sections" >> "$cacheLocation/url-list.txt"
 
-echo "$(wc -l "$cacheLocation/url-list.txt" | tr -d ' ') entries."
+echo "$(wc -l "$cacheLocation/url-list.txt" | awk '{ print $1 }') entries."
 cd ..
 rm -r "$cacheLocation/neovim-help"
