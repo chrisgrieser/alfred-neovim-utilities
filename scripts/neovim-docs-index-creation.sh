@@ -13,7 +13,7 @@ curl -s 'https://api.github.com/repos/neovim/neovim/git/trees/master?recursive=1
 	| grep -Eo "runtime/doc/.*.txt" \
 	| cut -d/ -f3 \
 	| while read -r file ; do
-		echo -n "#"
+		echo -n "#" -- progress of downloads
 		curl -s "$baseRawURL$file" > "$cacheLocation/neovim-help/$file"
 	done
 
