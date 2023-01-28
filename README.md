@@ -29,7 +29,6 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 	- `fn↵`: Open the local directory of the plugin in Finder.
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's default editor for the respective filetype. (To open them directly in neovim, you need a neovim GUI with "Open With" capability.)
 - `:vim`: Creates/Updates the local cache for the online :help search. Run it once in a while, when there have been updates to the online docs.
-- The workflow autoupdates. You can turn this off in the workflow configuration.
 
 ## Installation and setup
 
