@@ -18,7 +18,7 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 ## Features
 - `:h`: Searches the neovim [online :help](https://neovim.io/doc/). Groups synonyms together, for example, `:w` and `:write` both get one item.
 	- `↵`: Open the respective help.
-	- `⌥↵`: Copy the GitHub URL to the clipboard.
+	- `⌥↵`: Copy the help URL to the clipboard.
 - `vp`: Searches [neovimcraft](https://neovimcraft.com/) for neovim plugins. Mnemonic: [v]im [p]lugins.
 	- `↵`: Open the GitHub repo.
 	- `⌘↵`: Copy the line needed for [packer.nvim](https://github.com/wbthomason/packer.nvim).
