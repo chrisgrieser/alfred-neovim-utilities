@@ -10,7 +10,7 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 ## Table of contents
 <!--toc:start-->
 - [Features](#features)
-- [Installation and setup](#installation-and-setup)
+- [Installation](#installation)
 - [Credits](#credits)
 - [About me](#about-me)
 <!--toc:end-->
@@ -21,7 +21,7 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 	- `⌥↵`: Copy the help URL to the clipboard.
 - `vp`: Searches [neovimcraft](https://neovimcraft.com/) for neovim plugins. Mnemonic: [v]im [p]lugins.
 	- `↵`: Open the GitHub repo.
-	- `⌘↵`: Copy the line needed for [packer.nvim](https://github.com/wbthomason/packer.nvim).
+	- `⌘↵`: Copy the line needed for [lazy.nvim](https://github.com/folke/lazy.nvim).
 	- `⌥↵`: Copy the GitHub URL to the clipboard.
 	- `⌃↵`: Open the `:help` page of the plugin at GitHub.
 	- `⇧↵`: Search GitHub issues of the plugin.[^1]
@@ -30,14 +30,12 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's default editor for the respective filetype. (To open them directly in neovim, you need a neovim GUI with "Open With" capability.)
 - `:vim`: Creates/Updates the local cache for the online :help search. Run it once in a while, when there have been updates to the online docs.
 
-## Installation and setup
-
+## Installation
 __Requirements:__
-[Alfred](https://www.alfredapp.com/) (macOS only) with powerpack.
+[Alfred 5](https://www.alfredapp.com/) (macOS only) with powerpack.
 
-1. Download the [latest release](https://github.com/chrisgrieser/alfred-neovim-utilities/releases).
+1. Download the [latest release from the Alfred Gallery](https://alfred.app/workflows/chrisgrieser/neovim-utilities/).
 2. Run `:vim` once to create the local cache for the [online :help](https://neovim.io/doc/) search. This may take up to a minute.
-3. Optional: Change the search keywords to your liking in the workflow configuration.
 
 ## Credits
 - The plugin search would not be possible without the fantastic [Neovimcraft](https://neovimcraft.com/).
