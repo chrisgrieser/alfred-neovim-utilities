@@ -1,2 +1,6 @@
-# data to be created locally
-url-list.txt
+# Mac
+.DS_Store
+
+# Alfred
+prefs.plist
+*.alfredworkflow
