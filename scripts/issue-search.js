@@ -23,7 +23,7 @@ const issueAPIURL =
 console.log(issueAPIURL);
 const issueJSON =
 	JSON.parse(app.doShellScript("curl -s \"" + issueAPIURL + "\""))
-		.sort(function(x, y) { // sort open issues on top
+		.sort((x, y) => {
 			const a = x.state;
 			const b = y.state;
 			return a === b ? 0 : a < b ? 1 : -1; // eslint-disable-line no-nested-ternary

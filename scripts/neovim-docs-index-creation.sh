@@ -13,7 +13,7 @@ curl -s 'https://api.github.com/repos/neovim/neovim/git/trees/master?recursive=1
 	| grep -Eo "runtime/doc/.*.txt" \
 	| cut -d/ -f3 \
 	| while read -r file ; do
-		echo -n "#" -- progress of downloads
+		echo -n "#"
 		curl -s "$baseRawURL$file" > "$cacheLocation/neovim-help/$file"
 	done
 
@@ -55,6 +55,6 @@ echo "$vimoptions" > "$cacheLocation/url-list.txt"
 echo "$anchors" >> "$cacheLocation/url-list.txt"
 echo "$sections" >> "$cacheLocation/url-list.txt"
 
-echo "$(wc -l "$cacheLocation/url-list.txt" | awk '{ print $1 }') entries."
+echo "$(wc -l "$cacheLocation/url-list.txt" | tr -d ' ') entries."
 cd ..
 rm -r "$cacheLocation/neovim-help"
