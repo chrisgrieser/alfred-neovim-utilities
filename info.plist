@@ -916,7 +916,7 @@ find "$plugin_installation_path" -path "*/$repo" -type d | xargs open</string>
 ---
 
 ## Getting Started
-Run `:vim` once to create the local cache for the online :help search.
+Run `:nvim` once to create the local cache for the online :help search.
 
 ## Info
 - [README](https://github.com/chrisgrieser/alfred-neovim-utilities/blob/main/README.md)
@@ -944,7 +944,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>note</key>
-			<string>neovim docs. Requires running `:vim` first</string>
+			<string>neovim docs. Requires running `:nvim` first</string>
 			<key>xpos</key>
 			<real>35</real>
 			<key>ypos</key>

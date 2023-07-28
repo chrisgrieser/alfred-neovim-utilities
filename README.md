@@ -1,6 +1,6 @@
 # Neovim Utilities for Alfred
 <!-- ![](https://img.shields.io/github/downloads/chrisgrieser/alfred-neovim-utilities/total?label=Total%20Downloads&style=plastic) -->
-![](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic) 
+![](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic)
 
 Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.com/).
 
@@ -28,14 +28,14 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 - `ip`: Search for plugins installed locally on your device. Mnemonic: [i]nstalled [p]lugins. The modifiers (`⌘⌥⌃⇧`) from the neovim-plugin-search also apply for this command. In addition:
 	- `fn↵`: Open the local directory of the plugin in Finder.
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's default editor for the respective filetype. (To open them directly in neovim, you need a neovim GUI with "Open With" capability.)
-- `:vim`: Creates/Updates the local cache for the online :help search. Run it once in a while, when there have been updates to the online docs.
+- `:nvim`: Creates/Updates the local cache for the online :help search. Run it once in a while, when there have been updates to the online docs.
 
 ## Installation
 __Requirements:__
 [Alfred 5](https://www.alfredapp.com/) (macOS only) with powerpack.
 
 1. Download the [latest release from the Alfred Gallery](https://alfred.app/workflows/chrisgrieser/neovim-utilities/).
-2. Run `:vim` once to create the local cache for the [online :help](https://neovim.io/doc/) search. This may take up to a minute.
+2. Run `:nvim` once to create the local cache for the [online :help](https://neovim.io/doc/) search. This may take up to a minute.
 
 ## Credits
 - The plugin search would not be possible without the fantastic [Neovimcraft](https://neovimcraft.com/).
