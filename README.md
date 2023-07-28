@@ -21,7 +21,7 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 	- `⌥↵`: Copy the help URL to the clipboard.
 - `vp`: Searches [neovimcraft](https://neovimcraft.com/) for neovim plugins. Mnemonic: [v]im [p]lugins.
 	- `↵`: Open the GitHub repo.
-	- `⌘↵`: Copy the line needed for [lazy.nvim](https://github.com/folke/lazy.nvim).
+	- `⌘↵`: Copy repo name for plugin managers.
 	- `⌥↵`: Copy the GitHub URL to the clipboard.
 	- `⌃↵`: Open the `:help` page of the plugin at GitHub.
 	- `⇧↵`: Search GitHub issues of the plugin.[^1]
