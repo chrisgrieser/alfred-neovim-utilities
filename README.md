@@ -22,6 +22,7 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 - `nvr`: Shows the latest posts from the neovim subreddit. (Limited to ~10 calls per minute.)
 	- <kbd>↵</kbd>: Open the post in the browser.
 	- <kbd>⌥↵</kbd>: Copy the URL to the clipboard.
+	- <kbd>⇧</kbd>: Show author of the post.
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's default editor for the respective filetype. (To open them directly in neovim, you need a neovim GUI with "Open With" capability.)
 - `:nvim`: Creates the local cache for the online :help search. Run it once in a while, when there have been updates to the online docs.
 

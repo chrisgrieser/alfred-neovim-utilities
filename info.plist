@@ -697,7 +697,7 @@ Search neovim plugins and online :help via Alfred</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>r/neovim Search</string>
+				<string>Latest Posts from r/neovim</string>
 				<key>type</key>
 				<integer>8</integer>
 				<key>withspace</key>
