@@ -1,5 +1,5 @@
 # Neovim Utilities for Alfred
-![](https://img.shields.io/github/downloads/chrisgrieser/alfred-neovim-utilities/total?label=Total%20Downloads&style=plastic) ![](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic)
+![download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-neovim-utilities/total?label=Total%20Downloads&style=plastic) ![last release version](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic)
 
 Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.com/).
 
@@ -16,7 +16,7 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 	- <kbd>⌥⏎</kbd>: Copy the GitHub URL to the clipboard.
 	- <kbd>⌃⏎</kbd>: Open the `:help` page of the plugin at GitHub.
 	- <kbd>⇧⏎</kbd>: Search GitHub issues of the plugin.[^1]
-- `ip`: Search for plugins installed locally on your device. Mnemonic: `[i]installed [p]lugins`. The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this command. In addition:
+- `ip`: Search for plugins (and Mason tools) installed locally on your device. Mnemonic: `[i]installed [p]lugins`. The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this command. In addition:
 	- <kbd>fn⏎</kbd>: Open the local directory of the plugin in Finder.
 - `nvr`: Shows the latest posts from the neovim subreddit. (Due to reddit API limitations, the cache is only reloaded every ~10 minutes.)
 	- <kbd>⏎</kbd>: Open the post in the browser.
