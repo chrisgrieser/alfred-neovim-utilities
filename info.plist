@@ -543,7 +543,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://github.com/{query}</string>
+				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -692,7 +692,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>nvim-reddit.js</string>
+				<string>scripts/nvim-reddit.js</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -1033,9 +1033,9 @@ Run `:nvim` once to create the local cache for the `:h` search.
 	- &lt;kbd&gt;⌥⏎&lt;/kbd&gt;: Copy the GitHub URL to the clipboard.
 	- &lt;kbd&gt;⌃⏎&lt;/kbd&gt;: Open the `:help` page of the plugin at GitHub.
 	- &lt;kbd&gt;⇧⏎&lt;/kbd&gt;: Search GitHub issues of the plugin.[^1]
-- `ip`: Search for plugins installed locally on your device. Mnemonic: `[i]installed [p]lugins`. The modifiers (&lt;kbd&gt;⌘⌥⌃⇧&lt;/kbd&gt;) from the plugin-search also apply for this command. In addition:
+- `ip`: Search for plugins (and mason tools) installed locally on your device. Mnemonic: `[i]installed [p]lugins`. The modifiers (&lt;kbd&gt;⌘⌥⌃⇧&lt;/kbd&gt;) from the plugin-search also apply for this command. In addition:
 	- &lt;kbd&gt;fn⏎&lt;/kbd&gt;: Open the local directory of the plugin in Finder.
-- `nvr`: Shows the latest posts from the neovim subreddit. (Limited to ~10 calls per minute.)
+- `nvr`: Shows the latest posts from the neovim subreddit. 
 	- &lt;kbd&gt;⏎&lt;/kbd&gt;: Open the post in the browser.
 	- &lt;kbd&gt;⌥⏎&lt;/kbd&gt;: Copy the URL to the clipboard.
 	- &lt;kbd&gt;⇧&lt;/kbd&gt;: Show author of the post.
@@ -1077,7 +1077,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>note</key>
-			<string>neovim docs. Requires running `:vim` first</string>
+			<string>neovim docs</string>
 			<key>xpos</key>
 			<real>35</real>
 			<key>ypos</key>
@@ -1146,7 +1146,7 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>note</key>
-			<string>installed plugin search</string>
+			<string>installed plugins and mason tools search</string>
 			<key>xpos</key>
 			<real>35</real>
 			<key>ypos</key>
@@ -1328,9 +1328,9 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>opens Neovim Docs</string>
+			<string>For searching the official neovim documentation (online, not inside nvim).</string>
 			<key>label</key>
-			<string>Keyword for online :help search</string>
+			<string>Keyword: online :help</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
@@ -1370,9 +1370,9 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>:help oldfiles</string>
+			<string>For searching recent files (:help oldfiles).</string>
 			<key>label</key>
-			<string>Keyword for searching old files</string>
+			<string>Keyword: oldfiles</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
@@ -1391,9 +1391,9 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>For latest posts in the neovim subreddit.</string>
 			<key>label</key>
-			<string>Keyword for latest posts in neovim subreddit</string>
+			<string>Keyword: neovim subreddit</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
@@ -1412,9 +1412,9 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>For searching installed plugins &amp; mason tools.</string>
 			<key>label</key>
-			<string>Keyword for searching installed plugins</string>
+			<string>Keyword: installed plugins</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
@@ -1440,6 +1440,27 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<string>filepicker</string>
 			<key>variable</key>
 			<string>plugin_installation_path</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>~/.local/share/nvim/mason</string>
+				<key>filtermode</key>
+				<integer>1</integer>
+				<key>placeholder</key>
+				<string>~/.local/share/nvim/mason</string>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>Path where mason.nvim installs its tools. Default value is the default path for mason.nvim. (Leave empty to not list mason tools.)</string>
+			<key>label</key>
+			<string>Mason Installation Path</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>mason_installation_path</string>
 		</dict>
 	</array>
 	<key>version</key>

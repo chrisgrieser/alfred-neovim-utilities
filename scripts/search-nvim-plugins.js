@@ -48,6 +48,7 @@ function cacheIsOutdated(path) {
 /**
  * @param {string} firstPath
  * @param {string} secondPath
+ * @returns {boolean} firstPathOlderThanSecond
  */
 function olderThan(firstPath, secondPath) {
 	const firstMdate = +Application("System Events").aliases[firstPath].modificationDate();
@@ -123,7 +124,7 @@ function run() {
 				title: name + installedIcon,
 				match: alfredMatcher(repo),
 				subtitle: subtitle,
-				arg: repo,
+				arg: "https://github.com/" + repo,
 				uid: repo,
 				mods: { shift: { subtitle: `⇧: Search Issues (${openIssues} open)` } },
 			};
