@@ -18,6 +18,7 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 	- <kbd>⇧⏎</kbd>: Search GitHub issues of the plugin.[^1]
 - `ip`: Search for plugins (and Mason tools) installed locally on your device. Mnemonic: `[i]installed [p]lugins`. The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this command. In addition:
 	- <kbd>fn⏎</kbd>: Open the local directory of the plugin in Finder.
+- `mason`: Search for tools available via [mason.nvim](https://github.com/williamboman/mason.nvim).
 - `nvr`: Shows the latest posts from the neovim subreddit. (Due to reddit API limitations, the cache is only reloaded every ~10 minutes.)
 	- <kbd>⏎</kbd>: Open the post in the browser.
 	- <kbd>⌥⏎</kbd>: Copy the URL to the clipboard.
