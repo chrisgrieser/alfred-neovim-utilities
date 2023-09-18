@@ -12,9 +12,8 @@ Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neo
 	- <kbd>⌥⏎</kbd>: Copy the help URL to the clipboard.
 - `vp`: Searches [neovimcraft](https://neovimcraft.com/) for neovim plugins. Mnemonic: `[v]im [p]lugins`.
 	- <kbd>⏎</kbd>: Open the GitHub repo.
-	- <kbd>⌘⏎</kbd>: Copy repo name for plugin managers.
+	- <kbd>⌘⏎</kbd>: Open the `:help` page of the plugin at GitHub.
 	- <kbd>⌥⏎</kbd>: Copy the GitHub URL to the clipboard.
-	- <kbd>⌃⏎</kbd>: Open the `:help` page of the plugin at GitHub.
 	- <kbd>⇧⏎</kbd>: Search GitHub issues of the plugin.[^1]
 - `ip`: Search for plugins (and Mason tools) installed locally on your device. Mnemonic: `[i]installed [p]lugins`. The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this command. In addition:
 	- <kbd>fn⏎</kbd>: Open the local directory of the plugin in Finder.
