@@ -28,7 +28,7 @@ function run(argv) {
 
 	// find the doc file
 	const docFiles = repoFiles.tree.filter((/** @type {{ path: string; }} */ file) => {
-		const isDoc = file.path.startsWith("doc/");
+		const isDoc = file.path.startsWith("doc/") && file.path.endsWith(".txt");
 		const isChangelog = file.path.includes("change");
 		const otherCruff = file.path.includes("secret"); // e.g. telescope
 		return isDoc && !isChangelog && !otherCruff;
