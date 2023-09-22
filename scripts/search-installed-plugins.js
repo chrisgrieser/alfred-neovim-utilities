@@ -67,19 +67,17 @@ function run() {
 			.map((/** @type {MasonPackage} */ tool) => {
 				const categoryList = tool.categories.join(", ");
 				const languages = tool.languages.length > 0 ? tool.languages.join(", ") : "";
+				const separator = languages && categoryList ? "  ·  " : "";
+				const subtitle = categoryList + separator + languages;
 
 				return {
 					title: tool.name,
-					subtitle: categoryList + "  ·  " + languages,
+					subtitle: subtitle,
 					match: alfredMatcher(tool.name) + categoryList,
 					icon: { path: masonIcon },
 					arg: tool.homepage,
 					uid: tool.name,
-					mods: {
-						cmd: notForMason,
-						shift: notForMason,
-						fn: notForMason,
-					},
+					mods: { cmd: notForMason, shift: notForMason, fn: notForMason },
 				};
 			});
 	}
