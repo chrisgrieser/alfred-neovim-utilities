@@ -18,7 +18,6 @@ function run() {
 	const repoID = $.getenv("repoID");
 	console.log("🪚 repoID:", repoID);
 
-	// GET PLUGIN ISSUES
 	// GitHub API only returns 100 results https://stackoverflow.com/questions/30656761/github-search-api-only-return-30-results
 	const issueAPIURL = `https://api.github.com/repos/${repoID}/issues?state=all&per_page=100`;
 	const issueJSON = JSON.parse(app.doShellScript(`curl -s "${issueAPIURL}"`))
