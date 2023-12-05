@@ -1,25 +1,34 @@
 # Neovim Utilities for Alfred
-![download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-neovim-utilities/total?label=Total%20Downloads&style=plastic) ![last release version](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic)
+![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-neovim-utilities/total?label=Total%20Downloads&style=plastic)
+![Last release version](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic)
 
-Search [neovim plugins](https://neovimcraft.com/) and [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.com/).
+Search [neovim plugins](https://neovimcraft.com/) and [online
+:help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.com/).
 
 ![Demo 1](./assets/demo-help-search.png)
 ![Demo 2](./assets/demo-plugin-search.png)
 
 ## Features
-- `:h`: Searches the neovim [online :help](https://neovim.io/doc/). Groups synonyms together, for example, `:w` and `:write` both get one item.
-	- <kbd>⏎</kbd>: Open the respective help.
-	- <kbd>⌥⏎</kbd>: Copy the help URL to the clipboard.
-- `vp`: Searches [neovimcraft](https://neovimcraft.com/) for neovim plugins. Mnemonic: `[v]im [p]lugins`.
-	- <kbd>⏎</kbd>: Open the GitHub repo.
-	- <kbd>⌘⏎</kbd>: Open the `:help` page of the plugin at GitHub.
-	- <kbd>⌥⏎</kbd>: Copy the GitHub URL to the clipboard.
-	- <kbd>⇧⏎</kbd>: Search GitHub issues of the plugin.[^1]
-- `ip`: Search for plugins (and Mason tools) installed locally on your device. Mnemonic: `[i]installed [p]lugins`. The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this command. In addition:
-	- <kbd>fn⏎</kbd>: Open the local directory of the plugin in Finder.
+- `:h`: Searches the neovim [online :help](https://neovim.io/doc/). Groups
+  synonyms together, for example, `:w` and `:write` both get one item.
+	+ <kbd>⏎</kbd>: Open the respective help.
+	+ <kbd>⌥⏎</kbd>: Copy the help URL to the clipboard.
+- `vp`: Searches [neovimcraft](https://neovimcraft.com/) for neovim plugins.
+  Mnemonic: `[v]im [p]lugins`.
+	+ <kbd>⏎</kbd>: Open the GitHub repo.
+	+ <kbd>⌘⏎</kbd>: Open the `:help` page of the plugin at GitHub.
+	+ <kbd>⌥⏎</kbd>: Copy the GitHub URL to the clipboard.
+	+ <kbd>⇧⏎</kbd>: Search GitHub issues of the plugin.[^1]
+- `ip`: Search for plugins (and Mason tools) installed locally on your device.
+  Mnemonic: `[i]installed [p]lugins`. The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the
+  plugin-search also apply for this command. In addition:
+	+ <kbd>fn⏎</kbd>: Open the local directory of the plugin in Finder.
 - `mason`: Search for tools available via [mason.nvim](https://github.com/williamboman/mason.nvim).
-- `:old`: Displays and searches your `:oldfiles`. Opens them in the system's default editor for the respective filetype. (To open them directly in neovim, you need a neovim GUI with `Open With…` capability though.)
-- `:nvim`: Creates the local cache for the online :help search. Run it once in a while, when there have been updates to the online docs.
+- `:old`: Displays and searches your `:oldfiles`. Opens them in the system's
+  default editor for the respective filetype. (To open them directly in neovim,
+  you need a neovim GUI with `Open With…` capability though.)
+- `:nvim`: Creates the local cache for the online :help search. Run it once in a
+  while, when there have been updates to the online docs.
 
 > __Note__  
 > All keywords are customizable in the settings.
@@ -29,7 +38,8 @@ __Requirements:__
 [Alfred 5](https://www.alfredapp.com/) (macOS only) with Powerpack.
 
 1. Download the [latest release from the Alfred Gallery](https://alfred.app/workflows/chrisgrieser/neovim-utilities/).
-2. Run `:nvim` once to create the local cache for the [online :help](https://neovim.io/doc/) search. This may take up to a minute.
+2. Run `:nvim` once to create the local cache for the [online
+   :help](https://neovim.io/doc/) search. This may take up to a minute.
 
 ## Credits
 __Thanks__  
@@ -38,15 +48,25 @@ __Thanks__
 
 <!-- vale Google.FirstPerson = NO -->
 __About me__  
-In my day job, I am a sociologist studying the social mechanisms underlying the digital economy. For my PhD project, I investigate the governance of the app economy and how software ecosystems manage the tension between innovation and compatibility. If you are interested in this subject, feel free to get in touch.
+In my day job, I am a sociologist studying the social mechanisms underlying the
+digital economy. For my PhD project, I investigate the governance of the app
+economy and how software ecosystems manage the tension between innovation and
+compatibility. If you are interested in this subject, feel free to get in touch.
 
-__Profiles__  
-- [Discord](https://discordapp.com/users/462774483044794368/)
 - [Academic Website](https://chris-grieser.de/)
 - [GitHub](https://github.com/chrisgrieser/)
 - [Mastodon](https://pkm.social/@pseudometa)
 - [Twitter](https://twitter.com/pseudo_meta)
 - [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
 - [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
+
+<a href='https://ko-fi.com/Y8Y86SQ91' target='_blank'>
+<img
+	height='36'
+	style='border:0px;height:36px;'
+	src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
+	border='0'
+	alt='Buy Me a Coffee at ko-fi.com'
+/></a>
 
 [^1]: Due to GitHub API limitations, this searches only the latest 100 issues.
