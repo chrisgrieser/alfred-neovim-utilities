@@ -8,4 +8,4 @@ transfer-local-files:
 	rsync --archive --delete --exclude-from="$$PWD/.rsync-exclude" "$$local_workflow/" "$$PWD"
 
 release:
-	zsh ./build-and-release.sh
+	zsh ./.build-and-release.sh
