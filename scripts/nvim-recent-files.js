@@ -18,7 +18,10 @@ const fileExists = (/** @type {string} */ filePath) => Application("Finder").exi
 /** @type {AlfredRun} */
 // biome-ignore lint/correctness/noUnusedVariables: Alfred run
 function run() {
-	const oldfilesRaw = app.doShellScript("zsh ./scripts/get-oldfiles.sh").replaceAll("'", '"'); // single quotes illegal in JSON
+	const oldfilesRaw = app
+		.doShellScript("zsh ./scripts/get-oldfiles.sh")
+		.replace(/''|"/g, "") // term buffers with quotes (SIC shada escaped single quotes escaped by doubling them)
+		.replaceAll("'", '"'); // single quotes illegal in JSON
 	const oldfiles = JSON.parse(oldfilesRaw)
 		.filter((/** @type {string} */ file) => {
 			return file.startsWith("/") && !file.endsWith("COMMIT_EDITMSG") && fileExists(file);
