@@ -19,33 +19,51 @@ function readFile(path) {
 	return ObjC.unwrap(str);
 }
 
+/** @param {string} path */
+function cacheIsOutdated(path) {
+	// @ts-ignore // casting not possible in js
+	const cacheObj = Application("System Events").aliases[path];
+	const cacheAgeMonths = (+new Date() - cacheObj.creationDate()) / 1000 / 60 / 60 / 24 / 30;
+	return cacheAgeMonths > 12;
+}
+
 //──────────────────────────────────────────────────────────────────────────────
 /** @type {AlfredRun} */
 // biome-ignore lint/correctness/noUnusedVariables: Alfred run
 function run() {
-	const cacheFile = $.getenv("alfred_workflow_data") + "/url-list.txt";
+	const cacheFile =
+		$.getenv("alfred_preferences") +
+		"/workflows/" +
+		$.getenv("alfred_workflow_uid") +
+		"/data/neovim-help-index-urls.txt";
+
 	// GUARD
 	if (!fileExists(cacheFile)) {
 		return JSON.stringify({
 			items: [{ title: "Index missing. Create via ':nvim'", valid: false }],
 		});
 	}
+	if (cacheIsOutdated(cacheFile)) {
+		return JSON.stringify({
+			items: [{ title: "Index outdated. Update via ':nvim'", valid: false }],
+		});
+	}
 
 	const items = readFile(cacheFile)
 		.split("\n")
 		.map((url) => {
-			const site = url.split("/").pop().split(".").shift();
-			let name = url.split("#").pop().replaceAll("%3A", ":").replaceAll("'", "");
+			const site = (url.split("/").pop() || "ERROR").split(".").shift();
+			let name = (url.split("#").pop() || "ERROR").replaceAll("%3A", ":").replaceAll("'", "");
 			let synonyms = "";
 
 			const hasSynonyms = url.includes(",");
 			const isSection = url.includes("\t");
 			if (hasSynonyms) {
 				synonyms = " " + url.split(",").pop();
-				url = url.split(",").shift();
-				name = name.split(",").shift();
+				url = url.split(",").shift() || "ERROR";
+				name = name.split(",").shift() || "ERROR";
 			} else if (isSection) {
-				url = url.split("\t").shift();
+				url = url.split("\t").shift() || "ERROR";
 				name = name.replace("\t", " ");
 			}
 
@@ -67,7 +85,7 @@ function run() {
 	return JSON.stringify({
 		items: items,
 		cache: {
-			seconds: 3600 * 24 * 7 * 4, // can take long, cache refreshed with other cache
+			seconds: 3600 * 24 * 30, // can take long, cache refreshed with other cache
 			loosereload: true,
 		},
 	});
