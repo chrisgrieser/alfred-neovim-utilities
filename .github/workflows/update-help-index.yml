@@ -1,0 +1,29 @@
+name: Update :help Search Index
+
+on:
+  # once a month (14:14 at the 14th of the month)
+  schedule:
+    - cron: "14 14 14 * *"
+
+  # allow triggering manually
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+#───────────────────────────────────────────────────────────────────────────────
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update :help Search Index
+        run: |
+          zsh ./.github/help-index/create-index.sh > ./.github/help-index/neovim-help-index-urls.txt
+          git add ./.github/help-index/neovim-help-index-urls.txt
+          [[ -z "$(git status --short)" ]] && exit 0 # no update needed
+          git commit -m "chore: Updated :help index" --author="🤖 Automated GitHub Action<cron@job>"
+          git push
