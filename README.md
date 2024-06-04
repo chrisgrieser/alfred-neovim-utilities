@@ -8,37 +8,59 @@ Search [neovim plugins](https://neovimcraft.com/) and [online
 ![Demo 1](./assets/demo-help-search.png)
 ![Demo 2](./assets/demo-plugin-search.png)
 
-## Features
-- `:h`: Searches the neovim [online :help](https://neovim.io/doc/). Groups
-  synonyms together, for example, `:w` and `:write` both get one item.
+## Commands
+- `:h`: Searches the neovim [online :help](https://neovim.io/doc/). 
+	+ Groups synonyms together, for example, `:w` and `:write` both get one
+	  item.
 	+ <kbd>⏎</kbd>: Open the respective help.
 	+ <kbd>⌥⏎</kbd>: Copy the help URL to the clipboard.
-- `vp`: Searches [neovimcraft](https://neovimcraft.com/) for neovim plugins.
-  Mnemonic: `[v]im [p]lugins`.
+- `vp`: Searches [awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
+  for neovim plugins. Mnemonic: `[v]im [p]lugins`.
 	+ <kbd>⏎</kbd>: Open the GitHub repo.
-	+ <kbd>⌘⏎</kbd>: Open the `:help` in the browser (Vimdoc converted to HTML).
+	+ <kbd>⌘⏎</kbd>: Open the `:help` in the browser (vimdoc converted to HTML).
 	+ <kbd>⌥⏎</kbd>: Copy the GitHub URL to the clipboard.
 - `ip`: Search for plugins (and Mason tools) installed locally on your device.
-  Mnemonic: `[i]installed [p]lugins`. The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the
-  plugin-search also apply for this command. In addition:
-	+ <kbd>fn⏎</kbd>: Open the local directory of the plugin in Finder.
+  Mnemonic: `[i]installed [p]lugins`. 
+	+ The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this command.
+	+ In addition, <kbd>fn⏎</kbd>: Open the local directory of the plugin in Finder.
 - `mason`: Search for tools available via [mason.nvim](https://github.com/williamboman/mason.nvim).
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's
   default editor for the respective filetype. (To open them directly in neovim,
-  you need a neovim GUI with `Open With…` capability though.)
+  you need a neovim GUI with `Open With…` capability, such as
+  [Neovide](http://neovide.dev).)
 
 > [!NOTE]
-> All keywords are customizable in the settings.
+> All keywords are customizable in the workflow settings.
 
 ## Installation
-__Requirements:__ [Alfred 5](https://www.alfredapp.com/) (macOS only) with Powerpack.
+- __Requirements:__ [Alfred 5](https://www.alfredapp.com/) (macOS only) with
+  Powerpack.
+- Download the [latest release from the Alfred
+  Gallery](https://alfred.app/workflows/chrisgrieser/neovim-utilities/).
+- For the preview pane, install
+  [mr-pennyworth/alfred-extra-pane](https://github.com/mr-pennyworth/alfred-extra-pane).
 
-Download the [latest release from the Alfred Gallery](https://alfred.app/workflows/chrisgrieser/neovim-utilities/).
+## Preview pane Configuration
+The demo screenshot uses the following
+[configuration](https://github.com/mr-pennyworth/alfred-extra-pane?tab=readme-ov-file#configuration)
+for the preview pane:
+```json
+[
+	{
+		"workflowUID": "*",
+		"alignment": {
+			"horizontal": { "placement": "right", "width": 450, "minHeight": 750 }
+		}
+	}
+]
+```
 
 ## Credits
-- The plugin search would not be possible without [Awesome Neovim](https://github.com/rockerBOO/awesome-neovim).
+- Plugin database [awesome-neovim](https://github.com/rockerBOO/awesome-neovim).
 - Logo by [@thomascannon](https://github.com/neovim/neovim/issues/43#issuecomment-35811450).
 - Vimdoc to HTML conversion by [@xaizek](https://github.com/xaizek/vimdoc2html).
+- Preview pane by
+  [@mr-pennyworth](https://github.com/mr-pennyworth/alfred-extra-pane).
 
 <!-- vale Google.FirstPerson = NO -->
 ## About the developer
