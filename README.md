@@ -33,14 +33,14 @@ Search [neovim plugins](https://neovimcraft.com/) and [online
 > All keywords are customizable in the workflow settings.
 
 ## Installation
-- __Requirements:__ [Alfred 5](https://www.alfredapp.com/) (macOS only) with
+- __Requirements:__ [Alfred 5.5](https://www.alfredapp.com/) (macOS only) with
   Powerpack.
 - Download the [latest release from the Alfred
   Gallery](https://alfred.app/workflows/chrisgrieser/neovim-utilities/).
 - For the preview pane, install
-  [mr-pennyworth/alfred-extra-pane](https://github.com/mr-pennyworth/alfred-extra-pane).
+  [alfred-extra-pane](https://github.com/mr-pennyworth/alfred-extra-pane).
 
-## Preview pane Configuration
+## Preview pane configuration
 The demo screenshot uses the following
 [configuration](https://github.com/mr-pennyworth/alfred-extra-pane?tab=readme-ov-file#configuration)
 for the preview pane:
