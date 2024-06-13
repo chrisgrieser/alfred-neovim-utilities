@@ -3,19 +3,19 @@
 ![Last release version](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic)
 
 Search [neovim plugins](https://neovimcraft.com/) and [online
-:help](https://neovim.io/doc/) of neovim and plugins via [Alfred](https://www.alfredapp.com/).
+:help](https://neovim.io/doc/) of Neovim and plugins via [Alfred](https://www.alfredapp.com/).
 
 ![Showcase help search](https://github.com/chrisgrieser/alfred-neovim-utilities/assets/73286100/5c0fc2a3-bcd2-4f29-b67b-e0a2d813e4d6)
 ![Showcase plugin search](https://github.com/chrisgrieser/alfred-neovim-utilities/assets/73286100/c519b303-729b-4df2-aa28-76b107f29b5e)
 
 ## Commands
-- `:h`: Searches the neovim [online :help](https://neovim.io/doc/). 
+- `:h`: Searches the Neovim [online :help](https://neovim.io/doc/). 
 	+ Groups synonyms together, for example, `:w` and `:write` both get one
 	  item.
 	+ <kbd>⏎</kbd>: Open the respective help.
 	+ <kbd>⌥⏎</kbd>: Copy the help URL to the clipboard.
 - `vp`: Searches [awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
-  for neovim plugins. Mnemonic: `[v]im [p]lugins`.
+  for Neovim plugins. Mnemonic: `[v]im [p]lugins`.
 	+ <kbd>⏎</kbd>: Open the GitHub repo.
 	+ <kbd>⌘⏎</kbd>: Open the `:help` in the browser (vimdoc converted to HTML).
 	+ <kbd>⌥⏎</kbd>: Copy the GitHub URL to the clipboard.
@@ -25,8 +25,8 @@ Search [neovim plugins](https://neovimcraft.com/) and [online
 	+ In addition, <kbd>fn⏎</kbd>: Open the local directory of the plugin in Finder.
 - `mason`: Search for tools available via [mason.nvim](https://github.com/williamboman/mason.nvim).
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's
-  default editor for the respective filetype. (To open them directly in neovim,
-  you need a neovim GUI with `Open With…` capability, such as
+  default editor for the respective filetype. (To open them directly in Neovim,
+  you need a Neovim GUI with `Open With…` capability, such as
   [Neovide](http://neovide.dev).)
 
 > [!NOTE]
