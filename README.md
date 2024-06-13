@@ -5,8 +5,8 @@
 Search [neovim plugins](https://neovimcraft.com/) and [online
 :help](https://neovim.io/doc/) of neovim and plugins via [Alfred](https://www.alfredapp.com/).
 
-![Demo 1](./assets/demo-help-search.png)
-![Demo 2](./assets/demo-plugin-search.png)
+![Showcase help search](https://github.com/chrisgrieser/alfred-neovim-utilities/assets/73286100/5c0fc2a3-bcd2-4f29-b67b-e0a2d813e4d6)
+![Showcase plugin search](https://github.com/chrisgrieser/alfred-neovim-utilities/assets/73286100/c519b303-729b-4df2-aa28-76b107f29b5e)
 
 ## Commands
 - `:h`: Searches the neovim [online :help](https://neovim.io/doc/). 
