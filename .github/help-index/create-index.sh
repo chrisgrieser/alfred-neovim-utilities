@@ -57,6 +57,15 @@ sections=$(grep -Eo "\|[.0-9]*\|.*" usr_toc.txt |
 
 #───────────────────────────────────────────────────────────────────────────────
 
-echo "$vimoptions"
-echo "$anchors"
-echo "$sections"
+# VALIDATE that the index was actually created
+if [[ -z "$vimoptions" ]] || [[ -z "$anchors" ]] || [[ -z "$sections" ]]; then
+	echo "ERROR: Failed to update :help index"
+	exit 1
+fi
+
+cd .. || return 1
+echo "$vimoptions" > ./.github/help-index/neovim-help-index-urls.txt
+echo "$anchors" >> ./.github/help-index/neovim-help-index-urls.txt
+echo "$sections" >> ./.github/help-index/neovim-help-index-urls.txt
+
+rm -rf "./tmp"

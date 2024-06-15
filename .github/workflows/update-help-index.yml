@@ -1,9 +1,9 @@
 name: Update :help Search Index
 
 on:
-  # once a month (14:14 at the 14th of the month)
+  # twice per month (2:15 at the 2nd and 15th of the month)
   schedule:
-    - cron: "14 14 14 * *"
+    - cron: "15 2 2,15 * *"
 
   # allow triggering manually
   workflow_dispatch: {}
@@ -22,8 +22,7 @@ jobs:
 
       - name: Update :help Search Index
         run: |
-          zsh ./.github/help-index/create-index.sh > ./.github/help-index/neovim-help-index-urls.txt
-          git add ./.github/help-index/neovim-help-index-urls.txt
-          [[ -z "$(git status --short)" ]] && exit 0 # no update needed
-          git commit -m "chore: Updated :help index" --author="🤖 Automated GitHub Action<cron@job>"
-          git push
+          zsh ./.github/help-index/create-index.sh
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: Updated :help index"
