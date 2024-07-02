@@ -920,6 +920,7 @@ https://neovim.io/doc/user/various.html#v_gx,
 https://neovim.io/doc/user/various.html#%3Ap,,:pr :print E749
 https://neovim.io/doc/user/various.html#%3Al,,:list
 https://neovim.io/doc/user/various.html#%3Anu,,:number
+https://neovim.io/doc/user/various.html#vim-shebang,
 https://neovim.io/doc/user/various.html#%3Az,,E144
 https://neovim.io/doc/user/various.html#%3Anorm,,:normal
 https://neovim.io/doc/user/various.html#%3Anormal-range,
@@ -1032,6 +1033,7 @@ https://neovim.io/doc/user/usr_05.html#vimrc_example.vim,
 https://neovim.io/doc/user/usr_05.html#vimrc-filetype,
 https://neovim.io/doc/user/usr_05.html#restore-cursor,,last-position-jump
 https://neovim.io/doc/user/usr_05.html#add-package,
+https://neovim.io/doc/user/usr_05.html#nohlsearch-install,
 https://neovim.io/doc/user/usr_05.html#add-plugin,,plugin
 https://neovim.io/doc/user/usr_05.html#standard-plugin,
 https://neovim.io/doc/user/usr_05.html#add-global-plugin,
@@ -1359,6 +1361,7 @@ https://neovim.io/doc/user/pattern.html#gd,
 https://neovim.io/doc/user/pattern.html#gD,
 https://neovim.io/doc/user/pattern.html#CTRL-C,
 https://neovim.io/doc/user/pattern.html#%3Anoh,,:nohlsearch
+https://neovim.io/doc/user/pattern.html#nohlsearch-auto,
 https://neovim.io/doc/user/pattern.html#E486,
 https://neovim.io/doc/user/pattern.html#search-offset,,{offset}
 https://neovim.io/doc/user/pattern.html#E386,
@@ -5161,6 +5164,7 @@ https://neovim.io/doc/user/autocmd.html#CompleteDone,
 https://neovim.io/doc/user/autocmd.html#CursorHold,
 https://neovim.io/doc/user/autocmd.html#CursorHoldI,
 https://neovim.io/doc/user/autocmd.html#CursorMoved,
+https://neovim.io/doc/user/autocmd.html#CursorMovedC,
 https://neovim.io/doc/user/autocmd.html#CursorMovedI,
 https://neovim.io/doc/user/autocmd.html#DiffUpdated,
 https://neovim.io/doc/user/autocmd.html#DirChanged,
@@ -5814,6 +5818,7 @@ https://neovim.io/doc/user/quickfix.html#%3Acomp,,:compiler E666
 https://neovim.io/doc/user/quickfix.html#current_compiler,
 https://neovim.io/doc/user/quickfix.html#compiler-dotnet,
 https://neovim.io/doc/user/quickfix.html#quickfix-gcc	compiler-gcc,
+https://neovim.io/doc/user/quickfix.html#compiler-javac,
 https://neovim.io/doc/user/quickfix.html#quickfix-pandoc,,compiler-pandoc
 https://neovim.io/doc/user/quickfix.html#quickfix-perl,,compiler-perl
 https://neovim.io/doc/user/quickfix.html#compiler-pyunit,
