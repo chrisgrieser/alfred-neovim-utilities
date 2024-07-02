@@ -1,5 +1,4 @@
 #!/usr/bin/env zsh
-# shellcheck disable=2154
 
 baseHelpURL="https://neovim.io/doc/user/"
 baseRawURL="https://raw.githubusercontent.com/neovim/neovim/master/runtime/doc/"
@@ -59,11 +58,11 @@ sections=$(grep -Eo "\|[.0-9]*\|.*" usr_toc.txt |
 
 # VALIDATE that the index was actually created
 if [[ -z "$vimoptions" ]] || [[ -z "$anchors" ]] || [[ -z "$sections" ]]; then
-	echo "ERROR: Failed to update :help index"
+	echo "Attempt failed."
 	exit 1
 fi
 
-cd .. || return 1
+cd .. || exit 1
 echo "$vimoptions" > ./.github/help-index/neovim-help-index-urls.txt
 echo "$anchors" >> ./.github/help-index/neovim-help-index-urls.txt
 echo "$sections" >> ./.github/help-index/neovim-help-index-urls.txt
