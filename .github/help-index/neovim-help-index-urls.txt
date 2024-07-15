@@ -290,6 +290,7 @@ https://neovim.io/doc/user/options.html#'swapfile',,swf noswapfile noswf
 https://neovim.io/doc/user/options.html#'switchbuf',,swb
 https://neovim.io/doc/user/options.html#'synmaxcol',,smc
 https://neovim.io/doc/user/options.html#'syntax',,syn
+https://neovim.io/doc/user/options.html#'tabclose',,tcl
 https://neovim.io/doc/user/options.html#'tabline',,tal
 https://neovim.io/doc/user/options.html#'tabpagemax',,tpm
 https://neovim.io/doc/user/options.html#'tabstop',,ts
@@ -1638,7 +1639,7 @@ https://neovim.io/doc/user/lua.html#lua-stdlib,
 https://neovim.io/doc/user/lua.html#lua-loop,,vim.uv
 https://neovim.io/doc/user/lua.html#E5560,,lua-loop-callbacks
 https://neovim.io/doc/user/lua.html#watch-file,
-https://neovim.io/doc/user/lua.html#fswatch-limitations,
+https://neovim.io/doc/user/lua.html#inotify-limitations,
 https://neovim.io/doc/user/lua.html#tcp-server,
 https://neovim.io/doc/user/lua.html#lua-loop-threading,
 https://neovim.io/doc/user/lua.html#vim.highlight,
@@ -1946,6 +1947,7 @@ https://neovim.io/doc/user/syntax.html#coldfusion.vim,,ft-coldfusion-syntax
 https://neovim.io/doc/user/syntax.html#cpp.vim,,ft-cpp-syntax
 https://neovim.io/doc/user/syntax.html#csh.vim,,ft-csh-syntax
 https://neovim.io/doc/user/syntax.html#g%3Afiletype_csh,
+https://neovim.io/doc/user/syntax.html#ft-csv-syntax,
 https://neovim.io/doc/user/syntax.html#cynlib.vim,,ft-cynlib-syntax
 https://neovim.io/doc/user/syntax.html#cweb.vim,,ft-cweb-syntax
 https://neovim.io/doc/user/syntax.html#dart.vim,,ft-dart-syntax
@@ -2003,6 +2005,7 @@ https://neovim.io/doc/user/syntax.html#ncf.vim,,ft-ncf-syntax
 https://neovim.io/doc/user/syntax.html#nroff.vim,,ft-nroff-syntax
 https://neovim.io/doc/user/syntax.html#ocaml.vim,,ft-ocaml-syntax
 https://neovim.io/doc/user/syntax.html#ft-pandoc-syntax,
+https://neovim.io/doc/user/syntax.html#g%3Afiletype_md,
 https://neovim.io/doc/user/syntax.html#papp.vim,,ft-papp-syntax
 https://neovim.io/doc/user/syntax.html#pascal.vim,,ft-pascal-syntax
 https://neovim.io/doc/user/syntax.html#perl.vim,,ft-perl-syntax
@@ -3056,7 +3059,10 @@ https://neovim.io/doc/user/builtin.html#fullcommand(),
 https://neovim.io/doc/user/builtin.html#funcref(),
 https://neovim.io/doc/user/builtin.html#function(),,partial E700 E923
 https://neovim.io/doc/user/builtin.html#garbagecollect(),
-https://neovim.io/doc/user/builtin.html#get(),
+https://neovim.io/doc/user/builtin.html#get(),,get()-list
+https://neovim.io/doc/user/builtin.html#get()-blob,
+https://neovim.io/doc/user/builtin.html#get()-dict,
+https://neovim.io/doc/user/builtin.html#get()-func,
 https://neovim.io/doc/user/builtin.html#getbufinfo(),
 https://neovim.io/doc/user/builtin.html#getbufline(),
 https://neovim.io/doc/user/builtin.html#getbufoneline(),
@@ -5287,6 +5293,7 @@ https://neovim.io/doc/user/scroll.html#scroll-up,
 https://neovim.io/doc/user/scroll.html#CTRL-Y,
 https://neovim.io/doc/user/scroll.html#CTRL-U,
 https://neovim.io/doc/user/scroll.html#CTRL-B,
+https://neovim.io/doc/user/scroll.html#SHIFT-MINUS,
 https://neovim.io/doc/user/scroll.html#scroll-cursor,
 https://neovim.io/doc/user/scroll.html#zt,
 https://neovim.io/doc/user/scroll.html#z.,
