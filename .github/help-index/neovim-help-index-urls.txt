@@ -1528,6 +1528,7 @@ https://neovim.io/doc/user/editing.html#%3Aar,,:arg :args
 https://neovim.io/doc/user/editing.html#%3Aargs_f,
 https://neovim.io/doc/user/editing.html#%3Aarge,,:argedit
 https://neovim.io/doc/user/editing.html#%3Aarga,,:argadd E479
+https://neovim.io/doc/user/editing.html#E1156,
 https://neovim.io/doc/user/editing.html#%3Aargded,,:argdedupe
 https://neovim.io/doc/user/editing.html#%3Aargd,,:argdelete E480 E610
 https://neovim.io/doc/user/editing.html#%3Aargu,,:argument
@@ -1912,6 +1913,7 @@ https://neovim.io/doc/user/syntax.html#ft-masm-syntax,,ft-asm68k-syntax fasm.vim
 https://neovim.io/doc/user/syntax.html#astro.vim,,ft-astro-syntax
 https://neovim.io/doc/user/syntax.html#ft-aspperl-syntax,
 https://neovim.io/doc/user/syntax.html#ft-aspvbs-syntax,
+https://neovim.io/doc/user/syntax.html#asy.vim,,ft-asy-syntax
 https://neovim.io/doc/user/syntax.html#baan.vim,,baan-syntax
 https://neovim.io/doc/user/syntax.html#baan-folding,
 https://neovim.io/doc/user/syntax.html#basic.vim,,vb.vim ft-basic-syntax ft-vb-syntax
@@ -1999,6 +2001,7 @@ https://neovim.io/doc/user/syntax.html#make.vim,,ft-make-syntax
 https://neovim.io/doc/user/syntax.html#maple.vim,,ft-maple-syntax
 https://neovim.io/doc/user/syntax.html#ft-markdown-syntax,
 https://neovim.io/doc/user/syntax.html#mma.vim,,ft-mma-syntax ft-mathematica-syntax
+https://neovim.io/doc/user/syntax.html#ft-mediawiki-syntax,
 https://neovim.io/doc/user/syntax.html#moo.vim,,ft-moo-syntax
 https://neovim.io/doc/user/syntax.html#msql.vim,,ft-msql-syntax
 https://neovim.io/doc/user/syntax.html#ncf.vim,,ft-ncf-syntax
@@ -2071,6 +2074,8 @@ https://neovim.io/doc/user/syntax.html#tf.vim,,ft-tf-syntax
 https://neovim.io/doc/user/syntax.html#typescript.vim,,ft-typescript-syntax
 https://neovim.io/doc/user/syntax.html#typescriptreact.vim,,ft-typescriptreact-syntax
 https://neovim.io/doc/user/syntax.html#g%3Atypescript_host_keyword,
+https://neovim.io/doc/user/syntax.html#ft-typst-syntax,
+https://neovim.io/doc/user/syntax.html#g%3Atypst_embedded_languages,
 https://neovim.io/doc/user/syntax.html#vim.vim		ft-vim-syntax,
 https://neovim.io/doc/user/syntax.html#g%3Avimsyn_minlines	g:vimsyn_maxlines,
 https://neovim.io/doc/user/syntax.html#g%3Avimsyn_embed,
@@ -2954,6 +2959,8 @@ https://neovim.io/doc/user/builtin.html#assert_equal(),
 https://neovim.io/doc/user/builtin.html#assert_equalfile(),
 https://neovim.io/doc/user/builtin.html#assert_exception(),
 https://neovim.io/doc/user/builtin.html#assert_fails(),
+https://neovim.io/doc/user/builtin.html#E1115,
+https://neovim.io/doc/user/builtin.html#E1116,
 https://neovim.io/doc/user/builtin.html#assert_false(),
 https://neovim.io/doc/user/builtin.html#assert_inrange(),
 https://neovim.io/doc/user/builtin.html#assert_match(),
@@ -3375,6 +3382,7 @@ https://neovim.io/doc/user/builtin.html#tanh(),
 https://neovim.io/doc/user/builtin.html#tempname(),
 https://neovim.io/doc/user/builtin.html#termopen(),
 https://neovim.io/doc/user/builtin.html#test_garbagecollect_now(),
+https://neovim.io/doc/user/builtin.html#E1142,
 https://neovim.io/doc/user/builtin.html#timer_info(),
 https://neovim.io/doc/user/builtin.html#timer_pause(),
 https://neovim.io/doc/user/builtin.html#timer_start(),,timer
@@ -4058,6 +4066,7 @@ https://neovim.io/doc/user/eval.html#E972,
 https://neovim.io/doc/user/eval.html#blob-identity,,E977
 https://neovim.io/doc/user/eval.html#more-variables,
 https://neovim.io/doc/user/eval.html#expression-syntax,
+https://neovim.io/doc/user/eval.html#E1169,
 https://neovim.io/doc/user/eval.html#ternary,,falsy-operator ?? E109
 https://neovim.io/doc/user/eval.html#expr-barbar,
 https://neovim.io/doc/user/eval.html#expr-is,,expr-isnot expr-is# expr-isnot#
@@ -4137,7 +4146,7 @@ https://neovim.io/doc/user/eval.html#%3Acons,,:const
 https://neovim.io/doc/user/eval.html#E995,
 https://neovim.io/doc/user/eval.html#E996,
 https://neovim.io/doc/user/eval.html#%3Alockvar,,:lockv
-https://neovim.io/doc/user/eval.html#E741,,E940
+https://neovim.io/doc/user/eval.html#E741,,E940 E1122
 https://neovim.io/doc/user/eval.html#E743,
 https://neovim.io/doc/user/eval.html#%3Aunlockvar,,:unlo
 https://neovim.io/doc/user/eval.html#%3Aif,,:end :endif :en E171 E579 E580
@@ -4822,6 +4831,7 @@ https://neovim.io/doc/user/dev_vimpatch.html#dev-vimpatch-version.c,
 https://neovim.io/doc/user/dev_vimpatch.html#dev-vimpatch-code-differences,
 https://neovim.io/doc/user/dev_vimpatch.html#dev-vimpatch-list-management,
 https://neovim.io/doc/user/dev_vimpatch.html#dev-vimpatch-documentation,
+https://neovim.io/doc/user/dev_vimpatch.html#dev-vimpatch-filetype,
 https://neovim.io/doc/user/usr_43.html#filetype-plugin,
 https://neovim.io/doc/user/usr_43.html#your-runtime-dir,
 https://neovim.io/doc/user/ft_ada.html#ft_ada.txt,
@@ -5015,6 +5025,7 @@ https://neovim.io/doc/user/treesitter.html#LanguageTree%3Ais_valid(),
 https://neovim.io/doc/user/treesitter.html#LanguageTree%3Alang(),
 https://neovim.io/doc/user/treesitter.html#LanguageTree%3Alanguage_for_range(),
 https://neovim.io/doc/user/treesitter.html#LanguageTree%3Anamed_node_for_range(),
+https://neovim.io/doc/user/treesitter.html#LanguageTree%3Anode_for_range(),
 https://neovim.io/doc/user/treesitter.html#LanguageTree%3Aparse(),
 https://neovim.io/doc/user/treesitter.html#LanguageTree%3Aregister_cbs(),
 https://neovim.io/doc/user/treesitter.html#LanguageTree%3Asource(),
@@ -5352,7 +5363,9 @@ https://neovim.io/doc/user/filetype.html#ft-changelog-plugin,
 https://neovim.io/doc/user/filetype.html#b%3Achangelog_name,
 https://neovim.io/doc/user/filetype.html#ft-fortran-plugin,
 https://neovim.io/doc/user/filetype.html#ft-freebasic-plugin,
+https://neovim.io/doc/user/filetype.html#ft-gdscript-plugin,
 https://neovim.io/doc/user/filetype.html#ft-gitcommit-plugin,
+https://neovim.io/doc/user/filetype.html#ft-go-plugin,
 https://neovim.io/doc/user/filetype.html#ft-gprof-plugin,
 https://neovim.io/doc/user/filetype.html#ft-hare,
 https://neovim.io/doc/user/filetype.html#ft-java-plugin,
@@ -5376,6 +5389,8 @@ https://neovim.io/doc/user/filetype.html#ft-shada,
 https://neovim.io/doc/user/filetype.html#ft-rust,
 https://neovim.io/doc/user/filetype.html#ft-sql,
 https://neovim.io/doc/user/filetype.html#ft-tex-plugin,,g:tex_flavor
+https://neovim.io/doc/user/filetype.html#ft-typst-plugin,
+https://neovim.io/doc/user/filetype.html#g%3Atypst_conceal,
 https://neovim.io/doc/user/filetype.html#ft-vim-plugin,
 https://neovim.io/doc/user/filetype.html#ft-zig-plugin,
 https://neovim.io/doc/user/filetype.html#g%3Azig_recommended_style,
@@ -5830,6 +5845,8 @@ https://neovim.io/doc/user/quickfix.html#quickfix-pandoc,,compiler-pandoc
 https://neovim.io/doc/user/quickfix.html#quickfix-perl,,compiler-perl
 https://neovim.io/doc/user/quickfix.html#compiler-pyunit,
 https://neovim.io/doc/user/quickfix.html#compiler-tex,
+https://neovim.io/doc/user/quickfix.html#compiler-typst,
+https://neovim.io/doc/user/quickfix.html#g%3Atypst_cmd,
 https://neovim.io/doc/user/quickfix.html#error-file-format,
 https://neovim.io/doc/user/quickfix.html#errorformat,,E372 E373 E374
 https://neovim.io/doc/user/quickfix.html#E375,,E376 E377 E378
@@ -6493,6 +6510,7 @@ https://neovim.io/doc/user/options.html#%3Asetl,,:setlocal
 https://neovim.io/doc/user/options.html#%3Asetg,,:setglobal
 https://neovim.io/doc/user/options.html#global-local,
 https://neovim.io/doc/user/options.html#option-value-function,
+https://neovim.io/doc/user/options.html#expr-option-function,
 https://neovim.io/doc/user/options.html#%3Asetf,,:setfiletype
 https://neovim.io/doc/user/options.html#option-window,,optwin
 https://neovim.io/doc/user/options.html#%3Aset-browse,,:browse-set :opt :options
