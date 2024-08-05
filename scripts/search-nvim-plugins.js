@@ -19,7 +19,8 @@ function httpRequest(url) {
 	return requestStr;
 }
 
-const mdLinkRegex = /\[(.+?)\]\((.+?)\) - (.*)/;
+// *   [smjonas/inc-rename.nvim (⭐601)](https://github.com/smjonas/inc-rename.nvim) - Provides an incremental LSP rename command based on Neovim's command-preview feature.
+const mdLinkRegex = /\[(.+?) \(⭐(.+?)\)\]\((.+?)\) - (.*)/;
 
 const fileExists = (/** @type {string} */ filePath) => Application("Finder").exists(Path(filePath));
 
@@ -46,38 +47,33 @@ function run() {
 			});
 	}
 
-	// awesome-neovim list
+	// Using `trackawesomelist` over the raw markdown, as it includes star count
 	const awesomeNeovimList =
-		"https://raw.githubusercontent.com/rockerBOO/awesome-neovim/main/README.md";
+		"https://raw.githubusercontent.com/trackawesomelist/trackawesomelist/main/content/rockerBOO/awesome-neovim/readme/README.md";
 
-	/** @type {AlfredItem|{}[]} */
 	const pluginsArr = httpRequest(awesomeNeovimList)
 		.split("\n")
 		.map((/** @type {string} */ line) => {
-			if (!line.startsWith("- [") || !line.includes("/")) return {};
+			if (!line.startsWith("*   [") || !line.includes("/")) return {};
 
-			const [_, repo, url, desc] = line.match(mdLinkRegex) || [];
+			const [_, repo, stars, url, desc] = line.match(mdLinkRegex) || [];
 			if (!repo || !url) return {};
 			const [author, name] = repo.split("/") || [];
 			const installedIcon = installedPlugins.includes(repo) ? " ✅" : "";
+			const subtitle = ["⭐ " + stars, author, desc].join("  ·  ");
 
-			/** @type {AlfredItem} */
-			const alfredItem = {
+			return {
 				title: name + installedIcon,
 				match: alfredMatcher(repo),
-				subtitle: author + "  ·  " + desc,
+				subtitle: subtitle,
 				arg: url,
 				quicklookurl: url,
 				uid: repo,
 			};
-			return alfredItem;
 		});
 
 	return JSON.stringify({
 		items: pluginsArr,
-		cache: {
-			seconds: 300, // faster, to update install icons
-			loosereload: true,
-		},
+		cache: { seconds: 300, loosereload: true }, // faster, to update install icons
 	});
 }
