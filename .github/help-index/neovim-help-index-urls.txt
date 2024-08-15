@@ -1987,7 +1987,8 @@ https://neovim.io/doc/user/syntax.html#intel-itanium,,ft-ia64-syntax
 https://neovim.io/doc/user/syntax.html#inform.vim,,ft-inform-syntax
 https://neovim.io/doc/user/syntax.html#idl.vim,,idl-syntax
 https://neovim.io/doc/user/syntax.html#java.vim,,ft-java-syntax
-https://neovim.io/doc/user/syntax.html#json.vim,,ft-json-syntax
+https://neovim.io/doc/user/syntax.html#json.vim,,ft-json-syntax g:vim_json_conceal
+https://neovim.io/doc/user/syntax.html#g%3Avim_json_warnings,
 https://neovim.io/doc/user/syntax.html#jq.vim,,jq_quote_highlight ft-jq-syntax
 https://neovim.io/doc/user/syntax.html#lace.vim,,ft-lace-syntax
 https://neovim.io/doc/user/syntax.html#lex.vim,,ft-lex-syntax
@@ -1999,7 +2000,8 @@ https://neovim.io/doc/user/syntax.html#lua.vim,,ft-lua-syntax
 https://neovim.io/doc/user/syntax.html#mail.vim,,ft-mail.vim
 https://neovim.io/doc/user/syntax.html#make.vim,,ft-make-syntax
 https://neovim.io/doc/user/syntax.html#maple.vim,,ft-maple-syntax
-https://neovim.io/doc/user/syntax.html#ft-markdown-syntax,
+https://neovim.io/doc/user/syntax.html#ft-markdown-syntax,,g:markdown_minlines
+https://neovim.io/doc/user/syntax.html#g%3Amarkdown_fenced_languages,,g:markdown_syntax_conceal
 https://neovim.io/doc/user/syntax.html#mma.vim,,ft-mma-syntax ft-mathematica-syntax
 https://neovim.io/doc/user/syntax.html#ft-mediawiki-syntax,
 https://neovim.io/doc/user/syntax.html#moo.vim,,ft-moo-syntax
@@ -3034,6 +3036,7 @@ https://neovim.io/doc/user/builtin.html#eval(),
 https://neovim.io/doc/user/builtin.html#eventhandler(),
 https://neovim.io/doc/user/builtin.html#executable(),
 https://neovim.io/doc/user/builtin.html#PATHEXT,
+https://neovim.io/doc/user/builtin.html#NoDefaultCurrentDirectoryInExePath,
 https://neovim.io/doc/user/builtin.html#execute(),
 https://neovim.io/doc/user/builtin.html#exepath(),
 https://neovim.io/doc/user/builtin.html#exists(),
@@ -3044,6 +3047,7 @@ https://neovim.io/doc/user/builtin.html#extend(),
 https://neovim.io/doc/user/builtin.html#E737,
 https://neovim.io/doc/user/builtin.html#extendnew(),
 https://neovim.io/doc/user/builtin.html#feedkeys(),
+https://neovim.io/doc/user/builtin.html#filecopy(),
 https://neovim.io/doc/user/builtin.html#filereadable(),
 https://neovim.io/doc/user/builtin.html#filewritable(),
 https://neovim.io/doc/user/builtin.html#filter(),
@@ -3155,6 +3159,7 @@ https://neovim.io/doc/user/builtin.html#inputsecret(),
 https://neovim.io/doc/user/builtin.html#insert(),
 https://neovim.io/doc/user/builtin.html#interrupt(),
 https://neovim.io/doc/user/builtin.html#invert(),
+https://neovim.io/doc/user/builtin.html#isabsolutepath(),
 https://neovim.io/doc/user/builtin.html#isdirectory(),
 https://neovim.io/doc/user/builtin.html#isinf(),
 https://neovim.io/doc/user/builtin.html#islocked(),,E786
