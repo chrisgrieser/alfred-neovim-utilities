@@ -449,7 +449,7 @@ https://neovim.io/doc/user/cmdline.html#E199,
 https://neovim.io/doc/user/cmdline.html#cmdline-char,,cmdwin-char
 https://neovim.io/doc/user/gui.html#gui.txt,
 https://neovim.io/doc/user/gui.html#gui,,GUI
-https://neovim.io/doc/user/gui.html#gui-start,,E229 E233
+https://neovim.io/doc/user/gui.html#gui-config,,gui-start
 https://neovim.io/doc/user/gui.html#ginit.vim,,gui-init gvimrc $MYGVIMRC
 https://neovim.io/doc/user/gui.html#%3Awinp,,:winpos E188
 https://neovim.io/doc/user/gui.html#E466,
@@ -809,27 +809,59 @@ https://neovim.io/doc/user/pi_spec.html#spec-customizing,
 https://neovim.io/doc/user/pi_spec.html#spec_chglog_format,
 https://neovim.io/doc/user/pi_spec.html#spec_chglog_prepend,
 https://neovim.io/doc/user/pi_spec.html#spec_chglog_release_info,
-https://neovim.io/doc/user/term.html#term.txt,
-https://neovim.io/doc/user/term.html#TUI,,tui
-https://neovim.io/doc/user/term.html#startup-terminal,
-https://neovim.io/doc/user/term.html#terminfo,,E557 E558 E559
-https://neovim.io/doc/user/term.html#builtin-terms,,builtin_terms
-https://neovim.io/doc/user/term.html#term-dependent-settings,
-https://neovim.io/doc/user/term.html#scroll-region,,xterm-scroll-region
-https://neovim.io/doc/user/term.html#tui-input,
-https://neovim.io/doc/user/term.html#tui-modifyOtherKeys,,tui-csiu
-https://neovim.io/doc/user/term.html#tui-colors,
-https://neovim.io/doc/user/term.html#true-color,,xterm-true-color
-https://neovim.io/doc/user/term.html#xterm-resize,
-https://neovim.io/doc/user/term.html#tui-cursor-shape,
-https://neovim.io/doc/user/term.html#tui-cursor-tmux,
-https://neovim.io/doc/user/term.html#window-size,
-https://neovim.io/doc/user/term.html#slow-fast-terminal,
-https://neovim.io/doc/user/term.html#slow-terminal,
-https://neovim.io/doc/user/term.html#mouse-using,
-https://neovim.io/doc/user/term.html#mouse-mode-table,,mouse-overview
-https://neovim.io/doc/user/term.html#double-click,
-https://neovim.io/doc/user/term.html#mouse-swap-buttons,
+https://neovim.io/doc/user/terminal.html#terminal.txt,
+https://neovim.io/doc/user/terminal.html#terminal,,terminal-emulator
+https://neovim.io/doc/user/terminal.html#terminal-start,
+https://neovim.io/doc/user/terminal.html#terminal-input,
+https://neovim.io/doc/user/terminal.html#terminal-config,
+https://neovim.io/doc/user/terminal.html#terminal-events,
+https://neovim.io/doc/user/terminal.html#terminal-status,
+https://neovim.io/doc/user/terminal.html#b%3Aterm_title,
+https://neovim.io/doc/user/terminal.html#terminal-debug,
+https://neovim.io/doc/user/terminal.html#termdebug-starting,
+https://neovim.io/doc/user/terminal.html#%3ATermdebug,
+https://neovim.io/doc/user/terminal.html#%3ATermdebugCommand,
+https://neovim.io/doc/user/terminal.html#termdebug-example,
+https://neovim.io/doc/user/terminal.html#termdebug-stepping,
+https://neovim.io/doc/user/terminal.html#%3ARun,,:Arguments
+https://neovim.io/doc/user/terminal.html#%3ABreak,
+https://neovim.io/doc/user/terminal.html#%3ATbreak,
+https://neovim.io/doc/user/terminal.html#%3AClear,
+https://neovim.io/doc/user/terminal.html#%3AStep,
+https://neovim.io/doc/user/terminal.html#%3AOver,
+https://neovim.io/doc/user/terminal.html#%3AUntil,
+https://neovim.io/doc/user/terminal.html#%3AFinish,
+https://neovim.io/doc/user/terminal.html#%3AContinue,
+https://neovim.io/doc/user/terminal.html#%3AStop,
+https://neovim.io/doc/user/terminal.html#termdebug-variables,,:Evaluate
+https://neovim.io/doc/user/terminal.html#termdebug-frames,,:Frame :Up :Down
+https://neovim.io/doc/user/terminal.html#termdebug-commands,
+https://neovim.io/doc/user/terminal.html#%3AGdb,
+https://neovim.io/doc/user/terminal.html#%3AProgram,
+https://neovim.io/doc/user/terminal.html#%3ASource,
+https://neovim.io/doc/user/terminal.html#%3AAsm,
+https://neovim.io/doc/user/terminal.html#%3AVar,
+https://neovim.io/doc/user/terminal.html#termdebug-events,
+https://neovim.io/doc/user/terminal.html#TermdebugStartPre,
+https://neovim.io/doc/user/terminal.html#TermdebugStartPost,
+https://neovim.io/doc/user/terminal.html#TermdebugStopPre,
+https://neovim.io/doc/user/terminal.html#TermdebugStopPost,
+https://neovim.io/doc/user/terminal.html#termdebug-customizing,,g:termdebug_config
+https://neovim.io/doc/user/terminal.html#termdebug-prompt,
+https://neovim.io/doc/user/terminal.html#termdebug_use_prompt,
+https://neovim.io/doc/user/terminal.html#termdebug_map_K,,termdebug-mappings
+https://neovim.io/doc/user/terminal.html#termdebug_map_minus,
+https://neovim.io/doc/user/terminal.html#termdebug_map_plus,
+https://neovim.io/doc/user/terminal.html#termdebug_disasm_window,
+https://neovim.io/doc/user/terminal.html#termdebug_variables_window,
+https://neovim.io/doc/user/terminal.html#termdebug-communication,
+https://neovim.io/doc/user/terminal.html#g%3Atermdebugger,
+https://neovim.io/doc/user/terminal.html#gdb-version,
+https://neovim.io/doc/user/terminal.html#hl-debugPC,,hl-debugBreakpoint
+https://neovim.io/doc/user/terminal.html#termdebug_shortcuts,
+https://neovim.io/doc/user/terminal.html#termdebug_popup,
+https://neovim.io/doc/user/terminal.html#termdebug_signs,
+https://neovim.io/doc/user/terminal.html#termdebug_wide,
 https://neovim.io/doc/user/usr_01.html#setup-vimrc_example,
 https://neovim.io/doc/user/usr_01.html#tutor,,vimtutor
 https://neovim.io/doc/user/usr_01.html#manual-copyright,
@@ -905,7 +937,7 @@ https://neovim.io/doc/user/userfunc.html#E1300,
 https://neovim.io/doc/user/userfunc.html#autoload-functions,
 https://neovim.io/doc/user/userfunc.html#autoload,,E746
 https://neovim.io/doc/user/usr_toc.html#usr_toc.txt,
-https://neovim.io/doc/user/usr_toc.html#user-manual,
+https://neovim.io/doc/user/usr_toc.html#user-manual,,usr
 https://neovim.io/doc/user/various.html#various.txt,
 https://neovim.io/doc/user/various.html#various,
 https://neovim.io/doc/user/various.html#various-cmds,
@@ -1418,59 +1450,6 @@ https://neovim.io/doc/user/remote_plugin.html#remote-plugin-hosts,
 https://neovim.io/doc/user/remote_plugin.html#remote-plugin-example,
 https://neovim.io/doc/user/remote_plugin.html#remote-plugin-manifest,
 https://neovim.io/doc/user/remote_plugin.html#%3AUpdateRemotePlugins,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#terminal_emulator.txt,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#terminal,,terminal-emulator
-https://neovim.io/doc/user/nvim_terminal_emulator.html#terminal-start,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#terminal-input,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#terminal-config,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#terminal-events,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#terminal-status,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#b%3Aterm_title,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#terminal-debug,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug-starting,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3ATermdebug,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3ATermdebugCommand,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug-example,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug-stepping,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3ARun,,:Arguments
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3ABreak,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3ATbreak,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AClear,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AStep,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AOver,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AUntil,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AFinish,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AContinue,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AStop,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug-variables,,:Evaluate
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug-frames,,:Frame :Up :Down
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug-commands,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AGdb,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AProgram,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3ASource,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AAsm,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#%3AVar,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug-events,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#TermdebugStartPre,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#TermdebugStartPost,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#TermdebugStopPre,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#TermdebugStopPost,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug-customizing,,g:termdebug_config
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug-prompt,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug_use_prompt,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug_map_K,,termdebug-mappings
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug_map_minus,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug_map_plus,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug_disasm_window,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug_variables_window,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug-communication,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#g%3Atermdebugger,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#gdb-version,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#hl-debugPC,,hl-debugBreakpoint
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug_shortcuts,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug_popup,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug_signs,
-https://neovim.io/doc/user/nvim_terminal_emulator.html#termdebug_wide,
 https://neovim.io/doc/user/debug.html#debug.txt,
 https://neovim.io/doc/user/debug.html#debug-vim,
 https://neovim.io/doc/user/debug.html#debug-gcc,,gdb
@@ -1533,13 +1512,13 @@ https://neovim.io/doc/user/editing.html#E1156,
 https://neovim.io/doc/user/editing.html#%3Aargded,,:argdedupe
 https://neovim.io/doc/user/editing.html#%3Aargd,,:argdelete E480 E610
 https://neovim.io/doc/user/editing.html#%3Aargu,,:argument
-https://neovim.io/doc/user/editing.html#%3An,,:ne :next E165 E163
+https://neovim.io/doc/user/editing.html#%3An,,:ne :next ]a E165 E163
 https://neovim.io/doc/user/editing.html#%3Anext_f,
 https://neovim.io/doc/user/editing.html#%3ANext,,:N E164
-https://neovim.io/doc/user/editing.html#%3Aprev,,:previous
-https://neovim.io/doc/user/editing.html#%3Arew,,:rewind
+https://neovim.io/doc/user/editing.html#%3Aprev,,:previous [a
+https://neovim.io/doc/user/editing.html#%3Arew,,:rewind [A
 https://neovim.io/doc/user/editing.html#%3Afir,,:first
-https://neovim.io/doc/user/editing.html#%3Ala,,:last
+https://neovim.io/doc/user/editing.html#%3Ala,,:last ]A
 https://neovim.io/doc/user/editing.html#%3Awn,,:wnext
 https://neovim.io/doc/user/editing.html#%3AwN,,:wNext
 https://neovim.io/doc/user/editing.html#%3Awp,,:wprevious
@@ -1618,6 +1597,8 @@ https://neovim.io/doc/user/lua.html#lua-luajit,
 https://neovim.io/doc/user/lua.html#lua-bit,
 https://neovim.io/doc/user/lua.html#lua-profile,
 https://neovim.io/doc/user/lua.html#lua-concepts,
+https://neovim.io/doc/user/lua.html#lua-error-handling,
+https://neovim.io/doc/user/lua.html#lua-result-or-message,
 https://neovim.io/doc/user/lua.html#iterator,
 https://neovim.io/doc/user/lua.html#iterable,
 https://neovim.io/doc/user/lua.html#list-iterator,
@@ -1788,6 +1769,7 @@ https://neovim.io/doc/user/lua.html#vim.fs.find(),
 https://neovim.io/doc/user/lua.html#vim.fs.joinpath(),
 https://neovim.io/doc/user/lua.html#vim.fs.normalize(),
 https://neovim.io/doc/user/lua.html#vim.fs.parents(),
+https://neovim.io/doc/user/lua.html#vim.fs.rm(),
 https://neovim.io/doc/user/lua.html#vim.fs.root(),
 https://neovim.io/doc/user/lua.html#vim.glob,
 https://neovim.io/doc/user/lua.html#vim.glob.to_lpeg(),
@@ -3089,6 +3071,7 @@ https://neovim.io/doc/user/builtin.html#getcharstr(),
 https://neovim.io/doc/user/builtin.html#getcmdcompltype(),
 https://neovim.io/doc/user/builtin.html#getcmdline(),
 https://neovim.io/doc/user/builtin.html#getcmdpos(),
+https://neovim.io/doc/user/builtin.html#getcmdprompt(),
 https://neovim.io/doc/user/builtin.html#getcmdscreenpos(),
 https://neovim.io/doc/user/builtin.html#getcmdtype(),
 https://neovim.io/doc/user/builtin.html#getcmdwintype(),
@@ -4436,6 +4419,7 @@ https://neovim.io/doc/user/windows.html#windows-intro,,window
 https://neovim.io/doc/user/windows.html#active-buffer,
 https://neovim.io/doc/user/windows.html#hidden-buffer,
 https://neovim.io/doc/user/windows.html#inactive-buffer,
+https://neovim.io/doc/user/windows.html#buffer-reuse,
 https://neovim.io/doc/user/windows.html#window-ID,,winid windowid
 https://neovim.io/doc/user/windows.html#windows-starting,
 https://neovim.io/doc/user/windows.html#status-line,
@@ -4548,15 +4532,15 @@ https://neovim.io/doc/user/windows.html#%3Abw,,:bwipe :bwipeout E517
 https://neovim.io/doc/user/windows.html#%3Abun,,:bunload E515
 https://neovim.io/doc/user/windows.html#%3Ab,,:bu :buf :buffer E86
 https://neovim.io/doc/user/windows.html#%3Asb,,:sbuffer
-https://neovim.io/doc/user/windows.html#%3Abn,,:bnext E87
+https://neovim.io/doc/user/windows.html#%3Abn,,:bnext [b E87
 https://neovim.io/doc/user/windows.html#%3Asbn,,:sbnext
-https://neovim.io/doc/user/windows.html#%3AbN,,:bNext :bp :bprevious E88
+https://neovim.io/doc/user/windows.html#%3AbN,,:bNext :bp :bprevious ]b E88
 https://neovim.io/doc/user/windows.html#%3AsbN,,:sbNext :sbp :sbprevious
-https://neovim.io/doc/user/windows.html#%3Abr,,:bre :brewind
+https://neovim.io/doc/user/windows.html#%3Abr,,:bre :brewind [B
 https://neovim.io/doc/user/windows.html#%3Abf,,:bfirst
 https://neovim.io/doc/user/windows.html#%3Asbr,,:sbrewind
 https://neovim.io/doc/user/windows.html#%3Asbf,,:sbfirst
-https://neovim.io/doc/user/windows.html#%3Abl,,:blast
+https://neovim.io/doc/user/windows.html#%3Abl,,:blast ]B
 https://neovim.io/doc/user/windows.html#%3Asbl,,:sblast
 https://neovim.io/doc/user/windows.html#%3Abm,,:bmodified E84
 https://neovim.io/doc/user/windows.html#%3Asbm,,:sbmodified
@@ -4661,7 +4645,7 @@ https://neovim.io/doc/user/api.html#nvim__complete_set(),
 https://neovim.io/doc/user/api.html#nvim__get_runtime(),
 https://neovim.io/doc/user/api.html#nvim__id(),
 https://neovim.io/doc/user/api.html#nvim__id_array(),
-https://neovim.io/doc/user/api.html#nvim__id_dictionary(),
+https://neovim.io/doc/user/api.html#nvim__id_dict(),
 https://neovim.io/doc/user/api.html#nvim__id_float(),
 https://neovim.io/doc/user/api.html#nvim__inspect_cell(),
 https://neovim.io/doc/user/api.html#nvim__invalidate_glyph_cache(),
@@ -4905,7 +4889,7 @@ https://neovim.io/doc/user/ft_ada.html#ft-ada-functions,
 https://neovim.io/doc/user/ft_ada.html#ada-extra-plugins,
 https://neovim.io/doc/user/ui.html#ui.txt,
 https://neovim.io/doc/user/ui.html#UI,,ui
-https://neovim.io/doc/user/ui.html#ui-events,
+https://neovim.io/doc/user/ui.html#ui-protocol,,ui-events
 https://neovim.io/doc/user/ui.html#ui-option,
 https://neovim.io/doc/user/ui.html#ui-rgb,
 https://neovim.io/doc/user/ui.html#ui-override,
@@ -5562,19 +5546,19 @@ https://neovim.io/doc/user/tagsrch.html#%3Ats,,:tselect
 https://neovim.io/doc/user/tagsrch.html#%3Asts,,:stselect
 https://neovim.io/doc/user/tagsrch.html#%3Atj,,:tjump
 https://neovim.io/doc/user/tagsrch.html#%3Astj,,:stjump
-https://neovim.io/doc/user/tagsrch.html#%3Atn,,:tnext
-https://neovim.io/doc/user/tagsrch.html#%3Atp,,:tprevious
+https://neovim.io/doc/user/tagsrch.html#%3Atn,,:tnext ]t
+https://neovim.io/doc/user/tagsrch.html#%3Atp,,:tprevious [t
 https://neovim.io/doc/user/tagsrch.html#%3AtN,,:tNext
-https://neovim.io/doc/user/tagsrch.html#%3Atr,,:trewind
+https://neovim.io/doc/user/tagsrch.html#%3Atr,,:trewind [T
 https://neovim.io/doc/user/tagsrch.html#%3Atf,,:tfirst
-https://neovim.io/doc/user/tagsrch.html#%3Atl,,:tlast
+https://neovim.io/doc/user/tagsrch.html#%3Atl,,:tlast ]T
 https://neovim.io/doc/user/tagsrch.html#%3Alt,,:ltag
 https://neovim.io/doc/user/tagsrch.html#tag-skip-file,
 https://neovim.io/doc/user/tagsrch.html#tag-preview,
 https://neovim.io/doc/user/tagsrch.html#%3Apts,,:ptselect
 https://neovim.io/doc/user/tagsrch.html#%3Aptj,,:ptjump
-https://neovim.io/doc/user/tagsrch.html#%3Aptn,,:ptnext
-https://neovim.io/doc/user/tagsrch.html#%3Aptp,,:ptprevious
+https://neovim.io/doc/user/tagsrch.html#%3Aptn,,:ptnext ]CTRL-T
+https://neovim.io/doc/user/tagsrch.html#%3Aptp,,:ptprevious [CTRL-T
 https://neovim.io/doc/user/tagsrch.html#%3AptN,,:ptNext
 https://neovim.io/doc/user/tagsrch.html#%3Aptr,,:ptrewind
 https://neovim.io/doc/user/tagsrch.html#%3Aptf,,:ptfirst
@@ -5653,6 +5637,27 @@ https://neovim.io/doc/user/quickref.html#Q_bu,
 https://neovim.io/doc/user/quickref.html#Q_sy,
 https://neovim.io/doc/user/quickref.html#Q_gu,
 https://neovim.io/doc/user/quickref.html#Q_fo,
+https://neovim.io/doc/user/tui.html#tui.txt,
+https://neovim.io/doc/user/tui.html#TUI,,tui
+https://neovim.io/doc/user/tui.html#startup-tui,,startup-terminal
+https://neovim.io/doc/user/tui.html#terminfo,,E557 E558 E559
+https://neovim.io/doc/user/tui.html#builtin-terms,,builtin_terms
+https://neovim.io/doc/user/tui.html#term-dependent-settings,
+https://neovim.io/doc/user/tui.html#scroll-region,,xterm-scroll-region
+https://neovim.io/doc/user/tui.html#tui-input,
+https://neovim.io/doc/user/tui.html#tui-modifyOtherKeys,,tui-csiu
+https://neovim.io/doc/user/tui.html#tui-colors,
+https://neovim.io/doc/user/tui.html#true-color,,xterm-true-color
+https://neovim.io/doc/user/tui.html#xterm-resize,
+https://neovim.io/doc/user/tui.html#tui-cursor-shape,
+https://neovim.io/doc/user/tui.html#tui-cursor-tmux,
+https://neovim.io/doc/user/tui.html#window-size,
+https://neovim.io/doc/user/tui.html#slow-fast-terminal,
+https://neovim.io/doc/user/tui.html#slow-terminal,
+https://neovim.io/doc/user/tui.html#mouse-using,
+https://neovim.io/doc/user/tui.html#mouse-mode-table,,mouse-overview
+https://neovim.io/doc/user/tui.html#double-click,,<2-LeftMouse> <3-LeftMouse> <4-LeftMouse>
+https://neovim.io/doc/user/tui.html#mouse-swap-buttons,
 https://neovim.io/doc/user/rileft.html#rileft.txt,
 https://neovim.io/doc/user/rileft.html#rileft,
 https://neovim.io/doc/user/rileft.html#ins-reverse,
@@ -5755,10 +5760,10 @@ https://neovim.io/doc/user/quickfix.html#E924,
 https://neovim.io/doc/user/quickfix.html#E925,,E926
 https://neovim.io/doc/user/quickfix.html#%3Acc,
 https://neovim.io/doc/user/quickfix.html#%3All,
-https://neovim.io/doc/user/quickfix.html#%3Acn,,:cne :cnext E553
-https://neovim.io/doc/user/quickfix.html#%3Alne,,:lnext
-https://neovim.io/doc/user/quickfix.html#%3Acp,,:cprevious  :cprev :cN :cNext
-https://neovim.io/doc/user/quickfix.html#%3Alp,,:lprevious :lprev :lN :lNext
+https://neovim.io/doc/user/quickfix.html#%3Acn,,:cne :cnext E553 ]q
+https://neovim.io/doc/user/quickfix.html#%3Alne,,:lnext ]l
+https://neovim.io/doc/user/quickfix.html#%3Acp,,:cprevious  :cprev :cN :cNext [q
+https://neovim.io/doc/user/quickfix.html#%3Alp,,:lprevious :lprev :lN :lNext [l
 https://neovim.io/doc/user/quickfix.html#%3Acabo,,:cabove
 https://neovim.io/doc/user/quickfix.html#%3Alab,,:labove
 https://neovim.io/doc/user/quickfix.html#%3Acbel,,:cbelow
@@ -5767,16 +5772,16 @@ https://neovim.io/doc/user/quickfix.html#%3Acbe,,:cbefore
 https://neovim.io/doc/user/quickfix.html#%3Albe,,:lbefore
 https://neovim.io/doc/user/quickfix.html#%3Acaf,,:cafter
 https://neovim.io/doc/user/quickfix.html#%3Alaf,,:lafter
-https://neovim.io/doc/user/quickfix.html#%3Acnf,,:cnfile
-https://neovim.io/doc/user/quickfix.html#%3Alnf,,:lnfile
-https://neovim.io/doc/user/quickfix.html#%3Acpf,,:cpfile :cNf :cNfile
-https://neovim.io/doc/user/quickfix.html#%3Alpf,,:lpfile :lNf :lNfile
-https://neovim.io/doc/user/quickfix.html#%3Acrewind,,:cr
-https://neovim.io/doc/user/quickfix.html#%3Alrewind,,:lr
+https://neovim.io/doc/user/quickfix.html#%3Acnf,,:cnfile ]CTRL-Q
+https://neovim.io/doc/user/quickfix.html#%3Alnf,,:lnfile ]CTRL-L
+https://neovim.io/doc/user/quickfix.html#%3Acpf,,:cpfile :cNf :cNfile [CTRL-Q
+https://neovim.io/doc/user/quickfix.html#%3Alpf,,:lpfile :lNf :lNfile [CTRL-L
+https://neovim.io/doc/user/quickfix.html#%3Acrewind,,:cr [Q
+https://neovim.io/doc/user/quickfix.html#%3Alrewind,,:lr [L
 https://neovim.io/doc/user/quickfix.html#%3Acfirst,,:cfir
 https://neovim.io/doc/user/quickfix.html#%3Alfirst,,:lfir
-https://neovim.io/doc/user/quickfix.html#%3Aclast,,:cla
-https://neovim.io/doc/user/quickfix.html#%3Allast,,:lla
+https://neovim.io/doc/user/quickfix.html#%3Aclast,,:cla ]Q
+https://neovim.io/doc/user/quickfix.html#%3Allast,,:lla ]L
 https://neovim.io/doc/user/quickfix.html#%3Acq,,:cquit
 https://neovim.io/doc/user/quickfix.html#%3Acf,,:cfi :cfile
 https://neovim.io/doc/user/quickfix.html#%3Alf,,:lfi :lfile
@@ -5848,6 +5853,8 @@ https://neovim.io/doc/user/quickfix.html#current_compiler,
 https://neovim.io/doc/user/quickfix.html#compiler-dotnet,
 https://neovim.io/doc/user/quickfix.html#quickfix-gcc	compiler-gcc,
 https://neovim.io/doc/user/quickfix.html#compiler-javac,
+https://neovim.io/doc/user/quickfix.html#compiler-make,
+https://neovim.io/doc/user/quickfix.html#quickfix-groff,,compiler-groff
 https://neovim.io/doc/user/quickfix.html#quickfix-pandoc,,compiler-pandoc
 https://neovim.io/doc/user/quickfix.html#quickfix-perl,,compiler-perl
 https://neovim.io/doc/user/quickfix.html#compiler-pyunit,
@@ -6250,6 +6257,7 @@ https://neovim.io/doc/user/develop.html#provider-reload,
 https://neovim.io/doc/user/develop.html#dev-doc,
 https://neovim.io/doc/user/develop.html#dev-lua-doc,
 https://neovim.io/doc/user/develop.html#dev-lua,
+https://neovim.io/doc/user/develop.html#dev-error-patterns,
 https://neovim.io/doc/user/develop.html#dev-patterns,
 https://neovim.io/doc/user/develop.html#dev-api,
 https://neovim.io/doc/user/develop.html#dev-naming,
