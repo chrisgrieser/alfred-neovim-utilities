@@ -1,6 +1,7 @@
 # Neovim Utilities for Alfred
-![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-neovim-utilities/total?label=Total%20Downloads&style=plastic)
-![Last release version](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic)
+![GitHub Downloads](https://img.shields.io/github/downloads/chrisgrieser/alfred-neovim-utilities/total?label=GitHub%20Downloads&style=plastic&logo=github)
+![Alfred Gallery Downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-workflow-download-count.yaml&query=alfred-neovim-utilities&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87)
+![Latest Release](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic)
 
 Search [neovim plugins](https://neovimcraft.com/) and [online
 :help](https://neovim.io/doc/) of Neovim and plugins via [Alfred](https://www.alfredapp.com/).
