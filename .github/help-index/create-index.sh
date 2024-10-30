@@ -1,24 +1,29 @@
 #!/usr/bin/env zsh
 
-baseHelpURL="https://neovim.io/doc/user/"
-baseRawURL="https://raw.githubusercontent.com/neovim/neovim/master/runtime/doc/"
+mkdir -p "./tmp"
+trap 'rm -rf "./tmp"' EXIT
+cd "./tmp" || exit 1
+
 #───────────────────────────────────────────────────────────────────────────────
 
-mkdir -p "./tmp"
-cd "./tmp" || return 1
-
 # DOWNLOAD
-curl -sL 'https://api.github.com/repos/neovim/neovim/git/trees/master?recursive=1' |
-	grep -Eo "runtime/doc/.*.txt" |
+# SIC without token, will hit rate limit when running on Github Actions
+# (token set via GitHub Actions secrets)
+repoTree="https://api.github.com/repos/neovim/neovim/git/trees/master?recursive=1"
+baseRawURL="https://raw.githubusercontent.com/neovim/neovim/master/runtime/doc/"
+curl "$repoTree" --silent --show-error --header "authorization: Bearer $GITHUB_TOKEN" |
+	grep --extended-regexp --only-matching "runtime/doc/.*.txt" |
 	cut -d/ -f3 |
 	while read -r file; do
-		curl -sL "$baseRawURL$file" >"./$file"
+		echo "Downloading $file..."
+		curl --silent --show-error "$baseRawURL$file" > "./$file"
 	done
 
 #───────────────────────────────────────────────────────────────────────────────
+baseHelpURL="https://neovim.io/doc/user/"
 
 # OPTIONS
-vimoptions=$(grep -Eo "\*'[.A-Za-z-]{2,}'\*(.*'.*')?" options.txt |
+vimoptions=$(grep --extended-regexp --only-matching "\*'[.A-Za-z-]{2,}'\*(.*'.*')?" options.txt |
 	tr -d "*'" |
 	while read -r line; do
 		opt=$(echo "$line" | cut -d" " -f1)
@@ -29,9 +34,13 @@ vimoptions=$(grep -Eo "\*'[.A-Za-z-]{2,}'\*(.*'.*')?" options.txt |
 		fi
 		echo "${baseHelpURL}options.html#'$opt',$synonyms"
 	done)
+if [[ -z "$vimoptions" ]]; then
+	echo "Vim options creation failed."
+	exit 1
+fi
 
 # ANCHORS
-anchors=$(grep -REo "\*([()_.:A-Za-z-]+|[0-9E]+)\*(.*\*.*\*)?" |
+anchors=$(grep --extended-regexp --only-matching --recursive "\*([()_.:A-Za-z-]+|[0-9E]+)\*(.*\*.*\*)?" |
 	tr -d "*" |
 	sed 's/txt:/html#/' |
 	cut -c3- |
@@ -44,27 +53,28 @@ anchors=$(grep -REo "\*([()_.:A-Za-z-]+|[0-9E]+)\*(.*\*.*\*)?" |
 		fi
 		echo "${baseHelpURL}$url,$synonyms"
 	done)
+if [[ -z "$anchors" ]]; then
+	echo "Anchors creation failed."
+	exit 1
+fi
 
 # SECTIONS
-sections=$(grep -Eo "\|[.0-9]*\|.*" usr_toc.txt |
+sections=$(grep --extended-regexp --only-matching "\|[.0-9]*\|.*" usr_toc.txt |
 	tr -d "|" |
 	while read -r line; do
 		file=$(echo "$line" | cut -c-2)
 		title="$line"
 		echo "${baseHelpURL}usr_$file.html#$title"
 	done)
-
-#───────────────────────────────────────────────────────────────────────────────
-
-# VALIDATE that the index was actually created
-if [[ -z "$vimoptions" ]] || [[ -z "$anchors" ]] || [[ -z "$sections" ]]; then
-	echo "Attempt failed."
+if [[ -z "$sections" ]]; then
+	echo "Section creation failed."
 	exit 1
 fi
 
-cd .. || exit 1
-echo "$vimoptions" > ./.github/help-index/neovim-help-index-urls.txt
-echo "$anchors" >> ./.github/help-index/neovim-help-index-urls.txt
-echo "$sections" >> ./.github/help-index/neovim-help-index-urls.txt
+#───────────────────────────────────────────────────────────────────────────────
 
-rm -rf "./tmp"
+cd .. || exit 1
+output=.github/help-index/neovim-help-index-urls.txt
+echo "$vimoptions" > "$output"
+echo "$anchors" >> "$output"
+echo "$sections" >> "$output"
