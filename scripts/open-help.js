@@ -4,9 +4,9 @@ const app = Application.currentApplication();
 app.includeStandardAdditions = true;
 //──────────────────────────────────────────────────────────────────────────────
 
-/** @param {string} url @return {string} */
+/** JXA version does not work here, since it does not support `-L`
+ * @param {string} url @return {string} */
 function httpRequest(url) {
-	// INFO JXA version does not work here
 	return app.doShellScript(`curl -sL ${url}`);
 }
 
@@ -25,10 +25,11 @@ const openFile = (/** @type {string} */ path) => Application("Finder").open(Path
 /** @type {AlfredRun} */
 // biome-ignore lint/correctness/noUnusedVariables: Alfred run
 function run(argv) {
-	// file is already cached
 	const repo = argv[0] || "ERROR";
 	const vimdocPath = `/tmp/neovim-vimdocs-${repo.replace(/\//g, "_")}.txt`;
 	const htmlPath = vimdocPath + ".html";
+
+	// file is already cached
 	if (fileExists(htmlPath)) {
 		openFile(htmlPath);
 		return;
