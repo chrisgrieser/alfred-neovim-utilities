@@ -85,7 +85,7 @@ https://neovim.io/doc/user/options.html#'fileformats',,ffs
 https://neovim.io/doc/user/options.html#'fileignorecase',,fic nofileignorecase nofic
 https://neovim.io/doc/user/options.html#'filetype',,ft
 https://neovim.io/doc/user/options.html#'fillchars',,fcs
-https://neovim.io/doc/user/options.html#'findexpr',,fexpr
+https://neovim.io/doc/user/options.html#'findfunc',,ffu
 https://neovim.io/doc/user/options.html#'fixendofline',,fixeol nofixendofline nofixeol
 https://neovim.io/doc/user/options.html#'foldclose',,fcl
 https://neovim.io/doc/user/options.html#'foldcolumn',,fdc
@@ -176,6 +176,7 @@ https://neovim.io/doc/user/options.html#'mousemodel',,mousem
 https://neovim.io/doc/user/options.html#'mousemoveevent',,mousemev nomousemoveevent nomousemev
 https://neovim.io/doc/user/options.html#'mousescroll',
 https://neovim.io/doc/user/options.html#'mousetime',,mouset
+https://neovim.io/doc/user/options.html#'msghistory',,mhi
 https://neovim.io/doc/user/options.html#'nrformats',,nf
 https://neovim.io/doc/user/options.html#'number',,nu nonumber nonu
 https://neovim.io/doc/user/options.html#'numberwidth',,nuw
@@ -1962,7 +1963,8 @@ https://neovim.io/doc/user/syntax.html#mma.vim,,ft-mma-syntax ft-mathematica-syn
 https://neovim.io/doc/user/syntax.html#ft-mediawiki-syntax,
 https://neovim.io/doc/user/syntax.html#moo.vim,,ft-moo-syntax
 https://neovim.io/doc/user/syntax.html#msql.vim,,ft-msql-syntax
-https://neovim.io/doc/user/syntax.html#neomutt.vim,,ft-neomuttrc-syntax ft-neomuttlog-syntax
+https://neovim.io/doc/user/syntax.html#neomutt.vim,,ft-neomuttrc-syntax
+https://neovim.io/doc/user/syntax.html#ft-neomuttlog-syntax,
 https://neovim.io/doc/user/syntax.html#ncf.vim,,ft-ncf-syntax
 https://neovim.io/doc/user/syntax.html#nroff.vim,,ft-nroff-syntax
 https://neovim.io/doc/user/syntax.html#ocaml.vim,,ft-ocaml-syntax
@@ -3491,7 +3493,6 @@ https://neovim.io/doc/user/vvars.html#v%3Acharconvert_from,,charconvert_from-var
 https://neovim.io/doc/user/vvars.html#v%3Acharconvert_to,,charconvert_to-variable
 https://neovim.io/doc/user/vvars.html#v%3Acmdarg,,cmdarg-variable
 https://neovim.io/doc/user/vvars.html#v%3Acmdbang,,cmdbang-variable
-https://neovim.io/doc/user/vvars.html#v%3Acmdcomplete,,cmdcomplete-variable
 https://neovim.io/doc/user/vvars.html#v%3Acollate,,collate-variable
 https://neovim.io/doc/user/vvars.html#v%3Acompleted_item,,completed_item-variable
 https://neovim.io/doc/user/vvars.html#v%3Acount,,count-variable
@@ -5785,7 +5786,7 @@ https://neovim.io/doc/user/quickfix.html#%3Alex,,:lexpr
 https://neovim.io/doc/user/quickfix.html#%3Acgete,,:cgetexpr
 https://neovim.io/doc/user/quickfix.html#%3Algete,,:lgetexpr
 https://neovim.io/doc/user/quickfix.html#%3Acadde,,:caddexpr
-https://neovim.io/doc/user/quickfix.html#%3Alad,,:addd :laddexpr
+https://neovim.io/doc/user/quickfix.html#%3Alad,,:ladd :laddexpr
 https://neovim.io/doc/user/quickfix.html#%3Acl,,:clist
 https://neovim.io/doc/user/quickfix.html#%3Alli,,:llist
 https://neovim.io/doc/user/quickfix.html#QuickFixCmdPost-example,
@@ -5843,6 +5844,9 @@ https://neovim.io/doc/user/quickfix.html#compiler-make,
 https://neovim.io/doc/user/quickfix.html#quickfix-groff,,compiler-groff
 https://neovim.io/doc/user/quickfix.html#quickfix-pandoc,,compiler-pandoc
 https://neovim.io/doc/user/quickfix.html#quickfix-perl,,compiler-perl
+https://neovim.io/doc/user/quickfix.html#compiler-mypy,
+https://neovim.io/doc/user/quickfix.html#compiler-ruff,
+https://neovim.io/doc/user/quickfix.html#compiler-pylint,
 https://neovim.io/doc/user/quickfix.html#compiler-pyunit,
 https://neovim.io/doc/user/quickfix.html#compiler-tex,
 https://neovim.io/doc/user/quickfix.html#compiler-typst,
