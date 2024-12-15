@@ -162,6 +162,7 @@ https://neovim.io/doc/user/options.html#'maxfuncdepth',,mfd
 https://neovim.io/doc/user/options.html#'maxmapdepth',,mmd
 https://neovim.io/doc/user/options.html#'maxmempattern',,mmp
 https://neovim.io/doc/user/options.html#'menuitems',,mis
+https://neovim.io/doc/user/options.html#'messagesopt',,mopt
 https://neovim.io/doc/user/options.html#'mkspellmem',,msm
 https://neovim.io/doc/user/options.html#'modeline',,ml nomodeline noml
 https://neovim.io/doc/user/options.html#'modelineexpr',,mle nomodelineexpr nomle
@@ -176,7 +177,6 @@ https://neovim.io/doc/user/options.html#'mousemodel',,mousem
 https://neovim.io/doc/user/options.html#'mousemoveevent',,mousemev nomousemoveevent nomousemev
 https://neovim.io/doc/user/options.html#'mousescroll',
 https://neovim.io/doc/user/options.html#'mousetime',,mouset
-https://neovim.io/doc/user/options.html#'msghistory',,mhi
 https://neovim.io/doc/user/options.html#'nrformats',,nf
 https://neovim.io/doc/user/options.html#'number',,nu nonumber nonu
 https://neovim.io/doc/user/options.html#'numberwidth',,nuw
@@ -424,6 +424,7 @@ https://neovim.io/doc/user/cmdline.html#E199,
 https://neovim.io/doc/user/cmdline.html#cmdline-char,,cmdwin-char
 https://neovim.io/doc/user/gui.html#gui.txt,
 https://neovim.io/doc/user/gui.html#gui,,GUI
+https://neovim.io/doc/user/gui.html#vscode,
 https://neovim.io/doc/user/gui.html#gui-config,,gui-start
 https://neovim.io/doc/user/gui.html#ginit.vim,,gui-init gvimrc $MYGVIMRC
 https://neovim.io/doc/user/gui.html#%3Awinp,,:winpos E188
@@ -629,7 +630,7 @@ https://neovim.io/doc/user/usr_02.html#hjkl,
 https://neovim.io/doc/user/usr_02.html#help.txt,
 https://neovim.io/doc/user/usr_02.html#help-summary,
 https://neovim.io/doc/user/map.html#map.txt,
-https://neovim.io/doc/user/map.html#key-mapping,,mapping macro
+https://neovim.io/doc/user/map.html#keybind,,key-mapping mapping macro
 https://neovim.io/doc/user/map.html#%3Amap-commands,
 https://neovim.io/doc/user/map.html#%3Amap,
 https://neovim.io/doc/user/map.html#%3Anm,,:nmap
@@ -955,7 +956,6 @@ https://neovim.io/doc/user/various.html#gc,,gc-default
 https://neovim.io/doc/user/various.html#gcc,,gcc-default
 https://neovim.io/doc/user/various.html#v_gc,,v_gc-default
 https://neovim.io/doc/user/various.html#o_gc,,o_gc-default
-https://neovim.io/doc/user/backers.html#backers.txt,
 https://neovim.io/doc/user/repeat.html#repeat.txt,
 https://neovim.io/doc/user/repeat.html#repeating,
 https://neovim.io/doc/user/repeat.html#single-repeat,
@@ -1100,16 +1100,14 @@ https://neovim.io/doc/user/intro.html#intro.txt,
 https://neovim.io/doc/user/intro.html#ref,,reference
 https://neovim.io/doc/user/intro.html#intro,
 https://neovim.io/doc/user/intro.html#pronounce,
+https://neovim.io/doc/user/intro.html#resources,
+https://neovim.io/doc/user/intro.html#internet,,www distribution
 https://neovim.io/doc/user/intro.html#book,
-https://neovim.io/doc/user/intro.html#internet,
-https://neovim.io/doc/user/intro.html#www,,distribution download
-https://neovim.io/doc/user/intro.html#bugs,,bug-report
+https://neovim.io/doc/user/intro.html#bugs,,bug-report feature-request
+https://neovim.io/doc/user/intro.html#install,
+https://neovim.io/doc/user/intro.html#download,,upgrade ubuntu
+https://neovim.io/doc/user/intro.html#uninstall,
 https://neovim.io/doc/user/intro.html#sponsor,,register
-https://neovim.io/doc/user/intro.html#credits,
-https://neovim.io/doc/user/intro.html#love,,peace friendship gross-national-happiness
-https://neovim.io/doc/user/intro.html#Vi,,vi
-https://neovim.io/doc/user/intro.html#Nvi,
-https://neovim.io/doc/user/intro.html#Elvis,
 https://neovim.io/doc/user/intro.html#Bram,,Moolenaar Bram-Moolenaar brammool
 https://neovim.io/doc/user/intro.html#notation,
 https://neovim.io/doc/user/intro.html#count,,[count]
@@ -1170,10 +1168,11 @@ https://neovim.io/doc/user/dev_tools.html#dev-tools-gdb,
 https://neovim.io/doc/user/lsp.html#lsp.txt,
 https://neovim.io/doc/user/lsp.html#lsp,,LSP
 https://neovim.io/doc/user/lsp.html#lsp-quickstart,
+https://neovim.io/doc/user/lsp.html#lsp-config,
 https://neovim.io/doc/user/lsp.html#lsp-defaults,
 https://neovim.io/doc/user/lsp.html#grr,,gra grn gri i_CTRL-S
 https://neovim.io/doc/user/lsp.html#lsp-defaults-disable,
-https://neovim.io/doc/user/lsp.html#lsp-config,
+https://neovim.io/doc/user/lsp.html#lsp-attach,
 https://neovim.io/doc/user/lsp.html#lsp-faq,
 https://neovim.io/doc/user/lsp.html#lsp-vs-treesitter,
 https://neovim.io/doc/user/lsp.html#lsp-api,
@@ -1205,6 +1204,7 @@ https://neovim.io/doc/user/lsp.html#LspProgress,
 https://neovim.io/doc/user/lsp.html#LspRequest,
 https://neovim.io/doc/user/lsp.html#LspTokenUpdate,
 https://neovim.io/doc/user/lsp.html#lsp-core,
+https://neovim.io/doc/user/lsp.html#vim.lsp.Config,
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf_attach_client(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf_detach_client(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf_is_attached(),
@@ -1213,6 +1213,8 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.buf_request_all(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf_request_sync(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.client_is_stopped(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.commands,
+https://neovim.io/doc/user/lsp.html#vim.lsp.config(),
+https://neovim.io/doc/user/lsp.html#vim.lsp.enable(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.foldclose(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.foldexpr(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.foldtext(),
@@ -1224,7 +1226,6 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.get_log_path(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.omnifunc(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.set_log_level(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.start(),
-https://neovim.io/doc/user/lsp.html#vim.lsp.start_client(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.status(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.stop_client(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.tagfunc(),
@@ -1339,7 +1340,7 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.protocol.Methods,
 https://neovim.io/doc/user/lsp.html#vim.lsp.protocol.resolve_capabilities(),
 https://neovim.io/doc/user/sign.html#sign.txt,
 https://neovim.io/doc/user/sign.html#sign-support,
-https://neovim.io/doc/user/sign.html#sign-intro,,signs
+https://neovim.io/doc/user/sign.html#sign-intro,,signs gutter
 https://neovim.io/doc/user/sign.html#sign-column,
 https://neovim.io/doc/user/sign.html#sign-identifier,
 https://neovim.io/doc/user/sign.html#sign-group,
@@ -1444,6 +1445,10 @@ https://neovim.io/doc/user/nvim.html#nvim.txt,
 https://neovim.io/doc/user/nvim.html#nvim,,neovim nvim-intro
 https://neovim.io/doc/user/nvim.html#nvim-from-vim,
 https://neovim.io/doc/user/nvim.html#portable-config,
+https://neovim.io/doc/user/nvim.html#nvim-quickstart,
+https://neovim.io/doc/user/nvim.html#kickstart,
+https://neovim.io/doc/user/nvim.html#lazyvim,
+https://neovim.io/doc/user/nvim.html#nvchad,
 https://neovim.io/doc/user/mlang.html#mlang.txt,
 https://neovim.io/doc/user/mlang.html#multilang,,multi-lang
 https://neovim.io/doc/user/mlang.html#multilang-messages,
@@ -2237,6 +2242,10 @@ https://neovim.io/doc/user/syntax.html#w%3Acurrent_syntax,
 https://neovim.io/doc/user/syntax.html#xterm-color,,color-xterm
 https://neovim.io/doc/user/syntax.html#colortest.vim,
 https://neovim.io/doc/user/syntax.html#%3Asyntime,
+https://neovim.io/doc/user/vietnamese.html#vietnamese.txt,
+https://neovim.io/doc/user/vietnamese.html#vietnamese-intro,
+https://neovim.io/doc/user/vietnamese.html#vietnamese-keymap,
+https://neovim.io/doc/user/vietnamese.html#vietnamese-ime_diff,
 https://neovim.io/doc/user/luaref.html#luaref.txt,
 https://neovim.io/doc/user/luaref.html#luaref,
 https://neovim.io/doc/user/luaref.html#luaref-intro,
@@ -4538,6 +4547,13 @@ https://neovim.io/doc/user/windows.html#%3Aba,,:ball :sba :sball
 https://neovim.io/doc/user/windows.html#special-buffers,
 https://neovim.io/doc/user/windows.html#scratch-buffer,
 https://neovim.io/doc/user/windows.html#unlisted-buffer,
+https://neovim.io/doc/user/credits.html#credits.txt,
+https://neovim.io/doc/user/credits.html#credits,
+https://neovim.io/doc/user/credits.html#love,,peace friendship gross-national-happiness
+https://neovim.io/doc/user/credits.html#Vi,,vi
+https://neovim.io/doc/user/credits.html#Nvi,
+https://neovim.io/doc/user/credits.html#Elvis,
+https://neovim.io/doc/user/credits.html#backers.txt,
 https://neovim.io/doc/user/faq.html#faq.txt,
 https://neovim.io/doc/user/faq.html#faq,
 https://neovim.io/doc/user/faq.html#faq-general,
@@ -4612,6 +4628,7 @@ https://neovim.io/doc/user/api.html#nvim_list_wins(),
 https://neovim.io/doc/user/api.html#nvim_load_context(),
 https://neovim.io/doc/user/api.html#nvim_notify(),
 https://neovim.io/doc/user/api.html#nvim_open_term(),
+https://neovim.io/doc/user/api.html#terminal-scrollback-pager,
 https://neovim.io/doc/user/api.html#nvim_out_write(),
 https://neovim.io/doc/user/api.html#nvim_paste(),
 https://neovim.io/doc/user/api.html#nvim_put(),
@@ -6292,6 +6309,7 @@ https://neovim.io/doc/user/motion.html#operator-doubled,
 https://neovim.io/doc/user/motion.html#operator-resulting-pos,
 https://neovim.io/doc/user/motion.html#linewise,,charwise characterwise
 https://neovim.io/doc/user/motion.html#exclusive,,inclusive
+https://neovim.io/doc/user/motion.html#inclusive-motion-selection-exclusive,
 https://neovim.io/doc/user/motion.html#exclusive-linewise,
 https://neovim.io/doc/user/motion.html#forced-motion,
 https://neovim.io/doc/user/motion.html#o_v,
