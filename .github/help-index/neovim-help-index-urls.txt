@@ -430,6 +430,10 @@ https://neovim.io/doc/user/gui.html#ginit.vim,,gui-init gvimrc $MYGVIMRC
 https://neovim.io/doc/user/gui.html#%3Awinp,,:winpos E188
 https://neovim.io/doc/user/gui.html#E466,
 https://neovim.io/doc/user/gui.html#%3Awi,,:win :winsize E465
+https://neovim.io/doc/user/gui.html#mouse-using,
+https://neovim.io/doc/user/gui.html#mouse-mode-table,,mouse-overview
+https://neovim.io/doc/user/gui.html#double-click,,<2-LeftMouse> <3-LeftMouse> <4-LeftMouse>
+https://neovim.io/doc/user/gui.html#mouse-swap-buttons,
 https://neovim.io/doc/user/gui.html#gui-scrollbars,
 https://neovim.io/doc/user/gui.html#gui-vert-scroll,
 https://neovim.io/doc/user/gui.html#gui-horiz-scroll,
@@ -793,7 +797,7 @@ https://neovim.io/doc/user/terminal.html#terminal-config,
 https://neovim.io/doc/user/terminal.html#terminal-events,
 https://neovim.io/doc/user/terminal.html#terminal-status,
 https://neovim.io/doc/user/terminal.html#b%3Aterm_title,
-https://neovim.io/doc/user/terminal.html#terminal-debug,
+https://neovim.io/doc/user/terminal.html#terminal-debug,,terminal-debugger package-termdebug
 https://neovim.io/doc/user/terminal.html#termdebug-starting,
 https://neovim.io/doc/user/terminal.html#%3ATermdebug,
 https://neovim.io/doc/user/terminal.html#%3ATermdebugCommand,
@@ -948,6 +952,7 @@ https://neovim.io/doc/user/various.html#K-lsp-default,
 https://neovim.io/doc/user/various.html#v_K,
 https://neovim.io/doc/user/various.html#gO,
 https://neovim.io/doc/user/various.html#gs,,:sl :sleep
+https://neovim.io/doc/user/various.html#yxx,
 https://neovim.io/doc/user/various.html#less,
 https://neovim.io/doc/user/various.html#commenting,
 https://neovim.io/doc/user/various.html#foo,
@@ -1041,7 +1046,7 @@ https://neovim.io/doc/user/usr_05.html#vimrc_example.vim,
 https://neovim.io/doc/user/usr_05.html#vimrc-filetype,
 https://neovim.io/doc/user/usr_05.html#restore-cursor,,last-position-jump
 https://neovim.io/doc/user/usr_05.html#add-package,
-https://neovim.io/doc/user/usr_05.html#nohlsearch-install,
+https://neovim.io/doc/user/usr_05.html#nohlsearch-install,,package-nohlsearch
 https://neovim.io/doc/user/usr_05.html#add-plugin,,plugin
 https://neovim.io/doc/user/usr_05.html#standard-plugin,
 https://neovim.io/doc/user/usr_05.html#add-global-plugin,
@@ -1760,6 +1765,7 @@ https://neovim.io/doc/user/lua.html#vim.fs.find(),
 https://neovim.io/doc/user/lua.html#vim.fs.joinpath(),
 https://neovim.io/doc/user/lua.html#vim.fs.normalize(),
 https://neovim.io/doc/user/lua.html#vim.fs.parents(),
+https://neovim.io/doc/user/lua.html#vim.fs.relpath(),
 https://neovim.io/doc/user/lua.html#vim.fs.rm(),
 https://neovim.io/doc/user/lua.html#vim.fs.root(),
 https://neovim.io/doc/user/lua.html#vim.glob,
@@ -3101,6 +3107,7 @@ https://neovim.io/doc/user/builtin.html#getregion-notes,
 https://neovim.io/doc/user/builtin.html#getregionpos(),
 https://neovim.io/doc/user/builtin.html#getregtype(),
 https://neovim.io/doc/user/builtin.html#getscriptinfo(),
+https://neovim.io/doc/user/builtin.html#getstacktrace(),
 https://neovim.io/doc/user/builtin.html#gettabinfo(),
 https://neovim.io/doc/user/builtin.html#gettabvar(),
 https://neovim.io/doc/user/builtin.html#gettabwinvar(),
@@ -3574,6 +3581,7 @@ https://neovim.io/doc/user/vvars.html#v%3Ascrollstart,,scrollstart-variable
 https://neovim.io/doc/user/vvars.html#v%3Asearchforward,,searchforward-variable
 https://neovim.io/doc/user/vvars.html#v%3Aservername,,servername-variable
 https://neovim.io/doc/user/vvars.html#v%3Ashell_error,,shell_error-variable
+https://neovim.io/doc/user/vvars.html#v%3Astacktrace,,stacktrace-variable
 https://neovim.io/doc/user/vvars.html#v%3Astatusmsg,,statusmsg-variable
 https://neovim.io/doc/user/vvars.html#v%3Astderr,,stderr-variable
 https://neovim.io/doc/user/vvars.html#v%3Aswapchoice,,swapchoice-variable
@@ -3934,6 +3942,7 @@ https://neovim.io/doc/user/starting.html#-e,,-E
 https://neovim.io/doc/user/starting.html#-es,,-Es -s-ex silent-mode
 https://neovim.io/doc/user/starting.html#-l,
 https://neovim.io/doc/user/starting.html#lua-args,
+https://neovim.io/doc/user/starting.html#lua-shebang,
 https://neovim.io/doc/user/starting.html#-ll,
 https://neovim.io/doc/user/starting.html#-b,
 https://neovim.io/doc/user/starting.html#-A,
@@ -4004,6 +4013,8 @@ https://neovim.io/doc/user/health.html#vim.health,,health
 https://neovim.io/doc/user/health.html#health-commands,
 https://neovim.io/doc/user/health.html#%3Ache,,:checkhealth
 https://neovim.io/doc/user/health.html#E5009,
+https://neovim.io/doc/user/health.html#health-usage,
+https://neovim.io/doc/user/health.html#g%3Ahealth,
 https://neovim.io/doc/user/health.html#health-dev,
 https://neovim.io/doc/user/health.html#vim.health.error(),
 https://neovim.io/doc/user/health.html#vim.health.info(),
@@ -4512,7 +4523,7 @@ https://neovim.io/doc/user/windows.html#CTRL-W_gF,
 https://neovim.io/doc/user/windows.html#CTRL-W_gt,
 https://neovim.io/doc/user/windows.html#CTRL-W_gT,
 https://neovim.io/doc/user/windows.html#preview-window,
-https://neovim.io/doc/user/windows.html#%3Apta,,:ptag
+https://neovim.io/doc/user/windows.html#%3Apt,,:ptag
 https://neovim.io/doc/user/windows.html#CTRL-W_z,
 https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-Z,,:pc :pclose
 https://neovim.io/doc/user/windows.html#%3App,,:ppop
@@ -4594,8 +4605,6 @@ https://neovim.io/doc/user/api.html#nvim_del_keymap(),
 https://neovim.io/doc/user/api.html#nvim_del_mark(),
 https://neovim.io/doc/user/api.html#nvim_del_var(),
 https://neovim.io/doc/user/api.html#nvim_echo(),
-https://neovim.io/doc/user/api.html#nvim_err_write(),
-https://neovim.io/doc/user/api.html#nvim_err_writeln(),
 https://neovim.io/doc/user/api.html#nvim_eval_statusline(),
 https://neovim.io/doc/user/api.html#nvim_exec_lua(),
 https://neovim.io/doc/user/api.html#nvim_feedkeys(),
@@ -4628,10 +4637,8 @@ https://neovim.io/doc/user/api.html#nvim_list_tabpages(),
 https://neovim.io/doc/user/api.html#nvim_list_uis(),
 https://neovim.io/doc/user/api.html#nvim_list_wins(),
 https://neovim.io/doc/user/api.html#nvim_load_context(),
-https://neovim.io/doc/user/api.html#nvim_notify(),
 https://neovim.io/doc/user/api.html#nvim_open_term(),
-https://neovim.io/doc/user/api.html#terminal-scrollback-pager,
-https://neovim.io/doc/user/api.html#nvim_out_write(),
+https://neovim.io/doc/user/api.html#ansi-colorize,,terminal-scrollback-pager
 https://neovim.io/doc/user/api.html#nvim_paste(),
 https://neovim.io/doc/user/api.html#nvim_put(),
 https://neovim.io/doc/user/api.html#nvim_replace_termcodes(),
@@ -4923,9 +4930,9 @@ https://neovim.io/doc/user/treesitter.html#treesitter-parsers,
 https://neovim.io/doc/user/treesitter.html#treesitter-parsers-wasm,
 https://neovim.io/doc/user/treesitter.html#treesitter-query,
 https://neovim.io/doc/user/treesitter.html#treesitter-predicates,
-https://neovim.io/doc/user/treesitter.html#lua-treesitter-not-predicate,
-https://neovim.io/doc/user/treesitter.html#lua-treesitter-all-predicate,
-https://neovim.io/doc/user/treesitter.html#lua-treesitter-any-predicate,
+https://neovim.io/doc/user/treesitter.html#treesitter-predicate-not,
+https://neovim.io/doc/user/treesitter.html#treesitter-predicate-all,
+https://neovim.io/doc/user/treesitter.html#treesitter-predicate-any,
 https://neovim.io/doc/user/treesitter.html#treesitter-directives,
 https://neovim.io/doc/user/treesitter.html#treesitter-query-modeline,
 https://neovim.io/doc/user/treesitter.html#treesitter-query-modeline-inherits,
@@ -4989,7 +4996,7 @@ https://neovim.io/doc/user/treesitter.html#vim.treesitter.is_in_node_range(),
 https://neovim.io/doc/user/treesitter.html#vim.treesitter.node_contains(),
 https://neovim.io/doc/user/treesitter.html#vim.treesitter.start(),
 https://neovim.io/doc/user/treesitter.html#vim.treesitter.stop(),
-https://neovim.io/doc/user/treesitter.html#lua-treesitter-language,
+https://neovim.io/doc/user/treesitter.html#treesitter-language,
 https://neovim.io/doc/user/treesitter.html#vim.treesitter.language.add(),
 https://neovim.io/doc/user/treesitter.html#vim.treesitter.language.get_filetypes(),
 https://neovim.io/doc/user/treesitter.html#vim.treesitter.language.get_lang(),
@@ -5010,7 +5017,7 @@ https://neovim.io/doc/user/treesitter.html#vim.treesitter.query.parse(),
 https://neovim.io/doc/user/treesitter.html#Query%3Aiter_captures(),
 https://neovim.io/doc/user/treesitter.html#Query%3Aiter_matches(),
 https://neovim.io/doc/user/treesitter.html#vim.treesitter.query.set(),
-https://neovim.io/doc/user/treesitter.html#lua-treesitter-languagetree,
+https://neovim.io/doc/user/treesitter.html#treesitter-languagetree,
 https://neovim.io/doc/user/treesitter.html#LanguageTree,
 https://neovim.io/doc/user/treesitter.html#LanguageTree%3Achildren(),
 https://neovim.io/doc/user/treesitter.html#LanguageTree%3Acontains(),
@@ -5676,10 +5683,6 @@ https://neovim.io/doc/user/tui.html#tui-cursor-tmux,
 https://neovim.io/doc/user/tui.html#window-size,
 https://neovim.io/doc/user/tui.html#slow-fast-terminal,
 https://neovim.io/doc/user/tui.html#slow-terminal,
-https://neovim.io/doc/user/tui.html#mouse-using,
-https://neovim.io/doc/user/tui.html#mouse-mode-table,,mouse-overview
-https://neovim.io/doc/user/tui.html#double-click,,<2-LeftMouse> <3-LeftMouse> <4-LeftMouse>
-https://neovim.io/doc/user/tui.html#mouse-swap-buttons,
 https://neovim.io/doc/user/rileft.html#rileft.txt,
 https://neovim.io/doc/user/rileft.html#rileft,
 https://neovim.io/doc/user/rileft.html#ins-reverse,
@@ -5835,7 +5838,7 @@ https://neovim.io/doc/user/quickfix.html#%3Acdo,
 https://neovim.io/doc/user/quickfix.html#%3Acfdo,
 https://neovim.io/doc/user/quickfix.html#%3Aldo,
 https://neovim.io/doc/user/quickfix.html#%3Alfdo,
-https://neovim.io/doc/user/quickfix.html#cfilter-plugin,,:Cfilter :Lfilter
+https://neovim.io/doc/user/quickfix.html#cfilter-plugin,,:Cfilter :Lfilter package-cfilter
 https://neovim.io/doc/user/quickfix.html#quickfix-window,
 https://neovim.io/doc/user/quickfix.html#%3Acope,,:copen w:quickfix_title
 https://neovim.io/doc/user/quickfix.html#quickfix-buffer,
@@ -5983,6 +5986,7 @@ https://neovim.io/doc/user/if_pyth.html#%3Apyx,,:pythonx
 https://neovim.io/doc/user/if_pyth.html#%3Apyxfile,,python_x-special-comments
 https://neovim.io/doc/user/if_pyth.html#%3Apyxdo,
 https://neovim.io/doc/user/if_pyth.html#has-pythonx,
+https://neovim.io/doc/user/usr_25.html#justify,,:Justify Justify() package-justify
 https://neovim.io/doc/user/usr_25.html#edit-no-break,
 https://neovim.io/doc/user/usr_25.html#edit-paragraph-join,
 https://neovim.io/doc/user/undo.html#undo.txt,
