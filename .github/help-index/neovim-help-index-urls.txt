@@ -76,6 +76,7 @@ https://neovim.io/doc/user/options.html#'errorbells',,eb noerrorbells noeb
 https://neovim.io/doc/user/options.html#'errorfile',,ef
 https://neovim.io/doc/user/options.html#'errorformat',,efm
 https://neovim.io/doc/user/options.html#'eventignore',,ei
+https://neovim.io/doc/user/options.html#'eventignorewin',,eiw
 https://neovim.io/doc/user/options.html#'expandtab',,et noexpandtab noet
 https://neovim.io/doc/user/options.html#'exrc',,ex noexrc noex
 https://neovim.io/doc/user/options.html#'fileencoding',,fenc
@@ -427,6 +428,7 @@ https://neovim.io/doc/user/gui.html#gui,,GUI
 https://neovim.io/doc/user/gui.html#third-party-guis,,vscode
 https://neovim.io/doc/user/gui.html#gui-config,,gui-start
 https://neovim.io/doc/user/gui.html#ginit.vim,,gui-init gvimrc $MYGVIMRC
+https://neovim.io/doc/user/gui.html#%3Adetach,
 https://neovim.io/doc/user/gui.html#%3Awinp,,:winpos E188
 https://neovim.io/doc/user/gui.html#E466,
 https://neovim.io/doc/user/gui.html#%3Awi,,:win :winsize E465
@@ -5625,6 +5627,7 @@ https://neovim.io/doc/user/quickfix.html#quickfix-gcc	compiler-gcc,
 https://neovim.io/doc/user/quickfix.html#compiler-javac,
 https://neovim.io/doc/user/quickfix.html#compiler-maven,
 https://neovim.io/doc/user/quickfix.html#compiler-spotbugs,
+https://neovim.io/doc/user/quickfix.html#Pre,
 https://neovim.io/doc/user/quickfix.html#compiler-make,
 https://neovim.io/doc/user/quickfix.html#quickfix-groff,,compiler-groff
 https://neovim.io/doc/user/quickfix.html#quickfix-pandoc,,compiler-pandoc
@@ -5767,6 +5770,7 @@ https://neovim.io/doc/user/luvref.html#luvref.txt,
 https://neovim.io/doc/user/luvref.html#luvref,
 https://neovim.io/doc/user/luvref.html#luv,,luv-intro uv
 https://neovim.io/doc/user/luvref.html#luv-contents,
+https://neovim.io/doc/user/luvref.html#luv-constants,
 https://neovim.io/doc/user/luvref.html#luv-error-handling,
 https://neovim.io/doc/user/luvref.html#uv.errno,
 https://neovim.io/doc/user/luvref.html#luv-version-checking,
@@ -5969,6 +5973,9 @@ https://neovim.io/doc/user/luvref.html#uv.thread.setpriority(),
 https://neovim.io/doc/user/luvref.html#uv.thread.getpriority(),
 https://neovim.io/doc/user/luvref.html#uv.thread_self(),
 https://neovim.io/doc/user/luvref.html#uv.thread_join(),
+https://neovim.io/doc/user/luvref.html#uv.thread_detach(),
+https://neovim.io/doc/user/luvref.html#uv.thread_setname(),
+https://neovim.io/doc/user/luvref.html#uv.thread_getname(),
 https://neovim.io/doc/user/luvref.html#uv.sleep(),
 https://neovim.io/doc/user/luvref.html#luv-miscellaneous-utilities,
 https://neovim.io/doc/user/luvref.html#uv.exepath(),
@@ -5982,6 +5989,7 @@ https://neovim.io/doc/user/luvref.html#uv.get_constrained_memory(),
 https://neovim.io/doc/user/luvref.html#uv.get_available_memory(),
 https://neovim.io/doc/user/luvref.html#uv.resident_set_memory(),
 https://neovim.io/doc/user/luvref.html#uv.getrusage(),
+https://neovim.io/doc/user/luvref.html#uv.getrusage_thread(),
 https://neovim.io/doc/user/luvref.html#uv.available_parallelism(),
 https://neovim.io/doc/user/luvref.html#uv.cpu_info(),
 https://neovim.io/doc/user/luvref.html#uv.cpumask_size(),
@@ -6019,6 +6027,7 @@ https://neovim.io/doc/user/luvref.html#uv.translate_sys_error(),
 https://neovim.io/doc/user/luvref.html#luv-metrics-operations,
 https://neovim.io/doc/user/luvref.html#uv.metrics_idle_time(),
 https://neovim.io/doc/user/luvref.html#uv.metrics_info(),
+https://neovim.io/doc/user/luvref.html#luv-string-manipulation,
 https://neovim.io/doc/user/luvref.html#luv-credits,
 https://neovim.io/doc/user/develop.html#develop.txt,
 https://neovim.io/doc/user/develop.html#development,,dev
