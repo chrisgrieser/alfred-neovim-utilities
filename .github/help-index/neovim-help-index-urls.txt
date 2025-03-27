@@ -43,6 +43,7 @@ https://neovim.io/doc/user/options.html#'comments',,com
 https://neovim.io/doc/user/options.html#'commentstring',,cms
 https://neovim.io/doc/user/options.html#'complete',,cpt
 https://neovim.io/doc/user/options.html#'completefunc',,cfu
+https://neovim.io/doc/user/options.html#'completefuzzycollect',,cfc
 https://neovim.io/doc/user/options.html#'completeitemalign',,cia
 https://neovim.io/doc/user/options.html#'completeopt',,cot
 https://neovim.io/doc/user/options.html#'completeslash',,csl
@@ -319,6 +320,7 @@ https://neovim.io/doc/user/options.html#'wildoptions',,wop
 https://neovim.io/doc/user/options.html#'winaltkeys',,wak
 https://neovim.io/doc/user/options.html#'winbar',,wbr
 https://neovim.io/doc/user/options.html#'winblend',,winbl
+https://neovim.io/doc/user/options.html#'winborder',
 https://neovim.io/doc/user/options.html#'window',,wi
 https://neovim.io/doc/user/options.html#'winfixbuf',,wfb nowinfixbuf nowfb
 https://neovim.io/doc/user/options.html#'winfixheight',,wfh nowinfixheight nowfh
@@ -582,6 +584,7 @@ https://neovim.io/doc/user/change.html#P,
 https://neovim.io/doc/user/change.html#gp,
 https://neovim.io/doc/user/change.html#gP,
 https://neovim.io/doc/user/change.html#%3Apu,,:put
+https://neovim.io/doc/user/change.html#%3Aip,,:iput
 https://neovim.io/doc/user/change.html#zp,,zP
 https://neovim.io/doc/user/change.html#linewise-register,,charwise-register
 https://neovim.io/doc/user/change.html#put-Visual-mode,,v_p v_P
@@ -797,8 +800,8 @@ https://neovim.io/doc/user/terminal.html#terminal-start,
 https://neovim.io/doc/user/terminal.html#terminal-input,
 https://neovim.io/doc/user/terminal.html#terminal-config,
 https://neovim.io/doc/user/terminal.html#terminal-events,
-https://neovim.io/doc/user/terminal.html#shell-prompt-config,
-https://neovim.io/doc/user/terminal.html#terminal-shell-prompt-signs,
+https://neovim.io/doc/user/terminal.html#shell-prompt,
+https://neovim.io/doc/user/terminal.html#shell-prompt-signs,
 https://neovim.io/doc/user/terminal.html#terminal-status,
 https://neovim.io/doc/user/terminal.html#b%3Aterm_title,
 https://neovim.io/doc/user/terminal.html#terminal-debug,,terminal-debugger package-termdebug
@@ -1200,11 +1203,12 @@ https://neovim.io/doc/user/dev_tools.html#dev-tools-gdb,
 https://neovim.io/doc/user/lsp.html#lsp.txt,
 https://neovim.io/doc/user/lsp.html#lsp,,LSP
 https://neovim.io/doc/user/lsp.html#lsp-quickstart,
-https://neovim.io/doc/user/lsp.html#lsp-config,
 https://neovim.io/doc/user/lsp.html#lsp-defaults,
 https://neovim.io/doc/user/lsp.html#grr,,gra grn gri i_CTRL-S
 https://neovim.io/doc/user/lsp.html#lsp-defaults-disable,
+https://neovim.io/doc/user/lsp.html#lsp-config,
 https://neovim.io/doc/user/lsp.html#lsp-attach,
+https://neovim.io/doc/user/lsp.html#lsp-lint,,lsp-format
 https://neovim.io/doc/user/lsp.html#lsp-faq,
 https://neovim.io/doc/user/lsp.html#lsp-vs-treesitter,
 https://neovim.io/doc/user/lsp.html#lsp-api,
@@ -1314,9 +1318,9 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.codelens.refresh(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.codelens.run(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.codelens.save(),
 https://neovim.io/doc/user/lsp.html#lsp-completion,
-https://neovim.io/doc/user/lsp.html#vim.lsp.completion.BufferOpts,
+https://neovim.io/doc/user/lsp.html#lsp-autocompletion,
 https://neovim.io/doc/user/lsp.html#vim.lsp.completion.enable(),
-https://neovim.io/doc/user/lsp.html#vim.lsp.completion.trigger(),
+https://neovim.io/doc/user/lsp.html#vim.lsp.completion.get(),
 https://neovim.io/doc/user/lsp.html#lsp-inlay_hint,
 https://neovim.io/doc/user/lsp.html#vim.lsp.inlay_hint.enable(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.inlay_hint.get(),
@@ -1887,7 +1891,6 @@ https://neovim.io/doc/user/lua.html#tohtml.tohtml.tohtml(),
 https://neovim.io/doc/user/news.html#news.txt,
 https://neovim.io/doc/user/news.html#news,
 https://neovim.io/doc/user/news.html#news-breaking-dev,
-https://neovim.io/doc/user/news.html#TSNode%3Achild_containing_descendant(),
 https://neovim.io/doc/user/news.html#news-breaking,
 https://neovim.io/doc/user/news.html#news-features,
 https://neovim.io/doc/user/news.html#news-changed,
@@ -1960,6 +1963,7 @@ https://neovim.io/doc/user/syntax.html#g%3Afiletype_csh,
 https://neovim.io/doc/user/syntax.html#ft-csv-syntax,
 https://neovim.io/doc/user/syntax.html#cynlib.vim,,ft-cynlib-syntax
 https://neovim.io/doc/user/syntax.html#cweb.vim,,ft-cweb-syntax
+https://neovim.io/doc/user/syntax.html#cs.vim,,ft-cs-syntax
 https://neovim.io/doc/user/syntax.html#dart.vim,,ft-dart-syntax
 https://neovim.io/doc/user/syntax.html#desktop.vim,,ft-desktop-syntax
 https://neovim.io/doc/user/syntax.html#diff.vim,
@@ -2564,7 +2568,7 @@ https://neovim.io/doc/user/luaref.html#lua-modules,
 https://neovim.io/doc/user/luaref.html#module(),
 https://neovim.io/doc/user/luaref.html#require(),
 https://neovim.io/doc/user/luaref.html#package.cpath,
-https://neovim.io/doc/user/luaref.html#package.loaded(),
+https://neovim.io/doc/user/luaref.html#package.loaded,
 https://neovim.io/doc/user/luaref.html#package.loadlib(),
 https://neovim.io/doc/user/luaref.html#package.path,
 https://neovim.io/doc/user/luaref.html#package.preload(),
@@ -2775,7 +2779,7 @@ https://neovim.io/doc/user/insert.html#compl-vim,
 https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-V,
 https://neovim.io/doc/user/insert.html#compl-function,
 https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-U,
-https://neovim.io/doc/user/insert.html#compl-omni,
+https://neovim.io/doc/user/insert.html#omnicompletion,,compl-omni
 https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-O,
 https://neovim.io/doc/user/insert.html#compl-spelling,
 https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-S,,i_CTRL-X_s
@@ -2798,6 +2802,7 @@ https://neovim.io/doc/user/insert.html#ft-html-omni,
 https://neovim.io/doc/user/insert.html#ft-xhtml-omni,
 https://neovim.io/doc/user/insert.html#html-flavor,
 https://neovim.io/doc/user/insert.html#ft-javascript-omni,
+https://neovim.io/doc/user/insert.html#ft-lua-omni,
 https://neovim.io/doc/user/insert.html#ft-php-omni,
 https://neovim.io/doc/user/insert.html#ft-ruby-omni,
 https://neovim.io/doc/user/insert.html#ft-syntax-omni,
@@ -4316,9 +4321,9 @@ https://neovim.io/doc/user/windows.html#%3Abw,,:bwipe :bwipeout E517
 https://neovim.io/doc/user/windows.html#%3Abun,,:bunload E515
 https://neovim.io/doc/user/windows.html#%3Ab,,:bu :buf :buffer E86
 https://neovim.io/doc/user/windows.html#%3Asb,,:sbuffer
-https://neovim.io/doc/user/windows.html#%3Abn,,:bnext [b E87
+https://neovim.io/doc/user/windows.html#%3Abn,,:bnext ]b E87
 https://neovim.io/doc/user/windows.html#%3Asbn,,:sbnext
-https://neovim.io/doc/user/windows.html#%3AbN,,:bNext :bp :bprevious ]b E88
+https://neovim.io/doc/user/windows.html#%3AbN,,:bNext :bp :bprevious [b E88
 https://neovim.io/doc/user/windows.html#%3AsbN,,:sbNext :sbp :sbprevious
 https://neovim.io/doc/user/windows.html#%3Abr,,:bre :brewind [B
 https://neovim.io/doc/user/windows.html#%3Abf,,:bfirst
@@ -4740,6 +4745,7 @@ https://neovim.io/doc/user/treesitter.html#TSNode%3Amissing(),
 https://neovim.io/doc/user/treesitter.html#TSNode%3Anamed(),
 https://neovim.io/doc/user/treesitter.html#TSNode%3Anamed_child(),
 https://neovim.io/doc/user/treesitter.html#TSNode%3Anamed_child_count(),
+https://neovim.io/doc/user/treesitter.html#TSNode%3Anamed_children(),
 https://neovim.io/doc/user/treesitter.html#TSNode%3Anamed_descendant_for_range(),
 https://neovim.io/doc/user/treesitter.html#TSNode%3Anext_named_sibling(),
 https://neovim.io/doc/user/treesitter.html#TSNode%3Anext_sibling(),
@@ -6419,6 +6425,7 @@ https://neovim.io/doc/user/options.html#cpo-Z,
 https://neovim.io/doc/user/options.html#cpo-_,
 https://neovim.io/doc/user/options.html#(,
 https://neovim.io/doc/user/options.html#E960,
+https://neovim.io/doc/user/options.html#project-config,,workspace-config
 https://neovim.io/doc/user/options.html#E213,
 https://neovim.io/doc/user/options.html#E1514,
 https://neovim.io/doc/user/options.html#E536,
