@@ -194,6 +194,7 @@ https://neovim.io/doc/user/options.html#'previewheight',,pvh
 https://neovim.io/doc/user/options.html#'previewwindow',,pvw nopreviewwindow nopvw
 https://neovim.io/doc/user/options.html#'pumblend',,pb
 https://neovim.io/doc/user/options.html#'pumheight',,ph
+https://neovim.io/doc/user/options.html#'pummaxwidth',,pmw
 https://neovim.io/doc/user/options.html#'pumwidth',,pw
 https://neovim.io/doc/user/options.html#'pyxversion',,pyx
 https://neovim.io/doc/user/options.html#'quickfixtextfunc',,qftf
@@ -1630,7 +1631,6 @@ https://neovim.io/doc/user/lua.html#lua-function-call,
 https://neovim.io/doc/user/lua.html#kwargs,
 https://neovim.io/doc/user/lua.html#lua-regex,
 https://neovim.io/doc/user/lua.html#lua-module-load,
-https://neovim.io/doc/user/lua.html#lua-package-path,
 https://neovim.io/doc/user/lua.html#lua-commands,
 https://neovim.io/doc/user/lua.html#%3Alua,
 https://neovim.io/doc/user/lua.html#%3Alua-heredoc,
@@ -2205,6 +2205,7 @@ https://neovim.io/doc/user/syntax.html#hl-DiffAdd,
 https://neovim.io/doc/user/syntax.html#hl-DiffChange,
 https://neovim.io/doc/user/syntax.html#hl-DiffDelete,
 https://neovim.io/doc/user/syntax.html#hl-DiffText,
+https://neovim.io/doc/user/syntax.html#hl-DiffTextAdd,
 https://neovim.io/doc/user/syntax.html#hl-EndOfBuffer,
 https://neovim.io/doc/user/syntax.html#hl-TermCursor,
 https://neovim.io/doc/user/syntax.html#hl-ErrorMsg,
@@ -3478,6 +3479,7 @@ https://neovim.io/doc/user/vi_diff.html#vi_diff.txt,
 https://neovim.io/doc/user/vi_diff.html#vi-differences,
 https://neovim.io/doc/user/vi_diff.html#limits,
 https://neovim.io/doc/user/vi_diff.html#E75,
+https://neovim.io/doc/user/vi_diff.html#E1541,
 https://neovim.io/doc/user/vi_diff.html#vim-additions,
 https://neovim.io/doc/user/diagnostic.html#diagnostic.txt,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic,
