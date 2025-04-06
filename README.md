@@ -3,8 +3,8 @@
 ![Alfred gallery downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-workflow-download-count.yaml&query=alfred-neovim-utilities&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87)
 ![Latest release](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic)
 
-Search [neovim plugins](https://neovimcraft.com/) and [online
-:help](https://neovim.io/doc/) of Neovim and plugins via [Alfred](https://www.alfredapp.com/).
+Search [neovim plugins](https://github.com/rockerBOO/awesome-neovim) and 
+the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.com/).
 
 ![Showcase help search](https://github.com/chrisgrieser/alfred-neovim-utilities/assets/73286100/5c0fc2a3-bcd2-4f29-b67b-e0a2d813e4d6)
 ![Showcase plugin search](https://github.com/chrisgrieser/alfred-neovim-utilities/assets/73286100/c519b303-729b-4df2-aa28-76b107f29b5e)
