@@ -29,6 +29,7 @@ https://neovim.io/doc/user/options.html#'cdpath',,cd
 https://neovim.io/doc/user/options.html#'cedit',
 https://neovim.io/doc/user/options.html#'channel',
 https://neovim.io/doc/user/options.html#'charconvert',,ccv
+https://neovim.io/doc/user/options.html#'chistory',,chi
 https://neovim.io/doc/user/options.html#'cindent',,cin nocindent nocin
 https://neovim.io/doc/user/options.html#'cinkeys',,cink
 https://neovim.io/doc/user/options.html#'cinoptions',,cino
@@ -145,6 +146,7 @@ https://neovim.io/doc/user/options.html#'langmenu',,lm
 https://neovim.io/doc/user/options.html#'langremap',,lrm nolangremap nolrm
 https://neovim.io/doc/user/options.html#'laststatus',,ls
 https://neovim.io/doc/user/options.html#'lazyredraw',,lz nolazyredraw nolz
+https://neovim.io/doc/user/options.html#'lhistory',,lhi
 https://neovim.io/doc/user/options.html#'linebreak',,lbr nolinebreak nolbr
 https://neovim.io/doc/user/options.html#'lines',
 https://neovim.io/doc/user/options.html#'linespace',,lsp
@@ -1248,7 +1250,6 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.buf_is_attached(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf_notify(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf_request_all(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf_request_sync(),
-https://neovim.io/doc/user/lsp.html#vim.lsp.client_is_stopped(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.commands,
 https://neovim.io/doc/user/lsp.html#vim.lsp.config(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.enable(),
@@ -1355,7 +1356,6 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.util.open_floating_preview(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.util.preview_location(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.util.rename(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.util.show_document(),
-https://neovim.io/doc/user/lsp.html#vim.lsp.util.stylize_markdown(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.util.symbols_to_items(),
 https://neovim.io/doc/user/lsp.html#lsp-log,
 https://neovim.io/doc/user/lsp.html#vim.lsp.log.get_filename(),
@@ -5198,6 +5198,8 @@ https://neovim.io/doc/user/filetype.html#g%3Azig_std_dir,
 https://neovim.io/doc/user/filetype.html#ft-zimbu-plugin,
 https://neovim.io/doc/user/deprecated.html#deprecated.txt,
 https://neovim.io/doc/user/deprecated.html#deprecated,
+https://neovim.io/doc/user/deprecated.html#vim.lsp.client_is_stopped(),
+https://neovim.io/doc/user/deprecated.html#vim.lsp.util.stylize_markdown(),
 https://neovim.io/doc/user/deprecated.html#vim.diagnostic.goto_next(),
 https://neovim.io/doc/user/deprecated.html#vim.diagnostic.goto_prev(),
 https://neovim.io/doc/user/deprecated.html#vim.diagnostic.get_next_pos(),
@@ -5566,7 +5568,7 @@ https://neovim.io/doc/user/visual.html#gH,
 https://neovim.io/doc/user/visual.html#g_CTRL-H,
 https://neovim.io/doc/user/quickfix.html#quickfix.txt,
 https://neovim.io/doc/user/quickfix.html#quickfix,,Quickfix E42
-https://neovim.io/doc/user/quickfix.html#quickfix-ID,
+https://neovim.io/doc/user/quickfix.html#quickfix-stack,,quickfix-ID
 https://neovim.io/doc/user/quickfix.html#location-list,,E776
 https://neovim.io/doc/user/quickfix.html#location-list-file-window,
 https://neovim.io/doc/user/quickfix.html#quickfix-changedtick,
