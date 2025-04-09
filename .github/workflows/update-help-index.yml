@@ -10,6 +10,8 @@ on:
 
   # when this file or the script for re-indexing is changed
   push:
+    branches:
+      - main # prevents triggering on temporary branches created when making a release
     paths:
       - .github/workflows/update-help-index.yml
       - .github/help-index/create-index.sh
