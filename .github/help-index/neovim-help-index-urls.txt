@@ -596,6 +596,7 @@ https://neovim.io/doc/user/change.html#blockwise-register,
 https://neovim.io/doc/user/change.html#registers,,{register} E354
 https://neovim.io/doc/user/change.html#quote_quote,,quotequote
 https://neovim.io/doc/user/change.html#quote_number,,quote0 quote1
+https://neovim.io/doc/user/change.html#yankring,
 https://neovim.io/doc/user/change.html#quote_-,,quote-
 https://neovim.io/doc/user/change.html#quote_alpha,,quotea
 https://neovim.io/doc/user/change.html#quote_.,,quote. E29
@@ -2018,6 +2019,7 @@ https://neovim.io/doc/user/syntax.html#maple.vim,,ft-maple-syntax
 https://neovim.io/doc/user/syntax.html#ft-markdown-syntax,,g:markdown_minlines
 https://neovim.io/doc/user/syntax.html#g%3Amarkdown_fenced_languages,,g:markdown_syntax_conceal
 https://neovim.io/doc/user/syntax.html#mma.vim,,ft-mma-syntax ft-mathematica-syntax
+https://neovim.io/doc/user/syntax.html#mbsync.vim,,ft-mbsync-syntax
 https://neovim.io/doc/user/syntax.html#ft-mediawiki-syntax,
 https://neovim.io/doc/user/syntax.html#moo.vim,,ft-moo-syntax
 https://neovim.io/doc/user/syntax.html#msql.vim,,ft-msql-syntax
@@ -5344,6 +5346,7 @@ https://neovim.io/doc/user/helphelp.html#help-writing,
 https://neovim.io/doc/user/helphelp.html#plugin_name.txt,
 https://neovim.io/doc/user/helphelp.html#tag-name,
 https://neovim.io/doc/user/helphelp.html#help-codeblock,
+https://neovim.io/doc/user/helphelp.html#ft-help-omni,
 https://neovim.io/doc/user/job_control.html#job_control.txt,
 https://neovim.io/doc/user/job_control.html#job,,job-control
 https://neovim.io/doc/user/job_control.html#job-id,
