@@ -3,7 +3,7 @@
 ![Alfred gallery downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-workflow-download-count.yaml&query=alfred-neovim-utilities&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87)
 ![Latest release](https://img.shields.io/github/v/release/chrisgrieser/alfred-neovim-utilities?label=Latest%20Release&style=plastic)
 
-Search [neovim plugins](https://github.com/rockerBOO/awesome-neovim) and 
+Search [neovim plugins](https://github.com/rockerBOO/awesome-neovim) and
 the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.com/).
 
 ![Showcase help search](https://github.com/chrisgrieser/alfred-neovim-utilities/assets/73286100/5c0fc2a3-bcd2-4f29-b67b-e0a2d813e4d6)
@@ -73,8 +73,6 @@ compatibility. If you are interested in this subject, feel free to get in touch.
 - [Mastodon](https://pkm.social/@pseudometa)
 - [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
 - [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
-
-I also occasionally blog about vim: [Nano Tips for Vim](https://nanotipsforvim.prose.sh/)
 
 <a href='https://ko-fi.com/Y8Y86SQ91' target='_blank'> <img height='36'
 style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
