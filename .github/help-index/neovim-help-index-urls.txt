@@ -1264,6 +1264,7 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.get_buffers_by_client_id(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.get_client_by_id(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.get_clients(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.get_log_path(),
+https://neovim.io/doc/user/lsp.html#vim.lsp.is_enabled(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.omnifunc(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.set_log_level(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.start(),
@@ -1543,13 +1544,13 @@ https://neovim.io/doc/user/editing.html#E1156,
 https://neovim.io/doc/user/editing.html#%3Aargded,,:argdedupe
 https://neovim.io/doc/user/editing.html#%3Aargd,,:argdelete E480 E610
 https://neovim.io/doc/user/editing.html#%3Aargu,,:argument
-https://neovim.io/doc/user/editing.html#%3An,,:ne :next ]a E165 E163
+https://neovim.io/doc/user/editing.html#%3An,,:ne :next E165 E163
 https://neovim.io/doc/user/editing.html#%3Anext_f,
 https://neovim.io/doc/user/editing.html#%3ANext,,:N E164
-https://neovim.io/doc/user/editing.html#%3Aprev,,:previous [a
-https://neovim.io/doc/user/editing.html#%3Arew,,:rewind [A
+https://neovim.io/doc/user/editing.html#%3Aprev,,:previous
+https://neovim.io/doc/user/editing.html#%3Arew,,:rewind
 https://neovim.io/doc/user/editing.html#%3Afir,,:first
-https://neovim.io/doc/user/editing.html#%3Ala,,:last ]A
+https://neovim.io/doc/user/editing.html#%3Ala,,:last
 https://neovim.io/doc/user/editing.html#%3Awn,,:wnext
 https://neovim.io/doc/user/editing.html#%3AwN,,:wNext
 https://neovim.io/doc/user/editing.html#%3Awp,,:wprevious
@@ -1784,6 +1785,7 @@ https://neovim.io/doc/user/lua.html#vim.ui.input(),
 https://neovim.io/doc/user/lua.html#vim.ui.open(),
 https://neovim.io/doc/user/lua.html#%3AOpen,
 https://neovim.io/doc/user/lua.html#vim.ui.select(),
+https://neovim.io/doc/user/lua.html#vim._extui,
 https://neovim.io/doc/user/lua.html#vim.filetype,
 https://neovim.io/doc/user/lua.html#vim.filetype.add(),
 https://neovim.io/doc/user/lua.html#vim.filetype.get_option(),
@@ -2216,6 +2218,8 @@ https://neovim.io/doc/user/syntax.html#hl-DiffTextAdd,
 https://neovim.io/doc/user/syntax.html#hl-EndOfBuffer,
 https://neovim.io/doc/user/syntax.html#hl-TermCursor,
 https://neovim.io/doc/user/syntax.html#hl-ErrorMsg,
+https://neovim.io/doc/user/syntax.html#hl-StderrMsg,
+https://neovim.io/doc/user/syntax.html#hl-StdoutMsg,
 https://neovim.io/doc/user/syntax.html#hl-WinSeparator,
 https://neovim.io/doc/user/syntax.html#hl-Folded,
 https://neovim.io/doc/user/syntax.html#hl-FoldColumn,
@@ -2802,6 +2806,7 @@ https://neovim.io/doc/user/insert.html#complete-items,
 https://neovim.io/doc/user/insert.html#E840,
 https://neovim.io/doc/user/insert.html#ins-completion-menu,
 https://neovim.io/doc/user/insert.html#popupmenu-completion,
+https://neovim.io/doc/user/insert.html#compl-states,
 https://neovim.io/doc/user/insert.html#popupmenu-keys,
 https://neovim.io/doc/user/insert.html#compl-omni-filetypes,
 https://neovim.io/doc/user/insert.html#ft-c-omni,
@@ -3497,6 +3502,7 @@ https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.severity,,diagnostic-s
 https://neovim.io/doc/user/diagnostic.html#diagnostic-handlers,
 https://neovim.io/doc/user/diagnostic.html#diagnostic-handlers-example,
 https://neovim.io/doc/user/diagnostic.html#diagnostic-toggle-virtual-lines-example,
+https://neovim.io/doc/user/diagnostic.html#diagnostic-on-jump-example,
 https://neovim.io/doc/user/diagnostic.html#diagnostic-loclist-example,
 https://neovim.io/doc/user/diagnostic.html#diagnostic-highlights,
 https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticError,
@@ -3509,6 +3515,11 @@ https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticVirtualTextWarn,
 https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticVirtualTextInfo,
 https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticVirtualTextHint,
 https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticVirtualTextOk,
+https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticVirtualLinesError,
+https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticVirtualLinesWarn,
+https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticVirtualLinesInfo,
+https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticVirtualLinesHint,
+https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticVirtualLinesOk,
 https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticUnderlineError,
 https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticUnderlineWarn,
 https://neovim.io/doc/user/diagnostic.html#hl-DiagnosticUnderlineInfo,
@@ -4334,15 +4345,15 @@ https://neovim.io/doc/user/windows.html#%3Abw,,:bwipe :bwipeout E517
 https://neovim.io/doc/user/windows.html#%3Abun,,:bunload E515
 https://neovim.io/doc/user/windows.html#%3Ab,,:bu :buf :buffer E86
 https://neovim.io/doc/user/windows.html#%3Asb,,:sbuffer
-https://neovim.io/doc/user/windows.html#%3Abn,,:bnext ]b E87
+https://neovim.io/doc/user/windows.html#%3Abn,,:bnext E87
 https://neovim.io/doc/user/windows.html#%3Asbn,,:sbnext
-https://neovim.io/doc/user/windows.html#%3AbN,,:bNext :bp :bprevious [b E88
+https://neovim.io/doc/user/windows.html#%3AbN,,:bNext :bp :bprevious E88
 https://neovim.io/doc/user/windows.html#%3AsbN,,:sbNext :sbp :sbprevious
-https://neovim.io/doc/user/windows.html#%3Abr,,:bre :brewind [B
+https://neovim.io/doc/user/windows.html#%3Abr,,:bre :brewind
 https://neovim.io/doc/user/windows.html#%3Abf,,:bfirst
 https://neovim.io/doc/user/windows.html#%3Asbr,,:sbrewind
 https://neovim.io/doc/user/windows.html#%3Asbf,,:sbfirst
-https://neovim.io/doc/user/windows.html#%3Abl,,:blast ]B
+https://neovim.io/doc/user/windows.html#%3Abl,,:blast
 https://neovim.io/doc/user/windows.html#%3Asbl,,:sblast
 https://neovim.io/doc/user/windows.html#%3Abm,,:bmodified E84
 https://neovim.io/doc/user/windows.html#%3Asbm,,:sbmodified
@@ -5175,6 +5186,7 @@ https://neovim.io/doc/user/filetype.html#ft-gleam-plugin,
 https://neovim.io/doc/user/filetype.html#ft-go-plugin,
 https://neovim.io/doc/user/filetype.html#ft-gprof-plugin,
 https://neovim.io/doc/user/filetype.html#ft-hare,
+https://neovim.io/doc/user/filetype.html#ft-html-plugin,
 https://neovim.io/doc/user/filetype.html#ft-java-plugin,
 https://neovim.io/doc/user/filetype.html#ft-lua-plugin,
 https://neovim.io/doc/user/filetype.html#g%3Alua_version,,g:lua_subversion
@@ -5381,19 +5393,19 @@ https://neovim.io/doc/user/tagsrch.html#%3Ats,,:tselect
 https://neovim.io/doc/user/tagsrch.html#%3Asts,,:stselect
 https://neovim.io/doc/user/tagsrch.html#%3Atj,,:tjump
 https://neovim.io/doc/user/tagsrch.html#%3Astj,,:stjump
-https://neovim.io/doc/user/tagsrch.html#%3Atn,,:tnext ]t
-https://neovim.io/doc/user/tagsrch.html#%3Atp,,:tprevious [t
+https://neovim.io/doc/user/tagsrch.html#%3Atn,,:tnext
+https://neovim.io/doc/user/tagsrch.html#%3Atp,,:tprevious
 https://neovim.io/doc/user/tagsrch.html#%3AtN,,:tNext
-https://neovim.io/doc/user/tagsrch.html#%3Atr,,:trewind [T
+https://neovim.io/doc/user/tagsrch.html#%3Atr,,:trewind
 https://neovim.io/doc/user/tagsrch.html#%3Atf,,:tfirst
-https://neovim.io/doc/user/tagsrch.html#%3Atl,,:tlast ]T
+https://neovim.io/doc/user/tagsrch.html#%3Atl,,:tlast
 https://neovim.io/doc/user/tagsrch.html#%3Alt,,:ltag
 https://neovim.io/doc/user/tagsrch.html#tag-skip-file,
 https://neovim.io/doc/user/tagsrch.html#tag-preview,
 https://neovim.io/doc/user/tagsrch.html#%3Apts,,:ptselect
 https://neovim.io/doc/user/tagsrch.html#%3Aptj,,:ptjump
-https://neovim.io/doc/user/tagsrch.html#%3Aptn,,:ptnext ]CTRL-T
-https://neovim.io/doc/user/tagsrch.html#%3Aptp,,:ptprevious [CTRL-T
+https://neovim.io/doc/user/tagsrch.html#%3Aptn,,:ptnext
+https://neovim.io/doc/user/tagsrch.html#%3Aptp,,:ptprevious
 https://neovim.io/doc/user/tagsrch.html#%3AptN,,:ptNext
 https://neovim.io/doc/user/tagsrch.html#%3Aptr,,:ptrewind
 https://neovim.io/doc/user/tagsrch.html#%3Aptf,,:ptfirst
@@ -5592,10 +5604,10 @@ https://neovim.io/doc/user/quickfix.html#E924,
 https://neovim.io/doc/user/quickfix.html#E925,,E926
 https://neovim.io/doc/user/quickfix.html#%3Acc,
 https://neovim.io/doc/user/quickfix.html#%3All,
-https://neovim.io/doc/user/quickfix.html#%3Acn,,:cne :cnext E553 ]q
-https://neovim.io/doc/user/quickfix.html#%3Alne,,:lnext ]l
-https://neovim.io/doc/user/quickfix.html#%3Acp,,:cprevious  :cprev :cN :cNext [q
-https://neovim.io/doc/user/quickfix.html#%3Alp,,:lprevious :lprev :lN :lNext [l
+https://neovim.io/doc/user/quickfix.html#%3Acn,,:cne :cnext E553
+https://neovim.io/doc/user/quickfix.html#%3Alne,,:lnext
+https://neovim.io/doc/user/quickfix.html#%3Acp,,:cprevious  :cprev :cN :cNext
+https://neovim.io/doc/user/quickfix.html#%3Alp,,:lprevious :lprev :lN :lNext
 https://neovim.io/doc/user/quickfix.html#%3Acabo,,:cabove
 https://neovim.io/doc/user/quickfix.html#%3Alab,,:labove
 https://neovim.io/doc/user/quickfix.html#%3Acbel,,:cbelow
@@ -5604,16 +5616,16 @@ https://neovim.io/doc/user/quickfix.html#%3Acbe,,:cbefore
 https://neovim.io/doc/user/quickfix.html#%3Albe,,:lbefore
 https://neovim.io/doc/user/quickfix.html#%3Acaf,,:cafter
 https://neovim.io/doc/user/quickfix.html#%3Alaf,,:lafter
-https://neovim.io/doc/user/quickfix.html#%3Acnf,,:cnfile ]CTRL-Q
-https://neovim.io/doc/user/quickfix.html#%3Alnf,,:lnfile ]CTRL-L
-https://neovim.io/doc/user/quickfix.html#%3Acpf,,:cpfile :cNf :cNfile [CTRL-Q
-https://neovim.io/doc/user/quickfix.html#%3Alpf,,:lpfile :lNf :lNfile [CTRL-L
-https://neovim.io/doc/user/quickfix.html#%3Acrewind,,:cr [Q
-https://neovim.io/doc/user/quickfix.html#%3Alrewind,,:lr [L
+https://neovim.io/doc/user/quickfix.html#%3Acnf,,:cnfile
+https://neovim.io/doc/user/quickfix.html#%3Alnf,,:lnfile
+https://neovim.io/doc/user/quickfix.html#%3Acpf,,:cpfile :cNf :cNfile
+https://neovim.io/doc/user/quickfix.html#%3Alpf,,:lpfile :lNf :lNfile
+https://neovim.io/doc/user/quickfix.html#%3Acrewind,,:cr
+https://neovim.io/doc/user/quickfix.html#%3Alrewind,,:lr
 https://neovim.io/doc/user/quickfix.html#%3Acfirst,,:cfir
 https://neovim.io/doc/user/quickfix.html#%3Alfirst,,:lfir
-https://neovim.io/doc/user/quickfix.html#%3Aclast,,:cla ]Q
-https://neovim.io/doc/user/quickfix.html#%3Allast,,:lla ]L
+https://neovim.io/doc/user/quickfix.html#%3Aclast,,:cla
+https://neovim.io/doc/user/quickfix.html#%3Allast,,:lla
 https://neovim.io/doc/user/quickfix.html#%3Acq,,:cquit
 https://neovim.io/doc/user/quickfix.html#%3Acf,,:cfi :cfile
 https://neovim.io/doc/user/quickfix.html#%3Alf,,:lfi :lfile
