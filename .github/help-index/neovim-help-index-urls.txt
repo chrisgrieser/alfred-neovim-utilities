@@ -435,6 +435,7 @@ https://neovim.io/doc/user/gui.html#third-party-guis,,vscode
 https://neovim.io/doc/user/gui.html#gui-config,,gui-start
 https://neovim.io/doc/user/gui.html#ginit.vim,,gui-init gvimrc $MYGVIMRC
 https://neovim.io/doc/user/gui.html#%3Adetach,
+https://neovim.io/doc/user/gui.html#%3Arestart,
 https://neovim.io/doc/user/gui.html#%3Awinp,,:winpos E188
 https://neovim.io/doc/user/gui.html#E466,
 https://neovim.io/doc/user/gui.html#%3Awi,,:win :winsize E465
@@ -1467,7 +1468,7 @@ https://neovim.io/doc/user/lsp.html#lsp.txt,
 https://neovim.io/doc/user/lsp.html#lsp,,LSP
 https://neovim.io/doc/user/lsp.html#lsp-quickstart,
 https://neovim.io/doc/user/lsp.html#lsp-defaults,
-https://neovim.io/doc/user/lsp.html#grr,,gra grn gri i_CTRL-S
+https://neovim.io/doc/user/lsp.html#grr,,gra grn gri i_CTRL-S an in
 https://neovim.io/doc/user/lsp.html#lsp-defaults-disable,
 https://neovim.io/doc/user/lsp.html#lsp-config,
 https://neovim.io/doc/user/lsp.html#lsp-attach,
@@ -1566,9 +1567,11 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.buf.outgoing_calls(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf.references(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf.remove_workspace_folder(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf.rename(),
+https://neovim.io/doc/user/lsp.html#vim.lsp.buf.selection_range(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf.signature_help(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf.type_definition(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf.typehierarchy(),
+https://neovim.io/doc/user/lsp.html#vim.lsp.buf.workspace_diagnostics(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf.workspace_symbol(),
 https://neovim.io/doc/user/lsp.html#lsp-diagnostic,
 https://neovim.io/doc/user/lsp.html#vim.lsp.diagnostic.from(),
@@ -2307,7 +2310,7 @@ https://neovim.io/doc/user/syntax.html#phtml.vim,,ft-phtml-syntax
 https://neovim.io/doc/user/syntax.html#postscr.vim,,ft-postscr-syntax
 https://neovim.io/doc/user/syntax.html#ptcap.vim,,ft-printcap-syntax
 https://neovim.io/doc/user/syntax.html#ft-ptcap-syntax,,ft-termcap-syntax
-https://neovim.io/doc/user/syntax.html#printcap,,,or termcap
+https://neovim.io/doc/user/syntax.html#printcap",,,or "termcap
 https://neovim.io/doc/user/syntax.html#progress.vim,,ft-progress-syntax
 https://neovim.io/doc/user/syntax.html#python.vim,,ft-python-syntax
 https://neovim.io/doc/user/syntax.html#quake.vim,,ft-quake-syntax
@@ -3022,8 +3025,8 @@ https://neovim.io/doc/user/insert.html#i_CTRL-G_u,
 https://neovim.io/doc/user/insert.html#i_CTRL-G_U,
 https://neovim.io/doc/user/insert.html#ins-textwidth,
 https://neovim.io/doc/user/insert.html#ins-expandtab,
-https://neovim.io/doc/user/insert.html#ins-smarttab,
 https://neovim.io/doc/user/insert.html#ins-softtabstop,
+https://neovim.io/doc/user/insert.html#ins-smarttab,
 https://neovim.io/doc/user/insert.html#Replace,,Replace-mode mode-replace
 https://neovim.io/doc/user/insert.html#vreplace-mode,,Virtual-Replace-mode
 https://neovim.io/doc/user/insert.html#ins-completion,
@@ -3267,6 +3270,7 @@ https://neovim.io/doc/user/diagnostic.html#diagnostic.txt,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic,
 https://neovim.io/doc/user/diagnostic.html#diagnostic-quickstart,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.severity,,diagnostic-severity
+https://neovim.io/doc/user/diagnostic.html#diagnostic-defaults,
 https://neovim.io/doc/user/diagnostic.html#diagnostic-handlers,
 https://neovim.io/doc/user/diagnostic.html#diagnostic-handlers-example,
 https://neovim.io/doc/user/diagnostic.html#diagnostic-toggle-virtual-lines-example,
@@ -3311,6 +3315,7 @@ https://neovim.io/doc/user/diagnostic.html#DiagnosticChanged,
 https://neovim.io/doc/user/diagnostic.html#diagnostic-api,
 https://neovim.io/doc/user/diagnostic.html#vim.Diagnostic,
 https://neovim.io/doc/user/diagnostic.html#diagnostic-structure,
+https://neovim.io/doc/user/diagnostic.html#vim.Diagnostic.Set,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.GetOpts,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.JumpOpts,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.NS,
@@ -5960,8 +5965,6 @@ https://neovim.io/doc/user/luvref.html#uv.pipe_pending_count(),
 https://neovim.io/doc/user/luvref.html#uv.pipe_pending_type(),
 https://neovim.io/doc/user/luvref.html#uv.pipe_chmod(),
 https://neovim.io/doc/user/luvref.html#uv.pipe(),
-https://neovim.io/doc/user/luvref.html#Note,
-https://neovim.io/doc/user/luvref.html#Note,
 https://neovim.io/doc/user/luvref.html#luv-tty-handle,,uv_tty_t
 https://neovim.io/doc/user/luvref.html#uv.new_tty(),
 https://neovim.io/doc/user/luvref.html#uv.tty_set_mode(),
