@@ -63,11 +63,16 @@ for the preview pane:
 
 ## Credits
 - <!-- harper: ignore -->Plugin database provided by
-  [awesome-neovim](https://github.com/rockerBOO/awesome-neovim).
+  [awesome-neovim](https://github.com/rockerBOO/awesome-neovim), additional
+  crawling by [@alex-popov-tech's
+  store.nvim](https://github.com/alex-popov-tech/store.nvim)
 - `vimdoc` to HTML conversion by
-  [@xaizek](https://github.com/xaizek/vimdoc2html).
+  [@xaizek's vimdoc2html](https://github.com/xaizek/vimdoc2html).
 - Preview pane by
-  [@mr-pennyworth](https://github.com/mr-pennyworth/alfred-extra-pane).
+  [@mr-pennyworth's
+  alfred-extra-pane](https://github.com/mr-pennyworth/alfred-extra-pane).
+- Logo by
+  [@thomascannon](https://github.com/neovim/neovim/issues/43#issuecomment-35811450).
 
 ## About the developer
 In my day job, I am a sociologist studying the social mechanisms underlying the
