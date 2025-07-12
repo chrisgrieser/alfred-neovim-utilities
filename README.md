@@ -18,13 +18,17 @@ the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.co
 - `vp`: Searches [awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
   for Neovim plugins. Mnemonic: `[v]im [p]lugins`.
 	+ <kbd>⏎</kbd>: Open the GitHub repo.
-	+ <kbd>⌘⏎</kbd>: Open the `:help` in the browser (`vimdoc` converted to HTML).
+	+ <kbd>⌘⏎</kbd>: Open the `:help` in the browser (`vimdoc` converted to
+	  HTML).
 	+ <kbd>⌥⏎</kbd>: Copy the GitHub URL to the clipboard.
 - `ip`: Search for plugins (and Mason tools) installed locally on your device.
   Mnemonic: `[i]installed [p]lugins`.
-	+ The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this command.
-	+ In addition, <kbd>fn⏎</kbd>: Open the local directory of the plugin in Finder.
-- `mason`: Search for tools available via [mason.nvim](https://github.com/williamboman/mason.nvim).
+	+ The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this
+	  command.
+	+ In addition, <kbd>fn⏎</kbd>: Open the local directory of the plugin in
+	  Finder.
+- `mason`: Search for tools available via
+  [mason.nvim](https://github.com/williamboman/mason.nvim).
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's
   default editor for the respective filetype. (To open them directly in Neovim,
   you need a Neovim GUI with `Open with…` capability, such as
@@ -58,8 +62,10 @@ for the preview pane:
 ```
 
 ## Credits
-- Plugin database provided by [awesome-neovim](https://github.com/rockerBOO/awesome-neovim).
-- `vimdoc` to HTML conversion by [@xaizek](https://github.com/xaizek/vimdoc2html).
+- <!-- harper: ignore -->Plugin database provided by
+  [awesome-neovim](https://github.com/rockerBOO/awesome-neovim).
+- `vimdoc` to HTML conversion by
+  [@xaizek](https://github.com/xaizek/vimdoc2html).
 - Preview pane by
   [@mr-pennyworth](https://github.com/mr-pennyworth/alfred-extra-pane).
 
