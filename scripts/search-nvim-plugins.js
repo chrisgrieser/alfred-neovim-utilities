@@ -18,15 +18,29 @@ function httpRequest(url) {
 	return $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding).js;
 }
 
-// *   [smjonas/inc-rename.nvim (⭐601)](https://github.com/smjonas/inc-rename.nvim) - Provides an incremental LSP rename command based on Neovim's command-preview feature.
-const mdLinkRegex = /\[(.+?) \(⭐(.+?)\)\]\((.+?)\) - (.*)/;
-
 const fileExists = (/** @type {string} */ filePath) => Application("Finder").exists(Path(filePath));
 
 //──────────────────────────────────────────────────────────────────────────────
 
-// INFO Searching awesome-neovim instead of neovimcraft or dotfyle, since the
-// the latter two only scrape awesome-neovim anyway
+// INFO Using the crawler result of `store.nvim`, since it is it includes more
+// plugins that awesome-neovim, and neovimcraft and dotfyle only include plugins
+// that are in the awesome-neovim
+const storeNvimList =
+	"https://gist.githubusercontent.com/alex-popov-tech/93dcd3ce38cbc7a0b3245b9b59b56c9b/raw/a4859fe73ddda67e4fb86a5cd7bc30e9889cb787/store.nvim-repos.json";
+
+/** @typedef {Object} StoreNvimRepo
+ * @property {string} full_name
+ * @property {string} description
+ * @property {string} homepage
+ * @property {string} html_url
+ * @property {number} stargazers_count
+ * @property {number} watchers_count
+ * @property {number} fork_count
+ * @property {string} updated_at - ISO‑8601 timestamp
+ * @property {string[]} topics
+ */
+
+//──────────────────────────────────────────────────────────────────────────────
 
 /** @type {AlfredRun} */
 // biome-ignore lint/correctness/noUnusedVariables: Alfred run
@@ -45,36 +59,26 @@ function run() {
 			});
 	}
 
-	// Using `trackawesomelist` over the raw markdown, as it includes star count
-	const awesomeNeovimList =
-		"https://raw.githubusercontent.com/trackawesomelist/trackawesomelist/main/content/rockerBOO/awesome-neovim/readme/README.md";
+	const pluginsArr = JSON.parse(httpRequest(storeNvimList)).repositories.map(
+		(/** @type {StoreNvimRepo} */ repo) => {
+			const { full_name, description, html_url, stargazers_count, updated_at } = repo;
+			const [author, name] = full_name.split("/");
+			const installedIcon = installedPlugins.includes(full_name) ? " ✅" : "";
+			const subtitle = ["⭐ " + stargazers_count, author, description].join("  ·  ");
 
-	const pluginsArr = httpRequest(awesomeNeovimList)
-		.split("\n")
-		.reduce((/** @type {AlfredItem[]} */ acc, line) => {
-			if (!line.startsWith("*   [") || !line.includes("/")) return acc;
-
-			const [_, repo, stars, url, desc] = line.match(mdLinkRegex) || [];
-			if (!repo || !url) return acc;
-			const [author, name] = repo.split("/");
-			if (!name) return acc;
-			const displayName = name.replaceAll("\\_", "_");
-			const installedIcon = installedPlugins.includes(repo) ? " ✅" : "";
-			const subtitle = ["⭐ " + stars, author, desc].join("  ·  ");
-
-			acc.push({
-				title: displayName + installedIcon,
-				match: alfredMatcher(repo),
+			return {
+				title: name + installedIcon,
+				match: alfredMatcher(full_name),
 				subtitle: subtitle,
-				arg: url,
+				arg: html_url,
 				mods: {
 					cmd: { arg: repo },
 				},
-				quicklookurl: url,
+				quicklookurl: html_url,
 				uid: repo,
-			});
-			return acc;
-		}, []);
+			};
+		},
+	);
 
 	console.log("plugin count:", pluginsArr.length);
 	return JSON.stringify({
