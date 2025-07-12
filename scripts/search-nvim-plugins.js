@@ -13,10 +13,9 @@ function alfredMatcher(str) {
 
 /** @param {string} url @return {string} */
 function httpRequest(url) {
-	const queryURL = $.NSURL.URLWithString(url);
-	const data = $.NSData.dataWithContentsOfURL(queryURL);
-	const requestStr = $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding).js;
-	return requestStr;
+	const queryUrl = $.NSURL.URLWithString(url);
+	const data = $.NSData.dataWithContentsOfURL(queryUrl);
+	return $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding).js;
 }
 
 // *   [smjonas/inc-rename.nvim (⭐601)](https://github.com/smjonas/inc-rename.nvim) - Provides an incremental LSP rename command based on Neovim's command-preview feature.
@@ -34,8 +33,7 @@ const fileExists = (/** @type {string} */ filePath) => Application("Finder").exi
 function run() {
 	// determine local plugins
 	const pluginInstallPath = $.getenv("plugin_installation_path");
-	/** @type {string[]} */
-	let installedPlugins = [];
+	let /** @type {string[]} */ installedPlugins = [];
 	if (fileExists(pluginInstallPath)) {
 		const shellCmd = `cd "${pluginInstallPath}" && grep --only-matching --no-filename --max-count=1 "http.*" ./*/.git/config`;
 		installedPlugins = app
@@ -53,18 +51,18 @@ function run() {
 
 	const pluginsArr = httpRequest(awesomeNeovimList)
 		.split("\n")
-		.map((/** @type {string} */ line) => {
-			if (!line.startsWith("*   [") || !line.includes("/")) return {};
+		.reduce((/** @type {AlfredItem[]} */ acc, line) => {
+			if (!line.startsWith("*   [") || !line.includes("/")) return acc;
 
 			const [_, repo, stars, url, desc] = line.match(mdLinkRegex) || [];
-			if (!repo || !url) return {};
+			if (!repo || !url) return acc;
 			const [author, name] = repo.split("/");
-			if (!name) return {};
+			if (!name) return acc;
 			const displayName = name.replaceAll("\\_", "_");
 			const installedIcon = installedPlugins.includes(repo) ? " ✅" : "";
 			const subtitle = ["⭐ " + stars, author, desc].join("  ·  ");
 
-			return {
+			acc.push({
 				title: displayName + installedIcon,
 				match: alfredMatcher(repo),
 				subtitle: subtitle,
@@ -74,9 +72,11 @@ function run() {
 				},
 				quicklookurl: url,
 				uid: repo,
-			};
-		});
+			});
+			return acc;
+		}, []);
 
+	console.log("plugin count:", pluginsArr.length);
 	return JSON.stringify({
 		items: pluginsArr,
 		cache: { seconds: 300, loosereload: true }, // faster, to update install icons
