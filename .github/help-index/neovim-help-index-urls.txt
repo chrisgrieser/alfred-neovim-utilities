@@ -63,6 +63,7 @@ https://neovim.io/doc/user/options.html#'define',,def
 https://neovim.io/doc/user/options.html#'delcombine',,deco nodelcombine nodeco
 https://neovim.io/doc/user/options.html#'dictionary',,dict
 https://neovim.io/doc/user/options.html#'diff',,nodiff
+https://neovim.io/doc/user/options.html#'diffanchors',,dia
 https://neovim.io/doc/user/options.html#'diffexpr',,dex
 https://neovim.io/doc/user/options.html#'diffopt',,dip
 https://neovim.io/doc/user/options.html#'digraph',,dg nodigraph nodg
@@ -1264,11 +1265,6 @@ https://neovim.io/doc/user/repeat.html#%3Afini,,:finish E168
 https://neovim.io/doc/user/repeat.html#%3Asource_crnl,,W15
 https://neovim.io/doc/user/repeat.html#line-continuation,
 https://neovim.io/doc/user/repeat.html#line-continuation-comment,
-https://neovim.io/doc/user/repeat.html#packages,
-https://neovim.io/doc/user/repeat.html#runtime-search-path,
-https://neovim.io/doc/user/repeat.html#pack-add,
-https://neovim.io/doc/user/repeat.html#package-create,
-https://neovim.io/doc/user/repeat.html#packload-two-steps,
 https://neovim.io/doc/user/repeat.html#debug-scripts,
 https://neovim.io/doc/user/repeat.html#debug-mode,
 https://neovim.io/doc/user/repeat.html#%3Adebug,
@@ -1612,6 +1608,8 @@ https://neovim.io/doc/user/lsp.html#lsp-document_color,
 https://neovim.io/doc/user/lsp.html#vim.lsp.document_color.color_presentation(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.document_color.enable(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.document_color.is_enabled(),
+https://neovim.io/doc/user/lsp.html#lsp-linked_editing_range,
+https://neovim.io/doc/user/lsp.html#vim.lsp.linked_editing_range.enable(),
 https://neovim.io/doc/user/lsp.html#lsp-util,
 https://neovim.io/doc/user/lsp.html#vim.lsp.util.open_floating_preview.Opts,
 https://neovim.io/doc/user/lsp.html#vim.lsp.util.apply_text_document_edit(),
@@ -2050,15 +2048,6 @@ https://neovim.io/doc/user/lua.html#vim.loader,
 https://neovim.io/doc/user/lua.html#vim.loader.enable(),
 https://neovim.io/doc/user/lua.html#vim.loader.find(),
 https://neovim.io/doc/user/lua.html#vim.loader.reset(),
-https://neovim.io/doc/user/lua.html#vim.pack,
-https://neovim.io/doc/user/lua.html#vim.pack-directory,
-https://neovim.io/doc/user/lua.html#PackChangedPre,
-https://neovim.io/doc/user/lua.html#PackChanged,
-https://neovim.io/doc/user/lua.html#vim.pack.Spec,
-https://neovim.io/doc/user/lua.html#vim.pack.add(),
-https://neovim.io/doc/user/lua.html#vim.pack.del(),
-https://neovim.io/doc/user/lua.html#vim.pack.get(),
-https://neovim.io/doc/user/lua.html#vim.pack.update(),
 https://neovim.io/doc/user/lua.html#vim.uri,
 https://neovim.io/doc/user/lua.html#vim.uri_decode(),
 https://neovim.io/doc/user/lua.html#vim.uri_encode(),
@@ -3274,12 +3263,12 @@ https://neovim.io/doc/user/pi_tar.html#tar-copyright,
 https://neovim.io/doc/user/pi_tar.html#tar,,tar-contents
 https://neovim.io/doc/user/pi_tar.html#tar-usage,,tar-manual
 https://neovim.io/doc/user/pi_tar.html#%3ATarDiff,
+https://neovim.io/doc/user/pi_tar.html#tar-mappings,
 https://neovim.io/doc/user/pi_tar.html#tar-options,
 https://neovim.io/doc/user/pi_tar.html#g%3Atar_browseoptions,
 https://neovim.io/doc/user/pi_tar.html#g%3Atar_readoptions,
 https://neovim.io/doc/user/pi_tar.html#g%3Atar_cmd,
 https://neovim.io/doc/user/pi_tar.html#g%3Atar_nomax,
-https://neovim.io/doc/user/pi_tar.html#g%3Atar_secure,
 https://neovim.io/doc/user/pi_tar.html#g%3Atar_writeoptions,
 https://neovim.io/doc/user/pi_tar.html#tar-history,
 https://neovim.io/doc/user/testing.html#testing.txt,
@@ -3514,6 +3503,7 @@ https://neovim.io/doc/user/diff.html#%3Adiffpu,,:diffput E793
 https://neovim.io/doc/user/diff.html#do,
 https://neovim.io/doc/user/diff.html#dp,
 https://neovim.io/doc/user/diff.html#E787,
+https://neovim.io/doc/user/diff.html#diff-anchors,
 https://neovim.io/doc/user/diff.html#diff-options,
 https://neovim.io/doc/user/diff.html#diff-slow,,diff_translations
 https://neovim.io/doc/user/diff.html#diff-diffexpr,
@@ -6351,6 +6341,21 @@ https://neovim.io/doc/user/digraph.html#i_digraph,
 https://neovim.io/doc/user/digraph.html#digraphs-default,
 https://neovim.io/doc/user/digraph.html#euro,,euro-digraph
 https://neovim.io/doc/user/digraph.html#digraph-table,,digraph-table-mbyte
+https://neovim.io/doc/user/pack.html#pack.txt,
+https://neovim.io/doc/user/pack.html#packages,
+https://neovim.io/doc/user/pack.html#runtime-search-path,
+https://neovim.io/doc/user/pack.html#pack-add,
+https://neovim.io/doc/user/pack.html#package-create,
+https://neovim.io/doc/user/pack.html#packload-two-steps,
+https://neovim.io/doc/user/pack.html#vim.pack,
+https://neovim.io/doc/user/pack.html#vim.pack-directory,
+https://neovim.io/doc/user/pack.html#PackChangedPre,
+https://neovim.io/doc/user/pack.html#PackChanged,
+https://neovim.io/doc/user/pack.html#vim.pack.Spec,
+https://neovim.io/doc/user/pack.html#vim.pack.add(),
+https://neovim.io/doc/user/pack.html#vim.pack.del(),
+https://neovim.io/doc/user/pack.html#vim.pack.get(),
+https://neovim.io/doc/user/pack.html#vim.pack.update(),
 https://neovim.io/doc/user/if_ruby.html#if_ruby.txt,
 https://neovim.io/doc/user/if_ruby.html#if_ruby,,ruby Ruby
 https://neovim.io/doc/user/if_ruby.html#E266,,E267 E268 E269 E270 E271 E272 E273
@@ -6504,6 +6509,7 @@ https://neovim.io/doc/user/options.html#cpo-y,
 https://neovim.io/doc/user/options.html#cpo-Z,
 https://neovim.io/doc/user/options.html#cpo-_,
 https://neovim.io/doc/user/options.html#(,
+https://neovim.io/doc/user/options.html#E1550,
 https://neovim.io/doc/user/options.html#E960,
 https://neovim.io/doc/user/options.html#project-config,,workspace-config
 https://neovim.io/doc/user/options.html#E213,
