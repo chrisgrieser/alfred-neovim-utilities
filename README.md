@@ -10,19 +10,17 @@ the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.co
 ![Showcase plugin search](https://github.com/chrisgrieser/alfred-neovim-utilities/assets/73286100/c519b303-729b-4df2-aa28-76b107f29b5e)
 
 ## Commands
-- `:h`: Searches the Neovim [online :help](https://neovim.io/doc/).
-	+ Groups synonyms together, for example, `:w` and `:write` both get one
-	  item.
+- `:h`: Search the Neovim [online :help](https://neovim.io/doc/).
 	+ <kbd>⏎</kbd>: Open the respective help.
 	+ <kbd>⌥⏎</kbd>: Copy the help URL to the clipboard.
-- `np`: Searches [store.nvim](https://github.com/alex-popov-tech/store.nvim)
+- `np`: Search [store.nvim](https://github.com/alex-popov-tech/store.nvim)
   for Neovim plugins (mnemonic: `[n]vim [p]lugins`).
 	+ <kbd>⏎</kbd>: Open the GitHub repo.
-	+ <kbd>⌘⏎</kbd>: Open the `:help` in the browser (`vimdoc` converted to
+	+ <kbd>⌘⏎</kbd>: Open the `:help` page in the browser (`vimdoc` converted to
 	  HTML).
-	+ <kbd>⌥⏎</kbd>: Copy the GitHub URL to the clipboard.
-	+ <kbd>⌃⏎</kbd>: Copy installation snippet for lazy.nvim, if available.
-- `ip`: Search for plugins (and Mason tools) installed locally on your device
+	+ <kbd>⌥⏎</kbd>: Copy the GitHub URL.
+	+ <kbd>⌃⏎</kbd>: Copy installation snippet for `lazy.nvim`, if available.
+- `ip`: Search for locally installed plugins and `mason.nvim` packages
   (mnemonic: `[i]installed [p]lugins`).
 	+ The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this
 	  command.
@@ -32,7 +30,8 @@ the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.co
   [mason.nvim](https://github.com/williamboman/mason.nvim).
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's
   default editor for the respective filetype. (To open them directly in Neovim,
-  you need a Neovim GUI, such as [Neovide](http://neovide.dev).)
+  you need a Neovim GUI with the `Open With` capability, such as
+  [Neovide](http://neovide.dev).)
 
 > [!NOTE]
 > All keywords are customizable in the workflow settings.
