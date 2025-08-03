@@ -26,9 +26,8 @@ const fileExists = (/** @type {string} */ filePath) => Application("Finder").exi
 // plugins that awesome-neovim, and neovimcraft and dotfyle only include plugins
 // that are in the awesome-neovim
 // SOURCE https://github.com/alex-popov-tech/store.nvim/blob/main/lua/store/config.lua
-// url is permanent, even though it ends with `1.1.0` https://github.com/alex-popov-tech/store.nvim/issues/9
 const storeNvimList =
-	"https://gist.githubusercontent.com/alex-popov-tech/dfb6adf1ee0506461d7dc029a28f851d/raw/store.nvim_db_1.1.0.json";
+	"https://gist.githubusercontent.com/alex-popov-tech/dfb6adf1ee0506461d7dc029a28f851d/raw/ad13fe0448bb3af2afeccd7615136b7a7c5ce4d7/db_minified.json";
 
 /** @typedef {Object} StoreNvimRepo
  * @property {string} full_name
@@ -39,6 +38,8 @@ const storeNvimList =
  * @property {string} pretty_pushed_at humean readable date
  * @property {string} pretty_stargazers_count
  * @property {string[]} tags
+ * @property {string[]} topics
+ * @property {{initial: string, lazyConfig: string}} install
  */
 
 //──────────────────────────────────────────────────────────────────────────────
@@ -60,14 +61,32 @@ function run() {
 			});
 	}
 
+	// get data & log it
+	let nvimStoreData = [];
+	try {
+		nvimStoreData = JSON.parse(httpRequest(storeNvimList));
+	} catch (_error) {
+		const item = { title: "Cannot retrieve data", valid: false };
+		return JSON.stringify({ items: [item] });
+	}
+	console.log("Last crawl:", new Date(nvimStoreData.meta.crawled_at).toLocaleString());
+	console.log("Total plugins:", nvimStoreData.meta.total_count);
+
+	// construct Alfred items
 	const pluginsArr = JSON.parse(httpRequest(storeNvimList))
 		.items.sort(
 			(/** @type {StoreNvimRepo} */ a, /** @type {StoreNvimRepo} */ b) =>
 				new Date(b.pushed_at).getTime() - new Date(a.pushed_at).getTime(),
 		)
 		.map((/** @type {StoreNvimRepo} */ repo) => {
-			const { full_name, description, html_url, pretty_stargazers_count, pretty_pushed_at } =
-				repo;
+			const {
+				full_name,
+				description,
+				html_url,
+				pretty_stargazers_count,
+				pretty_pushed_at,
+				install,
+			} = repo;
 			const [author, name] = full_name.split("/");
 			const installedIcon = installedPlugins.includes(full_name) ? " ✅" : "";
 			const subtitle = [
@@ -76,6 +95,7 @@ function run() {
 				pretty_pushed_at,
 				description,
 			].join("  ·  ");
+			const lazyNvimInstall = install?.lazyConfig;
 
 			return {
 				title: name + installedIcon,
@@ -83,14 +103,20 @@ function run() {
 				subtitle: subtitle,
 				arg: html_url,
 				mods: {
-					cmd: { arg: repo },
+					cmd: { arg: repo }, // open help page
+					ctrl: {
+						arg: lazyNvimInstall,
+						valid: Boolean(lazyNvimInstall),
+						subtitle: lazyNvimInstall
+							? "⌃: Install with lazy.nvim"
+							: "⌃: ⛔ No install snippet available, please install manually",
+					},
 				},
 				quicklookurl: html_url,
 				uid: repo,
 			};
 		});
 
-	console.log("plugin count:", pluginsArr.length);
 	return JSON.stringify({
 		items: pluginsArr,
 		cache: { seconds: 300, loosereload: true }, // faster, to update install icons

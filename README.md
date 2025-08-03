@@ -15,12 +15,13 @@ the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.co
 	  item.
 	+ <kbd>⏎</kbd>: Open the respective help.
 	+ <kbd>⌥⏎</kbd>: Copy the help URL to the clipboard.
-- `vp`: Searches [awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
+- `vp`: Searches [store.nvim](https://github.com/alex-popov-tech/store.nvim)
   for Neovim plugins. Mnemonic: `[v]im [p]lugins`.
 	+ <kbd>⏎</kbd>: Open the GitHub repo.
 	+ <kbd>⌘⏎</kbd>: Open the `:help` in the browser (`vimdoc` converted to
 	  HTML).
 	+ <kbd>⌥⏎</kbd>: Copy the GitHub URL to the clipboard.
+	+ <kbd>⌃⏎</kbd>: Copy installation snippet for lazy.nvim, if available.
 - `ip`: Search for plugins (and Mason tools) installed locally on your device.
   Mnemonic: `[i]installed [p]lugins`.
 	+ The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this
@@ -63,7 +64,6 @@ for the preview pane:
 
 ## Credits
 - <!-- harper: ignore -->Plugin database provided by
-  [awesome-neovim](https://github.com/rockerBOO/awesome-neovim), and
   [@alex-popov-tech's store.nvim](https://github.com/alex-popov-tech/store.nvim)
 - `vimdoc` to HTML conversion by [@xaizek's
   vimdoc2html](https://github.com/xaizek/vimdoc2html).
