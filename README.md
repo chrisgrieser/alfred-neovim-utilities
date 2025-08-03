@@ -15,15 +15,15 @@ the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.co
 	  item.
 	+ <kbd>⏎</kbd>: Open the respective help.
 	+ <kbd>⌥⏎</kbd>: Copy the help URL to the clipboard.
-- `vp`: Searches [store.nvim](https://github.com/alex-popov-tech/store.nvim)
-  for Neovim plugins. Mnemonic: `[v]im [p]lugins`.
+- `np`: Searches [store.nvim](https://github.com/alex-popov-tech/store.nvim)
+  for Neovim plugins (mnemonic: `[n]vim [p]lugins`).
 	+ <kbd>⏎</kbd>: Open the GitHub repo.
 	+ <kbd>⌘⏎</kbd>: Open the `:help` in the browser (`vimdoc` converted to
 	  HTML).
 	+ <kbd>⌥⏎</kbd>: Copy the GitHub URL to the clipboard.
 	+ <kbd>⌃⏎</kbd>: Copy installation snippet for lazy.nvim, if available.
-- `ip`: Search for plugins (and Mason tools) installed locally on your device.
-  Mnemonic: `[i]installed [p]lugins`.
+- `ip`: Search for plugins (and Mason tools) installed locally on your device
+  (mnemonic: `[i]installed [p]lugins`).
 	+ The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this
 	  command.
 	+ In addition, <kbd>fn⏎</kbd>: Open the local directory of the plugin in
@@ -32,8 +32,7 @@ the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.co
   [mason.nvim](https://github.com/williamboman/mason.nvim).
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's
   default editor for the respective filetype. (To open them directly in Neovim,
-  you need a Neovim GUI with `Open with…` capability, such as
-  [Neovide](http://neovide.dev).)
+  you need a Neovim GUI, such as [Neovide](http://neovide.dev).)
 
 > [!NOTE]
 > All keywords are customizable in the workflow settings.

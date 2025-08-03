@@ -694,15 +694,15 @@
 	  item.
 	+ &lt;kbd&gt;⏎&lt;/kbd&gt;: Open the respective help.
 	+ &lt;kbd&gt;⌥⏎&lt;/kbd&gt;: Copy the help URL to the clipboard.
-- `vp`: Searches [store.nvim](https://github.com/alex-popov-tech/store.nvim)
-  for Neovim plugins. Mnemonic: `[v]im [p]lugins`.
+- `np`: Searches [store.nvim](https://github.com/alex-popov-tech/store.nvim)
+  for Neovim plugins (mnemonic: `[n]vim [p]lugins`).
 	+ &lt;kbd&gt;⏎&lt;/kbd&gt;: Open the GitHub repo.
 	+ &lt;kbd&gt;⌘⏎&lt;/kbd&gt;: Open the `:help` in the browser (`vimdoc` converted to
 	  HTML).
 	+ &lt;kbd&gt;⌥⏎&lt;/kbd&gt;: Copy the GitHub URL to the clipboard.
 	+ &lt;kbd&gt;⌃⏎&lt;/kbd&gt;: Copy installation snippet for lazy.nvim, if available.
-- `ip`: Search for plugins (and Mason tools) installed locally on your device.
-  Mnemonic: `[i]installed [p]lugins`.
+- `ip`: Search for plugins (and Mason tools) installed locally on your device
+  (mnemonic: `[i]installed [p]lugins`).
 	+ The modifiers (&lt;kbd&gt;⌘⌥⌃⇧&lt;/kbd&gt;) from the plugin-search also apply for this
 	  command.
 	+ In addition, &lt;kbd&gt;fn⏎&lt;/kbd&gt;: Open the local directory of the plugin in
@@ -711,8 +711,7 @@
   [mason.nvim](https://github.com/williamboman/mason.nvim).
 - `:old`: Displays and searches your `:oldfiles`. Opens them in the system's
   default editor for the respective filetype. (To open them directly in Neovim,
-  you need a Neovim GUI with `Open with…` capability, such as
-  [Neovide](http://neovide.dev).)
+  you need a Neovim GUI, such as [Neovide](http://neovide.dev).)
 
 ## Preview Pane
 For the preview pane, install [mr-pennyworth/alfred-extra-pane](https://github.com/mr-pennyworth/alfred-extra-pane).
@@ -928,7 +927,7 @@ Workflow created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>vp</string>
+				<string>np</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
@@ -937,9 +936,9 @@ Workflow created by [Chris Grieser](https://chris-grieser.de/).</string>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>using Awesome Neovim</string>
+			<string></string>
 			<key>label</key>
-			<string>Keyword – Plugin Search</string>
+			<string>Keyword – neovim plugin search</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
