@@ -4,6 +4,8 @@ https://neovim.io/doc/user/options.html#'arabic',,arab noarabic noarab
 https://neovim.io/doc/user/options.html#'arabicshape',,arshape noarabicshape noarshape
 https://neovim.io/doc/user/options.html#'autochdir',,acd noautochdir noacd
 https://neovim.io/doc/user/options.html#'autocomplete',,ac noautocomplete noac
+https://neovim.io/doc/user/options.html#'autocompletedelay',,acl
+https://neovim.io/doc/user/options.html#'autocompletetimeout',,act
 https://neovim.io/doc/user/options.html#'autoindent',,ai noautoindent noai
 https://neovim.io/doc/user/options.html#'autoread',,ar noautoread noar
 https://neovim.io/doc/user/options.html#'autowrite',,aw noautowrite noaw
@@ -50,6 +52,7 @@ https://neovim.io/doc/user/options.html#'completefuzzycollect',,cfc
 https://neovim.io/doc/user/options.html#'completeitemalign',,cia
 https://neovim.io/doc/user/options.html#'completeopt',,cot
 https://neovim.io/doc/user/options.html#'completeslash',,csl
+https://neovim.io/doc/user/options.html#'completetimeout',,cto
 https://neovim.io/doc/user/options.html#'concealcursor',,cocu
 https://neovim.io/doc/user/options.html#'conceallevel',,cole
 https://neovim.io/doc/user/options.html#'confirm',,cf noconfirm nocf
@@ -1604,6 +1607,12 @@ https://neovim.io/doc/user/lsp.html#lsp-inlay_hint,
 https://neovim.io/doc/user/lsp.html#vim.lsp.inlay_hint.enable(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.inlay_hint.get(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.inlay_hint.is_enabled(),
+https://neovim.io/doc/user/lsp.html#lsp-inline_completion,
+https://neovim.io/doc/user/lsp.html#vim.lsp.inline_completion.Item,
+https://neovim.io/doc/user/lsp.html#vim.lsp.inline_completion.enable(),
+https://neovim.io/doc/user/lsp.html#vim.lsp.inline_completion.get(),
+https://neovim.io/doc/user/lsp.html#vim.lsp.inline_completion.is_enabled(),
+https://neovim.io/doc/user/lsp.html#vim.lsp.inline_completion.select(),
 https://neovim.io/doc/user/lsp.html#lsp-linked_editing_range,
 https://neovim.io/doc/user/lsp.html#vim.lsp.linked_editing_range.enable(),
 https://neovim.io/doc/user/lsp.html#lsp-log,
@@ -1611,6 +1620,8 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.log.get_filename(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.log.get_level(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.log.set_format_func(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.log.set_level(),
+https://neovim.io/doc/user/lsp.html#lsp-on_type_formatting,
+https://neovim.io/doc/user/lsp.html#vim.lsp.on_type_formatting.enable(),
 https://neovim.io/doc/user/lsp.html#lsp-rpc,
 https://neovim.io/doc/user/lsp.html#vim.lsp.rpc.PublicClient,
 https://neovim.io/doc/user/lsp.html#vim.lsp.rpc.connect(),
@@ -2119,7 +2130,11 @@ https://neovim.io/doc/user/lua.html#vim.net,
 https://neovim.io/doc/user/lua.html#vim.net.request(),
 https://neovim.io/doc/user/lua.html#vim.pos,
 https://neovim.io/doc/user/lua.html#vim.Pos,
+https://neovim.io/doc/user/lua.html#Pos%3Acursor(),
+https://neovim.io/doc/user/lua.html#Pos%3Aextmark(),
 https://neovim.io/doc/user/lua.html#Pos%3Alsp(),
+https://neovim.io/doc/user/lua.html#Pos%3Ato_cursor(),
+https://neovim.io/doc/user/lua.html#Pos%3Ato_extmark(),
 https://neovim.io/doc/user/lua.html#Pos%3Ato_lsp(),
 https://neovim.io/doc/user/lua.html#vim.range,
 https://neovim.io/doc/user/lua.html#vim.Range,
@@ -2250,6 +2265,7 @@ https://neovim.io/doc/user/syntax.html#c_no_cformat,
 https://neovim.io/doc/user/syntax.html#c_no_bsd,
 https://neovim.io/doc/user/syntax.html#c_functions,
 https://neovim.io/doc/user/syntax.html#c_function_pointers,
+https://neovim.io/doc/user/syntax.html#cangjie.vim,,ft-cangjie-syntax
 https://neovim.io/doc/user/syntax.html#ch.vim,,ft-ch-syntax
 https://neovim.io/doc/user/syntax.html#chill.vim,,ft-chill-syntax
 https://neovim.io/doc/user/syntax.html#changelog.vim,,ft-changelog-syntax
@@ -2514,6 +2530,7 @@ https://neovim.io/doc/user/syntax.html#hl-DiffText,
 https://neovim.io/doc/user/syntax.html#hl-DiffTextAdd,
 https://neovim.io/doc/user/syntax.html#hl-EndOfBuffer,
 https://neovim.io/doc/user/syntax.html#hl-TermCursor,
+https://neovim.io/doc/user/syntax.html#hl-OkMsg,
 https://neovim.io/doc/user/syntax.html#hl-ErrorMsg,
 https://neovim.io/doc/user/syntax.html#hl-StderrMsg,
 https://neovim.io/doc/user/syntax.html#hl-StdoutMsg,
@@ -2552,10 +2569,13 @@ https://neovim.io/doc/user/syntax.html#hl-PmenuThumb,
 https://neovim.io/doc/user/syntax.html#hl-PmenuMatch,
 https://neovim.io/doc/user/syntax.html#hl-PmenuMatchSel,
 https://neovim.io/doc/user/syntax.html#hl-ComplMatchIns,
+https://neovim.io/doc/user/syntax.html#hl-ComplHint,
+https://neovim.io/doc/user/syntax.html#hl-ComplHintMore,
 https://neovim.io/doc/user/syntax.html#hl-Question,
 https://neovim.io/doc/user/syntax.html#hl-QuickFixLine,
 https://neovim.io/doc/user/syntax.html#hl-Search,
 https://neovim.io/doc/user/syntax.html#hl-SnippetTabstop,
+https://neovim.io/doc/user/syntax.html#hl-SnippetTabstopActive,
 https://neovim.io/doc/user/syntax.html#hl-SpecialKey,
 https://neovim.io/doc/user/syntax.html#hl-SpellBad,
 https://neovim.io/doc/user/syntax.html#hl-SpellCap,
@@ -3627,6 +3647,19 @@ https://neovim.io/doc/user/health.html#vim.health.info(),
 https://neovim.io/doc/user/health.html#vim.health.ok(),
 https://neovim.io/doc/user/health.html#vim.health.start(),
 https://neovim.io/doc/user/health.html#vim.health.warn(),
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin.txt,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-new,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-type-safety,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-keymaps,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-init,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-lazy,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-defer-require,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-filetype,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-config,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-troubleshooting,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-versioning,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-doc,
 https://neovim.io/doc/user/recover.html#recover.txt,
 https://neovim.io/doc/user/recover.html#crash-recovery,
 https://neovim.io/doc/user/recover.html#swap-file,
@@ -4096,6 +4129,7 @@ https://neovim.io/doc/user/api.html#nvim_ui_attach(),
 https://neovim.io/doc/user/api.html#nvim_ui_detach(),
 https://neovim.io/doc/user/api.html#nvim_ui_pum_set_bounds(),
 https://neovim.io/doc/user/api.html#nvim_ui_pum_set_height(),
+https://neovim.io/doc/user/api.html#nvim_ui_send(),
 https://neovim.io/doc/user/api.html#nvim_ui_set_focus(),
 https://neovim.io/doc/user/api.html#nvim_ui_set_option(),
 https://neovim.io/doc/user/api.html#nvim_ui_term_event(),
@@ -4990,6 +5024,7 @@ https://neovim.io/doc/user/message.html#messages,
 https://neovim.io/doc/user/message.html#hit-enter,,press-enter hit-return
 https://neovim.io/doc/user/message.html#press-return,,hit-enter-prompt
 https://neovim.io/doc/user/message.html#more-prompt,,pager
+https://neovim.io/doc/user/message.html#progress-message,
 https://neovim.io/doc/user/dev_arch.html#dev_arch.txt,
 https://neovim.io/doc/user/dev_arch.html#dev-arch,
 https://neovim.io/doc/user/dev_arch.html#dev-api-fast,
@@ -5020,6 +5055,7 @@ https://neovim.io/doc/user/autocmd.html#BufRead,,BufReadPost
 https://neovim.io/doc/user/autocmd.html#BufReadCmd,
 https://neovim.io/doc/user/autocmd.html#BufReadPre,,E200 E201
 https://neovim.io/doc/user/autocmd.html#BufUnload,
+https://neovim.io/doc/user/autocmd.html#E1546,
 https://neovim.io/doc/user/autocmd.html#BufWinEnter,
 https://neovim.io/doc/user/autocmd.html#BufWinLeave,
 https://neovim.io/doc/user/autocmd.html#BufWipeout,
@@ -5082,6 +5118,7 @@ https://neovim.io/doc/user/autocmd.html#InsertLeave,
 https://neovim.io/doc/user/autocmd.html#MenuPopup,
 https://neovim.io/doc/user/autocmd.html#ModeChanged,
 https://neovim.io/doc/user/autocmd.html#%3A,
+https://neovim.io/doc/user/autocmd.html#Progress,
 https://neovim.io/doc/user/autocmd.html#OptionSet,
 https://neovim.io/doc/user/autocmd.html#QuickFixCmdPre,
 https://neovim.io/doc/user/autocmd.html#QuickFixCmdPost,
@@ -6482,6 +6519,7 @@ https://neovim.io/doc/user/options.html#E382,
 https://neovim.io/doc/user/options.html#E676,
 https://neovim.io/doc/user/options.html#E344,,E346
 https://neovim.io/doc/user/options.html#E202,,E214 E513
+https://neovim.io/doc/user/options.html#E1542,,E1543
 https://neovim.io/doc/user/options.html#clipboard-unnamed,
 https://neovim.io/doc/user/options.html#clipboard-unnamedplus,
 https://neovim.io/doc/user/options.html#E594,
