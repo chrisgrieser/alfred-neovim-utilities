@@ -436,6 +436,8 @@ https://neovim.io/doc/user/cmdline.html#c_CTRL-F,,q: q/ q?
 https://neovim.io/doc/user/cmdline.html#E11,,E1188
 https://neovim.io/doc/user/cmdline.html#E199,
 https://neovim.io/doc/user/cmdline.html#cmdline-char,,cmdwin-char
+https://neovim.io/doc/user/cmdline.html#cmdline-autocompletion,
+https://neovim.io/doc/user/cmdline.html#fuzzy-file-picker,,live-grep
 https://neovim.io/doc/user/gui.html#gui.txt,
 https://neovim.io/doc/user/gui.html#gui,,GUI
 https://neovim.io/doc/user/gui.html#third-party-guis,,vscode
@@ -600,7 +602,9 @@ https://neovim.io/doc/user/change.html#%3Apu,,:put
 https://neovim.io/doc/user/change.html#%3Aip,,:iput
 https://neovim.io/doc/user/change.html#zp,,zP
 https://neovim.io/doc/user/change.html#linewise-register,,charwise-register
-https://neovim.io/doc/user/change.html#put-Visual-mode,,v_p v_P
+https://neovim.io/doc/user/change.html#put-Visual-mode,
+https://neovim.io/doc/user/change.html#v_p,
+https://neovim.io/doc/user/change.html#v_P,
 https://neovim.io/doc/user/change.html#blockwise-put,
 https://neovim.io/doc/user/change.html#blockwise-register,
 https://neovim.io/doc/user/change.html#registers,,{register} E354
@@ -939,7 +943,7 @@ https://neovim.io/doc/user/userfunc.html#local-variables,
 https://neovim.io/doc/user/userfunc.html#%3Acal,,:call E107 E117
 https://neovim.io/doc/user/userfunc.html#function-range-example,
 https://neovim.io/doc/user/userfunc.html#E132,
-https://neovim.io/doc/user/userfunc.html#%3Adefer,
+https://neovim.io/doc/user/userfunc.html#%3Adefe,,:defer
 https://neovim.io/doc/user/userfunc.html#E1300,
 https://neovim.io/doc/user/userfunc.html#autoload-functions,
 https://neovim.io/doc/user/userfunc.html#autoload,,E746
@@ -1301,6 +1305,25 @@ https://neovim.io/doc/user/pi_zip.html#g%3Azip_exec,
 https://neovim.io/doc/user/pi_zip.html#zip-extension,
 https://neovim.io/doc/user/pi_zip.html#g%3AzipPlugin_ext,
 https://neovim.io/doc/user/pi_zip.html#zip-history,
+https://neovim.io/doc/user/plugins.html#plugins.txt,
+https://neovim.io/doc/user/plugins.html#standard-plugin-list,
+https://neovim.io/doc/user/plugins.html#editorconfig,
+https://neovim.io/doc/user/plugins.html#g%3Aeditorconfig,,b:editorconfig
+https://neovim.io/doc/user/plugins.html#editorconfig-custom-properties,
+https://neovim.io/doc/user/plugins.html#editorconfig-properties,
+https://neovim.io/doc/user/plugins.html#editorconfig.charset,
+https://neovim.io/doc/user/plugins.html#editorconfig.end_of_line,
+https://neovim.io/doc/user/plugins.html#editorconfig.indent_size,
+https://neovim.io/doc/user/plugins.html#editorconfig.indent_style,
+https://neovim.io/doc/user/plugins.html#editorconfig.insert_final_newline,
+https://neovim.io/doc/user/plugins.html#editorconfig.max_line_length,
+https://neovim.io/doc/user/plugins.html#editorconfig.root,
+https://neovim.io/doc/user/plugins.html#editorconfig.spelling_language,
+https://neovim.io/doc/user/plugins.html#editorconfig.tab_width,
+https://neovim.io/doc/user/plugins.html#editorconfig.trim_trailing_whitespace,
+https://neovim.io/doc/user/plugins.html#tohtml,
+https://neovim.io/doc/user/plugins.html#%3ATOhtml,
+https://neovim.io/doc/user/plugins.html#tohtml.tohtml(),
 https://neovim.io/doc/user/remote.html#remote.txt,
 https://neovim.io/doc/user/remote.html#client-server,
 https://neovim.io/doc/user/remote.html#clientserver,
@@ -1608,6 +1631,7 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.inlay_hint.enable(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.inlay_hint.get(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.inlay_hint.is_enabled(),
 https://neovim.io/doc/user/lsp.html#lsp-inline_completion,
+https://neovim.io/doc/user/lsp.html#lsp-copilot,
 https://neovim.io/doc/user/lsp.html#vim.lsp.inline_completion.Item,
 https://neovim.io/doc/user/lsp.html#vim.lsp.inline_completion.enable(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.inline_completion.get(),
@@ -2203,9 +2227,6 @@ https://neovim.io/doc/user/lua.html#vim.version.le(),
 https://neovim.io/doc/user/lua.html#vim.version.lt(),
 https://neovim.io/doc/user/lua.html#vim.version.parse(),
 https://neovim.io/doc/user/lua.html#vim.version.range(),
-https://neovim.io/doc/user/lua.html#vim.tohtml,
-https://neovim.io/doc/user/lua.html#%3ATOhtml,
-https://neovim.io/doc/user/lua.html#tohtml.tohtml.tohtml(),
 https://neovim.io/doc/user/lua.html#vim._extui,
 https://neovim.io/doc/user/news.html#news.txt,
 https://neovim.io/doc/user/news.html#news,
@@ -2234,20 +2255,19 @@ https://neovim.io/doc/user/syntax.html#myscriptsfile,
 https://neovim.io/doc/user/syntax.html#convert-to-HTML,,2html.vim
 https://neovim.io/doc/user/syntax.html#%3Asyn-file-remarks,
 https://neovim.io/doc/user/syntax.html#b%3Acurrent_syntax-variable,
-https://neovim.io/doc/user/syntax.html#abel.vim,,ft-abel-syntax
-https://neovim.io/doc/user/syntax.html#ant.vim,,ft-ant-syntax
-https://neovim.io/doc/user/syntax.html#apache.vim,,ft-apache-syntax
-https://neovim.io/doc/user/syntax.html#asm.vim,,asmh8300.vim nasm.vim masm.vim asm68k
+https://neovim.io/doc/user/syntax.html#ft-abel-syntax,
+https://neovim.io/doc/user/syntax.html#ft-ant-syntax,
+https://neovim.io/doc/user/syntax.html#ft-apache-syntax,
 https://neovim.io/doc/user/syntax.html#ft-asm-syntax,,ft-asmh8300-syntax ft-nasm-syntax
-https://neovim.io/doc/user/syntax.html#ft-masm-syntax,,ft-asm68k-syntax fasm.vim
-https://neovim.io/doc/user/syntax.html#astro.vim,,ft-astro-syntax
+https://neovim.io/doc/user/syntax.html#ft-masm-syntax,,ft-asm68k-syntax
+https://neovim.io/doc/user/syntax.html#ft-astro-syntax,
 https://neovim.io/doc/user/syntax.html#ft-aspperl-syntax,
 https://neovim.io/doc/user/syntax.html#ft-aspvbs-syntax,
-https://neovim.io/doc/user/syntax.html#asy.vim,,ft-asy-syntax
-https://neovim.io/doc/user/syntax.html#baan.vim,,baan-syntax
+https://neovim.io/doc/user/syntax.html#ft-asy-syntax,
+https://neovim.io/doc/user/syntax.html#baan-syntax,
 https://neovim.io/doc/user/syntax.html#baan-folding,
-https://neovim.io/doc/user/syntax.html#basic.vim,,vb.vim ft-basic-syntax ft-vb-syntax
-https://neovim.io/doc/user/syntax.html#c.vim,,ft-c-syntax
+https://neovim.io/doc/user/syntax.html#ft-basic-syntax,,ft-vb-syntax
+https://neovim.io/doc/user/syntax.html#ft-c-syntax,
 https://neovim.io/doc/user/syntax.html#c_gnu,
 https://neovim.io/doc/user/syntax.html#c_comment_strings,
 https://neovim.io/doc/user/syntax.html#c_space_errors,
@@ -2265,135 +2285,135 @@ https://neovim.io/doc/user/syntax.html#c_no_cformat,
 https://neovim.io/doc/user/syntax.html#c_no_bsd,
 https://neovim.io/doc/user/syntax.html#c_functions,
 https://neovim.io/doc/user/syntax.html#c_function_pointers,
-https://neovim.io/doc/user/syntax.html#cangjie.vim,,ft-cangjie-syntax
-https://neovim.io/doc/user/syntax.html#ch.vim,,ft-ch-syntax
-https://neovim.io/doc/user/syntax.html#chill.vim,,ft-chill-syntax
-https://neovim.io/doc/user/syntax.html#changelog.vim,,ft-changelog-syntax
+https://neovim.io/doc/user/syntax.html#ft-cangjie-syntax,
+https://neovim.io/doc/user/syntax.html#ft-ch-syntax,
+https://neovim.io/doc/user/syntax.html#ft-chill-syntax,
+https://neovim.io/doc/user/syntax.html#ft-changelog-syntax,
 https://neovim.io/doc/user/syntax.html#ft-clojure-syntax,
 https://neovim.io/doc/user/syntax.html#g%3Aclojure_syntax_keywords,
 https://neovim.io/doc/user/syntax.html#b%3Aclojure_syntax_keywords,
 https://neovim.io/doc/user/syntax.html#b%3Aclojure_syntax_without_core_keywords,
 https://neovim.io/doc/user/syntax.html#g%3Aclojure_fold,
 https://neovim.io/doc/user/syntax.html#g%3Aclojure_discard_macro,
-https://neovim.io/doc/user/syntax.html#cobol.vim,,ft-cobol-syntax
-https://neovim.io/doc/user/syntax.html#coldfusion.vim,,ft-coldfusion-syntax
-https://neovim.io/doc/user/syntax.html#cpp.vim,,ft-cpp-syntax
-https://neovim.io/doc/user/syntax.html#csh.vim,,ft-csh-syntax
+https://neovim.io/doc/user/syntax.html#ft-cobol-syntax,
+https://neovim.io/doc/user/syntax.html#ft-coldfusion-syntax,
+https://neovim.io/doc/user/syntax.html#ft-cpp-syntax,
+https://neovim.io/doc/user/syntax.html#ft-csh-syntax,
 https://neovim.io/doc/user/syntax.html#g%3Afiletype_csh,
 https://neovim.io/doc/user/syntax.html#ft-csv-syntax,
-https://neovim.io/doc/user/syntax.html#cynlib.vim,,ft-cynlib-syntax
-https://neovim.io/doc/user/syntax.html#cweb.vim,,ft-cweb-syntax
-https://neovim.io/doc/user/syntax.html#cs.vim,,ft-cs-syntax
-https://neovim.io/doc/user/syntax.html#dart.vim,,ft-dart-syntax
-https://neovim.io/doc/user/syntax.html#desktop.vim,,ft-desktop-syntax
+https://neovim.io/doc/user/syntax.html#ft-cynlib-syntax,
+https://neovim.io/doc/user/syntax.html#ft-cweb-syntax,
+https://neovim.io/doc/user/syntax.html#ft-cs-syntax,
+https://neovim.io/doc/user/syntax.html#ft-dart-syntax,
+https://neovim.io/doc/user/syntax.html#ft-desktop-syntax,
 https://neovim.io/doc/user/syntax.html#diff.vim,
-https://neovim.io/doc/user/syntax.html#dircolors.vim,,ft-dircolors-syntax
-https://neovim.io/doc/user/syntax.html#docbk.vim,,ft-docbk-syntax docbook
-https://neovim.io/doc/user/syntax.html#docbkxml.vim,,ft-docbkxml-syntax
-https://neovim.io/doc/user/syntax.html#docbksgml.vim,,ft-docbksgml-syntax
-https://neovim.io/doc/user/syntax.html#dosbatch.vim,,ft-dosbatch-syntax
-https://neovim.io/doc/user/syntax.html#doxygen.vim,,doxygen-syntax
-https://neovim.io/doc/user/syntax.html#dtd.vim,,ft-dtd-syntax
-https://neovim.io/doc/user/syntax.html#eiffel.vim,,ft-eiffel-syntax
+https://neovim.io/doc/user/syntax.html#ft-dircolors-syntax,
+https://neovim.io/doc/user/syntax.html#ft-docbk-syntax,,docbook
+https://neovim.io/doc/user/syntax.html#ft-docbkxml-syntax,
+https://neovim.io/doc/user/syntax.html#ft-docbksgml-syntax,
+https://neovim.io/doc/user/syntax.html#ft-dosbatch-syntax,
+https://neovim.io/doc/user/syntax.html#doxygen-syntax,
+https://neovim.io/doc/user/syntax.html#ft-dtd-syntax,
+https://neovim.io/doc/user/syntax.html#ft-eiffel-syntax,
 https://neovim.io/doc/user/syntax.html#ft-euphoria-syntax,
-https://neovim.io/doc/user/syntax.html#erlang.vim,,ft-erlang-syntax
-https://neovim.io/doc/user/syntax.html#elixir.vim,,ft-elixir-syntax
-https://neovim.io/doc/user/syntax.html#flexwiki.vim,,ft-flexwiki-syntax
-https://neovim.io/doc/user/syntax.html#form.vim,,ft-form-syntax
-https://neovim.io/doc/user/syntax.html#forth.vim,,ft-forth-syntax
-https://neovim.io/doc/user/syntax.html#fortran.vim,,ft-fortran-syntax
-https://neovim.io/doc/user/syntax.html#freebasic.vim,,ft-freebasic-syntax
+https://neovim.io/doc/user/syntax.html#ft-erlang-syntax,
+https://neovim.io/doc/user/syntax.html#ft-elixir-syntax,
+https://neovim.io/doc/user/syntax.html#ft-flexwiki-syntax,
+https://neovim.io/doc/user/syntax.html#ft-form-syntax,
+https://neovim.io/doc/user/syntax.html#ft-forth-syntax,
+https://neovim.io/doc/user/syntax.html#ft-fortran-syntax,
+https://neovim.io/doc/user/syntax.html#ft-freebasic-syntax,
 https://neovim.io/doc/user/syntax.html#freebasic_no_comment_fold,
 https://neovim.io/doc/user/syntax.html#freebasic_operators,
 https://neovim.io/doc/user/syntax.html#freebasic_space_errors,
 https://neovim.io/doc/user/syntax.html#freebasic_type_suffixes,
-https://neovim.io/doc/user/syntax.html#fvwm.vim,,ft-fvwm-syntax
+https://neovim.io/doc/user/syntax.html#ft-fvwm-syntax,
 https://neovim.io/doc/user/syntax.html#fvwmrc,,or fvwm2rc
-https://neovim.io/doc/user/syntax.html#gsp.vim,,ft-gsp-syntax
-https://neovim.io/doc/user/syntax.html#groff.vim,,ft-groff-syntax
-https://neovim.io/doc/user/syntax.html#haskell.vim,,lhaskell.vim ft-haskell-syntax
-https://neovim.io/doc/user/syntax.html#html.vim,,ft-html-syntax
+https://neovim.io/doc/user/syntax.html#ft-gsp-syntax,
+https://neovim.io/doc/user/syntax.html#ft-groff-syntax,
+https://neovim.io/doc/user/syntax.html#ft-haskell-syntax,
+https://neovim.io/doc/user/syntax.html#ft-html-syntax,
 https://neovim.io/doc/user/syntax.html#html-folding,
-https://neovim.io/doc/user/syntax.html#htmlos.vim,,ft-htmlos-syntax
+https://neovim.io/doc/user/syntax.html#ft-htmlos-syntax,
 https://neovim.io/doc/user/syntax.html#intel-itanium,,ft-ia64-syntax
-https://neovim.io/doc/user/syntax.html#inform.vim,,ft-inform-syntax
-https://neovim.io/doc/user/syntax.html#idl.vim,,idl-syntax
-https://neovim.io/doc/user/syntax.html#java.vim,,ft-java-syntax
+https://neovim.io/doc/user/syntax.html#ft-inform-syntax,
+https://neovim.io/doc/user/syntax.html#idl-syntax,
+https://neovim.io/doc/user/syntax.html#ft-java-syntax,
 https://neovim.io/doc/user/syntax.html#java-package-info-url,
-https://neovim.io/doc/user/syntax.html#json.vim,,ft-json-syntax g:vim_json_conceal
+https://neovim.io/doc/user/syntax.html#ft-json-syntax,,g:vim_json_conceal
 https://neovim.io/doc/user/syntax.html#g%3Avim_json_warnings,
-https://neovim.io/doc/user/syntax.html#jq.vim,,jq_quote_highlight ft-jq-syntax
+https://neovim.io/doc/user/syntax.html#jq_quote_highlight,,ft-jq-syntax
 https://neovim.io/doc/user/syntax.html#ft-kconfig-syntax,
-https://neovim.io/doc/user/syntax.html#lace.vim,,ft-lace-syntax
-https://neovim.io/doc/user/syntax.html#lf.vim,,ft-lf-syntax g:lf_shell_syntax
+https://neovim.io/doc/user/syntax.html#ft-lace-syntax,
+https://neovim.io/doc/user/syntax.html#ft-lf-syntax,,g:lf_shell_syntax
 https://neovim.io/doc/user/syntax.html#b%3Alf_shell_syntax,
-https://neovim.io/doc/user/syntax.html#lex.vim,,ft-lex-syntax
-https://neovim.io/doc/user/syntax.html#lifelines.vim,,ft-lifelines-syntax
-https://neovim.io/doc/user/syntax.html#lisp.vim,,ft-lisp-syntax
-https://neovim.io/doc/user/syntax.html#lite.vim,,ft-lite-syntax
-https://neovim.io/doc/user/syntax.html#lpc.vim,,ft-lpc-syntax
-https://neovim.io/doc/user/syntax.html#lua.vim,,ft-lua-syntax
-https://neovim.io/doc/user/syntax.html#mail.vim,,ft-mail.vim
-https://neovim.io/doc/user/syntax.html#make.vim,,ft-make-syntax
-https://neovim.io/doc/user/syntax.html#maple.vim,,ft-maple-syntax
+https://neovim.io/doc/user/syntax.html#ft-lex-syntax,
+https://neovim.io/doc/user/syntax.html#ft-lifelines-syntax,
+https://neovim.io/doc/user/syntax.html#ft-lisp-syntax,
+https://neovim.io/doc/user/syntax.html#ft-lite-syntax,
+https://neovim.io/doc/user/syntax.html#ft-lpc-syntax,
+https://neovim.io/doc/user/syntax.html#ft-lua-syntax,
+https://neovim.io/doc/user/syntax.html#ft-mail.vim,
+https://neovim.io/doc/user/syntax.html#ft-make-syntax,
+https://neovim.io/doc/user/syntax.html#ft-maple-syntax,
 https://neovim.io/doc/user/syntax.html#ft-markdown-syntax,,g:markdown_minlines
 https://neovim.io/doc/user/syntax.html#g%3Amarkdown_fenced_languages,,g:markdown_syntax_conceal
-https://neovim.io/doc/user/syntax.html#mma.vim,,ft-mma-syntax ft-mathematica-syntax
-https://neovim.io/doc/user/syntax.html#mbsync.vim,,ft-mbsync-syntax
+https://neovim.io/doc/user/syntax.html#ft-mma-syntax,,ft-mathematica-syntax
+https://neovim.io/doc/user/syntax.html#ft-mbsync-syntax,
 https://neovim.io/doc/user/syntax.html#ft-mediawiki-syntax,
-https://neovim.io/doc/user/syntax.html#moo.vim,,ft-moo-syntax
-https://neovim.io/doc/user/syntax.html#msql.vim,,ft-msql-syntax
-https://neovim.io/doc/user/syntax.html#neomutt.vim,,ft-neomuttrc-syntax
+https://neovim.io/doc/user/syntax.html#ft-moo-syntax,
+https://neovim.io/doc/user/syntax.html#ft-msql-syntax,
+https://neovim.io/doc/user/syntax.html#ft-neomuttrc-syntax,
 https://neovim.io/doc/user/syntax.html#ft-neomuttlog-syntax,
-https://neovim.io/doc/user/syntax.html#ncf.vim,,ft-ncf-syntax
-https://neovim.io/doc/user/syntax.html#nroff.vim,,ft-nroff-syntax
-https://neovim.io/doc/user/syntax.html#ocaml.vim,,ft-ocaml-syntax
+https://neovim.io/doc/user/syntax.html#ft-ncf-syntax,
+https://neovim.io/doc/user/syntax.html#ft-nroff-syntax,
+https://neovim.io/doc/user/syntax.html#ft-ocaml-syntax,
 https://neovim.io/doc/user/syntax.html#ft-pandoc-syntax,
 https://neovim.io/doc/user/syntax.html#g%3Afiletype_md,
-https://neovim.io/doc/user/syntax.html#papp.vim,,ft-papp-syntax
-https://neovim.io/doc/user/syntax.html#pascal.vim,,ft-pascal-syntax
-https://neovim.io/doc/user/syntax.html#perl.vim,,ft-perl-syntax
-https://neovim.io/doc/user/syntax.html#php.vim,,php3.vim ft-php-syntax ft-php3-syntax
-https://neovim.io/doc/user/syntax.html#plaintex.vim,,ft-plaintex-syntax
-https://neovim.io/doc/user/syntax.html#ppwiz.vim,,ft-ppwiz-syntax
-https://neovim.io/doc/user/syntax.html#phtml.vim,,ft-phtml-syntax
-https://neovim.io/doc/user/syntax.html#postscr.vim,,ft-postscr-syntax
-https://neovim.io/doc/user/syntax.html#ptcap.vim,,ft-printcap-syntax
+https://neovim.io/doc/user/syntax.html#ft-papp-syntax,
+https://neovim.io/doc/user/syntax.html#ft-pascal-syntax,
+https://neovim.io/doc/user/syntax.html#ft-perl-syntax,
+https://neovim.io/doc/user/syntax.html#ft-php-syntax,,ft-php3-syntax
+https://neovim.io/doc/user/syntax.html#ft-plaintex-syntax,
+https://neovim.io/doc/user/syntax.html#ft-ppwiz-syntax,
+https://neovim.io/doc/user/syntax.html#ft-phtml-syntax,
+https://neovim.io/doc/user/syntax.html#ft-postscr-syntax,
+https://neovim.io/doc/user/syntax.html#ft-printcap-syntax,
 https://neovim.io/doc/user/syntax.html#ft-ptcap-syntax,,ft-termcap-syntax
 https://neovim.io/doc/user/syntax.html#printcap",,,or "termcap
-https://neovim.io/doc/user/syntax.html#progress.vim,,ft-progress-syntax
-https://neovim.io/doc/user/syntax.html#python.vim,,ft-python-syntax
-https://neovim.io/doc/user/syntax.html#quake.vim,,ft-quake-syntax
-https://neovim.io/doc/user/syntax.html#r.vim,,ft-r-syntax
-https://neovim.io/doc/user/syntax.html#rmd.vim,,ft-rmd-syntax
-https://neovim.io/doc/user/syntax.html#rrst.vim,,ft-rrst-syntax
-https://neovim.io/doc/user/syntax.html#rasi.vim,,ft-rasi-syntax
-https://neovim.io/doc/user/syntax.html#readline.vim,,ft-readline-syntax
-https://neovim.io/doc/user/syntax.html#rego.vim,,ft-rego-syntax
-https://neovim.io/doc/user/syntax.html#rst.vim,,ft-rst-syntax
-https://neovim.io/doc/user/syntax.html#rexx.vim,,ft-rexx-syntax
+https://neovim.io/doc/user/syntax.html#ft-progress-syntax,
+https://neovim.io/doc/user/syntax.html#ft-python-syntax,
+https://neovim.io/doc/user/syntax.html#ft-quake-syntax,
+https://neovim.io/doc/user/syntax.html#ft-r-syntax,
+https://neovim.io/doc/user/syntax.html#ft-rmd-syntax,
+https://neovim.io/doc/user/syntax.html#ft-rrst-syntax,
+https://neovim.io/doc/user/syntax.html#ft-rasi-syntax,
+https://neovim.io/doc/user/syntax.html#ft-readline-syntax,
+https://neovim.io/doc/user/syntax.html#ft-rego-syntax,
+https://neovim.io/doc/user/syntax.html#ft-rst-syntax,
+https://neovim.io/doc/user/syntax.html#ft-rexx-syntax,
 https://neovim.io/doc/user/syntax.html#g%3Afiletype_r,
-https://neovim.io/doc/user/syntax.html#ruby.vim,,ft-ruby-syntax
+https://neovim.io/doc/user/syntax.html#ft-ruby-syntax,
 https://neovim.io/doc/user/syntax.html#ruby_operators,
 https://neovim.io/doc/user/syntax.html#ruby_space_errors,
 https://neovim.io/doc/user/syntax.html#ruby_fold,,ruby_foldable_groups
 https://neovim.io/doc/user/syntax.html#ruby_no_expensive,
 https://neovim.io/doc/user/syntax.html#ruby_minlines,
 https://neovim.io/doc/user/syntax.html#ruby_spellcheck_strings,
-https://neovim.io/doc/user/syntax.html#scheme.vim,,ft-scheme-syntax
-https://neovim.io/doc/user/syntax.html#sdl.vim,,ft-sdl-syntax
-https://neovim.io/doc/user/syntax.html#sed.vim,,ft-sed-syntax
-https://neovim.io/doc/user/syntax.html#sgml.vim,,ft-sgml-syntax
+https://neovim.io/doc/user/syntax.html#ft-scheme-syntax,
+https://neovim.io/doc/user/syntax.html#ft-sdl-syntax,
+https://neovim.io/doc/user/syntax.html#ft-sed-syntax,
+https://neovim.io/doc/user/syntax.html#ft-sgml-syntax,
 https://neovim.io/doc/user/syntax.html#ft-posix-syntax,,ft-dash-syntax
-https://neovim.io/doc/user/syntax.html#sh.vim,, ft-sh-syntax  ft-bash-syntax  ft-ksh-syntax
+https://neovim.io/doc/user/syntax.html#ft-sh-syntax,, ft-bash-syntax  ft-ksh-syntax
 https://neovim.io/doc/user/syntax.html#sh-embed,, sh-awk
-https://neovim.io/doc/user/syntax.html#spup.vim,,ft-spup-syntax
-https://neovim.io/doc/user/syntax.html#sql.vim,,ft-sql-syntax
-https://neovim.io/doc/user/syntax.html#sqlinformix.vim,,ft-sqlinformix-syntax
-https://neovim.io/doc/user/syntax.html#sqlanywhere.vim,,ft-sqlanywhere-syntax
-https://neovim.io/doc/user/syntax.html#squirrel.vim,,ft-squirrel-syntax
-https://neovim.io/doc/user/syntax.html#tcsh.vim,,ft-tcsh-syntax
-https://neovim.io/doc/user/syntax.html#tex.vim,,ft-tex-syntax latex-syntax
+https://neovim.io/doc/user/syntax.html#ft-spup-syntax,
+https://neovim.io/doc/user/syntax.html#ft-sql-syntax,
+https://neovim.io/doc/user/syntax.html#ft-sqlinformix-syntax,
+https://neovim.io/doc/user/syntax.html#ft-sqlanywhere-syntax,
+https://neovim.io/doc/user/syntax.html#ft-squirrel-syntax,
+https://neovim.io/doc/user/syntax.html#ft-tcsh-syntax,
+https://neovim.io/doc/user/syntax.html#ft-tex-syntax,,latex-syntax
 https://neovim.io/doc/user/syntax.html#syntax-tex,,syntax-latex
 https://neovim.io/doc/user/syntax.html#tex-folding,,g:tex_fold_enabled
 https://neovim.io/doc/user/syntax.html#g%3Atex_nospell,
@@ -2411,26 +2431,24 @@ https://neovim.io/doc/user/syntax.html#g%3Atex_conceal,
 https://neovim.io/doc/user/syntax.html#g%3Atex_isk,,g:tex_stylish
 https://neovim.io/doc/user/syntax.html#tex-supersub,,g:tex_superscripts g:tex_subscripts
 https://neovim.io/doc/user/syntax.html#tex-matchcheck,,g:tex_matchcheck
-https://neovim.io/doc/user/syntax.html#tf.vim,,ft-tf-syntax
-https://neovim.io/doc/user/syntax.html#typescript.vim,,ft-typescript-syntax
-https://neovim.io/doc/user/syntax.html#typescriptreact.vim,,ft-typescriptreact-syntax
+https://neovim.io/doc/user/syntax.html#ft-tf-syntax,
+https://neovim.io/doc/user/syntax.html#ft-typescript-syntax,,ft-typescriptreact-syntax
 https://neovim.io/doc/user/syntax.html#g%3Atypescript_host_keyword,
 https://neovim.io/doc/user/syntax.html#ft-typst-syntax,
 https://neovim.io/doc/user/syntax.html#g%3Atypst_embedded_languages,
-https://neovim.io/doc/user/syntax.html#vim.vim		ft-vim-syntax,
-https://neovim.io/doc/user/syntax.html#g%3Avimsyn_minlines	g:vimsyn_maxlines,
+https://neovim.io/doc/user/syntax.html#ft-vim-syntax,,g:vimsyn_minlines g:vimsyn_maxlines
 https://neovim.io/doc/user/syntax.html#g%3Avimsyn_embed,
 https://neovim.io/doc/user/syntax.html#g%3Avimsyn_folding,
 https://neovim.io/doc/user/syntax.html#g%3Avimsyn_comment_strings,
 https://neovim.io/doc/user/syntax.html#g%3Avimsyn_noerror,
-https://neovim.io/doc/user/syntax.html#wdl.vim,,wdl-syntax
-https://neovim.io/doc/user/syntax.html#xml.vim,,ft-xml-syntax
+https://neovim.io/doc/user/syntax.html#wdl-syntax,
+https://neovim.io/doc/user/syntax.html#ft-xml-syntax,
 https://neovim.io/doc/user/syntax.html#xml-folding,
-https://neovim.io/doc/user/syntax.html#xpm.vim,,ft-xpm-syntax
+https://neovim.io/doc/user/syntax.html#ft-xpm-syntax,
 https://neovim.io/doc/user/syntax.html#-clean-medium-r---8-----80-,
-https://neovim.io/doc/user/syntax.html#yaml.vim,,ft-yaml-syntax
+https://neovim.io/doc/user/syntax.html#ft-yaml-syntax,
 https://neovim.io/doc/user/syntax.html#g%3Ayaml_schema,,b:yaml_schema
-https://neovim.io/doc/user/syntax.html#zsh.vim,,ft-zsh-syntax
+https://neovim.io/doc/user/syntax.html#ft-zsh-syntax,
 https://neovim.io/doc/user/syntax.html#%3Asyn-define,,E410
 https://neovim.io/doc/user/syntax.html#%3Asyn-priority,
 https://neovim.io/doc/user/syntax.html#%3Asyn-case,,E390
@@ -2531,6 +2549,7 @@ https://neovim.io/doc/user/syntax.html#hl-DiffTextAdd,
 https://neovim.io/doc/user/syntax.html#hl-EndOfBuffer,
 https://neovim.io/doc/user/syntax.html#hl-TermCursor,
 https://neovim.io/doc/user/syntax.html#hl-OkMsg,
+https://neovim.io/doc/user/syntax.html#hl-WarningMsg,
 https://neovim.io/doc/user/syntax.html#hl-ErrorMsg,
 https://neovim.io/doc/user/syntax.html#hl-StderrMsg,
 https://neovim.io/doc/user/syntax.html#hl-StdoutMsg,
@@ -2569,6 +2588,7 @@ https://neovim.io/doc/user/syntax.html#hl-PmenuThumb,
 https://neovim.io/doc/user/syntax.html#hl-PmenuMatch,
 https://neovim.io/doc/user/syntax.html#hl-PmenuMatchSel,
 https://neovim.io/doc/user/syntax.html#hl-ComplMatchIns,
+https://neovim.io/doc/user/syntax.html#hl-PreInsert,
 https://neovim.io/doc/user/syntax.html#hl-ComplHint,
 https://neovim.io/doc/user/syntax.html#hl-ComplHintMore,
 https://neovim.io/doc/user/syntax.html#hl-Question,
@@ -2591,7 +2611,6 @@ https://neovim.io/doc/user/syntax.html#hl-TabLineSel,
 https://neovim.io/doc/user/syntax.html#hl-Title,
 https://neovim.io/doc/user/syntax.html#hl-Visual,
 https://neovim.io/doc/user/syntax.html#hl-VisualNOS,
-https://neovim.io/doc/user/syntax.html#hl-WarningMsg,
 https://neovim.io/doc/user/syntax.html#hl-Whitespace,
 https://neovim.io/doc/user/syntax.html#hl-WildMenu,
 https://neovim.io/doc/user/syntax.html#hl-WinBar,
@@ -3118,6 +3137,7 @@ https://neovim.io/doc/user/insert.html#i_CTRL-P,
 https://neovim.io/doc/user/insert.html#compl-stop,
 https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-Z,
 https://neovim.io/doc/user/insert.html#ins-autocompletion,
+https://neovim.io/doc/user/insert.html#ins-autocompletion-example,
 https://neovim.io/doc/user/insert.html#complete-functions,
 https://neovim.io/doc/user/insert.html#complete-items,
 https://neovim.io/doc/user/insert.html#E840,
@@ -3788,21 +3808,6 @@ https://neovim.io/doc/user/spell.html#spell-TRY,
 https://neovim.io/doc/user/spell.html#spell-WORDCHARS,
 https://neovim.io/doc/user/spell.html#develop-spell,
 https://neovim.io/doc/user/spell.html#develop-spell-suggestions,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.txt,
-https://neovim.io/doc/user/editorconfig.html#editorconfig,
-https://neovim.io/doc/user/editorconfig.html#g%3Aeditorconfig,,b:editorconfig
-https://neovim.io/doc/user/editorconfig.html#editorconfig-custom-properties,
-https://neovim.io/doc/user/editorconfig.html#editorconfig-properties,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.charset,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.end_of_line,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.indent_size,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.indent_style,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.insert_final_newline,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.max_line_length,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.root,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.spelling_language,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.tab_width,
-https://neovim.io/doc/user/editorconfig.html#editorconfig.trim_trailing_whitespace,
 https://neovim.io/doc/user/windows.html#windows.txt,
 https://neovim.io/doc/user/windows.html#windows,,buffers
 https://neovim.io/doc/user/windows.html#windows-intro,,window
@@ -3967,8 +3972,6 @@ https://neovim.io/doc/user/api.html#api-metadata,
 https://neovim.io/doc/user/api.html#api-level,
 https://neovim.io/doc/user/api.html#api-mapping,
 https://neovim.io/doc/user/api.html#api-contract,
-https://neovim.io/doc/user/api.html#api-global-events,
-https://neovim.io/doc/user/api.html#nvim_error_event,
 https://neovim.io/doc/user/api.html#api-buffer-updates,
 https://neovim.io/doc/user/api.html#nvim_buf_lines_event,
 https://neovim.io/doc/user/api.html#nvim_buf_changedtick_event,
@@ -3978,6 +3981,9 @@ https://neovim.io/doc/user/api.html#api-lua-detach,
 https://neovim.io/doc/user/api.html#api-highlights,
 https://neovim.io/doc/user/api.html#api-floatwin,,floating-windows
 https://neovim.io/doc/user/api.html#api-extended-marks,,extmarks extmark
+https://neovim.io/doc/user/api.html#api-events,
+https://neovim.io/doc/user/api.html#nvim_error_event,
+https://neovim.io/doc/user/api.html#nvim_ui_term_event,
 https://neovim.io/doc/user/api.html#api-global,
 https://neovim.io/doc/user/api.html#nvim_chan_send(),
 https://neovim.io/doc/user/api.html#nvim_create_buf(),
@@ -4132,7 +4138,6 @@ https://neovim.io/doc/user/api.html#nvim_ui_pum_set_height(),
 https://neovim.io/doc/user/api.html#nvim_ui_send(),
 https://neovim.io/doc/user/api.html#nvim_ui_set_focus(),
 https://neovim.io/doc/user/api.html#nvim_ui_set_option(),
-https://neovim.io/doc/user/api.html#nvim_ui_term_event(),
 https://neovim.io/doc/user/api.html#nvim_ui_try_resize(),
 https://neovim.io/doc/user/api.html#nvim_ui_try_resize_grid(),
 https://neovim.io/doc/user/api.html#api-win_config,
@@ -4632,7 +4637,6 @@ https://neovim.io/doc/user/vimfn.html#visualmode(),
 https://neovim.io/doc/user/vimfn.html#wait(),
 https://neovim.io/doc/user/vimfn.html#wildmenumode(),
 https://neovim.io/doc/user/vimfn.html#wildtrigger(),
-https://neovim.io/doc/user/vimfn.html#cmdline-autocompletion,
 https://neovim.io/doc/user/vimfn.html#win_execute(),
 https://neovim.io/doc/user/vimfn.html#win_findbuf(),
 https://neovim.io/doc/user/vimfn.html#win_getid(),
@@ -4741,7 +4745,6 @@ https://neovim.io/doc/user/api-ui-events.html#ui-messages,
 https://neovim.io/doc/user/usr_43.html#filetype-plugin,
 https://neovim.io/doc/user/usr_43.html#your-runtime-dir,
 https://neovim.io/doc/user/ft_ada.html#ft_ada.txt,
-https://neovim.io/doc/user/ft_ada.html#ada.vim,
 https://neovim.io/doc/user/ft_ada.html#ft-ada-syntax,
 https://neovim.io/doc/user/ft_ada.html#ft-ada-indent,,ft-ada-plugin
 https://neovim.io/doc/user/ft_ada.html#ft-ada-omni,
@@ -5621,7 +5624,6 @@ https://neovim.io/doc/user/mbyte.html#mbyte-options,
 https://neovim.io/doc/user/help.html#help.txt,
 https://neovim.io/doc/user/help.html#help-context,
 https://neovim.io/doc/user/help.html#reference_toc,,doc-file-list Q_ct
-https://neovim.io/doc/user/help.html#standard-plugin-list,
 https://neovim.io/doc/user/help.html#local-additions,
 https://neovim.io/doc/user/help.html#bars,
 https://neovim.io/doc/user/channel.html#channel.txt,
@@ -6225,6 +6227,7 @@ https://neovim.io/doc/user/develop.html#dev-api-client,
 https://neovim.io/doc/user/develop.html#api-client,
 https://neovim.io/doc/user/develop.html#node-client,,pynvim
 https://neovim.io/doc/user/develop.html#dev-ui,
+https://neovim.io/doc/user/develop.html#dev-ui-multigrid,
 https://neovim.io/doc/user/uganda.html#uganda.txt,
 https://neovim.io/doc/user/uganda.html#uganda,,Uganda copying copyright license
 https://neovim.io/doc/user/uganda.html#iccf,,ICCF
