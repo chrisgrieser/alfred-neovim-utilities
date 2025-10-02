@@ -452,7 +452,7 @@ https://neovim.io/doc/user/gui.html#%3Awi,,:win :winsize E465
 https://neovim.io/doc/user/gui.html#mouse-using,
 https://neovim.io/doc/user/gui.html#mouse-mode-table,,mouse-overview
 https://neovim.io/doc/user/gui.html#double-click,,<2-LeftMouse> <3-LeftMouse> <4-LeftMouse>
-https://neovim.io/doc/user/gui.html#mouse-swap-buttons,
+https://neovim.io/doc/user/gui.html#mouse-swap-buttons,,pi_swapmouse
 https://neovim.io/doc/user/gui.html#gui-scrollbars,
 https://neovim.io/doc/user/gui.html#gui-vert-scroll,
 https://neovim.io/doc/user/gui.html#gui-horiz-scroll,
@@ -1500,7 +1500,7 @@ https://neovim.io/doc/user/lsp.html#lsp.txt,
 https://neovim.io/doc/user/lsp.html#lsp,,LSP
 https://neovim.io/doc/user/lsp.html#lsp-quickstart,
 https://neovim.io/doc/user/lsp.html#lsp-defaults,
-https://neovim.io/doc/user/lsp.html#grr,,gra grn gri grt i_CTRL-S an in
+https://neovim.io/doc/user/lsp.html#gra,,gri grn grr grt i_CTRL-S v_an v_in
 https://neovim.io/doc/user/lsp.html#lsp-defaults-disable,
 https://neovim.io/doc/user/lsp.html#lsp-config,
 https://neovim.io/doc/user/lsp.html#lsp-new-config,
@@ -2351,6 +2351,7 @@ https://neovim.io/doc/user/syntax.html#ft-lex-syntax,
 https://neovim.io/doc/user/syntax.html#ft-lifelines-syntax,
 https://neovim.io/doc/user/syntax.html#ft-lisp-syntax,
 https://neovim.io/doc/user/syntax.html#ft-lite-syntax,
+https://neovim.io/doc/user/syntax.html#ft-log-syntax,
 https://neovim.io/doc/user/syntax.html#ft-lpc-syntax,
 https://neovim.io/doc/user/syntax.html#ft-lua-syntax,
 https://neovim.io/doc/user/syntax.html#ft-mail.vim,
@@ -4460,6 +4461,7 @@ https://neovim.io/doc/user/vimfn.html#or(),
 https://neovim.io/doc/user/vimfn.html#pathshorten(),
 https://neovim.io/doc/user/vimfn.html#perleval(),
 https://neovim.io/doc/user/vimfn.html#pow(),
+https://neovim.io/doc/user/vimfn.html#preinserted(),
 https://neovim.io/doc/user/vimfn.html#prevnonblank(),
 https://neovim.io/doc/user/vimfn.html#printf(),
 https://neovim.io/doc/user/vimfn.html#printf-d,,printf-b printf-B printf-o printf-x printf-X
@@ -5410,7 +5412,6 @@ https://neovim.io/doc/user/deprecated.html#vim.lsp.diagnostic.get_virtual_text_c
 https://neovim.io/doc/user/deprecated.html#vim.lsp.diagnostic.goto_next(),
 https://neovim.io/doc/user/deprecated.html#vim.lsp.diagnostic.goto_prev(),
 https://neovim.io/doc/user/deprecated.html#vim.lsp.diagnostic.redraw(),
-https://neovim.io/doc/user/deprecated.html#vim.lsp.diagnostic.reset(),
 https://neovim.io/doc/user/deprecated.html#vim.lsp.diagnostic.save(),
 https://neovim.io/doc/user/deprecated.html#vim.lsp.diagnostic.set_loclist(),
 https://neovim.io/doc/user/deprecated.html#vim.lsp.diagnostic.set_qflist(),
