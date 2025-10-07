@@ -34,4 +34,4 @@ jobs:
           exit $? # inherit exit code
       - uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: "chore: updated `:help` index"
+          commit_message: "chore: auto-update `:help` index"
