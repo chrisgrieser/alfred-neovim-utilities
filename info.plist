@@ -12,16 +12,6 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C9BF5A96-9AC2-4AA6-A169-11DA39DAA306</string>
-				<key>modifiers</key>
-				<integer>262144</integer>
-				<key>modifiersubtext</key>
-				<string>⌃: Copy install for lazy.nvim</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>D6E5E105-38E3-4BC1-90E3-52BEE556349D</string>
 				<key>modifiers</key>
 				<integer>524288</integer>
@@ -698,10 +688,9 @@
 	+ &lt;kbd&gt;⌘⏎&lt;/kbd&gt;: Open the `:help` page in the browser (`vimdoc` converted to
 	  HTML).
 	+ &lt;kbd&gt;⌥⏎&lt;/kbd&gt;: Copy the GitHub URL.
-	+ &lt;kbd&gt;⌃⏎&lt;/kbd&gt;: Copy installation snippet for `lazy.nvim`, if available.
 - `ip`: Search for locally installed plugins and `mason.nvim` packages
   (mnemonic: `[i]installed [p]lugins`).
-	+ The modifiers (&lt;kbd&gt;⌘⌥⌃⇧&lt;/kbd&gt;) from the plugin-search also apply for this
+	+ The modifiers (&lt;kbd&gt;⌘⌥&lt;/kbd&gt;) from the plugin-search also apply for this
 	  command.
 	+ In addition, &lt;kbd&gt;fn⏎&lt;/kbd&gt;: Open the local directory of the plugin in
 	  Finder.
