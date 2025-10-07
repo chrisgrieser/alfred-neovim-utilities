@@ -19,10 +19,9 @@ the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.co
 	+ <kbd>⌘⏎</kbd>: Open the `:help` page in the browser (`vimdoc` converted to
 	  HTML).
 	+ <kbd>⌥⏎</kbd>: Copy the GitHub URL.
-	+ <kbd>⌃⏎</kbd>: Copy installation snippet for `lazy.nvim`, if available.
 - `ip`: Search for locally installed plugins and `mason.nvim` packages
   (mnemonic: `[i]installed [p]lugins`).
-	+ The modifiers (<kbd>⌘⌥⌃⇧</kbd>) from the plugin-search also apply for this
+	+ The modifiers (<kbd>⌘⌥</kbd>) from the plugin-search also apply for this
 	  command.
 	+ In addition, <kbd>fn⏎</kbd>: Open the local directory of the plugin in
 	  Finder.
