@@ -203,6 +203,7 @@ https://neovim.io/doc/user/options.html#'preserveindent',,pi nopreserveindent no
 https://neovim.io/doc/user/options.html#'previewheight',,pvh
 https://neovim.io/doc/user/options.html#'previewwindow',,pvw nopreviewwindow nopvw
 https://neovim.io/doc/user/options.html#'pumblend',,pb
+https://neovim.io/doc/user/options.html#'pumborder',
 https://neovim.io/doc/user/options.html#'pumheight',,ph
 https://neovim.io/doc/user/options.html#'pummaxwidth',,pmw
 https://neovim.io/doc/user/options.html#'pumwidth',,pw
@@ -511,6 +512,7 @@ https://neovim.io/doc/user/change.html#v_x,,v_d v_<Del>
 https://neovim.io/doc/user/change.html#v_CTRL-H,,v_<BS>
 https://neovim.io/doc/user/change.html#v_X,,v_D v_b_D
 https://neovim.io/doc/user/change.html#%3Ad,,:de :del :delete :dl :dp
+https://neovim.io/doc/user/change.html#d-special,
 https://neovim.io/doc/user/change.html#J,
 https://neovim.io/doc/user/change.html#v_J,
 https://neovim.io/doc/user/change.html#gJ,
@@ -1307,6 +1309,9 @@ https://neovim.io/doc/user/pi_zip.html#g%3AzipPlugin_ext,
 https://neovim.io/doc/user/pi_zip.html#zip-history,
 https://neovim.io/doc/user/plugins.html#plugins.txt,
 https://neovim.io/doc/user/plugins.html#standard-plugin-list,
+https://neovim.io/doc/user/plugins.html#difftool,
+https://neovim.io/doc/user/plugins.html#%3ADiffTool,
+https://neovim.io/doc/user/plugins.html#difftool.open(),
 https://neovim.io/doc/user/plugins.html#editorconfig,
 https://neovim.io/doc/user/plugins.html#g%3Aeditorconfig,,b:editorconfig
 https://neovim.io/doc/user/plugins.html#editorconfig-custom-properties,
@@ -1324,6 +1329,9 @@ https://neovim.io/doc/user/plugins.html#editorconfig.trim_trailing_whitespace,
 https://neovim.io/doc/user/plugins.html#tohtml,
 https://neovim.io/doc/user/plugins.html#%3ATOhtml,
 https://neovim.io/doc/user/plugins.html#tohtml.tohtml(),
+https://neovim.io/doc/user/plugins.html#undotree,
+https://neovim.io/doc/user/plugins.html#undotree.open(),
+https://neovim.io/doc/user/plugins.html#%3AUndotree,
 https://neovim.io/doc/user/remote.html#remote.txt,
 https://neovim.io/doc/user/remote.html#client-server,
 https://neovim.io/doc/user/remote.html#clientserver,
@@ -1811,7 +1819,7 @@ https://neovim.io/doc/user/editing.html#edit-files,
 https://neovim.io/doc/user/editing.html#edit-intro,
 https://neovim.io/doc/user/editing.html#current-file,
 https://neovim.io/doc/user/editing.html#alternate-file,
-https://neovim.io/doc/user/editing.html#%3Akeepalt,,:keepa
+https://neovim.io/doc/user/editing.html#%3Akeepa,,:keepalt
 https://neovim.io/doc/user/editing.html#CTRL-G,,:f :fi :file
 https://neovim.io/doc/user/editing.html#g_CTRL-G,,word-count byte-count
 https://neovim.io/doc/user/editing.html#v_g_CTRL-G,
@@ -2574,6 +2582,8 @@ https://neovim.io/doc/user/syntax.html#hl-NonText,
 https://neovim.io/doc/user/syntax.html#hl-Normal,
 https://neovim.io/doc/user/syntax.html#hl-NormalFloat,
 https://neovim.io/doc/user/syntax.html#hl-FloatBorder,
+https://neovim.io/doc/user/syntax.html#hl-FloatShadow,
+https://neovim.io/doc/user/syntax.html#hl-FLoatShadowThrough,
 https://neovim.io/doc/user/syntax.html#hl-FloatTitle,
 https://neovim.io/doc/user/syntax.html#hl-FloatFooter,
 https://neovim.io/doc/user/syntax.html#hl-NormalNC,
@@ -2587,6 +2597,9 @@ https://neovim.io/doc/user/syntax.html#hl-PmenuSbar,
 https://neovim.io/doc/user/syntax.html#hl-PmenuThumb,
 https://neovim.io/doc/user/syntax.html#hl-PmenuMatch,
 https://neovim.io/doc/user/syntax.html#hl-PmenuMatchSel,
+https://neovim.io/doc/user/syntax.html#hl-PmenuBorder,
+https://neovim.io/doc/user/syntax.html#hl-PmenuShadow,
+https://neovim.io/doc/user/syntax.html#hl-PmenuShadowThrough,
 https://neovim.io/doc/user/syntax.html#hl-ComplMatchIns,
 https://neovim.io/doc/user/syntax.html#hl-PreInsert,
 https://neovim.io/doc/user/syntax.html#hl-ComplHint,
@@ -2627,7 +2640,7 @@ https://neovim.io/doc/user/syntax.html#%3Asyntax-reset,,:syn-reset
 https://neovim.io/doc/user/syntax.html#tag-highlight,
 https://neovim.io/doc/user/syntax.html#xterm-color,,color-xterm
 https://neovim.io/doc/user/syntax.html#colortest.vim,
-https://neovim.io/doc/user/syntax.html#%3Asyntime,
+https://neovim.io/doc/user/syntax.html#%3Asynti,,:syntime
 https://neovim.io/doc/user/vietnamese.html#vietnamese.txt,
 https://neovim.io/doc/user/vietnamese.html#vietnamese-intro,
 https://neovim.io/doc/user/vietnamese.html#vietnamese-keymap,
@@ -5121,6 +5134,7 @@ https://neovim.io/doc/user/autocmd.html#InsertLeavePre,
 https://neovim.io/doc/user/autocmd.html#InsertLeave,
 https://neovim.io/doc/user/autocmd.html#MenuPopup,
 https://neovim.io/doc/user/autocmd.html#ModeChanged,
+https://neovim.io/doc/user/autocmd.html#%3Ac,
 https://neovim.io/doc/user/autocmd.html#%3A,
 https://neovim.io/doc/user/autocmd.html#Progress,
 https://neovim.io/doc/user/autocmd.html#OptionSet,
@@ -5747,9 +5761,9 @@ https://neovim.io/doc/user/quickfix.html#quickfix-size,
 https://neovim.io/doc/user/quickfix.html#quickfix-context,
 https://neovim.io/doc/user/quickfix.html#quickfix-parse,
 https://neovim.io/doc/user/quickfix.html#%3Acdo,
-https://neovim.io/doc/user/quickfix.html#%3Acfdo,
-https://neovim.io/doc/user/quickfix.html#%3Aldo,
-https://neovim.io/doc/user/quickfix.html#%3Alfdo,
+https://neovim.io/doc/user/quickfix.html#%3Acfd,,:cfdo
+https://neovim.io/doc/user/quickfix.html#%3Ald,,:ldo
+https://neovim.io/doc/user/quickfix.html#%3Alfd,,:lfdo
 https://neovim.io/doc/user/quickfix.html#cfilter-plugin,,:Cfilter :Lfilter package-cfilter
 https://neovim.io/doc/user/quickfix.html#quickfix-window,
 https://neovim.io/doc/user/quickfix.html#%3Acope,,:copen w:quickfix_title
@@ -5923,7 +5937,8 @@ https://neovim.io/doc/user/undo.html#g-,
 https://neovim.io/doc/user/undo.html#%3Aea,,:earlier
 https://neovim.io/doc/user/undo.html#%3Alat,,:later
 https://neovim.io/doc/user/undo.html#undo-persistence,,persistent-undo
-https://neovim.io/doc/user/undo.html#%3Awundo,,:rundo
+https://neovim.io/doc/user/undo.html#%3Awu,,:wundo
+https://neovim.io/doc/user/undo.html#%3Arund,,:rundo
 https://neovim.io/doc/user/undo.html#E822,
 https://neovim.io/doc/user/undo.html#E823,
 https://neovim.io/doc/user/undo.html#E824,
