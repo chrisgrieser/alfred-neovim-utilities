@@ -1353,7 +1353,7 @@ https://neovim.io/doc/user/remote.html#--remote-tab-wait-silent,
 https://neovim.io/doc/user/remote.html#--servername,
 https://neovim.io/doc/user/remote.html#--serverlist,
 https://neovim.io/doc/user/remote.html#client-server-name,
-https://neovim.io/doc/user/dev.html#develop.txt,
+https://neovim.io/doc/user/dev.html#dev.txt,
 https://neovim.io/doc/user/dev.html#development,,dev
 https://neovim.io/doc/user/dev.html#design-goals,
 https://neovim.io/doc/user/dev.html#design-improved,
@@ -1480,10 +1480,6 @@ https://neovim.io/doc/user/intro.html#download,,upgrade ubuntu
 https://neovim.io/doc/user/intro.html#uninstall,
 https://neovim.io/doc/user/intro.html#sponsor,
 https://neovim.io/doc/user/intro.html#Bram,,Moolenaar Bram-Moolenaar brammool
-https://neovim.io/doc/user/intro.html#notation,
-https://neovim.io/doc/user/intro.html#count,,[count]
-https://neovim.io/doc/user/intro.html#movement,
-https://neovim.io/doc/user/intro.html#quotecommandquote,
 https://neovim.io/doc/user/intro.html#key-notation,,key-codes keycodes
 https://neovim.io/doc/user/intro.html#backspace,
 https://neovim.io/doc/user/intro.html#tab,,Tab
@@ -1983,6 +1979,7 @@ https://neovim.io/doc/user/lua.html#list-iterator,
 https://neovim.io/doc/user/lua.html#lua-function-call,
 https://neovim.io/doc/user/lua.html#kwargs,
 https://neovim.io/doc/user/lua.html#lua-regex,
+https://neovim.io/doc/user/lua.html#lua-truthy,
 https://neovim.io/doc/user/lua.html#lua-module-load,
 https://neovim.io/doc/user/lua.html#lua-script-location,
 https://neovim.io/doc/user/lua.html#lua-commands,
@@ -2109,6 +2106,7 @@ https://neovim.io/doc/user/lua.html#vim.filetype.get_option(),
 https://neovim.io/doc/user/lua.html#vim.filetype.match(),
 https://neovim.io/doc/user/lua.html#vim.fs,
 https://neovim.io/doc/user/lua.html#vim.fs.exists(),
+https://neovim.io/doc/user/lua.html#vim.fs.read(),
 https://neovim.io/doc/user/lua.html#vim.fs.abspath(),
 https://neovim.io/doc/user/lua.html#vim.fs.basename(),
 https://neovim.io/doc/user/lua.html#vim.fs.dir(),
@@ -5492,6 +5490,11 @@ https://neovim.io/doc/user/deprecated.html#rpcstart(),
 https://neovim.io/doc/user/deprecated.html#rpcstop(),
 https://neovim.io/doc/user/helphelp.html#helphelp.txt,
 https://neovim.io/doc/user/helphelp.html#helphelp,
+https://neovim.io/doc/user/helphelp.html#help-context,
+https://neovim.io/doc/user/helphelp.html#notation,
+https://neovim.io/doc/user/helphelp.html#count,,[count]
+https://neovim.io/doc/user/helphelp.html#movement,
+https://neovim.io/doc/user/helphelp.html#quotecommandquote,
 https://neovim.io/doc/user/helphelp.html#online-help,
 https://neovim.io/doc/user/helphelp.html#help,,<Help> :h :help <F1> i_<F1> i_<Help>
 https://neovim.io/doc/user/helphelp.html#E149,,E661
@@ -5580,7 +5583,7 @@ https://neovim.io/doc/user/tagsrch.html#tag-function,
 https://neovim.io/doc/user/tagsrch.html#E987,
 https://neovim.io/doc/user/tagsrch.html#E986,
 https://neovim.io/doc/user/tagsrch.html#E1299,
-https://neovim.io/doc/user/dev_test.html#dev_test,
+https://neovim.io/doc/user/dev_test.html#dev_test.txt,
 https://neovim.io/doc/user/dev_test.html#dev-test,
 https://neovim.io/doc/user/dev_test.html#dev-run-test,
 https://neovim.io/doc/user/dev_test.html#dev-filter-test,
@@ -5674,8 +5677,7 @@ https://neovim.io/doc/user/mbyte.html#bom-bytes,
 https://neovim.io/doc/user/mbyte.html#mbyte-combining,,mbyte-composing
 https://neovim.io/doc/user/mbyte.html#mbyte-options,
 https://neovim.io/doc/user/help.html#help.txt,
-https://neovim.io/doc/user/help.html#help-context,
-https://neovim.io/doc/user/help.html#reference_toc,,doc-file-list Q_ct
+https://neovim.io/doc/user/help.html#reference_toc,,Q_ct
 https://neovim.io/doc/user/help.html#local-additions,
 https://neovim.io/doc/user/help.html#bars,
 https://neovim.io/doc/user/l10n-russian.html#russian,,Russian
@@ -5846,6 +5848,7 @@ https://neovim.io/doc/user/quickfix.html#%3Algrepa,,:lgrepadd
 https://neovim.io/doc/user/quickfix.html#compiler-select,
 https://neovim.io/doc/user/quickfix.html#%3Acomp,,:compiler E666
 https://neovim.io/doc/user/quickfix.html#current_compiler,
+https://neovim.io/doc/user/quickfix.html#compiler-biome,,quickfix-biome
 https://neovim.io/doc/user/quickfix.html#quickfix-cppcheck,,compiler-cppcheck
 https://neovim.io/doc/user/quickfix.html#compiler-dotnet,
 https://neovim.io/doc/user/quickfix.html#quickfix-gcc	compiler-gcc,
