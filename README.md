@@ -12,9 +12,10 @@ the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.co
 ## Commands
 - `:h`: Search the Neovim [online :help](https://neovim.io/doc/).
 	+ <kbd>⏎</kbd>: Open the respective help.
-	+ <kbd>⌥⏎</kbd>: Copy the help URL to the clipboard.
-- `np`: Search [store.nvim](https://github.com/alex-popov-tech/store.nvim)
-  for Neovim plugins (mnemonic: `[n]vim [p]lugins`).
+	+ <kbd>⌥⏎</kbd>: Copy the help URL.
+	+ <kbd>⌘⏎</kbd>: Copy the command or function name.
+- `np`: Search [store.nvim](https://github.com/alex-popov-tech/store.nvim) for
+  Neovim plugins (mnemonic: `[n]vim [p]lugins`).
 	+ <kbd>⏎</kbd>: Open the GitHub repo.
 	+ <kbd>⌘⏎</kbd>: Open the `:help` page in the browser (`vimdoc` converted to
 	  HTML).
