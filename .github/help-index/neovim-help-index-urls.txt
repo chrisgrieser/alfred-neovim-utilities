@@ -48,7 +48,6 @@ https://neovim.io/doc/user/options.html#'comments',,com
 https://neovim.io/doc/user/options.html#'commentstring',,cms
 https://neovim.io/doc/user/options.html#'complete',,cpt
 https://neovim.io/doc/user/options.html#'completefunc',,cfu
-https://neovim.io/doc/user/options.html#'completefuzzycollect',,cfc
 https://neovim.io/doc/user/options.html#'completeitemalign',,cia
 https://neovim.io/doc/user/options.html#'completeopt',,cot
 https://neovim.io/doc/user/options.html#'completeslash',,csl
@@ -138,7 +137,6 @@ https://neovim.io/doc/user/options.html#'incsearch',,is noincsearch nois
 https://neovim.io/doc/user/options.html#'indentexpr',,inde
 https://neovim.io/doc/user/options.html#'indentkeys',,indk
 https://neovim.io/doc/user/options.html#'infercase',,inf noinfercase noinf
-https://neovim.io/doc/user/options.html#'isexpand',,ise
 https://neovim.io/doc/user/options.html#'isfname',,isf
 https://neovim.io/doc/user/options.html#'isident',,isi
 https://neovim.io/doc/user/options.html#'iskeyword',,isk
@@ -3430,6 +3428,7 @@ https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.Opts,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.Opts.Float,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.Opts.Jump,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.Opts.Signs,
+https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.Opts.Status,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.Opts.Underline,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.Opts.VirtualLines,
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.Opts.VirtualText,
@@ -4080,6 +4079,7 @@ https://neovim.io/doc/user/api.html#nvim_set_var(),
 https://neovim.io/doc/user/api.html#nvim_set_vvar(),
 https://neovim.io/doc/user/api.html#nvim_strwidth(),
 https://neovim.io/doc/user/api.html#nvim__complete_set(),
+https://neovim.io/doc/user/api.html#nvim__exec_lua_fast(),
 https://neovim.io/doc/user/api.html#nvim__get_runtime(),
 https://neovim.io/doc/user/api.html#nvim__id(),
 https://neovim.io/doc/user/api.html#nvim__id_array(),
@@ -4263,7 +4263,6 @@ https://neovim.io/doc/user/vimfn.html#complete_add(),
 https://neovim.io/doc/user/vimfn.html#complete_check(),
 https://neovim.io/doc/user/vimfn.html#complete_info(),
 https://neovim.io/doc/user/vimfn.html#complete_info_mode,
-https://neovim.io/doc/user/vimfn.html#complete_match(),
 https://neovim.io/doc/user/vimfn.html#confirm(),
 https://neovim.io/doc/user/vimfn.html#copy(),
 https://neovim.io/doc/user/vimfn.html#cos(),
