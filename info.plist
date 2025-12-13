@@ -681,7 +681,7 @@
 - `:h`: Search the Neovim [online :help](https://neovim.io/doc/).
 	+ &lt;kbd&gt;⏎&lt;/kbd&gt;: Open the respective help.
 	+ &lt;kbd&gt;⌥⏎&lt;/kbd&gt;: Copy the help URL.
-	+ &lt;kbd&gt;⌥⏎&lt;/kbd&gt;: Copy the command or function name.
+	+ &lt;kbd&gt;⌘⏎&lt;/kbd&gt;: Copy the command or function name.
 - `np`: Search [store.nvim](https://github.com/alex-popov-tech/store.nvim)
   for Neovim plugins (mnemonic: `[n]vim [p]lugins`).
 	+ &lt;kbd&gt;⏎&lt;/kbd&gt;: Open the GitHub repo.

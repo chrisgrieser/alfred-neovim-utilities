@@ -61,7 +61,7 @@ function run() {
 				subtitle: site,
 				arg: url,
 				mods: {
-					cmd: { arg: name },
+					cmd: { arg: name }, // copy command/function name
 				},
 				quicklookurl: url,
 				uid: url,
