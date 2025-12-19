@@ -37,7 +37,7 @@ the [online :help](https://neovim.io/doc/) via [Alfred](https://www.alfredapp.co
 > All keywords are customizable in the workflow settings.
 
 ## Installation
-- __Requirements:__ [Alfred 5.5](https://www.alfredapp.com/) (macOS only) with
+- **Requirements:** [Alfred 5.5](https://www.alfredapp.com/) (macOS only) with
   Powerpack.
 - Download the [latest release from the Alfred
   Gallery](https://alfred.app/workflows/chrisgrieser/neovim-utilities/).
