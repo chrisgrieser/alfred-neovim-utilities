@@ -113,7 +113,6 @@ https://neovim.io/doc/user/options.html#'formatlistpat',,flp
 https://neovim.io/doc/user/options.html#'formatoptions',,fo
 https://neovim.io/doc/user/options.html#'formatprg',,fp
 https://neovim.io/doc/user/options.html#'fsync',,fs nofsync nofs
-https://neovim.io/doc/user/options.html#'gdefault',,gd nogdefault nogd
 https://neovim.io/doc/user/options.html#'grepformat',,gfm
 https://neovim.io/doc/user/options.html#'grepprg',,gp
 https://neovim.io/doc/user/options.html#'guicursor',,gcr
@@ -161,7 +160,6 @@ https://neovim.io/doc/user/options.html#'lispwords',,lw
 https://neovim.io/doc/user/options.html#'list',,nolist
 https://neovim.io/doc/user/options.html#'listchars',,lcs
 https://neovim.io/doc/user/options.html#'loadplugins',,lpl noloadplugins nolpl
-https://neovim.io/doc/user/options.html#'magic',,nomagic
 https://neovim.io/doc/user/options.html#'makeef',,mef
 https://neovim.io/doc/user/options.html#'makeencoding',,menc
 https://neovim.io/doc/user/options.html#'makeprg',,mp
@@ -609,7 +607,7 @@ https://neovim.io/doc/user/change.html#blockwise-put,
 https://neovim.io/doc/user/change.html#blockwise-register,
 https://neovim.io/doc/user/change.html#registers,,{register} E354
 https://neovim.io/doc/user/change.html#quote_quote,,quotequote
-https://neovim.io/doc/user/change.html#quote_number,,quote0 quote1
+https://neovim.io/doc/user/change.html#quote_number,
 https://neovim.io/doc/user/change.html#yankring,
 https://neovim.io/doc/user/change.html#quote_-,,quote-
 https://neovim.io/doc/user/change.html#quote_alpha,,quotea
@@ -1541,6 +1539,11 @@ https://neovim.io/doc/user/lsp.html#lsp-quickstart,
 https://neovim.io/doc/user/lsp.html#lsp-defaults,
 https://neovim.io/doc/user/lsp.html#gra,,gri grn grr grt i_CTRL-S v_an v_in
 https://neovim.io/doc/user/lsp.html#lsp-defaults-disable,
+https://neovim.io/doc/user/lsp.html#%3Alsp,,lsp-commands
+https://neovim.io/doc/user/lsp.html#%3Alsp-enable,
+https://neovim.io/doc/user/lsp.html#%3Alsp-disable,
+https://neovim.io/doc/user/lsp.html#%3Alsp-restart,
+https://neovim.io/doc/user/lsp.html#%3Alsp-stop,
 https://neovim.io/doc/user/lsp.html#lsp-config,
 https://neovim.io/doc/user/lsp.html#lsp-new-config,
 https://neovim.io/doc/user/lsp.html#lsp-config-merge,
@@ -1589,7 +1592,6 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.buf_request_sync(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.commands,
 https://neovim.io/doc/user/lsp.html#vim.lsp.config(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.enable(),
-https://neovim.io/doc/user/lsp.html#lsp-restart,
 https://neovim.io/doc/user/lsp.html#vim.lsp.foldclose(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.foldexpr(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.foldtext(),
@@ -2955,7 +2957,7 @@ https://neovim.io/doc/user/luaref.html#package.cpath,
 https://neovim.io/doc/user/luaref.html#package.loaded,
 https://neovim.io/doc/user/luaref.html#package.loadlib(),
 https://neovim.io/doc/user/luaref.html#package.path,
-https://neovim.io/doc/user/luaref.html#package.preload(),
+https://neovim.io/doc/user/luaref.html#package.preload,
 https://neovim.io/doc/user/luaref.html#package.seeall(),
 https://neovim.io/doc/user/luaref.html#lua-lib-string,
 https://neovim.io/doc/user/luaref.html#string.byte(),
@@ -3551,7 +3553,6 @@ https://neovim.io/doc/user/support.html#support.txt,
 https://neovim.io/doc/user/support.html#support,
 https://neovim.io/doc/user/support.html#supported-platforms,
 https://neovim.io/doc/user/pi_msgpack.html#pi_msgpack.txt,
-https://neovim.io/doc/user/pi_msgpack.html#msgpack.vim-contents,
 https://neovim.io/doc/user/pi_msgpack.html#msgpack.vim-intro,
 https://neovim.io/doc/user/pi_msgpack.html#msgpack.vim-manual,
 https://neovim.io/doc/user/pi_msgpack.html#msgpack.vim-arguments,
@@ -5065,7 +5066,7 @@ https://neovim.io/doc/user/message.html#more-prompt,,pager
 https://neovim.io/doc/user/message.html#progress-message,
 https://neovim.io/doc/user/dev_arch.html#dev_arch.txt,
 https://neovim.io/doc/user/dev_arch.html#dev-arch,
-https://neovim.io/doc/user/dev_arch.html#not,
+https://neovim.io/doc/user/dev_arch.html#dev-lua-builtin,
 https://neovim.io/doc/user/dev_arch.html#dev-events,
 https://neovim.io/doc/user/dev_arch.html#dev-ui-events,
 https://neovim.io/doc/user/dev_arch.html#dev-api-fast,
@@ -5860,6 +5861,7 @@ https://neovim.io/doc/user/quickfix.html#quickfix-groff,,compiler-groff
 https://neovim.io/doc/user/quickfix.html#quickfix-pandoc,,compiler-pandoc
 https://neovim.io/doc/user/quickfix.html#quickfix-perl,,compiler-perl
 https://neovim.io/doc/user/quickfix.html#compiler-mypy,
+https://neovim.io/doc/user/quickfix.html#compiler-ty,
 https://neovim.io/doc/user/quickfix.html#compiler-ruff,
 https://neovim.io/doc/user/quickfix.html#compiler-pylint,
 https://neovim.io/doc/user/quickfix.html#compiler-pyunit,
@@ -6440,6 +6442,8 @@ https://neovim.io/doc/user/pack.html#packload-two-steps,
 https://neovim.io/doc/user/pack.html#vim.pack,
 https://neovim.io/doc/user/pack.html#vim.pack-directory,
 https://neovim.io/doc/user/pack.html#vim.pack-lockfile,
+https://neovim.io/doc/user/pack.html#vim.pack-examples,
+https://neovim.io/doc/user/pack.html#vim.pack-events,
 https://neovim.io/doc/user/pack.html#PackChangedPre,
 https://neovim.io/doc/user/pack.html#PackChanged,
 https://neovim.io/doc/user/pack.html#vim.pack.Spec,
