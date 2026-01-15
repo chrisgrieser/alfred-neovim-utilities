@@ -820,7 +820,7 @@ https://neovim.io/doc/user/terminal.html#shell-prompt,
 https://neovim.io/doc/user/terminal.html#shell-prompt-signs,
 https://neovim.io/doc/user/terminal.html#terminal-status,
 https://neovim.io/doc/user/terminal.html#b%3Aterm_title,
-https://neovim.io/doc/user/terminal.html#terminal-debug,,terminal-debugger package-termdebug
+https://neovim.io/doc/user/terminal.html#terminal-debug,,terminal-debugger package-termdebug termdebug
 https://neovim.io/doc/user/terminal.html#termdebug-starting,
 https://neovim.io/doc/user/terminal.html#%3ATermdebug,
 https://neovim.io/doc/user/terminal.html#%3ATermdebugCommand,
