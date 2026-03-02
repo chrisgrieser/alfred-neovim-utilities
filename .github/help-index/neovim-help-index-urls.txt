@@ -2553,7 +2553,7 @@ https://neovim.io/doc/user/syntax.html#bold,,underline undercurl
 https://neovim.io/doc/user/syntax.html#underdouble,,underdotted
 https://neovim.io/doc/user/syntax.html#underdashed,,inverse italic
 https://neovim.io/doc/user/syntax.html#standout,,strikethrough altfont
-https://neovim.io/doc/user/syntax.html#nocombine,
+https://neovim.io/doc/user/syntax.html#dim,,blink hl-conceal overline nocombine
 https://neovim.io/doc/user/syntax.html#attr-list,,highlight-cterm E418
 https://neovim.io/doc/user/syntax.html#highlight-start,,E422
 https://neovim.io/doc/user/syntax.html#term-list,,highlight-stop
@@ -3457,6 +3457,7 @@ https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.status(),
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.toqflist(),
 https://neovim.io/doc/user/vvars.html#vvars.txt,
 https://neovim.io/doc/user/vvars.html#vvars,
+https://neovim.io/doc/user/vvars.html#v%3Aargf,,argf-variable
 https://neovim.io/doc/user/vvars.html#v%3Aargv,,argv-variable
 https://neovim.io/doc/user/vvars.html#v%3Achar,,char-variable
 https://neovim.io/doc/user/vvars.html#v%3Acharconvert_from,,charconvert_from-variable
@@ -5184,6 +5185,7 @@ https://neovim.io/doc/user/autocmd.html#SearchWrapped,
 https://neovim.io/doc/user/autocmd.html#RecordingEnter,
 https://neovim.io/doc/user/autocmd.html#RecordingLeave,
 https://neovim.io/doc/user/autocmd.html#SafeState,
+https://neovim.io/doc/user/autocmd.html#SessionLoadPre,
 https://neovim.io/doc/user/autocmd.html#SessionLoadPost,
 https://neovim.io/doc/user/autocmd.html#SessionWritePost,
 https://neovim.io/doc/user/autocmd.html#ShellCmdPost,
