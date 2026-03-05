@@ -64,7 +64,7 @@ function readFile(path) {
 // SOURCE https://github.com/alex-popov-tech/store.nvim/blob/main/lua/store/config.lua
 // SOURCE https://github.com/alex-popov-tech/store.nvim.crawler/issues/1#issuecomment-3146734037
 const storeNvimList =
-	"https://gist.githubusercontent.com/alex-popov-tech/92d1366bfeb168d767153a24be1475b5/raw/db.json";
+	"https://github.com/alex-popov-tech/store.nvim.crawler/releases/latest/download/db_minified.json";
 
 /** @typedef {Object} StoreNvimRepo
  * @property {string} source
