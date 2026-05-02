@@ -223,6 +223,7 @@ https://neovim.io/doc/user/options.html#'scrollback',,scbk
 https://neovim.io/doc/user/options.html#'scrollbind',,scb noscrollbind noscb
 https://neovim.io/doc/user/options.html#'scrolljump',,sj
 https://neovim.io/doc/user/options.html#'scrolloff',,so
+https://neovim.io/doc/user/options.html#'scrolloffpad',,sop
 https://neovim.io/doc/user/options.html#'scrollopt',,sbo
 https://neovim.io/doc/user/options.html#'sections',,sect
 https://neovim.io/doc/user/options.html#'selection',,sel
@@ -302,6 +303,7 @@ https://neovim.io/doc/user/options.html#'titleold',
 https://neovim.io/doc/user/options.html#'titlestring',
 https://neovim.io/doc/user/options.html#'ttimeout',,nottimeout
 https://neovim.io/doc/user/options.html#'ttimeoutlen',,ttm
+https://neovim.io/doc/user/options.html#'ttyfast',,tf nottyfast notf
 https://neovim.io/doc/user/options.html#'undodir',,udir
 https://neovim.io/doc/user/options.html#'undofile',,udf noundofile noudf
 https://neovim.io/doc/user/options.html#'undolevels',,ul
@@ -337,6 +339,7 @@ https://neovim.io/doc/user/options.html#'winheight',,wh
 https://neovim.io/doc/user/options.html#'winhighlight',,winhl
 https://neovim.io/doc/user/options.html#'winminheight',,wmh
 https://neovim.io/doc/user/options.html#'winminwidth',,wmw
+https://neovim.io/doc/user/options.html#'winpinned',,wp nowinpinned nowp
 https://neovim.io/doc/user/options.html#'winwidth',,wiw
 https://neovim.io/doc/user/options.html#'wrap',,nowrap
 https://neovim.io/doc/user/options.html#'wrapmargin',,wm
@@ -430,6 +433,7 @@ https://neovim.io/doc/user/cmdline.html#filename-backslash,
 https://neovim.io/doc/user/cmdline.html#cmdline-window,,cmdwin
 https://neovim.io/doc/user/cmdline.html#command-line-window,
 https://neovim.io/doc/user/cmdline.html#c_CTRL-F,,q: q/ q?
+https://neovim.io/doc/user/cmdline.html#E1292,
 https://neovim.io/doc/user/cmdline.html#E11,,E1188
 https://neovim.io/doc/user/cmdline.html#E199,
 https://neovim.io/doc/user/cmdline.html#cmdline-char,,cmdwin-char
@@ -440,6 +444,7 @@ https://neovim.io/doc/user/gui.html#gui,,GUI
 https://neovim.io/doc/user/gui.html#third-party-guis,,vscode
 https://neovim.io/doc/user/gui.html#gui-config,,gui-start
 https://neovim.io/doc/user/gui.html#ginit.vim,,gui-init gvimrc $MYGVIMRC
+https://neovim.io/doc/user/gui.html#ui-lifecycle,
 https://neovim.io/doc/user/gui.html#%3Adetach,
 https://neovim.io/doc/user/gui.html#%3Arestart,
 https://neovim.io/doc/user/gui.html#%3Aconnect,
@@ -461,7 +466,7 @@ https://neovim.io/doc/user/gui.html#console-menus,
 https://neovim.io/doc/user/gui.html#creating-menus,
 https://neovim.io/doc/user/gui.html#%3Ame,, :menu  :noreme  :noremenu
 https://neovim.io/doc/user/gui.html#E330,,E327 E331 E336 E333
-https://neovim.io/doc/user/gui.html#E328,,E329 E337 E792
+https://neovim.io/doc/user/gui.html#E328,,E329 E337 E792 E1310
 https://neovim.io/doc/user/gui.html#menu-shortcut,
 https://neovim.io/doc/user/gui.html#menu-text,
 https://neovim.io/doc/user/gui.html#%3Aam,, :amenu  :an      :anoremenu
@@ -920,7 +925,7 @@ https://neovim.io/doc/user/dev_theme.html#dev-theme,
 https://neovim.io/doc/user/userfunc.html#userfunc.txt,
 https://neovim.io/doc/user/userfunc.html#define-function,
 https://neovim.io/doc/user/userfunc.html#local-function,
-https://neovim.io/doc/user/userfunc.html#%3Afu,,:function E128 E129 E123
+https://neovim.io/doc/user/userfunc.html#%3Afu,,:function E128 E129 E123 E454 E1058 E1068
 https://neovim.io/doc/user/userfunc.html#%3Afunction-verbose,
 https://neovim.io/doc/user/userfunc.html#E124,,E125 E853 E884
 https://neovim.io/doc/user/userfunc.html#E127,,E122
@@ -930,7 +935,7 @@ https://neovim.io/doc/user/userfunc.html#%3Afunc-dict,
 https://neovim.io/doc/user/userfunc.html#%3Afunc-closure,,E932
 https://neovim.io/doc/user/userfunc.html#function-search-undo,
 https://neovim.io/doc/user/userfunc.html#%3Aendf,,:endfunction E126 E193 W22
-https://neovim.io/doc/user/userfunc.html#%3Adelf,,:delfunction E131 E933
+https://neovim.io/doc/user/userfunc.html#%3Adelf,,:delfunction E130 E131 E933
 https://neovim.io/doc/user/userfunc.html#%3Aretu,,:return E133
 https://neovim.io/doc/user/userfunc.html#function-argument,,a:var
 https://neovim.io/doc/user/userfunc.html#E740,,...
@@ -952,7 +957,7 @@ https://neovim.io/doc/user/various.html#various,
 https://neovim.io/doc/user/various.html#various-cmds,
 https://neovim.io/doc/user/various.html#CTRL-L,
 https://neovim.io/doc/user/various.html#CTRL-L-default,
-https://neovim.io/doc/user/various.html#%3Amod,,:mode
+https://neovim.io/doc/user/various.html#%3Amod,,:mode E359
 https://neovim.io/doc/user/various.html#%3Aredr,,:redraw
 https://neovim.io/doc/user/various.html#%3Aredraws,,:redrawstatus
 https://neovim.io/doc/user/various.html#%3Aredrawt,,:redrawtabline
@@ -981,6 +986,7 @@ https://neovim.io/doc/user/various.html#K-lsp-default,
 https://neovim.io/doc/user/various.html#v_K,
 https://neovim.io/doc/user/various.html#gO,
 https://neovim.io/doc/user/various.html#gs,,:sl :sleep
+https://neovim.io/doc/user/various.html#%3Aupt,,:uptime
 https://neovim.io/doc/user/various.html#less,
 https://neovim.io/doc/user/various.html#commenting,
 https://neovim.io/doc/user/various.html#foo,
@@ -992,7 +998,12 @@ https://neovim.io/doc/user/various.html#o_gc,,o_gc-default
 https://neovim.io/doc/user/vimeval.html#vimeval.txt,
 https://neovim.io/doc/user/vimeval.html#vimscript,,expression expr E15 eval eval.txt
 https://neovim.io/doc/user/vimeval.html#variables,
-https://neovim.io/doc/user/vimeval.html#E712,,E896 E897 E899
+https://neovim.io/doc/user/vimeval.html#E712,,E896 E897 E899 E908 E909
+https://neovim.io/doc/user/vimeval.html#E928,,E964 E966 E1023 E1098 E1174 E1175
+https://neovim.io/doc/user/vimeval.html#E1203,,E1206 E1210 E1211 E1212 E1219 E1220
+https://neovim.io/doc/user/vimeval.html#E1222,,E1225 E1226 E1238 E1250 E1252 E1256
+https://neovim.io/doc/user/vimeval.html#E1265,,E1297 E5010 E5050 E5060 E5070 E5071
+https://neovim.io/doc/user/vimeval.html#E5299,,E5300 E5401 E5420 E6000
 https://neovim.io/doc/user/vimeval.html#Number,,Integer
 https://neovim.io/doc/user/vimeval.html#Float,
 https://neovim.io/doc/user/vimeval.html#octal,
@@ -1064,7 +1075,7 @@ https://neovim.io/doc/user/vimeval.html#expr-quote,
 https://neovim.io/doc/user/vimeval.html#blob-literal,,E973
 https://neovim.io/doc/user/vimeval.html#literal-string,,E115
 https://neovim.io/doc/user/vimeval.html#interpolated-string,
-https://neovim.io/doc/user/vimeval.html#E1278,
+https://neovim.io/doc/user/vimeval.html#E1278,,E1279
 https://neovim.io/doc/user/vimeval.html#string-offset-encoding,
 https://neovim.io/doc/user/vimeval.html#expr-option,,E112 E113
 https://neovim.io/doc/user/vimeval.html#expr-register,,@r
@@ -1125,7 +1136,8 @@ https://neovim.io/doc/user/vimeval.html#%3Aendfo,,:endfor
 https://neovim.io/doc/user/vimeval.html#%3Acontinue,,:con E586
 https://neovim.io/doc/user/vimeval.html#%3Abreak,,:brea E587
 https://neovim.io/doc/user/vimeval.html#%3Atry,,:endt :endtry E600 E601 E602
-https://neovim.io/doc/user/vimeval.html#%3Acat,,:catch E603 E604 E605
+https://neovim.io/doc/user/vimeval.html#%3Acat,,:catch
+https://neovim.io/doc/user/vimeval.html#E603,,E604 E605 E654
 https://neovim.io/doc/user/vimeval.html#%3Afina,,:finally E606 E607
 https://neovim.io/doc/user/vimeval.html#%3Ath,,:throw E608
 https://neovim.io/doc/user/vimeval.html#%3Aec,,:echo
@@ -1172,7 +1184,7 @@ https://neovim.io/doc/user/vimeval.html#except-syntax-error,
 https://neovim.io/doc/user/vimeval.html#eval-examples,
 https://neovim.io/doc/user/vimeval.html#sscanf,
 https://neovim.io/doc/user/vimeval.html#scriptnames-dictionary,
-https://neovim.io/doc/user/vimeval.html#eval-sandbox,,sandbox
+https://neovim.io/doc/user/vimeval.html#eval-sandbox,,sandbox E523
 https://neovim.io/doc/user/vimeval.html#E48,
 https://neovim.io/doc/user/vimeval.html#E794,
 https://neovim.io/doc/user/vimeval.html#%3Asan,,:sandbox
@@ -1365,6 +1377,7 @@ https://neovim.io/doc/user/dev.html#dev-provider,
 https://neovim.io/doc/user/dev.html#provider-reload,
 https://neovim.io/doc/user/dev.html#dev-doc,
 https://neovim.io/doc/user/dev.html#dev-lua-doc,
+https://neovim.io/doc/user/dev.html#dev-error-codes,
 https://neovim.io/doc/user/dev.html#dev-lua,
 https://neovim.io/doc/user/dev.html#dev-error-patterns,
 https://neovim.io/doc/user/dev.html#dev-patterns,
@@ -1542,9 +1555,11 @@ https://neovim.io/doc/user/lsp.html#lsp-quickstart,
 https://neovim.io/doc/user/lsp.html#lsp-defaults,
 https://neovim.io/doc/user/lsp.html#gra,,gri grn grr grt grx i_CTRL-S
 https://neovim.io/doc/user/lsp.html#lsp-defaults-disable,
-https://neovim.io/doc/user/lsp.html#%3Alsp,,lsp-commands
-https://neovim.io/doc/user/lsp.html#%3Alsp-enable,
-https://neovim.io/doc/user/lsp.html#%3Alsp-disable,
+https://neovim.io/doc/user/lsp.html#%3Alsp,,lsp-commands E5800
+https://neovim.io/doc/user/lsp.html#E5801,
+https://neovim.io/doc/user/lsp.html#%3Alsp-enable,,E5802 E5803
+https://neovim.io/doc/user/lsp.html#%3Alsp-disable,,E5804
+https://neovim.io/doc/user/lsp.html#E5805,,E5806
 https://neovim.io/doc/user/lsp.html#%3Alsp-restart,
 https://neovim.io/doc/user/lsp.html#%3Alsp-stop,
 https://neovim.io/doc/user/lsp.html#lsp-config,
@@ -1611,7 +1626,6 @@ https://neovim.io/doc/user/lsp.html#vim.lsp.status(),
 https://neovim.io/doc/user/lsp.html#vim.lsp.tagfunc(),
 https://neovim.io/doc/user/lsp.html#lsp-buf,
 https://neovim.io/doc/user/lsp.html#vim.lsp.ListOpts,
-https://neovim.io/doc/user/lsp.html#vim.lsp.ListOpts.OnList,
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf.hover.Opts,
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf.signature_help.Opts,
 https://neovim.io/doc/user/lsp.html#vim.lsp.buf.add_workspace_folder(),
@@ -1801,7 +1815,7 @@ https://neovim.io/doc/user/pattern.html#E888,
 https://neovim.io/doc/user/pattern.html#start-of-file,
 https://neovim.io/doc/user/pattern.html#end-of-file,
 https://neovim.io/doc/user/pattern.html#cursor-position,
-https://neovim.io/doc/user/pattern.html#E951,,E1204
+https://neovim.io/doc/user/pattern.html#E951,,E1204 E1273
 https://neovim.io/doc/user/pattern.html#whitespace,,white-space
 https://neovim.io/doc/user/pattern.html#E63,,/\_i /\_I /\_k /\_K /\_f /\_F
 https://neovim.io/doc/user/pattern.html#E51,,E54 E55 E872 E873
@@ -1934,6 +1948,7 @@ https://neovim.io/doc/user/editing.html#%3Ax,,:xit
 https://neovim.io/doc/user/editing.html#%3Aexi,,:exit
 https://neovim.io/doc/user/editing.html#ZZ,
 https://neovim.io/doc/user/editing.html#ZQ,
+https://neovim.io/doc/user/editing.html#ZR,
 https://neovim.io/doc/user/editing.html#window-exit,
 https://neovim.io/doc/user/editing.html#%3Aqa,,:qall
 https://neovim.io/doc/user/editing.html#%3Aquita,,:quitall
@@ -1968,7 +1983,7 @@ https://neovim.io/doc/user/editing.html#starstar,
 https://neovim.io/doc/user/editing.html#trust,
 https://neovim.io/doc/user/editing.html#%3Atrust,,E5570
 https://neovim.io/doc/user/editing.html#log-files,
-https://neovim.io/doc/user/editing.html#%3Alog,
+https://neovim.io/doc/user/editing.html#%3Alog,,E5200
 https://neovim.io/doc/user/lua.html#lua.txt,
 https://neovim.io/doc/user/lua.html#lua,,Lua
 https://neovim.io/doc/user/lua.html#lua-intro,
@@ -1996,7 +2011,7 @@ https://neovim.io/doc/user/lua.html#lua-eval,
 https://neovim.io/doc/user/lua.html#lua-table-ambiguous,
 https://neovim.io/doc/user/lua.html#lua-list,
 https://neovim.io/doc/user/lua.html#lua-dict,
-https://neovim.io/doc/user/lua.html#lua-special-tbl,
+https://neovim.io/doc/user/lua.html#lua-special-tbl,,E5100 E5101 E5102
 https://neovim.io/doc/user/lua.html#v%3Alua-call,
 https://neovim.io/doc/user/lua.html#lua-stdlib,
 https://neovim.io/doc/user/lua.html#lua-loop,,vim.uv
@@ -2024,7 +2039,6 @@ https://neovim.io/doc/user/lua.html#vim.str_utf_start(),
 https://neovim.io/doc/user/lua.html#vim.stricmp(),
 https://neovim.io/doc/user/lua.html#vim.ui_attach(),
 https://neovim.io/doc/user/lua.html#vim.ui_detach(),
-https://neovim.io/doc/user/lua.html#vim.wait(),
 https://neovim.io/doc/user/lua.html#lua-vimscript,
 https://neovim.io/doc/user/lua.html#vim.call(),
 https://neovim.io/doc/user/lua.html#vim.fn,
@@ -2065,6 +2079,7 @@ https://neovim.io/doc/user/lua.html#vim.print(),
 https://neovim.io/doc/user/lua.html#vim.schedule_wrap(),
 https://neovim.io/doc/user/lua.html#vim.str_byteindex(),
 https://neovim.io/doc/user/lua.html#vim.str_utfindex(),
+https://neovim.io/doc/user/lua.html#vim.wait(),
 https://neovim.io/doc/user/lua.html#vim.inspector,
 https://neovim.io/doc/user/lua.html#vim.inspect_pos(),
 https://neovim.io/doc/user/lua.html#vim.show_pos(),
@@ -2114,6 +2129,7 @@ https://neovim.io/doc/user/lua.html#vim.fs,
 https://neovim.io/doc/user/lua.html#vim.fs.copy(),
 https://neovim.io/doc/user/lua.html#vim.fs.exists(),
 https://neovim.io/doc/user/lua.html#vim.fs.read(),
+https://neovim.io/doc/user/lua.html#vim.fs.write(),
 https://neovim.io/doc/user/lua.html#vim.fs.abspath(),
 https://neovim.io/doc/user/lua.html#vim.fs.basename(),
 https://neovim.io/doc/user/lua.html#vim.fs.dir(),
@@ -2201,23 +2217,23 @@ https://neovim.io/doc/user/lua.html#vim.net.request.Response,
 https://neovim.io/doc/user/lua.html#vim.net.request(),
 https://neovim.io/doc/user/lua.html#vim.pos,
 https://neovim.io/doc/user/lua.html#vim.Pos,
-https://neovim.io/doc/user/lua.html#Pos%3Ato_cursor(),
-https://neovim.io/doc/user/lua.html#Pos%3Ato_extmark(),
-https://neovim.io/doc/user/lua.html#Pos%3Ato_lsp(),
 https://neovim.io/doc/user/lua.html#vim.pos.cursor(),
 https://neovim.io/doc/user/lua.html#vim.pos.extmark(),
 https://neovim.io/doc/user/lua.html#vim.pos.lsp(),
+https://neovim.io/doc/user/lua.html#vim.pos.to_cursor(),
+https://neovim.io/doc/user/lua.html#vim.pos.to_extmark(),
+https://neovim.io/doc/user/lua.html#vim.pos.to_lsp(),
 https://neovim.io/doc/user/lua.html#vim.range,
 https://neovim.io/doc/user/lua.html#vim.Range,
-https://neovim.io/doc/user/lua.html#Range%3Ahas(),
-https://neovim.io/doc/user/lua.html#Range%3Aintersect(),
-https://neovim.io/doc/user/lua.html#Range%3Ais_empty(),
-https://neovim.io/doc/user/lua.html#Range%3Ato_cursor(),
-https://neovim.io/doc/user/lua.html#Range%3Ato_extmark(),
-https://neovim.io/doc/user/lua.html#Range%3Ato_lsp(),
 https://neovim.io/doc/user/lua.html#vim.range.cursor(),
 https://neovim.io/doc/user/lua.html#vim.range.extmark(),
+https://neovim.io/doc/user/lua.html#vim.range.has(),
+https://neovim.io/doc/user/lua.html#vim.range.intersect(),
+https://neovim.io/doc/user/lua.html#vim.range.is_empty(),
 https://neovim.io/doc/user/lua.html#vim.range.lsp(),
+https://neovim.io/doc/user/lua.html#vim.range.to_cursor(),
+https://neovim.io/doc/user/lua.html#vim.range.to_extmark(),
+https://neovim.io/doc/user/lua.html#vim.range.to_lsp(),
 https://neovim.io/doc/user/lua.html#vim.re,
 https://neovim.io/doc/user/lua.html#vim.re.compile(),
 https://neovim.io/doc/user/lua.html#vim.re.find(),
@@ -2258,6 +2274,10 @@ https://neovim.io/doc/user/lua.html#vim.ui.open(),
 https://neovim.io/doc/user/lua.html#%3AOpen,
 https://neovim.io/doc/user/lua.html#vim.ui.progress_status(),
 https://neovim.io/doc/user/lua.html#vim.ui.select(),
+https://neovim.io/doc/user/lua.html#vim.ui.img,
+https://neovim.io/doc/user/lua.html#vim.ui.img.del(),
+https://neovim.io/doc/user/lua.html#vim.ui.img.get(),
+https://neovim.io/doc/user/lua.html#vim.ui.img.set(),
 https://neovim.io/doc/user/lua.html#vim.uri,
 https://neovim.io/doc/user/lua.html#vim.uri_decode(),
 https://neovim.io/doc/user/lua.html#vim.uri_encode(),
@@ -3492,6 +3512,7 @@ https://neovim.io/doc/user/vvars.html#v%3Aerrors,,errors-variable assert-return
 https://neovim.io/doc/user/vvars.html#v%3Aevent,,event-variable
 https://neovim.io/doc/user/vvars.html#v%3Aexception,,exception-variable
 https://neovim.io/doc/user/vvars.html#v%3Aexiting,,exiting-variable
+https://neovim.io/doc/user/vvars.html#v%3Aexitreason,,exitreason-variable
 https://neovim.io/doc/user/vvars.html#v%3Afalse,,false-variable
 https://neovim.io/doc/user/vvars.html#v%3Afcs_choice,,fcs_choice-variable
 https://neovim.io/doc/user/vvars.html#v%3Afcs_reason,,fcs_reason-variable
@@ -3540,6 +3561,7 @@ https://neovim.io/doc/user/vvars.html#v%3Asearchforward,,searchforward-variable
 https://neovim.io/doc/user/vvars.html#v%3Aservername,,servername-variable
 https://neovim.io/doc/user/vvars.html#v%3Ashell_error,,shell_error-variable
 https://neovim.io/doc/user/vvars.html#v%3Astacktrace,,stacktrace-variable
+https://neovim.io/doc/user/vvars.html#v%3Astarttime,,starttime-variable
 https://neovim.io/doc/user/vvars.html#v%3Astatusmsg,,statusmsg-variable
 https://neovim.io/doc/user/vvars.html#v%3Astderr,,stderr-variable
 https://neovim.io/doc/user/vvars.html#v%3Aswapchoice,,swapchoice-variable
@@ -3609,7 +3631,7 @@ https://neovim.io/doc/user/diff.html#%3Adiffpu,,:diffput E793
 https://neovim.io/doc/user/diff.html#do,
 https://neovim.io/doc/user/diff.html#dp,
 https://neovim.io/doc/user/diff.html#E787,
-https://neovim.io/doc/user/diff.html#diff-anchors,
+https://neovim.io/doc/user/diff.html#diff-anchors,,E1549
 https://neovim.io/doc/user/diff.html#diff-options,
 https://neovim.io/doc/user/diff.html#diff-slow,,diff_translations
 https://neovim.io/doc/user/diff.html#diff-diffexpr,
@@ -3697,10 +3719,10 @@ https://neovim.io/doc/user/starting.html#shada-file-name,
 https://neovim.io/doc/user/starting.html#shada-read-write,
 https://neovim.io/doc/user/starting.html#E136,,E929 shada-error-handling
 https://neovim.io/doc/user/starting.html#%3Arsh,,:rshada E886
-https://neovim.io/doc/user/starting.html#%3Awsh,,:wshada E137
+https://neovim.io/doc/user/starting.html#%3Awsh,,:wshada E137 E138
 https://neovim.io/doc/user/starting.html#%3Ao,,:ol :oldfiles
 https://neovim.io/doc/user/starting.html#shada-format,
-https://neovim.io/doc/user/starting.html#E575,,E576
+https://neovim.io/doc/user/starting.html#E574,,E575 E576
 https://neovim.io/doc/user/starting.html#shada-critical-contents-errors,
 https://neovim.io/doc/user/starting.html#standard-path,
 https://neovim.io/doc/user/starting.html#base-directories,,xdg
@@ -3767,7 +3789,7 @@ https://neovim.io/doc/user/spell.html#spell-yiddish,
 https://neovim.io/doc/user/spell.html#spell-cjk,
 https://neovim.io/doc/user/spell.html#spell-load,
 https://neovim.io/doc/user/spell.html#spell-sug-file,,E781
-https://neovim.io/doc/user/spell.html#E758,,E759 E778 E779 E780 E782
+https://neovim.io/doc/user/spell.html#E758,,E759 E778 E779 E780 E782 E5042
 https://neovim.io/doc/user/spell.html#spellfile-cleanup,
 https://neovim.io/doc/user/spell.html#spell-syntax,
 https://neovim.io/doc/user/spell.html#set-spc-auto,
@@ -4021,7 +4043,7 @@ https://neovim.io/doc/user/api.html#rpc-connecting,
 https://neovim.io/doc/user/api.html#api-definitions,
 https://neovim.io/doc/user/api.html#api-types,
 https://neovim.io/doc/user/api.html#api-indexing,
-https://neovim.io/doc/user/api.html#api-fast,,schedule
+https://neovim.io/doc/user/api.html#api-fast,,deferred schedule
 https://neovim.io/doc/user/api.html#api-metadata,
 https://neovim.io/doc/user/api.html#api-level,
 https://neovim.io/doc/user/api.html#api-mapping,
@@ -4033,7 +4055,7 @@ https://neovim.io/doc/user/api.html#nvim_buf_detach_event,
 https://neovim.io/doc/user/api.html#api-buffer-updates-lua,
 https://neovim.io/doc/user/api.html#api-lua-detach,
 https://neovim.io/doc/user/api.html#api-highlights,
-https://neovim.io/doc/user/api.html#api-floatwin,,floating-windows
+https://neovim.io/doc/user/api.html#api-floatwin,,floating-windows E5601 E5602
 https://neovim.io/doc/user/api.html#api-extended-marks,,extmarks extmark
 https://neovim.io/doc/user/api.html#api-events,
 https://neovim.io/doc/user/api.html#nvim_error_event,
@@ -4551,6 +4573,7 @@ https://neovim.io/doc/user/vimfn.html#readblob(),
 https://neovim.io/doc/user/vimfn.html#readdir(),
 https://neovim.io/doc/user/vimfn.html#readfile(),
 https://neovim.io/doc/user/vimfn.html#reduce(),,E998
+https://neovim.io/doc/user/vimfn.html#E1132,
 https://neovim.io/doc/user/vimfn.html#reg_executing(),
 https://neovim.io/doc/user/vimfn.html#reg_recorded(),
 https://neovim.io/doc/user/vimfn.html#reg_recording(),
@@ -5105,20 +5128,26 @@ https://neovim.io/doc/user/dev_arch.html#dev-arch,
 https://neovim.io/doc/user/dev_arch.html#dev-lua-builtin,
 https://neovim.io/doc/user/dev_arch.html#dev-events,
 https://neovim.io/doc/user/dev_arch.html#dev-ui-events,
+https://neovim.io/doc/user/dev_arch.html#dev-filesystem,
 https://neovim.io/doc/user/dev_arch.html#dev-api-fast,
+https://neovim.io/doc/user/dev_arch.html#dev-internals-howto,
+https://neovim.io/doc/user/dev_arch.html#dev-new-excmd,,dev-new-vimfn
+https://neovim.io/doc/user/dev_arch.html#dev-new-event,
 https://neovim.io/doc/user/dev_arch.html#event-loop,
 https://neovim.io/doc/user/autocmd.html#autocmd.txt,
 https://neovim.io/doc/user/autocmd.html#autocmd,,autocommand
 https://neovim.io/doc/user/autocmd.html#autocmd-intro,
-https://neovim.io/doc/user/autocmd.html#E203,,E204 E143 E855 E937 E952
+https://neovim.io/doc/user/autocmd.html#E203,,E204 E143 E855 E937 E952 E1312
 https://neovim.io/doc/user/autocmd.html#autocmd-define,
 https://neovim.io/doc/user/autocmd.html#%3Aau,,:autocmd
+https://neovim.io/doc/user/autocmd.html#E1155,
 https://neovim.io/doc/user/autocmd.html#autocmd-once,
 https://neovim.io/doc/user/autocmd.html#autocmd-expand,
 https://neovim.io/doc/user/autocmd.html#autocmd-remove,
 https://neovim.io/doc/user/autocmd.html#autocmd-list,
 https://neovim.io/doc/user/autocmd.html#%3Aautocmd-verbose,
 https://neovim.io/doc/user/autocmd.html#autocmd-events,,E215 E216
+https://neovim.io/doc/user/autocmd.html#event-data-types,
 https://neovim.io/doc/user/autocmd.html#events,,{event}
 https://neovim.io/doc/user/autocmd.html#BufAdd,
 https://neovim.io/doc/user/autocmd.html#BufDelete,
@@ -5127,7 +5156,6 @@ https://neovim.io/doc/user/autocmd.html#BufFilePost,
 https://neovim.io/doc/user/autocmd.html#BufFilePre,
 https://neovim.io/doc/user/autocmd.html#BufHidden,
 https://neovim.io/doc/user/autocmd.html#BufLeave,
-https://neovim.io/doc/user/autocmd.html#BufModifiedSet,
 https://neovim.io/doc/user/autocmd.html#BufNew,
 https://neovim.io/doc/user/autocmd.html#BufNewFile,
 https://neovim.io/doc/user/autocmd.html#BufRead,,BufReadPost
@@ -5143,18 +5171,18 @@ https://neovim.io/doc/user/autocmd.html#BufWriteCmd,
 https://neovim.io/doc/user/autocmd.html#BufWritePost,
 https://neovim.io/doc/user/autocmd.html#ChanInfo,
 https://neovim.io/doc/user/autocmd.html#ChanOpen,
-https://neovim.io/doc/user/autocmd.html#CmdUndefined,
 https://neovim.io/doc/user/autocmd.html#CmdlineChanged,
 https://neovim.io/doc/user/autocmd.html#CmdlineEnter,
 https://neovim.io/doc/user/autocmd.html#CmdlineLeave,
 https://neovim.io/doc/user/autocmd.html#CmdlineLeavePre,
+https://neovim.io/doc/user/autocmd.html#CmdUndefined,
 https://neovim.io/doc/user/autocmd.html#CmdwinEnter,
 https://neovim.io/doc/user/autocmd.html#CmdwinLeave,
 https://neovim.io/doc/user/autocmd.html#ColorScheme,
 https://neovim.io/doc/user/autocmd.html#ColorSchemePre,
 https://neovim.io/doc/user/autocmd.html#CompleteChanged,
-https://neovim.io/doc/user/autocmd.html#CompleteDonePre,
 https://neovim.io/doc/user/autocmd.html#CompleteDone,
+https://neovim.io/doc/user/autocmd.html#CompleteDonePre,
 https://neovim.io/doc/user/autocmd.html#CursorHold,
 https://neovim.io/doc/user/autocmd.html#CursorHoldI,
 https://neovim.io/doc/user/autocmd.html#CursorMoved,
@@ -5187,8 +5215,6 @@ https://neovim.io/doc/user/autocmd.html#FilterWritePre,
 https://neovim.io/doc/user/autocmd.html#FocusGained,
 https://neovim.io/doc/user/autocmd.html#FocusLost,
 https://neovim.io/doc/user/autocmd.html#FuncUndefined,
-https://neovim.io/doc/user/autocmd.html#UIEnter,
-https://neovim.io/doc/user/autocmd.html#UILeave,
 https://neovim.io/doc/user/autocmd.html#InsertChange,
 https://neovim.io/doc/user/autocmd.html#InsertCharPre,
 https://neovim.io/doc/user/autocmd.html#InsertEnter,
@@ -5199,25 +5225,25 @@ https://neovim.io/doc/user/autocmd.html#MenuPopup,
 https://neovim.io/doc/user/autocmd.html#ModeChanged,
 https://neovim.io/doc/user/autocmd.html#%3Ac,
 https://neovim.io/doc/user/autocmd.html#%3A,
-https://neovim.io/doc/user/autocmd.html#Progress,
 https://neovim.io/doc/user/autocmd.html#OptionSet,
+https://neovim.io/doc/user/autocmd.html#Progress,
 https://neovim.io/doc/user/autocmd.html#QuickFixCmdPre,
 https://neovim.io/doc/user/autocmd.html#QuickFixCmdPost,
 https://neovim.io/doc/user/autocmd.html#QuitPre,
-https://neovim.io/doc/user/autocmd.html#RemoteReply,
-https://neovim.io/doc/user/autocmd.html#SearchWrapped,
 https://neovim.io/doc/user/autocmd.html#RecordingEnter,
 https://neovim.io/doc/user/autocmd.html#RecordingLeave,
+https://neovim.io/doc/user/autocmd.html#RemoteReply,
 https://neovim.io/doc/user/autocmd.html#SafeState,
+https://neovim.io/doc/user/autocmd.html#SearchWrapped,
 https://neovim.io/doc/user/autocmd.html#SessionLoadPre,
 https://neovim.io/doc/user/autocmd.html#SessionLoadPost,
 https://neovim.io/doc/user/autocmd.html#SessionWritePost,
 https://neovim.io/doc/user/autocmd.html#ShellCmdPost,
-https://neovim.io/doc/user/autocmd.html#Signal,
 https://neovim.io/doc/user/autocmd.html#ShellFilterPost,
+https://neovim.io/doc/user/autocmd.html#Signal,
+https://neovim.io/doc/user/autocmd.html#SourceCmd,
 https://neovim.io/doc/user/autocmd.html#SourcePre,
 https://neovim.io/doc/user/autocmd.html#SourcePost,
-https://neovim.io/doc/user/autocmd.html#SourceCmd,
 https://neovim.io/doc/user/autocmd.html#SpellFileMissing,
 https://neovim.io/doc/user/autocmd.html#StdinReadPost,
 https://neovim.io/doc/user/autocmd.html#StdinReadPre,
@@ -5230,10 +5256,10 @@ https://neovim.io/doc/user/autocmd.html#TabEnter,
 https://neovim.io/doc/user/autocmd.html#TabLeave,
 https://neovim.io/doc/user/autocmd.html#TabNew,
 https://neovim.io/doc/user/autocmd.html#TabNewEntered,
-https://neovim.io/doc/user/autocmd.html#TermOpen,
+https://neovim.io/doc/user/autocmd.html#TermClose,
 https://neovim.io/doc/user/autocmd.html#TermEnter,
 https://neovim.io/doc/user/autocmd.html#TermLeave,
-https://neovim.io/doc/user/autocmd.html#TermClose,
+https://neovim.io/doc/user/autocmd.html#TermOpen,
 https://neovim.io/doc/user/autocmd.html#TermRequest,
 https://neovim.io/doc/user/autocmd.html#TermResponse,
 https://neovim.io/doc/user/autocmd.html#TextChanged,
@@ -5241,6 +5267,8 @@ https://neovim.io/doc/user/autocmd.html#TextChangedI,
 https://neovim.io/doc/user/autocmd.html#TextChangedP,
 https://neovim.io/doc/user/autocmd.html#TextChangedT,
 https://neovim.io/doc/user/autocmd.html#TextYankPost,
+https://neovim.io/doc/user/autocmd.html#UIEnter,
+https://neovim.io/doc/user/autocmd.html#UILeave,
 https://neovim.io/doc/user/autocmd.html#User,
 https://neovim.io/doc/user/autocmd.html#UserGettingBored,
 https://neovim.io/doc/user/autocmd.html#VimEnter,
@@ -5254,8 +5282,8 @@ https://neovim.io/doc/user/autocmd.html#WinEnter,
 https://neovim.io/doc/user/autocmd.html#WinLeave,
 https://neovim.io/doc/user/autocmd.html#WinNewPre,
 https://neovim.io/doc/user/autocmd.html#WinNew,
-https://neovim.io/doc/user/autocmd.html#WinScrolled,
 https://neovim.io/doc/user/autocmd.html#WinResized,
+https://neovim.io/doc/user/autocmd.html#WinScrolled,
 https://neovim.io/doc/user/autocmd.html#autocmd-pattern,,{aupat}
 https://neovim.io/doc/user/autocmd.html#file-pattern,
 https://neovim.io/doc/user/autocmd.html#autocmd-changes,
@@ -5391,6 +5419,7 @@ https://neovim.io/doc/user/filetype.html#g%3Azig_std_dir,
 https://neovim.io/doc/user/filetype.html#ft-zimbu-plugin,
 https://neovim.io/doc/user/deprecated.html#deprecated.txt,
 https://neovim.io/doc/user/deprecated.html#deprecated,
+https://neovim.io/doc/user/deprecated.html#BufModifiedSet,
 https://neovim.io/doc/user/deprecated.html#%3Aownsyntax,,w:current_syntax
 https://neovim.io/doc/user/deprecated.html#vim.lsp.client_is_stopped(),
 https://neovim.io/doc/user/deprecated.html#vim.lsp.util.stylize_markdown(),
@@ -5559,7 +5588,7 @@ https://neovim.io/doc/user/helphelp.html#help-codeblock,
 https://neovim.io/doc/user/helphelp.html#help-notation,
 https://neovim.io/doc/user/helphelp.html#ft-help-omni,
 https://neovim.io/doc/user/job_control.html#job_control.txt,
-https://neovim.io/doc/user/job_control.html#job,,job-control
+https://neovim.io/doc/user/job_control.html#job,,job-control E901 E903 E947 E948
 https://neovim.io/doc/user/job_control.html#job-id,
 https://neovim.io/doc/user/job_control.html#job-control-usage,
 https://neovim.io/doc/user/job_control.html#on_exit,
@@ -5630,6 +5659,7 @@ https://neovim.io/doc/user/tagsrch.html#E986,
 https://neovim.io/doc/user/tagsrch.html#E1299,
 https://neovim.io/doc/user/dev_test.html#dev_test.txt,
 https://neovim.io/doc/user/dev_test.html#dev-test,
+https://neovim.io/doc/user/dev_test.html#dev-test-harness-isolation,
 https://neovim.io/doc/user/dev_test.html#dev-run-test,
 https://neovim.io/doc/user/dev_test.html#dev-filter-test,
 https://neovim.io/doc/user/dev_test.html#dev-write-test,
@@ -5734,7 +5764,7 @@ https://neovim.io/doc/user/channel.html#channel,
 https://neovim.io/doc/user/channel.html#channel-intro,
 https://neovim.io/doc/user/channel.html#channel-id,
 https://neovim.io/doc/user/channel.html#channel-bytes,
-https://neovim.io/doc/user/channel.html#channel-callback,
+https://neovim.io/doc/user/channel.html#channel-callback,,E904 E906 E921 E5407
 https://neovim.io/doc/user/channel.html#on_stdout,
 https://neovim.io/doc/user/channel.html#on_stderr,
 https://neovim.io/doc/user/channel.html#on_stdin,
@@ -6664,6 +6694,7 @@ https://neovim.io/doc/user/options.html#E235,,E596
 https://neovim.io/doc/user/options.html#E236,
 https://neovim.io/doc/user/options.html#E244,,E245
 https://neovim.io/doc/user/options.html#E231,,E533 E534
+https://neovim.io/doc/user/options.html#E544,
 https://neovim.io/doc/user/options.html#E357,,E358
 https://neovim.io/doc/user/options.html#greek,
 https://neovim.io/doc/user/options.html#E593,
@@ -6727,13 +6758,16 @@ https://neovim.io/doc/user/options.html#shm-C,
 https://neovim.io/doc/user/options.html#shm-q,
 https://neovim.io/doc/user/options.html#shm-F,
 https://neovim.io/doc/user/options.html#shm-S,
+https://neovim.io/doc/user/options.html#shm-u,
 https://neovim.io/doc/user/options.html#E595,
 https://neovim.io/doc/user/options.html#E765,
 https://neovim.io/doc/user/options.html#E757,
+https://neovim.io/doc/user/options.html#E5700,
 https://neovim.io/doc/user/options.html#E540,,E542
 https://neovim.io/doc/user/options.html#g%3Astatusline_winid,
 https://neovim.io/doc/user/options.html#g%3Aactual_curbuf,,g:actual_curwin
 https://neovim.io/doc/user/options.html#E433,
+https://neovim.io/doc/user/options.html#E1568,,$NVIM_NOTTYFAST
 https://neovim.io/doc/user/options.html#E5003,
 https://neovim.io/doc/user/options.html#E591,
 https://neovim.io/doc/user/options.html#E592,
