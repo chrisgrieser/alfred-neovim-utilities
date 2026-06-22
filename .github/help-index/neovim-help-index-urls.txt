@@ -1312,7 +1312,6 @@ https://neovim.io/doc/user/pi_zip.html#zip,,zip-contents
 https://neovim.io/doc/user/pi_zip.html#zip-usage,,zip-manual
 https://neovim.io/doc/user/pi_zip.html#zip-x,
 https://neovim.io/doc/user/pi_zip.html#g%3Azip_nomax,
-https://neovim.io/doc/user/pi_zip.html#g%3Azip_shq,
 https://neovim.io/doc/user/pi_zip.html#g%3Azip_unzipcmd,
 https://neovim.io/doc/user/pi_zip.html#g%3Azip_zipcmd,
 https://neovim.io/doc/user/pi_zip.html#g%3Azip_extractcmd,
@@ -3577,6 +3576,7 @@ https://neovim.io/doc/user/vvars.html#v%3Asearchforward,,searchforward-variable
 https://neovim.io/doc/user/vvars.html#v%3Aservername,,servername-variable
 https://neovim.io/doc/user/vvars.html#v%3Ashell_error,,shell_error-variable
 https://neovim.io/doc/user/vvars.html#v%3Astacktrace,,stacktrace-variable
+https://neovim.io/doc/user/vvars.html#v%3Astartreason,,startreason-variable
 https://neovim.io/doc/user/vvars.html#v%3Astarttime,,starttime-variable
 https://neovim.io/doc/user/vvars.html#v%3Astatusmsg,,statusmsg-variable
 https://neovim.io/doc/user/vvars.html#v%3Astderr,,stderr-variable
@@ -5397,11 +5397,6 @@ https://neovim.io/doc/user/filetype.html#ft-asciidoc-plugin,
 https://neovim.io/doc/user/filetype.html#ft-arduino-plugin,
 https://neovim.io/doc/user/filetype.html#ft-awk-plugin,
 https://neovim.io/doc/user/filetype.html#ft-beancount-plugin,
-https://neovim.io/doc/user/filetype.html#g%3Abeancount_account_completion,
-https://neovim.io/doc/user/filetype.html#g%3Abeancount_completion_enable,
-https://neovim.io/doc/user/filetype.html#g%3Abeancount_detailed_first,
-https://neovim.io/doc/user/filetype.html#g%3Abeancount_separator_col,
-https://neovim.io/doc/user/filetype.html#b%3Abeancount_root,
 https://neovim.io/doc/user/filetype.html#ft-changelog-plugin,
 https://neovim.io/doc/user/filetype.html#b%3Achangelog_name,
 https://neovim.io/doc/user/filetype.html#ft-fortran-plugin,
@@ -5417,6 +5412,7 @@ https://neovim.io/doc/user/filetype.html#ft-html-plugin,
 https://neovim.io/doc/user/filetype.html#ft-java-plugin,
 https://neovim.io/doc/user/filetype.html#ft-lua-plugin,
 https://neovim.io/doc/user/filetype.html#g%3Alua_version,,g:lua_subversion
+https://neovim.io/doc/user/filetype.html#ft-luau-plugin,,g:luau_folding
 https://neovim.io/doc/user/filetype.html#ft-mail-plugin,
 https://neovim.io/doc/user/filetype.html#ft-man-plugin,,:Man man.lua
 https://neovim.io/doc/user/filetype.html#g%3Ano_man_maps,
