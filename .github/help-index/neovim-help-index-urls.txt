@@ -434,8 +434,7 @@ https://neovim.io/doc/user/cmdline.html#cmdline-window,,cmdwin
 https://neovim.io/doc/user/cmdline.html#command-line-window,
 https://neovim.io/doc/user/cmdline.html#c_CTRL-F,,q: q/ q?
 https://neovim.io/doc/user/cmdline.html#E1292,
-https://neovim.io/doc/user/cmdline.html#E11,,E1188
-https://neovim.io/doc/user/cmdline.html#E199,
+https://neovim.io/doc/user/cmdline.html#E11,
 https://neovim.io/doc/user/cmdline.html#cmdline-char,,cmdwin-char
 https://neovim.io/doc/user/cmdline.html#cmdline-autocompletion,
 https://neovim.io/doc/user/cmdline.html#fuzzy-file-picker,,live-grep
@@ -446,7 +445,7 @@ https://neovim.io/doc/user/gui.html#gui-config,,gui-start
 https://neovim.io/doc/user/gui.html#ginit.vim,,gui-init gvimrc $MYGVIMRC
 https://neovim.io/doc/user/gui.html#ui-lifecycle,
 https://neovim.io/doc/user/gui.html#%3Adetach,
-https://neovim.io/doc/user/gui.html#%3Arestart,
+https://neovim.io/doc/user/gui.html#%3Arestart,,:restart!
 https://neovim.io/doc/user/gui.html#%3Aconnect,
 https://neovim.io/doc/user/gui.html#%3Awinp,,:winpos E188
 https://neovim.io/doc/user/gui.html#E466,
@@ -818,6 +817,7 @@ https://neovim.io/doc/user/pi_spec.html#spec_chglog_release_info,
 https://neovim.io/doc/user/terminal.html#terminal.txt,
 https://neovim.io/doc/user/terminal.html#terminal,,terminal-emulator
 https://neovim.io/doc/user/terminal.html#terminal-start,
+https://neovim.io/doc/user/terminal.html#terminal-ms-windows,,terminal-conpty
 https://neovim.io/doc/user/terminal.html#terminal-input,
 https://neovim.io/doc/user/terminal.html#terminal-config,
 https://neovim.io/doc/user/terminal.html#terminal-events,
@@ -825,6 +825,7 @@ https://neovim.io/doc/user/terminal.html#shell-prompt,
 https://neovim.io/doc/user/terminal.html#shell-prompt-signs,
 https://neovim.io/doc/user/terminal.html#terminal-status,
 https://neovim.io/doc/user/terminal.html#b%3Aterm_title,
+https://neovim.io/doc/user/terminal.html#terminal-concepts,
 https://neovim.io/doc/user/terminal.html#terminal-debug,,terminal-debugger
 https://neovim.io/doc/user/terminal.html#package-termdebug,,termdebug
 https://neovim.io/doc/user/terminal.html#termdebug-starting,
@@ -896,8 +897,8 @@ https://neovim.io/doc/user/vim_diff.html#nvim-changed,
 https://neovim.io/doc/user/vim_diff.html#E5000,,E5001 E5002
 https://neovim.io/doc/user/vim_diff.html#nvim-missing,
 https://neovim.io/doc/user/vim_diff.html#%3Agui,
-https://neovim.io/doc/user/vim_diff.html#%3Agvim,
 https://neovim.io/doc/user/vim_diff.html#nvim-removed,
+https://neovim.io/doc/user/vim_diff.html#%3Agvim,
 https://neovim.io/doc/user/vim_diff.html#hardcopy,
 https://neovim.io/doc/user/vim_diff.html#cscope,
 https://neovim.io/doc/user/vim_diff.html#popup-window,
@@ -1101,7 +1102,7 @@ https://neovim.io/doc/user/vimeval.html#tabpage-variable,,t:var t:
 https://neovim.io/doc/user/vimeval.html#global-variable,,g:var g:
 https://neovim.io/doc/user/vimeval.html#local-variable,,l:var l:
 https://neovim.io/doc/user/vimeval.html#script-variable,,s:var
-https://neovim.io/doc/user/vimeval.html#vim-variable,,v:var v:
+https://neovim.io/doc/user/vimeval.html#vim-variable,
 https://neovim.io/doc/user/vimeval.html#E963,
 https://neovim.io/doc/user/vimeval.html#vim-function,,functions
 https://neovim.io/doc/user/vimeval.html#user-function,
@@ -1322,6 +1323,10 @@ https://neovim.io/doc/user/pi_zip.html#zip-history,
 https://neovim.io/doc/user/plugins.html#plugins.txt,
 https://neovim.io/doc/user/plugins.html#standard-plugin,
 https://neovim.io/doc/user/plugins.html#standard-plugin-list,
+https://neovim.io/doc/user/plugins.html#dir,
+https://neovim.io/doc/user/plugins.html#g%3Aloaded_nvim_dir_plugin,
+https://neovim.io/doc/user/plugins.html#dir-mappings,
+https://neovim.io/doc/user/plugins.html#dir-buffer-mappings,
 https://neovim.io/doc/user/plugins.html#difftool,
 https://neovim.io/doc/user/plugins.html#%3ADiffTool,
 https://neovim.io/doc/user/plugins.html#difftool.open(),
@@ -1895,6 +1900,7 @@ https://neovim.io/doc/user/editing.html#DOS-format,
 https://neovim.io/doc/user/editing.html#Unix-format,
 https://neovim.io/doc/user/editing.html#Mac-format,
 https://neovim.io/doc/user/editing.html#eol-and-eof,
+https://neovim.io/doc/user/editing.html#buffer-open,,open-file
 https://neovim.io/doc/user/editing.html#argument-list,,arglist
 https://neovim.io/doc/user/editing.html#%3Aar,,:arg :args
 https://neovim.io/doc/user/editing.html#%3Aargs_f,
@@ -3508,7 +3514,7 @@ https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.show(),
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.status(),
 https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.toqflist(),
 https://neovim.io/doc/user/vvars.html#vvars.txt,
-https://neovim.io/doc/user/vvars.html#vvars,
+https://neovim.io/doc/user/vvars.html#vvars,,v:var v:
 https://neovim.io/doc/user/vvars.html#v%3Aargf,,argf-variable
 https://neovim.io/doc/user/vvars.html#v%3Aargv,,argv-variable
 https://neovim.io/doc/user/vvars.html#v%3Achar,,char-variable
@@ -3597,7 +3603,7 @@ https://neovim.io/doc/user/vvars.html#v%3Atesting,,testing-variable
 https://neovim.io/doc/user/vvars.html#v%3Athis_session,,this_session-variable
 https://neovim.io/doc/user/vvars.html#v%3Athrowpoint,,throwpoint-variable
 https://neovim.io/doc/user/vvars.html#v%3Atrue,,true-variable
-https://neovim.io/doc/user/vvars.html#v%3Auseractive,,useractive-variable
+https://neovim.io/doc/user/vvars.html#v%3Auseractive,,useractive-variable user-idle
 https://neovim.io/doc/user/vvars.html#v%3Aval,,val-variable
 https://neovim.io/doc/user/vvars.html#v%3Aversion,,version-variable
 https://neovim.io/doc/user/vvars.html#v%3Aversionlong,,versionlong-variable
@@ -3767,6 +3773,7 @@ https://neovim.io/doc/user/lua-plugin.html#lua-plugin-init,
 https://neovim.io/doc/user/lua-plugin.html#lua-plugin-lazy,
 https://neovim.io/doc/user/lua-plugin.html#lua-plugin-defer-require,
 https://neovim.io/doc/user/lua-plugin.html#lua-plugin-filetype,
+https://neovim.io/doc/user/lua-plugin.html#lua-plugin-open-file,
 https://neovim.io/doc/user/lua-plugin.html#lua-plugin-config,
 https://neovim.io/doc/user/lua-plugin.html#lua-plugin-ui,
 https://neovim.io/doc/user/lua-plugin.html#lua-plugin-troubleshooting,
@@ -4139,6 +4146,7 @@ https://neovim.io/doc/user/api.html#nvim_set_var(),
 https://neovim.io/doc/user/api.html#nvim_set_vvar(),
 https://neovim.io/doc/user/api.html#nvim_strwidth(),
 https://neovim.io/doc/user/api.html#nvim__chan_set_detach(),
+https://neovim.io/doc/user/api.html#nvim__cmdwin_set(),
 https://neovim.io/doc/user/api.html#nvim__complete_set(),
 https://neovim.io/doc/user/api.html#nvim__exec_lua_fast(),
 https://neovim.io/doc/user/api.html#nvim__get_runtime(),
@@ -4807,6 +4815,7 @@ https://neovim.io/doc/user/usr_41.html#plugin-filetype,
 https://neovim.io/doc/user/usr_41.html#plugin-special,
 https://neovim.io/doc/user/usr_41.html#write-filetype-plugin,,ftplugin
 https://neovim.io/doc/user/usr_41.html#undo_indent,,undo_ftplugin
+https://neovim.io/doc/user/usr_41.html#ft_recommended_style,
 https://neovim.io/doc/user/usr_41.html#ftplugin-special,
 https://neovim.io/doc/user/usr_41.html#write-compiler-plugin,
 https://neovim.io/doc/user/usr_41.html#%3ACompilerSet,
@@ -5399,6 +5408,7 @@ https://neovim.io/doc/user/filetype.html#ft-awk-plugin,
 https://neovim.io/doc/user/filetype.html#ft-beancount-plugin,
 https://neovim.io/doc/user/filetype.html#ft-changelog-plugin,
 https://neovim.io/doc/user/filetype.html#b%3Achangelog_name,
+https://neovim.io/doc/user/filetype.html#ft-directory,
 https://neovim.io/doc/user/filetype.html#ft-fortran-plugin,
 https://neovim.io/doc/user/filetype.html#ft-freebasic-plugin,
 https://neovim.io/doc/user/filetype.html#ft-gdscript-plugin,
@@ -5436,6 +5446,7 @@ https://neovim.io/doc/user/filetype.html#ft-rust,
 https://neovim.io/doc/user/filetype.html#ft-sql,
 https://neovim.io/doc/user/filetype.html#ft-tex-plugin,,g:tex_flavor
 https://neovim.io/doc/user/filetype.html#ft-typst-plugin,
+https://neovim.io/doc/user/filetype.html#g%3Atypst_recommended_style,
 https://neovim.io/doc/user/filetype.html#g%3Atypst_conceal,
 https://neovim.io/doc/user/filetype.html#g%3Atypst_folding,
 https://neovim.io/doc/user/filetype.html#g%3Atypst_foldnested,
