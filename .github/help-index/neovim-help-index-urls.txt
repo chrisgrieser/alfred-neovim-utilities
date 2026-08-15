@@ -896,7 +896,6 @@ https://neovim.io/doc/user/vim_diff.html#E529,,E530 E531
 https://neovim.io/doc/user/vim_diff.html#msgsep,
 https://neovim.io/doc/user/vim_diff.html#nvim-upstreamed,
 https://neovim.io/doc/user/vim_diff.html#nvim-changed,
-https://neovim.io/doc/user/vim_diff.html#E5000,,E5001 E5002
 https://neovim.io/doc/user/vim_diff.html#nvim-missing,
 https://neovim.io/doc/user/vim_diff.html#%3Agui,
 https://neovim.io/doc/user/vim_diff.html#nvim-removed,
@@ -1073,7 +1072,7 @@ https://neovim.io/doc/user/vimeval.html#method,,->
 https://neovim.io/doc/user/vimeval.html#E260,,E276
 https://neovim.io/doc/user/vimeval.html#E274,
 https://neovim.io/doc/user/vimeval.html#expr-number,
-https://neovim.io/doc/user/vimeval.html#hex-number,,0o octal-number binary-number
+https://neovim.io/doc/user/vimeval.html#hex-number,,0o octal-number 0b binary-number
 https://neovim.io/doc/user/vimeval.html#floating-point-format,
 https://neovim.io/doc/user/vimeval.html#float-pi,,float-e
 https://neovim.io/doc/user/vimeval.html#floating-point-precision,
@@ -1270,6 +1269,7 @@ https://neovim.io/doc/user/repeat.html#repeat.txt,
 https://neovim.io/doc/user/repeat.html#repeating,
 https://neovim.io/doc/user/repeat.html#single-repeat,
 https://neovim.io/doc/user/repeat.html#.,
+https://neovim.io/doc/user/repeat.html#motion-repeat,
 https://neovim.io/doc/user/repeat.html#multi-repeat,
 https://neovim.io/doc/user/repeat.html#%3Ag,,:global E148
 https://neovim.io/doc/user/repeat.html#%3Av,,:vglobal
@@ -1279,6 +1279,8 @@ https://neovim.io/doc/user/repeat.html#q,,recording macro
 https://neovim.io/doc/user/repeat.html#E748,
 https://neovim.io/doc/user/repeat.html#Q,
 https://neovim.io/doc/user/repeat.html#v_Q-default,
+https://neovim.io/doc/user/repeat.html#v_Q,
+https://neovim.io/doc/user/repeat.html#mcursor,,multicursor
 https://neovim.io/doc/user/repeat.html#using-scripts,
 https://neovim.io/doc/user/repeat.html#%3Aso,,:source
 https://neovim.io/doc/user/repeat.html#%3Aru,,:runtime
@@ -1314,6 +1316,9 @@ https://neovim.io/doc/user/plugins.html#dir,
 https://neovim.io/doc/user/plugins.html#g%3Aloaded_nvim_dir_plugin,
 https://neovim.io/doc/user/plugins.html#dir-mappings,
 https://neovim.io/doc/user/plugins.html#dir-buffer-mappings,
+https://neovim.io/doc/user/plugins.html#dir-config,
+https://neovim.io/doc/user/plugins.html#dir-render,
+https://neovim.io/doc/user/plugins.html#DirReadPost,
 https://neovim.io/doc/user/plugins.html#dir-disable,
 https://neovim.io/doc/user/plugins.html#difftool,
 https://neovim.io/doc/user/plugins.html#%3ADiffTool,
@@ -1563,6 +1568,7 @@ https://neovim.io/doc/user/lsp.html#lsp-activate,
 https://neovim.io/doc/user/lsp.html#lsp-config-merge,
 https://neovim.io/doc/user/lsp.html#lsp-attach,
 https://neovim.io/doc/user/lsp.html#lsp-lint,,lsp-format
+https://neovim.io/doc/user/lsp.html#lsp-buf-working-dir,
 https://neovim.io/doc/user/lsp.html#lsp-faq,
 https://neovim.io/doc/user/lsp.html#lsp-vs-treesitter,
 https://neovim.io/doc/user/lsp.html#lsp-api,
@@ -1953,17 +1959,17 @@ https://neovim.io/doc/user/editing.html#%3Abrowse,,:bro
 https://neovim.io/doc/user/editing.html#browsefilter,
 https://neovim.io/doc/user/editing.html#.,
 https://neovim.io/doc/user/editing.html#current-directory,
-https://neovim.io/doc/user/editing.html#%3Acd,,E747 E472
+https://neovim.io/doc/user/editing.html#%3Acd,,:chd :chdir E747 E472
 https://neovim.io/doc/user/editing.html#%3Acd-,,E186
-https://neovim.io/doc/user/editing.html#%3Achd,,:chdir
-https://neovim.io/doc/user/editing.html#%3Atc,,:tcd
+https://neovim.io/doc/user/editing.html#%3Atc,,:tcd :tch :tchdir
 https://neovim.io/doc/user/editing.html#%3Atcd-,
-https://neovim.io/doc/user/editing.html#%3Atch,,:tchdir
-https://neovim.io/doc/user/editing.html#%3Alc,,:lcd
-https://neovim.io/doc/user/editing.html#%3Alch,,:lchdir
+https://neovim.io/doc/user/editing.html#%3Alc,,:lcd :lch :lchdir
 https://neovim.io/doc/user/editing.html#%3Alcd-,
+https://neovim.io/doc/user/editing.html#%3Abc,,:bcd :bch :bchdir
+https://neovim.io/doc/user/editing.html#%3Abcd-,
 https://neovim.io/doc/user/editing.html#%3Apw,,:pwd E187
 https://neovim.io/doc/user/editing.html#%3Apwd-verbose,
+https://neovim.io/doc/user/editing.html#project-dir,,workspace-dir
 https://neovim.io/doc/user/editing.html#edit-binary,
 https://neovim.io/doc/user/editing.html#encryption,
 https://neovim.io/doc/user/editing.html#%3AX,,E817 E818 E819 E820
@@ -2141,6 +2147,7 @@ https://neovim.io/doc/user/lua.html#vim.fs.parents(),
 https://neovim.io/doc/user/lua.html#vim.fs.relpath(),
 https://neovim.io/doc/user/lua.html#vim.fs.rm(),
 https://neovim.io/doc/user/lua.html#vim.fs.root(),
+https://neovim.io/doc/user/lua.html#vim.fs.slug(),
 https://neovim.io/doc/user/lua.html#vim.glob,
 https://neovim.io/doc/user/lua.html#vim.glob.to_lpeg(),
 https://neovim.io/doc/user/lua.html#vim.hl,
@@ -3173,6 +3180,7 @@ https://neovim.io/doc/user/insert.html#i_CTRL-X,,insert_expand
 https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-E,
 https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-Y,
 https://neovim.io/doc/user/insert.html#ins-special-special,
+https://neovim.io/doc/user/insert.html#ins-repeat,
 https://neovim.io/doc/user/insert.html#i_CTRL-G_k,
 https://neovim.io/doc/user/insert.html#i_CTRL-G_CTRL-K,
 https://neovim.io/doc/user/insert.html#i_CTRL-G_j,
@@ -3757,8 +3765,7 @@ https://neovim.io/doc/user/health.html#vim.health.warn(),
 https://neovim.io/doc/user/zip.html#zip.txt,
 https://neovim.io/doc/user/zip.html#zip,
 https://neovim.io/doc/user/zip.html#g%3Aloaded_nvim_zip_plugin,
-https://neovim.io/doc/user/zip.html#zip-listing,
-https://neovim.io/doc/user/zip.html#zip-integrations,
+https://neovim.io/doc/user/zip.html#zip-mappings,
 https://neovim.io/doc/user/zip.html#zip-limitations,
 https://neovim.io/doc/user/zip.html#old-zip,
 https://neovim.io/doc/user/lua-plugin.html#lua-plugin.txt,
@@ -4420,7 +4427,8 @@ https://neovim.io/doc/user/vimfn.html#getcompletion(),
 https://neovim.io/doc/user/vimfn.html#getcompletiontype(),
 https://neovim.io/doc/user/vimfn.html#getcurpos(),
 https://neovim.io/doc/user/vimfn.html#getcursorcharpos(),
-https://neovim.io/doc/user/vimfn.html#getcwd(),
+https://neovim.io/doc/user/vimfn.html#getcwd(),,E5000 E5002 E5006 E5007
+https://neovim.io/doc/user/vimfn.html#E5001,
 https://neovim.io/doc/user/vimfn.html#getenv(),
 https://neovim.io/doc/user/vimfn.html#getfontname(),
 https://neovim.io/doc/user/vimfn.html#getfperm(),
@@ -5150,12 +5158,14 @@ https://neovim.io/doc/user/dev_arch.html#dev-layout,
 https://neovim.io/doc/user/dev_arch.html#dev-lua-builtin,
 https://neovim.io/doc/user/dev_arch.html#dev-events,
 https://neovim.io/doc/user/dev_arch.html#dev-ui-events,
+https://neovim.io/doc/user/dev_arch.html#dev-state,
 https://neovim.io/doc/user/dev_arch.html#dev-filesystem,
 https://neovim.io/doc/user/dev_arch.html#dev-api-fast,
 https://neovim.io/doc/user/dev_arch.html#dev-internals-howto,
 https://neovim.io/doc/user/dev_arch.html#dev-new-excmd,,dev-new-vimfn
 https://neovim.io/doc/user/dev_arch.html#dev-new-event,
 https://neovim.io/doc/user/dev_arch.html#event-loop,
+https://neovim.io/doc/user/dev_arch.html#dev-multicursor,,dev-cmdatom
 https://neovim.io/doc/user/autocmd.html#autocmd.txt,
 https://neovim.io/doc/user/autocmd.html#autocmd,,autocommand
 https://neovim.io/doc/user/autocmd.html#autocmd-intro,
@@ -5194,6 +5204,7 @@ https://neovim.io/doc/user/autocmd.html#BufWritePost,
 https://neovim.io/doc/user/autocmd.html#ChanClose,
 https://neovim.io/doc/user/autocmd.html#ChanInfo,
 https://neovim.io/doc/user/autocmd.html#ChanOpen,
+https://neovim.io/doc/user/autocmd.html#CmdAtom,
 https://neovim.io/doc/user/autocmd.html#CmdlineChanged,
 https://neovim.io/doc/user/autocmd.html#CmdlineEnter,
 https://neovim.io/doc/user/autocmd.html#CmdlineLeave,
@@ -5814,6 +5825,7 @@ https://neovim.io/doc/user/visual.html#v_b_c,
 https://neovim.io/doc/user/visual.html#v_b_C,
 https://neovim.io/doc/user/visual.html#v_b_r,
 https://neovim.io/doc/user/visual.html#visual-repeat,
+https://neovim.io/doc/user/visual.html#visual-fixed-size,
 https://neovim.io/doc/user/visual.html#visual-examples,
 https://neovim.io/doc/user/visual.html#%3Avisual_example,
 https://neovim.io/doc/user/visual.html#visual-search,
@@ -6539,6 +6551,8 @@ https://neovim.io/doc/user/pack.html#%3Apackd,,:packdel E5809 E5810 E5811
 https://neovim.io/doc/user/pack.html#vim.pack-events,
 https://neovim.io/doc/user/pack.html#PackChangedPre,
 https://neovim.io/doc/user/pack.html#PackChanged,
+https://neovim.io/doc/user/pack.html#vim.pack-manifest,
+https://neovim.io/doc/user/pack.html#vim.pack.Manifest,
 https://neovim.io/doc/user/pack.html#vim.pack.Spec,
 https://neovim.io/doc/user/pack.html#vim.pack.add(),
 https://neovim.io/doc/user/pack.html#vim.pack.del(),
