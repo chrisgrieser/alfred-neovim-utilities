@@ -436,7 +436,6 @@ https://neovim.io/doc/user/cmdline.html#cmdline-window,,cmdwin
 https://neovim.io/doc/user/cmdline.html#command-line-window,
 https://neovim.io/doc/user/cmdline.html#c_CTRL-F,,q: q/ q?
 https://neovim.io/doc/user/cmdline.html#E1292,
-https://neovim.io/doc/user/cmdline.html#E11,
 https://neovim.io/doc/user/cmdline.html#cmdline-char,,cmdwin-char
 https://neovim.io/doc/user/cmdline.html#cmdline-autocompletion,
 https://neovim.io/doc/user/cmdline.html#fuzzy-file-picker,,live-grep
@@ -1002,7 +1001,7 @@ https://neovim.io/doc/user/various.html#gcc,,gcc-default
 https://neovim.io/doc/user/various.html#v_gc,,v_gc-default
 https://neovim.io/doc/user/various.html#o_gc,,o_gc-default
 https://neovim.io/doc/user/vimeval.html#vimeval.txt,
-https://neovim.io/doc/user/vimeval.html#vimscript,,expression expr E15 eval eval.txt
+https://neovim.io/doc/user/vimeval.html#expression,,expr E15 eval eval.txt
 https://neovim.io/doc/user/vimeval.html#variables,
 https://neovim.io/doc/user/vimeval.html#E712,,E896 E897 E899 E908 E909
 https://neovim.io/doc/user/vimeval.html#E928,,E964 E966 E1023 E1098 E1174 E1175
@@ -1269,7 +1268,11 @@ https://neovim.io/doc/user/repeat.html#repeat.txt,
 https://neovim.io/doc/user/repeat.html#repeating,
 https://neovim.io/doc/user/repeat.html#single-repeat,
 https://neovim.io/doc/user/repeat.html#.,
+https://neovim.io/doc/user/repeat.html#action-repeat,,cmdatom excalibur
 https://neovim.io/doc/user/repeat.html#motion-repeat,
+https://neovim.io/doc/user/repeat.html#edit-repeat,
+https://neovim.io/doc/user/repeat.html#cmdatom-macro,
+https://neovim.io/doc/user/repeat.html#restore-undo-cursor,
 https://neovim.io/doc/user/repeat.html#multi-repeat,
 https://neovim.io/doc/user/repeat.html#%3Ag,,:global E148
 https://neovim.io/doc/user/repeat.html#%3Av,,:vglobal
@@ -1277,37 +1280,14 @@ https://neovim.io/doc/user/repeat.html#E147,
 https://neovim.io/doc/user/repeat.html#complex-repeat,
 https://neovim.io/doc/user/repeat.html#q,,recording macro
 https://neovim.io/doc/user/repeat.html#E748,
-https://neovim.io/doc/user/repeat.html#Q,
-https://neovim.io/doc/user/repeat.html#v_Q-default,
-https://neovim.io/doc/user/repeat.html#v_Q,
 https://neovim.io/doc/user/repeat.html#mcursor,,multicursor
-https://neovim.io/doc/user/repeat.html#using-scripts,
-https://neovim.io/doc/user/repeat.html#%3Aso,,:source
-https://neovim.io/doc/user/repeat.html#%3Aru,,:runtime
-https://neovim.io/doc/user/repeat.html#%3Apa,,:packadd E919
-https://neovim.io/doc/user/repeat.html#%3Apackl,,:packloadall
-https://neovim.io/doc/user/repeat.html#%3Ascripte,,:scriptencoding E167
-https://neovim.io/doc/user/repeat.html#%3Ascr,,:scriptnames
-https://neovim.io/doc/user/repeat.html#%3Ascript,
-https://neovim.io/doc/user/repeat.html#%3Afini,,:finish E168
-https://neovim.io/doc/user/repeat.html#%3Asource_crnl,,W15
-https://neovim.io/doc/user/repeat.html#line-continuation,
-https://neovim.io/doc/user/repeat.html#line-continuation-comment,
-https://neovim.io/doc/user/repeat.html#debug-scripts,
-https://neovim.io/doc/user/repeat.html#debug-mode,
-https://neovim.io/doc/user/repeat.html#%3Adebug,
-https://neovim.io/doc/user/repeat.html#%3Abreaka,,:breakadd
-https://neovim.io/doc/user/repeat.html#%3Adebug-name,
-https://neovim.io/doc/user/repeat.html#%3Abreakd,,:breakdel E161
-https://neovim.io/doc/user/repeat.html#explorer,
-https://neovim.io/doc/user/repeat.html#%3Abreakl,,:breaklist
-https://neovim.io/doc/user/repeat.html#%3Adebugg,,:debuggreedy
-https://neovim.io/doc/user/repeat.html#profile,,profiling
-https://neovim.io/doc/user/repeat.html#%3Aprof,,:profile E750
-https://neovim.io/doc/user/repeat.html#%3Aprofd,,:profdel
-https://neovim.io/doc/user/repeat.html#Context,,context
-https://neovim.io/doc/user/repeat.html#context-types,
-https://neovim.io/doc/user/repeat.html#context-dict,
+https://neovim.io/doc/user/repeat.html#Q,
+https://neovim.io/doc/user/repeat.html#mcursor-mouse,,<C-LeftMouse>
+https://neovim.io/doc/user/repeat.html#v_Q,
+https://neovim.io/doc/user/repeat.html#mcursor-clear,
+https://neovim.io/doc/user/repeat.html#gQ,
+https://neovim.io/doc/user/repeat.html#g_CTRL-A,
+https://neovim.io/doc/user/repeat.html#mcursor-limitations,
 https://neovim.io/doc/user/usr_10.html#find-replace,
 https://neovim.io/doc/user/plugins.html#plugins.txt,
 https://neovim.io/doc/user/plugins.html#standard-plugin,
@@ -1319,7 +1299,9 @@ https://neovim.io/doc/user/plugins.html#dir-buffer-mappings,
 https://neovim.io/doc/user/plugins.html#dir-config,
 https://neovim.io/doc/user/plugins.html#dir-render,
 https://neovim.io/doc/user/plugins.html#DirReadPost,
+https://neovim.io/doc/user/plugins.html#dir-decorate,
 https://neovim.io/doc/user/plugins.html#dir-disable,
+https://neovim.io/doc/user/plugins.html#netrw,
 https://neovim.io/doc/user/plugins.html#difftool,
 https://neovim.io/doc/user/plugins.html#%3ADiffTool,
 https://neovim.io/doc/user/plugins.html#difftool.open(),
@@ -1536,7 +1518,7 @@ https://neovim.io/doc/user/intro.html#Terminal-mode,
 https://neovim.io/doc/user/intro.html#Operator-pending,,Operator-pending-mode
 https://neovim.io/doc/user/intro.html#mode-switching,
 https://neovim.io/doc/user/intro.html#i_esc,
-https://neovim.io/doc/user/intro.html#%3Aexm,,:exmode gQ mode-Ex Ex-mode Ex EX E501
+https://neovim.io/doc/user/intro.html#%3Aexm,,:exmode mode-Ex Ex-mode Ex EX E501
 https://neovim.io/doc/user/intro.html#window-contents,
 https://neovim.io/doc/user/intro.html#wrap-off,
 https://neovim.io/doc/user/intro.html#definitions,,jargon
@@ -2657,6 +2639,8 @@ https://neovim.io/doc/user/syntax.html#hl-CursorLineNr,
 https://neovim.io/doc/user/syntax.html#hl-CursorLineFold,
 https://neovim.io/doc/user/syntax.html#hl-CursorLineSign,
 https://neovim.io/doc/user/syntax.html#hl-MatchParen,
+https://neovim.io/doc/user/syntax.html#hl-MCursor,
+https://neovim.io/doc/user/syntax.html#hl-MCursorVisual,
 https://neovim.io/doc/user/syntax.html#hl-ModeMsg,
 https://neovim.io/doc/user/syntax.html#hl-MsgArea,
 https://neovim.io/doc/user/syntax.html#hl-MsgSeparator,
@@ -4131,6 +4115,7 @@ https://neovim.io/doc/user/api.html#nvim_list_tabpages(),
 https://neovim.io/doc/user/api.html#nvim_list_uis(),
 https://neovim.io/doc/user/api.html#nvim_list_wins(),
 https://neovim.io/doc/user/api.html#nvim_load_context(),
+https://neovim.io/doc/user/api.html#nvim_mcursor(),
 https://neovim.io/doc/user/api.html#nvim_open_term(),
 https://neovim.io/doc/user/api.html#ansi-colorize,,terminal-scrollback-pager
 https://neovim.io/doc/user/api.html#nvim_paste(),
@@ -5149,6 +5134,7 @@ https://neovim.io/doc/user/message.html#E5113,
 https://neovim.io/doc/user/message.html#E5114,
 https://neovim.io/doc/user/message.html#E5115,
 https://neovim.io/doc/user/message.html#E5116,
+https://neovim.io/doc/user/message.html#E5117,
 https://neovim.io/doc/user/message.html#messages,
 https://neovim.io/doc/user/message.html#more-prompt,,pager
 https://neovim.io/doc/user/message.html#progress-message,
@@ -5482,6 +5468,7 @@ https://neovim.io/doc/user/deprecated.html#vim.lsp.codelens.save(),
 https://neovim.io/doc/user/deprecated.html#vim.lsp.codelens.on_codelens(),
 https://neovim.io/doc/user/deprecated.html#vim.diff(),
 https://neovim.io/doc/user/deprecated.html#hit-enter,,hit-enter-prompt
+https://neovim.io/doc/user/deprecated.html#press-enter,
 https://neovim.io/doc/user/deprecated.html#vim.diagnostic.goto_next(),
 https://neovim.io/doc/user/deprecated.html#vim.diagnostic.goto_prev(),
 https://neovim.io/doc/user/deprecated.html#vim.diagnostic.get_next_pos(),
@@ -5797,6 +5784,32 @@ https://neovim.io/doc/user/channel.html#channel-rpc,
 https://neovim.io/doc/user/channel.html#channel-stdio,
 https://neovim.io/doc/user/channel.html#repl,,prompt-buffer
 https://neovim.io/doc/user/channel.html#emacs-eshell,
+https://neovim.io/doc/user/vimscript.html#vimscript.txt,
+https://neovim.io/doc/user/vimscript.html#vimscript,
+https://neovim.io/doc/user/vimscript.html#using-scripts,
+https://neovim.io/doc/user/vimscript.html#%3Aso,,:source
+https://neovim.io/doc/user/vimscript.html#%3Aru,,:runtime
+https://neovim.io/doc/user/vimscript.html#%3Apa,,:packadd E919
+https://neovim.io/doc/user/vimscript.html#%3Apackl,,:packloadall
+https://neovim.io/doc/user/vimscript.html#%3Ascripte,,:scriptencoding E167
+https://neovim.io/doc/user/vimscript.html#%3Ascr,,:scriptnames
+https://neovim.io/doc/user/vimscript.html#%3Ascript,
+https://neovim.io/doc/user/vimscript.html#%3Afini,,:finish E168
+https://neovim.io/doc/user/vimscript.html#%3Asource_crnl,,W15
+https://neovim.io/doc/user/vimscript.html#line-continuation,
+https://neovim.io/doc/user/vimscript.html#line-continuation-comment,
+https://neovim.io/doc/user/vimscript.html#debug-scripts,
+https://neovim.io/doc/user/vimscript.html#debug-mode,
+https://neovim.io/doc/user/vimscript.html#%3Adebug,
+https://neovim.io/doc/user/vimscript.html#%3Abreaka,,:breakadd
+https://neovim.io/doc/user/vimscript.html#%3Adebug-name,
+https://neovim.io/doc/user/vimscript.html#%3Abreakd,,:breakdel E161
+https://neovim.io/doc/user/vimscript.html#explorer,
+https://neovim.io/doc/user/vimscript.html#%3Abreakl,,:breaklist
+https://neovim.io/doc/user/vimscript.html#%3Adebugg,,:debuggreedy
+https://neovim.io/doc/user/vimscript.html#profile,,profiling
+https://neovim.io/doc/user/vimscript.html#%3Aprof,,:profile E750
+https://neovim.io/doc/user/vimscript.html#%3Aprofd,,:profdel
 https://neovim.io/doc/user/ft_raku.html#ft_raku.txt,
 https://neovim.io/doc/user/ft_raku.html#vim-raku,
 https://neovim.io/doc/user/ft_raku.html#raku-unicode,
