@@ -1282,11 +1282,12 @@ https://neovim.io/doc/user/repeat.html#q,,recording macro
 https://neovim.io/doc/user/repeat.html#E748,
 https://neovim.io/doc/user/repeat.html#mcursor,,multicursor
 https://neovim.io/doc/user/repeat.html#Q,
-https://neovim.io/doc/user/repeat.html#mcursor-mouse,,<C-LeftMouse>
 https://neovim.io/doc/user/repeat.html#v_Q,
+https://neovim.io/doc/user/repeat.html#mcursor-mouse,,<C-LeftMouse>
 https://neovim.io/doc/user/repeat.html#mcursor-clear,
 https://neovim.io/doc/user/repeat.html#gQ,
 https://neovim.io/doc/user/repeat.html#g_CTRL-A,
+https://neovim.io/doc/user/repeat.html#mcursor-examples,
 https://neovim.io/doc/user/repeat.html#mcursor-limitations,
 https://neovim.io/doc/user/usr_10.html#find-replace,
 https://neovim.io/doc/user/plugins.html#plugins.txt,
@@ -5869,8 +5870,8 @@ https://neovim.io/doc/user/quickfix.html#E925,,E926
 https://neovim.io/doc/user/quickfix.html#%3Acc,
 https://neovim.io/doc/user/quickfix.html#%3All,
 https://neovim.io/doc/user/quickfix.html#%3Acn,,:cne :cnext E553
-https://neovim.io/doc/user/quickfix.html#%3Alne,,:lnext
 https://neovim.io/doc/user/quickfix.html#%3Acp,,:cprevious  :cprev :cN :cNext
+https://neovim.io/doc/user/quickfix.html#%3Alne,,:lnext
 https://neovim.io/doc/user/quickfix.html#%3Alp,,:lprevious :lprev :lN :lNext
 https://neovim.io/doc/user/quickfix.html#%3Acabo,,:cabove
 https://neovim.io/doc/user/quickfix.html#%3Alab,,:labove
@@ -5932,6 +5933,7 @@ https://neovim.io/doc/user/quickfix.html#%3Acw,,:cwindow
 https://neovim.io/doc/user/quickfix.html#%3Alw,,:lwindow
 https://neovim.io/doc/user/quickfix.html#%3Acbo,,:cbottom
 https://neovim.io/doc/user/quickfix.html#%3Albo,,:lbottom
+https://neovim.io/doc/user/quickfix.html#quickfix-winfixbuf,
 https://neovim.io/doc/user/quickfix.html#location-list-window,
 https://neovim.io/doc/user/quickfix.html#quickfix-window-ID,
 https://neovim.io/doc/user/quickfix.html#getqflist-examples,
@@ -6031,6 +6033,31 @@ https://neovim.io/doc/user/tips.html#hex-editing,,using-xxd
 https://neovim.io/doc/user/tips.html#map-self-destroy,
 https://neovim.io/doc/user/tips.html#match-parens,
 https://neovim.io/doc/user/tips.html#help-curwin,
+https://neovim.io/doc/user/lua-async.html#lua-async,,vim.async
+https://neovim.io/doc/user/lua-async.html#vim.async.Closable,
+https://neovim.io/doc/user/lua-async.html#vim.async.Semaphore,
+https://neovim.io/doc/user/lua-async.html#vim.async.Task,
+https://neovim.io/doc/user/lua-async.html#vim.async.await(),
+https://neovim.io/doc/user/lua-async.html#vim.async.checkpoint(),
+https://neovim.io/doc/user/lua-async.html#vim.async.is_closing(),
+https://neovim.io/doc/user/lua-async.html#vim.async.iter(),
+https://neovim.io/doc/user/lua-async.html#vim.async.pawait(),
+https://neovim.io/doc/user/lua-async.html#vim.async.run(),
+https://neovim.io/doc/user/lua-async.html#Semaphore%3Aacquire(),
+https://neovim.io/doc/user/lua-async.html#Semaphore%3Arelease(),
+https://neovim.io/doc/user/lua-async.html#Semaphore%3Awith(),
+https://neovim.io/doc/user/lua-async.html#vim.async.sleep(),
+https://neovim.io/doc/user/lua-async.html#Task%3Aclose(),
+https://neovim.io/doc/user/lua-async.html#Task%3Acompleted(),
+https://neovim.io/doc/user/lua-async.html#Task%3Adetach(),
+https://neovim.io/doc/user/lua-async.html#Task%3Aon_complete(),
+https://neovim.io/doc/user/lua-async.html#Task%3Apwait(),
+https://neovim.io/doc/user/lua-async.html#Task%3Araise_on_error(),
+https://neovim.io/doc/user/lua-async.html#Task%3Astatus(),
+https://neovim.io/doc/user/lua-async.html#Task%3Atraceback(),
+https://neovim.io/doc/user/lua-async.html#Task%3Await(),
+https://neovim.io/doc/user/lua-async.html#vim.async.timeout(),
+https://neovim.io/doc/user/lua-async.html#vim.async.wrap(),
 https://neovim.io/doc/user/if_pyth.html#if_pyth.txt,
 https://neovim.io/doc/user/if_pyth.html#if_pyth,,python Python
 https://neovim.io/doc/user/if_pyth.html#python-commands,
