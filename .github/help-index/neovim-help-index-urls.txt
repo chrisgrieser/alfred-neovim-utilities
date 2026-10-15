@@ -3504,6 +3504,7 @@ https://neovim.io/doc/user/vvars.html#vvars.txt,
 https://neovim.io/doc/user/vvars.html#vvars,,v:var v:
 https://neovim.io/doc/user/vvars.html#v%3Aargf,,argf-variable
 https://neovim.io/doc/user/vvars.html#v%3Aargv,,argv-variable
+https://neovim.io/doc/user/vvars.html#v%3Acascading,,cascading-variable
 https://neovim.io/doc/user/vvars.html#v%3Achar,,char-variable
 https://neovim.io/doc/user/vvars.html#v%3Acharconvert_from,,charconvert_from-variable
 https://neovim.io/doc/user/vvars.html#v%3Acharconvert_to,,charconvert_to-variable
@@ -4082,6 +4083,7 @@ https://neovim.io/doc/user/api.html#nvim_error_event,
 https://neovim.io/doc/user/api.html#nvim_ui_term_event,
 https://neovim.io/doc/user/api.html#api-global,
 https://neovim.io/doc/user/api.html#nvim_chan_send(),
+https://neovim.io/doc/user/api.html#nvim_chan_set(),
 https://neovim.io/doc/user/api.html#nvim_create_buf(),
 https://neovim.io/doc/user/api.html#nvim_del_current_line(),
 https://neovim.io/doc/user/api.html#nvim_del_keymap(),
@@ -4139,7 +4141,6 @@ https://neovim.io/doc/user/api.html#nvim_set_keymap(),
 https://neovim.io/doc/user/api.html#nvim_set_var(),
 https://neovim.io/doc/user/api.html#nvim_set_vvar(),
 https://neovim.io/doc/user/api.html#nvim_strwidth(),
-https://neovim.io/doc/user/api.html#nvim__chan_set_detach(),
 https://neovim.io/doc/user/api.html#nvim__cmdwin_set(),
 https://neovim.io/doc/user/api.html#nvim__complete_set(),
 https://neovim.io/doc/user/api.html#nvim__exec_lua_fast(),
@@ -4830,6 +4831,7 @@ https://neovim.io/doc/user/api-ui-events.html#ui-ext-options,
 https://neovim.io/doc/user/api-ui-events.html#ui-startup,
 https://neovim.io/doc/user/api-ui-events.html#ui-startup-stdin,
 https://neovim.io/doc/user/api-ui-events.html#ui-global,
+https://neovim.io/doc/user/api-ui-events.html#ui-event-restart,
 https://neovim.io/doc/user/api-ui-events.html#ui-linegrid,
 https://neovim.io/doc/user/api-ui-events.html#ui-event-hl_attr_define,
 https://neovim.io/doc/user/api-ui-events.html#ui-event-grid_line,
