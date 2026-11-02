@@ -351,15 +351,16 @@ https://neovim.io/doc/user/options.html#'writeany',,wa nowriteany nowa
 https://neovim.io/doc/user/options.html#'writebackup',,wb nowritebackup nowb
 https://neovim.io/doc/user/options.html#'writedelay',,wd
 https://neovim.io/doc/user/cmdline.html#cmdline.txt,
-https://neovim.io/doc/user/cmdline.html#Cmdline-mode,,Command-line-mode Cmdline
 https://neovim.io/doc/user/cmdline.html#cmdline,,Command-line mode-cmdline :
+https://neovim.io/doc/user/cmdline.html#Cmdline-mode,,Command-line-mode Cmdline
 https://neovim.io/doc/user/cmdline.html#cmdline-editing,
 https://neovim.io/doc/user/cmdline.html#tcsh-style,
 https://neovim.io/doc/user/cmdline.html#cmdline-too-long,
 https://neovim.io/doc/user/cmdline.html#cmdline-history,,history
 https://neovim.io/doc/user/cmdline.html#c_CTRL-V,
 https://neovim.io/doc/user/cmdline.html#c_CTRL-Q,
-https://neovim.io/doc/user/cmdline.html#c_CTRL-SHIFT-V,,c_CTRL-SHIFT-Q
+https://neovim.io/doc/user/cmdline.html#c_CTRL-SHIFT-V,
+https://neovim.io/doc/user/cmdline.html#c_CTRL-SHIFT-Q,
 https://neovim.io/doc/user/cmdline.html#c_Left,
 https://neovim.io/doc/user/cmdline.html#c_Right,
 https://neovim.io/doc/user/cmdline.html#c_CTRL-B,,c_<Home> c_Home
@@ -509,9 +510,11 @@ https://neovim.io/doc/user/change.html#X,,dh
 https://neovim.io/doc/user/change.html#d,
 https://neovim.io/doc/user/change.html#dd,
 https://neovim.io/doc/user/change.html#D,
-https://neovim.io/doc/user/change.html#v_x,,v_d v_<Del>
-https://neovim.io/doc/user/change.html#v_CTRL-H,,v_<BS>
-https://neovim.io/doc/user/change.html#v_X,,v_D v_b_D
+https://neovim.io/doc/user/change.html#v_x,
+https://neovim.io/doc/user/change.html#v_d,
+https://neovim.io/doc/user/change.html#v_CTRL-H,
+https://neovim.io/doc/user/change.html#v_X,
+https://neovim.io/doc/user/change.html#v_D,,v_b_D
 https://neovim.io/doc/user/change.html#%3Ad,,:de :del :delete :dl :dp
 https://neovim.io/doc/user/change.html#d-special,
 https://neovim.io/doc/user/change.html#J,
@@ -527,7 +530,8 @@ https://neovim.io/doc/user/change.html#cc,
 https://neovim.io/doc/user/change.html#C,
 https://neovim.io/doc/user/change.html#s,
 https://neovim.io/doc/user/change.html#S,
-https://neovim.io/doc/user/change.html#v_c,,v_s
+https://neovim.io/doc/user/change.html#v_c,
+https://neovim.io/doc/user/change.html#v_s,
 https://neovim.io/doc/user/change.html#v_r,
 https://neovim.io/doc/user/change.html#v_C,
 https://neovim.io/doc/user/change.html#v_S,
@@ -542,10 +546,12 @@ https://neovim.io/doc/user/change.html#digraph-arg,
 https://neovim.io/doc/user/change.html#case,
 https://neovim.io/doc/user/change.html#v_U,
 https://neovim.io/doc/user/change.html#gU,,uppercase
-https://neovim.io/doc/user/change.html#gUgU,,gUU
+https://neovim.io/doc/user/change.html#gUgU,
+https://neovim.io/doc/user/change.html#gUU,
 https://neovim.io/doc/user/change.html#v_u,
 https://neovim.io/doc/user/change.html#gu,,lowercase
-https://neovim.io/doc/user/change.html#gugu,,guu
+https://neovim.io/doc/user/change.html#gugu,
+https://neovim.io/doc/user/change.html#guu,
 https://neovim.io/doc/user/change.html#CTRL-A,
 https://neovim.io/doc/user/change.html#v_CTRL-A,
 https://neovim.io/doc/user/change.html#v_g_CTRL-A,
@@ -603,7 +609,8 @@ https://neovim.io/doc/user/change.html#gp,
 https://neovim.io/doc/user/change.html#gP,
 https://neovim.io/doc/user/change.html#%3Apu,,:put
 https://neovim.io/doc/user/change.html#%3Aip,,:iput
-https://neovim.io/doc/user/change.html#zp,,zP
+https://neovim.io/doc/user/change.html#zp,
+https://neovim.io/doc/user/change.html#zP,
 https://neovim.io/doc/user/change.html#linewise-register,,charwise-register
 https://neovim.io/doc/user/change.html#put-Visual-mode,
 https://neovim.io/doc/user/change.html#v_p,
@@ -627,10 +634,12 @@ https://neovim.io/doc/user/change.html#%3Ace,,:center
 https://neovim.io/doc/user/change.html#%3Ari,,:right
 https://neovim.io/doc/user/change.html#%3Ale,,:left
 https://neovim.io/doc/user/change.html#gq,
-https://neovim.io/doc/user/change.html#gqgq,,gqq
+https://neovim.io/doc/user/change.html#gqgq,
+https://neovim.io/doc/user/change.html#gqq,
 https://neovim.io/doc/user/change.html#v_gq,
 https://neovim.io/doc/user/change.html#gw,
-https://neovim.io/doc/user/change.html#gwgw,,gww
+https://neovim.io/doc/user/change.html#gwgw,
+https://neovim.io/doc/user/change.html#gww,
 https://neovim.io/doc/user/change.html#v_gw,
 https://neovim.io/doc/user/change.html#gqap,
 https://neovim.io/doc/user/change.html#format-formatexpr,
@@ -966,7 +975,8 @@ https://neovim.io/doc/user/various.html#%3Amod,,:mode E359
 https://neovim.io/doc/user/various.html#%3Aredr,,:redraw
 https://neovim.io/doc/user/various.html#%3Aredraws,,:redrawstatus
 https://neovim.io/doc/user/various.html#%3Aredrawt,,:redrawtabline
-https://neovim.io/doc/user/various.html#ga,,:as :ascii
+https://neovim.io/doc/user/various.html#%3Aas,,:ascii
+https://neovim.io/doc/user/various.html#ga,
 https://neovim.io/doc/user/various.html#gx,
 https://neovim.io/doc/user/various.html#v_gx,
 https://neovim.io/doc/user/various.html#%3Ap,,:pr :print E749
@@ -990,7 +1000,8 @@ https://neovim.io/doc/user/various.html#K,
 https://neovim.io/doc/user/various.html#K-lsp-default,
 https://neovim.io/doc/user/various.html#v_K,
 https://neovim.io/doc/user/various.html#gO,
-https://neovim.io/doc/user/various.html#gs,,:sl :sleep
+https://neovim.io/doc/user/various.html#gs,
+https://neovim.io/doc/user/various.html#%3Asl,,:sleep
 https://neovim.io/doc/user/various.html#%3Aupt,,:uptime
 https://neovim.io/doc/user/various.html#less,
 https://neovim.io/doc/user/various.html#commenting,
@@ -1118,8 +1129,8 @@ https://neovim.io/doc/user/vimeval.html#%3Alet-register,,:let-@
 https://neovim.io/doc/user/vimeval.html#%3Alet-option,,:let-&
 https://neovim.io/doc/user/vimeval.html#%3Alet-unpack,,E687 E688
 https://neovim.io/doc/user/vimeval.html#E452,
-https://neovim.io/doc/user/vimeval.html#%3Alet-heredoc,
 https://neovim.io/doc/user/vimeval.html#E990,,E991 E172 E221 E1145
+https://neovim.io/doc/user/vimeval.html#%3Alet-heredoc,
 https://neovim.io/doc/user/vimeval.html#E121,
 https://neovim.io/doc/user/vimeval.html#E738,
 https://neovim.io/doc/user/vimeval.html#%3Aunlet,,:unl E108 E795
@@ -1131,18 +1142,20 @@ https://neovim.io/doc/user/vimeval.html#%3Alockvar,,:lockv
 https://neovim.io/doc/user/vimeval.html#E741,,E940 E1122
 https://neovim.io/doc/user/vimeval.html#E743,
 https://neovim.io/doc/user/vimeval.html#%3Aunlockvar,,:unlo
-https://neovim.io/doc/user/vimeval.html#%3Aif,,:end :endif :en E171 E579 E580
+https://neovim.io/doc/user/vimeval.html#%3Aif,,E171 E579 E580
+https://neovim.io/doc/user/vimeval.html#%3Aend,,:endif :en
 https://neovim.io/doc/user/vimeval.html#%3Aelse,,:el E581 E583
 https://neovim.io/doc/user/vimeval.html#%3Aelseif,,:elsei E582 E584
-https://neovim.io/doc/user/vimeval.html#%3Awhile,,:endwhile :wh :endw
 https://neovim.io/doc/user/vimeval.html#E170,,E585 E588 E733
+https://neovim.io/doc/user/vimeval.html#%3Awhile,,:wh
+https://neovim.io/doc/user/vimeval.html#%3Aendwhile,, :endw
 https://neovim.io/doc/user/vimeval.html#%3Afor,,E690 E732
 https://neovim.io/doc/user/vimeval.html#%3Aendfo,,:endfor
 https://neovim.io/doc/user/vimeval.html#%3Acontinue,,:con E586
 https://neovim.io/doc/user/vimeval.html#%3Abreak,,:brea E587
-https://neovim.io/doc/user/vimeval.html#%3Atry,,:endt :endtry E600 E601 E602
-https://neovim.io/doc/user/vimeval.html#%3Acat,,:catch
-https://neovim.io/doc/user/vimeval.html#E603,,E604 E605 E654
+https://neovim.io/doc/user/vimeval.html#%3Atry,,E600 E601 E602
+https://neovim.io/doc/user/vimeval.html#%3Aendt,,:endtry
+https://neovim.io/doc/user/vimeval.html#%3Acat,,:catch E603 E604 E605 E654
 https://neovim.io/doc/user/vimeval.html#%3Afina,,:finally E606 E607
 https://neovim.io/doc/user/vimeval.html#%3Ath,,:throw E608
 https://neovim.io/doc/user/vimeval.html#%3Aec,,:echo
@@ -1299,7 +1312,6 @@ https://neovim.io/doc/user/plugins.html#standard-plugin-list,
 https://neovim.io/doc/user/plugins.html#dir,
 https://neovim.io/doc/user/plugins.html#g%3Aloaded_nvim_dir_plugin,
 https://neovim.io/doc/user/plugins.html#dir-mappings,
-https://neovim.io/doc/user/plugins.html#dir-buffer-mappings,
 https://neovim.io/doc/user/plugins.html#dir-config,
 https://neovim.io/doc/user/plugins.html#dir-render,
 https://neovim.io/doc/user/plugins.html#DirReadPost,
@@ -1850,7 +1862,8 @@ https://neovim.io/doc/user/editing.html#edit-intro,
 https://neovim.io/doc/user/editing.html#current-file,
 https://neovim.io/doc/user/editing.html#alternate-file,
 https://neovim.io/doc/user/editing.html#%3Akeepa,,:keepalt
-https://neovim.io/doc/user/editing.html#CTRL-G,,:f :fi :file
+https://neovim.io/doc/user/editing.html#CTRL-G,
+https://neovim.io/doc/user/editing.html#%3Af,,:fi :file
 https://neovim.io/doc/user/editing.html#g_CTRL-G,,word-count byte-count
 https://neovim.io/doc/user/editing.html#v_g_CTRL-G,
 https://neovim.io/doc/user/editing.html#%3Afile_f,
@@ -1904,9 +1917,8 @@ https://neovim.io/doc/user/editing.html#%3Aarglocal,
 https://neovim.io/doc/user/editing.html#%3Aargglobal,
 https://neovim.io/doc/user/editing.html#%3Aargdo,
 https://neovim.io/doc/user/editing.html#writing,,save-file
+https://neovim.io/doc/user/editing.html#E502,,E503 E504 E505 E512 E514 E667 E949
 https://neovim.io/doc/user/editing.html#%3Aw,,:write
-https://neovim.io/doc/user/editing.html#E502,,E503 E504 E505
-https://neovim.io/doc/user/editing.html#E512,,E514 E667 E949
 https://neovim.io/doc/user/editing.html#%3Aw_f,,:write_f
 https://neovim.io/doc/user/editing.html#%3Aw_a,,:write_a E494
 https://neovim.io/doc/user/editing.html#%3Aw_c,,:write_c
@@ -1938,20 +1950,25 @@ https://neovim.io/doc/user/editing.html#ZR,
 https://neovim.io/doc/user/editing.html#window-exit,
 https://neovim.io/doc/user/editing.html#%3Aqa,,:qall
 https://neovim.io/doc/user/editing.html#%3Aquita,,:quitall
-https://neovim.io/doc/user/editing.html#%3Awqa,,:wqall :xa :xall
+https://neovim.io/doc/user/editing.html#%3Awqa,,:wqall
+https://neovim.io/doc/user/editing.html#%3Axa,,:xall
 https://neovim.io/doc/user/editing.html#edit-dialogs,
 https://neovim.io/doc/user/editing.html#%3Aconfirm,,:conf
 https://neovim.io/doc/user/editing.html#%3Abrowse,,:bro
 https://neovim.io/doc/user/editing.html#browsefilter,
 https://neovim.io/doc/user/editing.html#.,
 https://neovim.io/doc/user/editing.html#current-directory,
-https://neovim.io/doc/user/editing.html#%3Acd,,:chd :chdir E747 E472
+https://neovim.io/doc/user/editing.html#%3Achd,,:chdir E747 E472
+https://neovim.io/doc/user/editing.html#%3Acd,
 https://neovim.io/doc/user/editing.html#%3Acd-,,E186
-https://neovim.io/doc/user/editing.html#%3Atc,,:tcd :tch :tchdir
+https://neovim.io/doc/user/editing.html#%3Atch,,:tchdir
+https://neovim.io/doc/user/editing.html#%3Atc,,:tcd
 https://neovim.io/doc/user/editing.html#%3Atcd-,
-https://neovim.io/doc/user/editing.html#%3Alc,,:lcd :lch :lchdir
+https://neovim.io/doc/user/editing.html#%3Alch,,:lchdir
+https://neovim.io/doc/user/editing.html#%3Alc,,:lcd
 https://neovim.io/doc/user/editing.html#%3Alcd-,
-https://neovim.io/doc/user/editing.html#%3Abc,,:bcd :bch :bchdir
+https://neovim.io/doc/user/editing.html#%3Abch,,:bchdir
+https://neovim.io/doc/user/editing.html#%3Abc,,:bcd
 https://neovim.io/doc/user/editing.html#%3Abcd-,
 https://neovim.io/doc/user/editing.html#%3Apw,,:pwd E187
 https://neovim.io/doc/user/editing.html#%3Apwd-verbose,
@@ -2107,6 +2124,10 @@ https://neovim.io/doc/user/lua.html#vim.trim(),
 https://neovim.io/doc/user/lua.html#vim.validate(),
 https://neovim.io/doc/user/lua.html#vim.wait(),
 https://neovim.io/doc/user/lua.html#vim.inspector,
+https://neovim.io/doc/user/lua.html#vim.inspect_pos.ExtmarkItem,
+https://neovim.io/doc/user/lua.html#vim.inspect_pos.Item,
+https://neovim.io/doc/user/lua.html#vim.inspect_pos.SyntaxItem,
+https://neovim.io/doc/user/lua.html#vim.inspect_pos.TSItem,
 https://neovim.io/doc/user/lua.html#vim.inspect_pos(),
 https://neovim.io/doc/user/lua.html#vim.show_pos(),
 https://neovim.io/doc/user/lua.html#%3AInspect,
@@ -2282,12 +2303,14 @@ https://neovim.io/doc/user/lua.html#vim.ui.img.del(),
 https://neovim.io/doc/user/lua.html#vim.ui.img.get(),
 https://neovim.io/doc/user/lua.html#vim.ui.img.set(),
 https://neovim.io/doc/user/lua.html#vim.uri,
-https://neovim.io/doc/user/lua.html#vim.uri_decode(),
-https://neovim.io/doc/user/lua.html#vim.uri_encode(),
-https://neovim.io/doc/user/lua.html#vim.uri_from_bufnr(),
-https://neovim.io/doc/user/lua.html#vim.uri_from_fname(),
-https://neovim.io/doc/user/lua.html#vim.uri_to_bufnr(),
-https://neovim.io/doc/user/lua.html#vim.uri_to_fname(),
+https://neovim.io/doc/user/lua.html#vim.Uri,
+https://neovim.io/doc/user/lua.html#vim.uri.decode(),
+https://neovim.io/doc/user/lua.html#vim.uri.encode(),
+https://neovim.io/doc/user/lua.html#vim.uri.from_buf(),
+https://neovim.io/doc/user/lua.html#vim.uri.from_fname(),
+https://neovim.io/doc/user/lua.html#vim.uri.parse(),
+https://neovim.io/doc/user/lua.html#vim.uri.to_buf(),
+https://neovim.io/doc/user/lua.html#vim.uri.to_fname(),
 https://neovim.io/doc/user/lua.html#vim.version,
 https://neovim.io/doc/user/lua.html#version-range,
 https://neovim.io/doc/user/lua.html#vim.VersionRange,
@@ -2342,6 +2365,7 @@ https://neovim.io/doc/user/syntax.html#ft-asy-syntax,
 https://neovim.io/doc/user/syntax.html#baan-syntax,
 https://neovim.io/doc/user/syntax.html#baan-folding,
 https://neovim.io/doc/user/syntax.html#ft-basic-syntax,,ft-vb-syntax
+https://neovim.io/doc/user/syntax.html#ft-bats-syntax,
 https://neovim.io/doc/user/syntax.html#ft-c-syntax,
 https://neovim.io/doc/user/syntax.html#c_gnu,
 https://neovim.io/doc/user/syntax.html#c_comment_strings,
@@ -2482,8 +2506,7 @@ https://neovim.io/doc/user/syntax.html#ft-scheme-syntax,
 https://neovim.io/doc/user/syntax.html#ft-sdl-syntax,
 https://neovim.io/doc/user/syntax.html#ft-sed-syntax,
 https://neovim.io/doc/user/syntax.html#ft-sgml-syntax,
-https://neovim.io/doc/user/syntax.html#ft-posix-syntax,,ft-dash-syntax
-https://neovim.io/doc/user/syntax.html#ft-sh-syntax,, ft-bash-syntax  ft-ksh-syntax
+https://neovim.io/doc/user/syntax.html#ft-sh-syntax,, ft-bash-syntax  ft-ksh-syntax  ft-posix-syntax  ft-dash-syntax
 https://neovim.io/doc/user/syntax.html#sh-embed,, sh-awk
 https://neovim.io/doc/user/syntax.html#ft-spup-syntax,
 https://neovim.io/doc/user/syntax.html#ft-sql-syntax,
@@ -2713,6 +2736,7 @@ https://neovim.io/doc/user/syntax.html#tag-highlight,
 https://neovim.io/doc/user/syntax.html#xterm-color,,color-xterm
 https://neovim.io/doc/user/syntax.html#colortest.vim,
 https://neovim.io/doc/user/syntax.html#%3Asynti,,:syntime
+https://neovim.io/doc/user/syntax.html#%3Asyn-performance,
 https://neovim.io/doc/user/luaref.html#luaref.txt,
 https://neovim.io/doc/user/luaref.html#luaref,
 https://neovim.io/doc/user/luaref.html#luaref-intro,
@@ -3111,16 +3135,20 @@ https://neovim.io/doc/user/tabpage.html#tabpage-intro,
 https://neovim.io/doc/user/tabpage.html#tab-ID,,tabid tabpageid
 https://neovim.io/doc/user/tabpage.html#tabpage-number,
 https://neovim.io/doc/user/tabpage.html#tabpage-commands,
-https://neovim.io/doc/user/tabpage.html#%3Atabe,,:tabedit :tabnew
+https://neovim.io/doc/user/tabpage.html#%3Atabe,,:tabedit
+https://neovim.io/doc/user/tabpage.html#%3Atabnew,
 https://neovim.io/doc/user/tabpage.html#%3Atabf,,:tabfind
 https://neovim.io/doc/user/tabpage.html#%3Atab,
 https://neovim.io/doc/user/tabpage.html#%3Atabc,,:tabclose
 https://neovim.io/doc/user/tabpage.html#E784,
 https://neovim.io/doc/user/tabpage.html#%3Atabo,,:tabonly
-https://neovim.io/doc/user/tabpage.html#%3Atabn,,:tabnext gt
-https://neovim.io/doc/user/tabpage.html#%3Atabp,,:tabprevious gT :tabN
-https://neovim.io/doc/user/tabpage.html#%3AtabNext,,CTRL-<PageUp>
-https://neovim.io/doc/user/tabpage.html#%3Atabfir,,:tabfirst :tabr :tabrewind
+https://neovim.io/doc/user/tabpage.html#%3Atabn,,:tabnext
+https://neovim.io/doc/user/tabpage.html#gt,
+https://neovim.io/doc/user/tabpage.html#%3Atabp,,:tabprevious
+https://neovim.io/doc/user/tabpage.html#%3AtabN,,:tabNext
+https://neovim.io/doc/user/tabpage.html#gT,
+https://neovim.io/doc/user/tabpage.html#%3Atabr,,:tabrewind
+https://neovim.io/doc/user/tabpage.html#%3Atabfir,,:tabfirst
 https://neovim.io/doc/user/tabpage.html#%3Atabl,,:tablast
 https://neovim.io/doc/user/tabpage.html#%3Atabs,
 https://neovim.io/doc/user/tabpage.html#%3Atabm,,:tabmove
@@ -3134,8 +3162,8 @@ https://neovim.io/doc/user/pi_paren.html#pi_paren.txt,
 https://neovim.io/doc/user/pi_paren.html#matchparen,
 https://neovim.io/doc/user/pi_paren.html#%3ANoMatchParen,,:DoMatchParen
 https://neovim.io/doc/user/insert.html#insert.txt,
-https://neovim.io/doc/user/insert.html#Insert,,Insert-mode
 https://neovim.io/doc/user/insert.html#mode-ins-repl,
+https://neovim.io/doc/user/insert.html#Insert,,Insert-mode
 https://neovim.io/doc/user/insert.html#ins-special-keys,
 https://neovim.io/doc/user/insert.html#i_META,,i_ALT
 https://neovim.io/doc/user/insert.html#i_CTRL-C,
@@ -3159,7 +3187,8 @@ https://neovim.io/doc/user/insert.html#i_CTRL-T,
 https://neovim.io/doc/user/insert.html#i_CTRL-D,
 https://neovim.io/doc/user/insert.html#i_CTRL-V,
 https://neovim.io/doc/user/insert.html#i_CTRL-Q,
-https://neovim.io/doc/user/insert.html#i_CTRL-SHIFT-V,,i_CTRL-SHIFT-Q
+https://neovim.io/doc/user/insert.html#i_CTRL-SHIFT-V,
+https://neovim.io/doc/user/insert.html#i_CTRL-SHIFT-Q,
 https://neovim.io/doc/user/insert.html#i_CTRL-E,
 https://neovim.io/doc/user/insert.html#i_CTRL-Y,
 https://neovim.io/doc/user/insert.html#i_CTRL-_,
@@ -3190,8 +3219,7 @@ https://neovim.io/doc/user/insert.html#E565,
 https://neovim.io/doc/user/insert.html#compl-whole-line,
 https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-L,
 https://neovim.io/doc/user/insert.html#compl-current,
-https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-P,
-https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-N,
+https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-P,,i_CTRL-X_CTRL-N
 https://neovim.io/doc/user/insert.html#compl-dictionary,
 https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-K,
 https://neovim.io/doc/user/insert.html#compl-thesaurus,
@@ -3213,7 +3241,8 @@ https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-U,
 https://neovim.io/doc/user/insert.html#omnicompletion,,compl-omni
 https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-O,
 https://neovim.io/doc/user/insert.html#compl-spelling,
-https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-S,,i_CTRL-X_s
+https://neovim.io/doc/user/insert.html#i_CTRL-X_CTRL-S,
+https://neovim.io/doc/user/insert.html#i_CTRL-X_s,
 https://neovim.io/doc/user/insert.html#compl-generic,
 https://neovim.io/doc/user/insert.html#i_CTRL-N,
 https://neovim.io/doc/user/insert.html#i_CTRL-P,
@@ -3247,7 +3276,7 @@ https://neovim.io/doc/user/insert.html#%3AXMLent,
 https://neovim.io/doc/user/insert.html#inserting,
 https://neovim.io/doc/user/insert.html#a,
 https://neovim.io/doc/user/insert.html#A,
-https://neovim.io/doc/user/insert.html#i,,insert <Insert>
+https://neovim.io/doc/user/insert.html#i,,insert
 https://neovim.io/doc/user/insert.html#I,
 https://neovim.io/doc/user/insert.html#gI,
 https://neovim.io/doc/user/insert.html#gi,
@@ -3641,7 +3670,6 @@ https://neovim.io/doc/user/diff.html#%3Adiffg,,:diffget
 https://neovim.io/doc/user/diff.html#%3Adiffpu,,:diffput E793
 https://neovim.io/doc/user/diff.html#do,
 https://neovim.io/doc/user/diff.html#dp,
-https://neovim.io/doc/user/diff.html#E787,
 https://neovim.io/doc/user/diff.html#diff-anchors,,E1549
 https://neovim.io/doc/user/diff.html#diff-options,
 https://neovim.io/doc/user/diff.html#diff-slow,,diff_translations
@@ -3656,20 +3684,25 @@ https://neovim.io/doc/user/starting.html#--,
 https://neovim.io/doc/user/starting.html#-t,,-tag
 https://neovim.io/doc/user/starting.html#-q,,-qf
 https://neovim.io/doc/user/starting.html#startup-options,
-https://neovim.io/doc/user/starting.html#-h,,--help -?
-https://neovim.io/doc/user/starting.html#-v,,--version
+https://neovim.io/doc/user/starting.html#--help,
+https://neovim.io/doc/user/starting.html#-h,
+https://neovim.io/doc/user/starting.html#--version,
+https://neovim.io/doc/user/starting.html#-v,
 https://neovim.io/doc/user/starting.html#--clean,
 https://neovim.io/doc/user/starting.html#--noplugin,
 https://neovim.io/doc/user/starting.html#--startuptime,
 https://neovim.io/doc/user/starting.html#-c,
 https://neovim.io/doc/user/starting.html#--cmd,
 https://neovim.io/doc/user/starting.html#-S,
-https://neovim.io/doc/user/starting.html#-L,,-r
+https://neovim.io/doc/user/starting.html#-L,
+https://neovim.io/doc/user/starting.html#-r,
 https://neovim.io/doc/user/starting.html#-R,
 https://neovim.io/doc/user/starting.html#-m,
 https://neovim.io/doc/user/starting.html#-M,
-https://neovim.io/doc/user/starting.html#-e,,-E
-https://neovim.io/doc/user/starting.html#-es,,-Es -s-ex silent-mode
+https://neovim.io/doc/user/starting.html#-e,
+https://neovim.io/doc/user/starting.html#-E,
+https://neovim.io/doc/user/starting.html#-es,,-s-ex silent-mode
+https://neovim.io/doc/user/starting.html#-Es,
 https://neovim.io/doc/user/starting.html#-l,
 https://neovim.io/doc/user/starting.html#lua-args,
 https://neovim.io/doc/user/starting.html#lua-shebang,
@@ -3706,7 +3739,8 @@ https://neovim.io/doc/user/starting.html#bisect,
 https://neovim.io/doc/user/starting.html#%3Aintro,
 https://neovim.io/doc/user/starting.html#suspend,
 https://neovim.io/doc/user/starting.html#CTRL-Z,,v_CTRL-Z
-https://neovim.io/doc/user/starting.html#%3Asus,,:suspend :st :stop
+https://neovim.io/doc/user/starting.html#%3Asus,,:suspend
+https://neovim.io/doc/user/starting.html#%3Ast,,:stop
 https://neovim.io/doc/user/starting.html#exiting,
 https://neovim.io/doc/user/starting.html#save-settings,
 https://neovim.io/doc/user/starting.html#%3Amk,,:mkexrc
@@ -3727,7 +3761,7 @@ https://neovim.io/doc/user/starting.html#shada-merging,
 https://neovim.io/doc/user/starting.html#shada-compatibility,
 https://neovim.io/doc/user/starting.html#shada-file-name,
 https://neovim.io/doc/user/starting.html#shada-read-write,
-https://neovim.io/doc/user/starting.html#E136,,E929 shada-error-handling
+https://neovim.io/doc/user/starting.html#E136,,shada-error-handling
 https://neovim.io/doc/user/starting.html#%3Arsh,,:rshada E886
 https://neovim.io/doc/user/starting.html#%3Awsh,,:wshada E137 E138
 https://neovim.io/doc/user/starting.html#%3Ao,,:ol :oldfiles
@@ -3791,8 +3825,10 @@ https://neovim.io/doc/user/spell.html#zg,
 https://neovim.io/doc/user/spell.html#zG,
 https://neovim.io/doc/user/spell.html#zw,
 https://neovim.io/doc/user/spell.html#zW,
-https://neovim.io/doc/user/spell.html#zug,,zuw
-https://neovim.io/doc/user/spell.html#zuG,,zuW
+https://neovim.io/doc/user/spell.html#zuw,
+https://neovim.io/doc/user/spell.html#zug,
+https://neovim.io/doc/user/spell.html#zuW,
+https://neovim.io/doc/user/spell.html#zuG,
 https://neovim.io/doc/user/spell.html#%3Aspe,,:spellgood E1280
 https://neovim.io/doc/user/spell.html#%3Aspellw,,:spellwrong
 https://neovim.io/doc/user/spell.html#%3Aspellra,,:spellrare
@@ -3950,40 +3986,54 @@ https://neovim.io/doc/user/windows.html#CTRL-W_c,,:clo :close
 https://neovim.io/doc/user/windows.html#E444,
 https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-C,
 https://neovim.io/doc/user/windows.html#%3Ahide,
+https://neovim.io/doc/user/windows.html#%3Aon,,:only
 https://neovim.io/doc/user/windows.html#CTRL-W_o,,E445
-https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-O,,:on :only
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-O,
 https://neovim.io/doc/user/windows.html#%3Afc,,:fclose
 https://neovim.io/doc/user/windows.html#window-move-cursor,
-https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-J,,CTRL-W_j
-https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-K,,CTRL-W_k
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-J,
+https://neovim.io/doc/user/windows.html#CTRL-W_j,
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-K,
+https://neovim.io/doc/user/windows.html#CTRL-W_k,
 https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-H,
 https://neovim.io/doc/user/windows.html#CTRL-W_h,
-https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-L,,CTRL-W_l
-https://neovim.io/doc/user/windows.html#CTRL-W_w,,CTRL-W_CTRL-W
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-L,
+https://neovim.io/doc/user/windows.html#CTRL-W_l,
+https://neovim.io/doc/user/windows.html#CTRL-W_w,
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-W,
 https://neovim.io/doc/user/windows.html#CTRL-W_W,
-https://neovim.io/doc/user/windows.html#CTRL-W_t,,CTRL-W_CTRL-T
-https://neovim.io/doc/user/windows.html#CTRL-W_b,,CTRL-W_CTRL-B
-https://neovim.io/doc/user/windows.html#CTRL-W_p,,CTRL-W_CTRL-P
+https://neovim.io/doc/user/windows.html#CTRL-W_t,
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-T,
+https://neovim.io/doc/user/windows.html#CTRL-W_b,
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-B,
+https://neovim.io/doc/user/windows.html#CTRL-W_p,
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-P,
 https://neovim.io/doc/user/windows.html#CTRL-W_P,,E441
 https://neovim.io/doc/user/windows.html#%3Awinc,,:wincmd
 https://neovim.io/doc/user/windows.html#window-moving,
-https://neovim.io/doc/user/windows.html#CTRL-W_r,,CTRL-W_CTRL-R E443
+https://neovim.io/doc/user/windows.html#CTRL-W_r,,E443
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-R,
 https://neovim.io/doc/user/windows.html#CTRL-W_R,
-https://neovim.io/doc/user/windows.html#CTRL-W_x,,CTRL-W_CTRL-X
+https://neovim.io/doc/user/windows.html#CTRL-W_x,
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-X,
 https://neovim.io/doc/user/windows.html#CTRL-W_K,
 https://neovim.io/doc/user/windows.html#CTRL-W_J,
 https://neovim.io/doc/user/windows.html#CTRL-W_H,
 https://neovim.io/doc/user/windows.html#CTRL-W_L,
 https://neovim.io/doc/user/windows.html#CTRL-W_T,
 https://neovim.io/doc/user/windows.html#window-resize,
-https://neovim.io/doc/user/windows.html#%3Ares,,:resize CTRL-W_-
-https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-_,,CTRL-W__
-https://neovim.io/doc/user/windows.html#%3Avertical-resize,,CTRL-W_bar
+https://neovim.io/doc/user/windows.html#%3Ares,,:resize
+https://neovim.io/doc/user/windows.html#CTRL-W_-,
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-_,
+https://neovim.io/doc/user/windows.html#CTRL-W__,
+https://neovim.io/doc/user/windows.html#%3Avertical-resize,
+https://neovim.io/doc/user/windows.html#CTRL-W_bar,
 https://neovim.io/doc/user/windows.html#win-scrolled-resized,
 https://neovim.io/doc/user/windows.html#WinResized-event,
 https://neovim.io/doc/user/windows.html#WinScrolled-event,
 https://neovim.io/doc/user/windows.html#buffer-list,
-https://neovim.io/doc/user/windows.html#%3Aal,,:all :sal :sall
+https://neovim.io/doc/user/windows.html#%3Aal,,:all
+https://neovim.io/doc/user/windows.html#%3Asal,,:sall
 https://neovim.io/doc/user/windows.html#E249,
 https://neovim.io/doc/user/windows.html#%3Asa,,:sargument
 https://neovim.io/doc/user/windows.html#%3Asn,,:snext
@@ -3998,7 +4048,8 @@ https://neovim.io/doc/user/windows.html#%3Awindo,
 https://neovim.io/doc/user/windows.html#%3Abufdo,
 https://neovim.io/doc/user/windows.html#window-tag,
 https://neovim.io/doc/user/windows.html#%3Asta,,:stag
-https://neovim.io/doc/user/windows.html#CTRL-W_f,,CTRL-W_CTRL-F
+https://neovim.io/doc/user/windows.html#CTRL-W_f,
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-F,
 https://neovim.io/doc/user/windows.html#CTRL-W_F,
 https://neovim.io/doc/user/windows.html#CTRL-W_gf,
 https://neovim.io/doc/user/windows.html#CTRL-W_gF,
@@ -4008,7 +4059,8 @@ https://neovim.io/doc/user/windows.html#preview-window,
 https://neovim.io/doc/user/windows.html#preview-popup,
 https://neovim.io/doc/user/windows.html#%3Apt,,:ptag
 https://neovim.io/doc/user/windows.html#CTRL-W_z,
-https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-Z,,:pc :pclose
+https://neovim.io/doc/user/windows.html#CTRL-W_CTRL-Z,
+https://neovim.io/doc/user/windows.html#%3Apc,,:pclose
 https://neovim.io/doc/user/windows.html#%3App,,:ppop
 https://neovim.io/doc/user/windows.html#%3Apb,,:pbuffer
 https://neovim.io/doc/user/windows.html#%3Aped,,:pedit
@@ -4017,7 +4069,8 @@ https://neovim.io/doc/user/windows.html#CursorHold-example,
 https://neovim.io/doc/user/windows.html#buffer-hidden,
 https://neovim.io/doc/user/windows.html#hidden-quit,
 https://neovim.io/doc/user/windows.html#%3Afiles,
-https://neovim.io/doc/user/windows.html#%3Abuffers,,:ls
+https://neovim.io/doc/user/windows.html#%3Abuffers,
+https://neovim.io/doc/user/windows.html#%3Als,
 https://neovim.io/doc/user/windows.html#%3Abad,,:badd
 https://neovim.io/doc/user/windows.html#%3Abalt,
 https://neovim.io/doc/user/windows.html#%3Abd,,:bdel :bdelete E516
@@ -4029,7 +4082,8 @@ https://neovim.io/doc/user/windows.html#%3Asb,,:sbuffer
 https://neovim.io/doc/user/windows.html#%3Abn,,:bnext E87
 https://neovim.io/doc/user/windows.html#%3Asbn,,:sbnext
 https://neovim.io/doc/user/windows.html#%3AbN,,:bNext :bp :bprevious E88
-https://neovim.io/doc/user/windows.html#%3AsbN,,:sbNext :sbp :sbprevious
+https://neovim.io/doc/user/windows.html#%3AsbN,,:sbNext
+https://neovim.io/doc/user/windows.html#%3Asbp,,:sbprevious
 https://neovim.io/doc/user/windows.html#%3Abr,,:bre :brewind
 https://neovim.io/doc/user/windows.html#%3Abf,,:bfirst
 https://neovim.io/doc/user/windows.html#%3Asbr,,:sbrewind
@@ -4038,8 +4092,10 @@ https://neovim.io/doc/user/windows.html#%3Abl,,:blast
 https://neovim.io/doc/user/windows.html#%3Asbl,,:sblast
 https://neovim.io/doc/user/windows.html#%3Abm,,:bmodified E84
 https://neovim.io/doc/user/windows.html#%3Asbm,,:sbmodified
-https://neovim.io/doc/user/windows.html#%3Aunh,,:unhide :sun :sunhide
-https://neovim.io/doc/user/windows.html#%3Aba,,:ball :sba :sball
+https://neovim.io/doc/user/windows.html#%3Aunh,,:unhide
+https://neovim.io/doc/user/windows.html#%3Asun,,:sunhide
+https://neovim.io/doc/user/windows.html#%3Aba,,:ball
+https://neovim.io/doc/user/windows.html#%3Asba,,:sball
 https://neovim.io/doc/user/windows.html#special-buffers,
 https://neovim.io/doc/user/windows.html#scratch-buffer,
 https://neovim.io/doc/user/windows.html#unlisted-buffer,
@@ -4875,10 +4931,8 @@ https://neovim.io/doc/user/ft_ada.html#g%3Adecada.Error_Format,
 https://neovim.io/doc/user/ft_ada.html#ada-reference,
 https://neovim.io/doc/user/ft_ada.html#ft-ada-options,
 https://neovim.io/doc/user/ft_ada.html#g%3Aada_standard_types,
-https://neovim.io/doc/user/ft_ada.html#g%3Aada_space_errors,
-https://neovim.io/doc/user/ft_ada.html#g%3Aada_no_trail_space_error,
-https://neovim.io/doc/user/ft_ada.html#g%3Aada_no_tab_space_error,
-https://neovim.io/doc/user/ft_ada.html#g%3Aada_all_tab_usage,
+https://neovim.io/doc/user/ft_ada.html#g%3Aada_no_tab_space_error,,g:ada_all_tab_usage
+https://neovim.io/doc/user/ft_ada.html#g%3Aada_space_errors,,g:ada_no_trail_space_error
 https://neovim.io/doc/user/ft_ada.html#g%3Aada_line_errors,
 https://neovim.io/doc/user/ft_ada.html#g%3Aada_rainbow_color,
 https://neovim.io/doc/user/ft_ada.html#g%3Aada_folding,
@@ -4970,6 +5024,7 @@ https://neovim.io/doc/user/treesitter.html#TSNode%3Asymbol(),
 https://neovim.io/doc/user/treesitter.html#TSNode%3Atree(),
 https://neovim.io/doc/user/treesitter.html#TSNode%3Atype(),
 https://neovim.io/doc/user/treesitter.html#lua-treesitter-core,
+https://neovim.io/doc/user/treesitter.html#vim.treesitter.CaptureInfo,
 https://neovim.io/doc/user/treesitter.html#vim.treesitter.foldexpr(),
 https://neovim.io/doc/user/treesitter.html#vim.treesitter.get_captures(),
 https://neovim.io/doc/user/treesitter.html#vim.treesitter.get_captures_at_cursor(),
@@ -5060,6 +5115,7 @@ https://neovim.io/doc/user/message.html#error-messages,,errors
 https://neovim.io/doc/user/message.html#E222,,E228 E232 E293 E298 E304 E317
 https://neovim.io/doc/user/message.html#E318,,E356 E438 E439 E440 E316 E320 E322
 https://neovim.io/doc/user/message.html#E323,,E341 E473 E570 E685 E292
+https://neovim.io/doc/user/message.html#E787,
 https://neovim.io/doc/user/message.html#E92,
 https://neovim.io/doc/user/message.html#E95,
 https://neovim.io/doc/user/message.html#E1513,
@@ -5148,14 +5204,16 @@ https://neovim.io/doc/user/dev_arch.html#dev_arch.txt,
 https://neovim.io/doc/user/dev_arch.html#dev-arch,
 https://neovim.io/doc/user/dev_arch.html#dev-layout,
 https://neovim.io/doc/user/dev_arch.html#dev-lua-builtin,
+https://neovim.io/doc/user/dev_arch.html#dev-internals-howto,
+https://neovim.io/doc/user/dev_arch.html#dev-new-excmd,,dev-new-vimfn
+https://neovim.io/doc/user/dev_arch.html#dev-new-event,
 https://neovim.io/doc/user/dev_arch.html#dev-events,
 https://neovim.io/doc/user/dev_arch.html#dev-ui-events,
 https://neovim.io/doc/user/dev_arch.html#dev-state,
 https://neovim.io/doc/user/dev_arch.html#dev-filesystem,
 https://neovim.io/doc/user/dev_arch.html#dev-api-fast,
-https://neovim.io/doc/user/dev_arch.html#dev-internals-howto,
-https://neovim.io/doc/user/dev_arch.html#dev-new-excmd,,dev-new-vimfn
-https://neovim.io/doc/user/dev_arch.html#dev-new-event,
+https://neovim.io/doc/user/dev_arch.html#dev-extmarks,
+https://neovim.io/doc/user/dev_arch.html#dev-conceal,
 https://neovim.io/doc/user/dev_arch.html#event-loop,
 https://neovim.io/doc/user/dev_arch.html#dev-multicursor,,dev-cmdatom
 https://neovim.io/doc/user/autocmd.html#autocmd.txt,
@@ -5324,7 +5382,8 @@ https://neovim.io/doc/user/autocmd.html#%3Aaug,,:augroup
 https://neovim.io/doc/user/autocmd.html#%3Aaugroup-delete,,E367 W19 E936
 https://neovim.io/doc/user/autocmd.html#FileExplorer,
 https://neovim.io/doc/user/autocmd.html#autocmd-execute,
-https://neovim.io/doc/user/autocmd.html#%3Ado,,:doau :doaut :doautocmd E217
+https://neovim.io/doc/user/autocmd.html#%3Adoautocmd,,E217
+https://neovim.io/doc/user/autocmd.html#%3Ado,,:doau :doaut
 https://neovim.io/doc/user/autocmd.html#%3Adoautoa,,:doautoall
 https://neovim.io/doc/user/autocmd.html#autocmd-use,
 https://neovim.io/doc/user/autocmd.html#gzip-example,
@@ -5344,8 +5403,8 @@ https://neovim.io/doc/user/scroll.html#CTRL-F,
 https://neovim.io/doc/user/scroll.html#scroll-up,
 https://neovim.io/doc/user/scroll.html#CTRL-Y,
 https://neovim.io/doc/user/scroll.html#CTRL-U,
-https://neovim.io/doc/user/scroll.html#CTRL-B,
 https://neovim.io/doc/user/scroll.html#SHIFT-MINUS,
+https://neovim.io/doc/user/scroll.html#CTRL-B,
 https://neovim.io/doc/user/scroll.html#scroll-cursor,
 https://neovim.io/doc/user/scroll.html#zt,
 https://neovim.io/doc/user/scroll.html#z.,
@@ -5353,8 +5412,8 @@ https://neovim.io/doc/user/scroll.html#zz,
 https://neovim.io/doc/user/scroll.html#z-,
 https://neovim.io/doc/user/scroll.html#zb,
 https://neovim.io/doc/user/scroll.html#scroll-horizontal,
-https://neovim.io/doc/user/scroll.html#zl,,z<Right>
-https://neovim.io/doc/user/scroll.html#zh,,z<Left>
+https://neovim.io/doc/user/scroll.html#zl,
+https://neovim.io/doc/user/scroll.html#zh,
 https://neovim.io/doc/user/scroll.html#zL,
 https://neovim.io/doc/user/scroll.html#zH,
 https://neovim.io/doc/user/scroll.html#zs,
@@ -5458,6 +5517,12 @@ https://neovim.io/doc/user/deprecated.html#deprecated,
 https://neovim.io/doc/user/deprecated.html#nvim_win_set_height(),
 https://neovim.io/doc/user/deprecated.html#nvim_win_set_width(),
 https://neovim.io/doc/user/deprecated.html#BufModifiedSet,
+https://neovim.io/doc/user/deprecated.html#vim.uri_decode(),
+https://neovim.io/doc/user/deprecated.html#vim.uri_encode(),
+https://neovim.io/doc/user/deprecated.html#vim.uri_from_bufnr(),
+https://neovim.io/doc/user/deprecated.html#vim.uri_from_fname(),
+https://neovim.io/doc/user/deprecated.html#vim.uri_to_bufnr(),
+https://neovim.io/doc/user/deprecated.html#vim.uri_to_fname(),
 https://neovim.io/doc/user/deprecated.html#vim.treesitter.get_captures_at_pos(),
 https://neovim.io/doc/user/deprecated.html#%3Aownsyntax,,w:current_syntax
 https://neovim.io/doc/user/deprecated.html#vim.lsp.client_is_stopped(),
@@ -5584,7 +5649,7 @@ https://neovim.io/doc/user/helphelp.html#count,,[count]
 https://neovim.io/doc/user/helphelp.html#movement,
 https://neovim.io/doc/user/helphelp.html#quotecommandquote,
 https://neovim.io/doc/user/helphelp.html#online-help,
-https://neovim.io/doc/user/helphelp.html#help,,<Help> :h :help <F1> i_<F1> i_<Help>
+https://neovim.io/doc/user/helphelp.html#help,,:h :help
 https://neovim.io/doc/user/helphelp.html#E149,,E661
 https://neovim.io/doc/user/helphelp.html#%3Ahelpc,,:helpclose
 https://neovim.io/doc/user/helphelp.html#%3Ahelpg,,:helpgrep
@@ -5592,12 +5657,25 @@ https://neovim.io/doc/user/helphelp.html#%3Alh,,:lhelpgrep
 https://neovim.io/doc/user/helphelp.html#%3Aexu,,:exusage
 https://neovim.io/doc/user/helphelp.html#%3Aviu,,:viusage
 https://neovim.io/doc/user/helphelp.html#help-buffer-options,
-https://neovim.io/doc/user/helphelp.html#%3Ahelpt,,:helptags
 https://neovim.io/doc/user/helphelp.html#E150,,E151 E152 E153 E154 E670 E856
+https://neovim.io/doc/user/helphelp.html#%3Ahelpt,,:helptags
 https://neovim.io/doc/user/helphelp.html#help-translated,
 https://neovim.io/doc/user/helphelp.html#help-writing,
 https://neovim.io/doc/user/helphelp.html#plugin_name.txt,
+https://neovim.io/doc/user/helphelp.html#help-spec,
+https://neovim.io/doc/user/helphelp.html#help-tag,
 https://neovim.io/doc/user/helphelp.html#tag-name,
+https://neovim.io/doc/user/helphelp.html#help-url,
+https://neovim.io/doc/user/helphelp.html#help-block,
+https://neovim.io/doc/user/helphelp.html#help-heading,,help-h1 help-h2 help-h3
+https://neovim.io/doc/user/helphelp.html#foo-intro,
+https://neovim.io/doc/user/helphelp.html#foo-options,
+https://neovim.io/doc/user/helphelp.html#foo-mappings,
+https://neovim.io/doc/user/helphelp.html#help-column-heading,
+https://neovim.io/doc/user/helphelp.html#help-tag-heading,,help-definition
+https://neovim.io/doc/user/helphelp.html#%3Averb,,:verbose
+https://neovim.io/doc/user/helphelp.html#help-list,
+https://neovim.io/doc/user/helphelp.html#help-table,
 https://neovim.io/doc/user/helphelp.html#help-codeblock,
 https://neovim.io/doc/user/helphelp.html#help-notation,
 https://neovim.io/doc/user/helphelp.html#ft-help-omni,
@@ -5657,12 +5735,14 @@ https://neovim.io/doc/user/tagsrch.html#E387,,E388 E389
 https://neovim.io/doc/user/tagsrch.html#%3Ais,,:isearch
 https://neovim.io/doc/user/tagsrch.html#%3Ail,,:ilist
 https://neovim.io/doc/user/tagsrch.html#%3Aij,,:ijump
-https://neovim.io/doc/user/tagsrch.html#CTRL-W_CTRL-I,,CTRL-W_i
+https://neovim.io/doc/user/tagsrch.html#CTRL-W_CTRL-I,
+https://neovim.io/doc/user/tagsrch.html#CTRL-W_i,
 https://neovim.io/doc/user/tagsrch.html#%3Aisp,,:isplit
 https://neovim.io/doc/user/tagsrch.html#%3Ads,,:dsearch
 https://neovim.io/doc/user/tagsrch.html#%3Adli,,:dlist
 https://neovim.io/doc/user/tagsrch.html#%3Adj,,:djump
-https://neovim.io/doc/user/tagsrch.html#CTRL-W_CTRL-D,,CTRL-W_d
+https://neovim.io/doc/user/tagsrch.html#CTRL-W_CTRL-D,
+https://neovim.io/doc/user/tagsrch.html#CTRL-W_d,
 https://neovim.io/doc/user/tagsrch.html#CTRL-W_d-default,
 https://neovim.io/doc/user/tagsrch.html#%3Adsp,,:dsplit
 https://neovim.io/doc/user/tagsrch.html#%3Acheckp,,:checkpath
@@ -5877,9 +5957,11 @@ https://neovim.io/doc/user/quickfix.html#E925,,E926
 https://neovim.io/doc/user/quickfix.html#%3Acc,
 https://neovim.io/doc/user/quickfix.html#%3All,
 https://neovim.io/doc/user/quickfix.html#%3Acn,,:cne :cnext E553
-https://neovim.io/doc/user/quickfix.html#%3Acp,,:cprevious  :cprev :cN :cNext
+https://neovim.io/doc/user/quickfix.html#%3AcN,,:cNext
+https://neovim.io/doc/user/quickfix.html#%3Acp,,:cprevious :cprev
 https://neovim.io/doc/user/quickfix.html#%3Alne,,:lnext
-https://neovim.io/doc/user/quickfix.html#%3Alp,,:lprevious :lprev :lN :lNext
+https://neovim.io/doc/user/quickfix.html#%3AlN,,:lNext
+https://neovim.io/doc/user/quickfix.html#%3Alp,,:lprevious :lprev
 https://neovim.io/doc/user/quickfix.html#%3Acabo,,:cabove
 https://neovim.io/doc/user/quickfix.html#%3Alab,,:labove
 https://neovim.io/doc/user/quickfix.html#%3Acbel,,:cbelow
@@ -5890,8 +5972,10 @@ https://neovim.io/doc/user/quickfix.html#%3Acaf,,:cafter
 https://neovim.io/doc/user/quickfix.html#%3Alaf,,:lafter
 https://neovim.io/doc/user/quickfix.html#%3Acnf,,:cnfile
 https://neovim.io/doc/user/quickfix.html#%3Alnf,,:lnfile
-https://neovim.io/doc/user/quickfix.html#%3Acpf,,:cpfile :cNf :cNfile
-https://neovim.io/doc/user/quickfix.html#%3Alpf,,:lpfile :lNf :lNfile
+https://neovim.io/doc/user/quickfix.html#%3AcNf,,:cNfile
+https://neovim.io/doc/user/quickfix.html#%3Acpf,,:cpfile
+https://neovim.io/doc/user/quickfix.html#%3AlNf,,:lNfile
+https://neovim.io/doc/user/quickfix.html#%3Alpf,,:lpfile
 https://neovim.io/doc/user/quickfix.html#%3Acrewind,,:cr
 https://neovim.io/doc/user/quickfix.html#%3Alrewind,,:lr
 https://neovim.io/doc/user/quickfix.html#%3Acfirst,,:cfir
@@ -6040,6 +6124,7 @@ https://neovim.io/doc/user/tips.html#hex-editing,,using-xxd
 https://neovim.io/doc/user/tips.html#map-self-destroy,
 https://neovim.io/doc/user/tips.html#match-parens,
 https://neovim.io/doc/user/tips.html#help-curwin,
+https://neovim.io/doc/user/lua-async.html#lua-async.txt,
 https://neovim.io/doc/user/lua-async.html#lua-async,,vim.async
 https://neovim.io/doc/user/lua-async.html#vim.async.Closable,
 https://neovim.io/doc/user/lua-async.html#vim.async.Semaphore,
@@ -6116,7 +6201,7 @@ https://neovim.io/doc/user/usr_25.html#edit-paragraph-join,
 https://neovim.io/doc/user/undo.html#undo.txt,
 https://neovim.io/doc/user/undo.html#undo-redo,
 https://neovim.io/doc/user/undo.html#undo-commands,
-https://neovim.io/doc/user/undo.html#undo,,<Undo> u
+https://neovim.io/doc/user/undo.html#u,,undo
 https://neovim.io/doc/user/undo.html#%3Au,,:un :undo
 https://neovim.io/doc/user/undo.html#E830,
 https://neovim.io/doc/user/undo.html#E5767,
@@ -6431,7 +6516,7 @@ https://neovim.io/doc/user/motion.html#o_V,
 https://neovim.io/doc/user/motion.html#o_CTRL-V,
 https://neovim.io/doc/user/motion.html#left-right-motions,
 https://neovim.io/doc/user/motion.html#h,
-https://neovim.io/doc/user/motion.html#CTRL-H,,<BS>
+https://neovim.io/doc/user/motion.html#CTRL-H,
 https://neovim.io/doc/user/motion.html#l,
 https://neovim.io/doc/user/motion.html#0,
 https://neovim.io/doc/user/motion.html#g_,
@@ -6448,15 +6533,15 @@ https://neovim.io/doc/user/motion.html#CTRL-P,
 https://neovim.io/doc/user/motion.html#j,
 https://neovim.io/doc/user/motion.html#CTRL-J,
 https://neovim.io/doc/user/motion.html#CTRL-N,
-https://neovim.io/doc/user/motion.html#gk,,g<Up>
-https://neovim.io/doc/user/motion.html#gj,,g<Down>
+https://neovim.io/doc/user/motion.html#gk,
+https://neovim.io/doc/user/motion.html#gj,
 https://neovim.io/doc/user/motion.html#-,
-https://neovim.io/doc/user/motion.html#-_default,
-https://neovim.io/doc/user/motion.html#CTRL-M,,<CR>
+https://neovim.io/doc/user/motion.html#CTRL-M,
 https://neovim.io/doc/user/motion.html#_,
 https://neovim.io/doc/user/motion.html#G,
-https://neovim.io/doc/user/motion.html#gg,,<C-Home>
-https://neovim.io/doc/user/motion.html#%3Ago,,:goto go
+https://neovim.io/doc/user/motion.html#gg,
+https://neovim.io/doc/user/motion.html#%3Ago,,:goto
+https://neovim.io/doc/user/motion.html#go,
 https://neovim.io/doc/user/motion.html#word-motions,
 https://neovim.io/doc/user/motion.html#w,
 https://neovim.io/doc/user/motion.html#W,
@@ -6486,14 +6571,16 @@ https://neovim.io/doc/user/motion.html#v_ap,,ap
 https://neovim.io/doc/user/motion.html#v_ip,,ip
 https://neovim.io/doc/user/motion.html#v_al,,al
 https://neovim.io/doc/user/motion.html#v_il,,il
-https://neovim.io/doc/user/motion.html#v_a),,a) a(
-https://neovim.io/doc/user/motion.html#vab,,v_ab v_a( ab
-https://neovim.io/doc/user/motion.html#v_i),,i) i(
-https://neovim.io/doc/user/motion.html#vib,,v_ib v_i( ib
+https://neovim.io/doc/user/motion.html#v_a),,a)
+https://neovim.io/doc/user/motion.html#v_a(,,a(
+https://neovim.io/doc/user/motion.html#vab,,v_ab ab
+https://neovim.io/doc/user/motion.html#v_i),,i)
+https://neovim.io/doc/user/motion.html#v_i(,,i(
+https://neovim.io/doc/user/motion.html#vib,,v_ib ib
 https://neovim.io/doc/user/motion.html#v_at,,at
 https://neovim.io/doc/user/motion.html#v_it,,it
-https://neovim.io/doc/user/motion.html#v_aB,,v_a{ aB
-https://neovim.io/doc/user/motion.html#v_iB,,v_i{ iB
+https://neovim.io/doc/user/motion.html#v_aB,,aB
+https://neovim.io/doc/user/motion.html#v_iB,,iB
 https://neovim.io/doc/user/motion.html#v_aquote,,aquote
 https://neovim.io/doc/user/motion.html#v_iquote,,iquote
 https://neovim.io/doc/user/motion.html#o_object-select,
@@ -6526,7 +6613,7 @@ https://neovim.io/doc/user/motion.html#%3Akee,,:keep :keepmarks
 https://neovim.io/doc/user/motion.html#%3Akeepj,,:keepjumps
 https://neovim.io/doc/user/motion.html#jump-motions,
 https://neovim.io/doc/user/motion.html#CTRL-O,
-https://neovim.io/doc/user/motion.html#CTRL-I,,<Tab>
+https://neovim.io/doc/user/motion.html#CTRL-I,
 https://neovim.io/doc/user/motion.html#%3Aju,,:jumps
 https://neovim.io/doc/user/motion.html#%3Acle,,:clearjumps
 https://neovim.io/doc/user/motion.html#jumplist,
@@ -6680,7 +6767,7 @@ https://neovim.io/doc/user/options.html#set-option,,E764
 https://neovim.io/doc/user/options.html#%3Ase,,:set
 https://neovim.io/doc/user/options.html#E518,,E519
 https://neovim.io/doc/user/options.html#%3Aset-inv,
-https://neovim.io/doc/user/options.html#%3Aset-default,,:set-& :set-&vi :set-&vim
+https://neovim.io/doc/user/options.html#%3Aset-default,,:set-&
 https://neovim.io/doc/user/options.html#%3Aset-args,,:set= E487 E521
 https://neovim.io/doc/user/options.html#%3Aset-verbose,
 https://neovim.io/doc/user/options.html#option-backslash,
@@ -6696,7 +6783,8 @@ https://neovim.io/doc/user/options.html#option-value-function,
 https://neovim.io/doc/user/options.html#expr-option-function,
 https://neovim.io/doc/user/options.html#%3Asetf,,:setfiletype
 https://neovim.io/doc/user/options.html#option-window,,optwin
-https://neovim.io/doc/user/options.html#%3Aset-browse,,:browse-set :opt :options
+https://neovim.io/doc/user/options.html#%3Aset-browse,,:browse-set
+https://neovim.io/doc/user/options.html#%3Aopt,,:options
 https://neovim.io/doc/user/options.html#auto-setting,
 https://neovim.io/doc/user/options.html#modeline,,vim: vi: ex: E520
 https://neovim.io/doc/user/options.html#modeline-local,
